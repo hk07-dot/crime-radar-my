@@ -3910,7 +3910,14 @@
   "area": "Tambun, Majlis Bandaraya Ipoh",
   "lat": 4.6112,
   "lng": 101.1401,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Newswav",
+    "link": "https://newswav.com/article/lelaki-maut-dalam-kejadian-berbalas-tembakan-A2611_bGBpCD",
+    "title": "Lelaki maut dalam kejadian berbalas tembakan"
+   }
+  ]
  },
  {
   "type": "police_case",
@@ -5126,5 +5133,19 @@
   "lat": 3.1517,
   "lng": 101.6942,
   "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "Upah RM600 angkut dadah, lelaki ditahan dengan ganja bernilai RM29,000",
+  "link": "https://www.sinarharian.com.my/article/805353/berita/semasa/upah-rm600-angkut-dadah-lelaki-ditahan-dengan-ganja-bernilai-rm29000",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T09:51:00.000Z",
+  "place": "Gambang",
+  "area": "Gambang, Kuantan",
+  "lat": 3.7072,
+  "lng": 103.0965,
+  "precision": "area"
  }
 ]

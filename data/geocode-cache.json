@@ -2163,5 +2163,11 @@
   "label": "Balik Pulau, Pondok Upih",
   "kind": "suburb"
  },
- "area4:bayan lepas, balik pulau": null
+ "area4:bayan lepas, balik pulau": null,
+ "area4:gambang": {
+  "lat": 3.7072,
+  "lng": 103.0965,
+  "label": "Gambang, Kuantan",
+  "kind": "suburb"
+ }
 }
