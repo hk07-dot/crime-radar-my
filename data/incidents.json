@@ -3865,11 +3865,23 @@
   "source": "news",
   "verified": true,
   "publishedAt": "2026-11-18T12:44:49.000Z",
-  "place": "Kuala Lumpur",
-  "area": "Kuala Lumpur, Malaysia",
-  "lat": 3.1517,
-  "lng": 101.6942,
-  "precision": "town"
+  "place": "Chow Kit, Kuala Lumpur",
+  "area": "Chow Kit, Kampung Bharu",
+  "lat": 3.1652,
+  "lng": 101.6988,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Saluran 122",
+    "link": "https://www.tvsarawak.my/2026/11/19/samun-menyamar-pemandu-teksi-polis-buru-suspek-lain/",
+    "title": "Samun menyamar pemandu teksi: Polis buru suspek lain"
+   },
+   {
+    "outlet": "AsiaOne.com",
+    "link": "https://www.asiaone.com/malaysia/police-shoot-dead-kl-robbery-suspect-linked-24-cases-hotel-raid",
+    "title": "Police shoot dead KL robbery suspect linked to 24 cases in hotel raid, Malaysia News"
+   }
+  ]
  },
  {
   "type": "assault",
@@ -3897,6 +3909,110 @@
   "area": "Chow Kit, Kampung Bharu",
   "lat": 3.1652,
   "lng": 101.6988,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805317/berita/semasa/polis-buru-saki-baki-rangkaian-samun-guna-teksi",
+    "title": "Polis buru saki-baki rangkaian samun guna teksi"
+   },
+   {
+    "outlet": "One Tiger Arena",
+    "link": "https://onetiger.com/suspek-samun-maut-berbalas-tembakan-dengan-polis/",
+    "title": "Suspek Samun Maut Berbalas Tembakan Dengan Polis"
+   },
+   {
+    "outlet": "TRP | The Rakyat Post",
+    "link": "https://www.therakyatpost.com/news/2026/11/18/fake-taxi-driver-linked-to-24-robberies-shot-dead-in-chow-kit-hotel-raid/",
+    "title": "Fake Taxi Driver Linked To 24 Robberies Shot Dead In Chow Kit Hotel Raid"
+   },
+   {
+    "outlet": "Instagram",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrcFVyOW5tYjBQbVBqbDdzTDBkYWo0Ui1xTXVBbnUzNTRZTkY1V21NVnp6aVNkU1R2THRpZTR5eG12MkJBRHozX1Z6d2w2MjVSOFE?oc=5",
+    "title": "Seorang lelaki yang dipercayai menggunakan teksi sebagai modus operandi untuk menyamun penumpang wanita dan warga emas maut ditembak dalam satu serbuan di Chow Kit, awal pagi tadi. Menurut Ketua Polis Kuala Lumpur, Datuk Fadil Marsus, susp"
+   }
+  ]
+ },
+ {
+  "type": "scam",
+  "title": "Sabah Immigration busts nomadic online fraud syndicate in Kota Kinabalu",
+  "link": "https://www.malaymail.com/news/malaysia/2026/11/18/sabah-immigration-busts-nomadic-online-fraud-syndicate-in-kota-kinabalu/243736",
+  "outlet": "Malay Mail",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-18T07:09:00.000Z",
+  "place": "Damai, Kota Kinabalu",
+  "area": "Damai, Kota Kinabalu",
+  "lat": 5.9697,
+  "lng": 116.0904,
+  "precision": "area"
+ },
+ {
+  "type": "assault",
+  "title": "Rela member claims trial to sexual assault of 5-year-old girl",
+  "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/18/rela-member-claims-trial-to-sexual-assault-of-5-year-old-girl",
+  "outlet": "Free Malaysia Today",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-18T06:00:54.000Z",
+  "place": "Jinjang Utara",
+  "area": "Kampung Baru Jinjang Utara, Jinjang",
+  "lat": 3.2163,
+  "lng": 101.6594,
+  "precision": "area"
+ },
+ {
+  "type": "break_in",
+  "title": "Tiga didakwa bersubahat, pecah masuk premis pajak gadai",
+  "link": "https://www.kosmo.com.my/2026/11/18/tiga-didakwa-bersubahat-pecah-masuk-premis-pajak-gadai/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-18T05:40:00.000Z",
+  "place": "Kota Tinggi",
+  "area": "Kota Tinggi, Johor",
+  "lat": 1.7337,
+  "lng": 103.9007,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Astro Awani",
+    "link": "https://www.astroawani.com/berita-malaysia/pengurus-pajak-gadai-dua-pengawal-didakwa-subahat-pecah-masuk-premis",
+    "title": "Pengurus pajak gadai, dua pengawal didakwa subahat, pecah masuk premis"
+   },
+   {
+    "outlet": "The Star",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZnh1QzctTnhYckpEVjlMU1hUOHR3WHAzaC1KdTZRNWRCcXZDX3NNWFdWRXhUUDhKYXEzUTEtX3pacm16bWQ0bnZXRTEyQk5XcnpJZTB5ci0tY0FIWV9PQ05Fa19HeUYzUXpyb1JPLUI4WmI4QkRQdkZzSDJWdktUUExLMVl2WkM1LUdfLWNjMjRmcHJrMEpyMVE3eDVvYkxzV2RV?oc=5",
+    "title": "Three charged over break-in at Kota Tinggi pawnshop"
+   }
+  ]
+ },
+ {
+  "type": "theft",
+  "title": "Polis tahan lelaki curi pagar aluminium",
+  "link": "https://utusansarawak.com.my/polis-tahan-lelaki-curi-pagar-aluminium/",
+  "outlet": "https://utusansarawak.com.my/",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-18T04:54:18.000Z",
+  "place": "Kuching",
+  "area": "Kuching, Bahagian Kuching",
+  "lat": 1.5598,
+  "lng": 110.3454,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "RM11,000 lesap, beg pinggang dicuri ketika mangsa layan pelanggan",
+  "link": "https://www.tvsarawak.my/2026/11/18/rm11000-lesap-beg-pinggang-dicuri-ketika-mangsa-layan-pelanggan/",
+  "outlet": "Saluran 122",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-18T03:50:00.000Z",
+  "place": "Jalan Mahkamah, Bintangor",
+  "area": "Jalan Mahkamah, Bintangor",
+  "lat": 2.1675,
+  "lng": 111.6331,
   "precision": "area"
  }
 ]

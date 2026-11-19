@@ -1813,5 +1813,47 @@
   "lng": 101.6988,
   "label": "Chow Kit, Kampung Bharu",
   "kind": "quarter"
+ },
+ "area4:chow kit, kuala lumpur": {
+  "lat": 3.1652,
+  "lng": 101.6988,
+  "label": "Chow Kit, Kampung Bharu",
+  "kind": "quarter"
+ },
+ "area4:kedai emas permata al-idrus, batu enam, kuala terengganu": null,
+ "area4:kedai emas permata al-idrus, batu enam": null,
+ "area4:kedai emas permata al-idrus, kuala terengganu": null,
+ "area4:kedai emas permata al-idrus": null,
+ "area4:sanglang, ayer hitam, kuala terengganu": null,
+ "area4:utc pudu, kuala lumpur": null,
+ "area4:utc pudu": null,
+ "area4:km16, jalan genting": null,
+ "area4:km16": null,
+ "area4:damai, kota kinabalu": {
+  "lat": 5.9697,
+  "lng": 116.0904,
+  "label": "Damai, Kota Kinabalu",
+  "kind": "village"
+ },
+ "area4:jinjang utara, sentul": null,
+ "area4:jinjang utara": {
+  "lat": 3.2163,
+  "lng": 101.6594,
+  "label": "Kampung Baru Jinjang Utara, Jinjang",
+  "kind": "quarter"
+ },
+ "area4:jalan matang-batu kawa, kuching": null,
+ "area4:jalan matang-batu kawa": null,
+ "area4:bintangor": {
+  "lat": 2.1684,
+  "lng": 111.636,
+  "label": "Bintangor, Meradong",
+  "kind": "town"
+ },
+ "area4:jalan mahkamah, bintangor": {
+  "lat": 2.1675,
+  "lng": 111.6331,
+  "label": "Jalan Mahkamah, Bintangor",
+  "kind": "residential"
  }
 }
