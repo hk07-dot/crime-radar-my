@@ -1759,5 +1759,59 @@
   "lng": 101.1401,
   "label": "Tambun, Majlis Bandaraya Ipoh",
   "kind": "suburb"
+ },
+ "area4:dalat": {
+  "lat": 2.7011,
+  "lng": 111.9609,
+  "label": "Dalat, Bahagian Mukah",
+  "kind": "county"
+ },
+ "area4:oya, dalat": {
+  "lat": 2.8572,
+  "lng": 111.8739,
+  "label": "Oya, Dalat",
+  "kind": "town"
+ },
+ "area4:kuala krai": {
+  "lat": 5.5312,
+  "lng": 102.1994,
+  "label": "Kuala Krai, كوالا كراي / Kuala Krai",
+  "kind": "town"
+ },
+ "area4:batu mengkebang, kuala krai": null,
+ "area4:batu mengkebang": null,
+ "area4:senadin, miri": {
+  "lat": 4.5007,
+  "lng": 114.0168,
+  "label": "Senadin, Miri",
+  "kind": "suburb"
+ },
+ "area4:muar": {
+  "lat": 2.05,
+  "lng": 102.5667,
+  "label": "Muar, Johor",
+  "kind": "district"
+ },
+ "area4:october 2019": null,
+ "area4:jalan haji abdul aziz, persiaran masjid, klang": null,
+ "area4:jalan haji abdul aziz, persiaran masjid": null,
+ "area4:jalan haji abdul aziz, klang": {
+  "lat": 2.9685,
+  "lng": 101.5302,
+  "label": "Jalan Haji Abdul Aziz, Seksyen 30",
+  "kind": "residential"
+ },
+ "area4:can tho": null,
+ "area4:putrajaya": {
+  "lat": 2.9384,
+  "lng": 101.6922,
+  "label": "Putrajaya, Malaysia",
+  "kind": "state"
+ },
+ "area4:chow kit": {
+  "lat": 3.1652,
+  "lng": 101.6988,
+  "label": "Chow Kit, Kampung Bharu",
+  "kind": "quarter"
  }
 }

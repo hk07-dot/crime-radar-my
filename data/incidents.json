@@ -3599,6 +3599,11 @@
     "outlet": "https://utusansarawak.com.my/",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSlpnSl9PNWt1a0pIZ2dDZVJETko3YUxqUmViY3JGOGotOVFLeHNsaDV6TzA5UXFtRVZFcTZPTW9hcVFVSzIxTEhLUUdFLS1tazhCYmNJd2pTNGhPcXFnM3lfOEFnVmwwNXJUdUpKQTdzQl9mUkotQXU2N3dZTGdRUkVycmpiazg?oc=5",
     "title": "Lelaki ditahan disyaki samun bersenjata di Senadin"
+   },
+   {
+    "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
+    "link": "https://utusansarawak.com.my/lelaki-ditahan-disyaki-samun-bersenjata-di-senadin/?utm_source=rss&utm_medium=rss&utm_campaign=lelaki-ditahan-disyaki-samun-bersenjata-di-senadin",
+    "title": "Lelaki ditahan disyaki samun bersenjata di Senadin"
    }
   ]
  },
@@ -3644,6 +3649,21 @@
    },
    {
     "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438188/2-suspek-samun-kedai-emas-direman-7-hari",
+    "title": "2 suspek samun kedai emas direman 7 hari"
+   },
+   {
+    "outlet": "Malaysia Tribune",
+    "link": "https://malaysiatribune.news/dua-suspek-samun-kedai-emas-direman-tujuh-hari/",
+    "title": "Dua suspek samun kedai emas direman tujuh hari"
+   },
+   {
+    "outlet": "NST Online",
+    "link": "https://www.nst.com.my/amp/news/regional/2026/11/1581050/two-men-remanded-over-rm500000-goldsmith-shop-robbery",
+    "title": "Two men remanded over RM500,000 goldsmith shop robbery"
+   },
+   {
+    "outlet": "Harian Metro",
     "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438188/2-suspek-samun-kedai-emas-direman-7-hari",
     "title": "2 suspek samun kedai emas direman 7 hari"
    }
@@ -3779,6 +3799,104 @@
   "area": "Tambun, Majlis Bandaraya Ipoh",
   "lat": 4.6112,
   "lng": 101.1401,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Six men caught in illegal cockfighting raid",
+  "link": "https://www.sarawaktribune.com/six-men-caught-in-illegal-cockfighting-raid/",
+  "outlet": "New Sarawak Tribune: Sarawak Tribune Feed",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T05:11:18.000Z",
+  "place": "Oya, Dalat",
+  "area": "Oya, Dalat",
+  "lat": 2.8572,
+  "lng": 111.8739,
+  "precision": "area"
+ },
+ {
+  "type": "robbery",
+  "title": "22yo man arrested over alleged rape attempt, robbery in Miri",
+  "link": "https://dayakdaily.com/22yo-man-arrested-over-alleged-rape-attempt-robbery-in-miri/",
+  "outlet": "Dayak Daily",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T05:02:26.000Z",
+  "place": "Miri",
+  "area": "Miri, Bahagian Miri",
+  "lat": 4.394,
+  "lng": 113.988,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "S’porean charged with trafficking 19kg of cannabis at Ipoh airport",
+  "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/19/s-porean-charged-with-trafficking-19kg-of-cannabis-at-ipoh-airport",
+  "outlet": "Free Malaysia Today",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T04:00:00.000Z",
+  "place": "Ipoh",
+  "area": "Majlis Bandaraya Ipoh, Kinta",
+  "lat": 4.5987,
+  "lng": 101.09,
+  "precision": "area"
+ },
+ {
+  "type": "robbery",
+  "title": "MCCC puji tindakan pantas polis tumpaskan penjenayah samun guna teksi",
+  "link": "https://www.kosmo.com.my/2026/11/18/mccc-puji-tindakan-pantas-polis-tumpaskan-penjenayah-samun-guna-teksi/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-18T13:11:00.000Z",
+  "place": "Petaling Jaya",
+  "area": "Petaling Jaya, Petaling",
+  "lat": 3.0989,
+  "lng": 101.6454,
+  "precision": "town"
+ },
+ {
+  "type": "robbery",
+  "title": "Samun, rompak bukan sekadar hilang harta, nyawa jadi taruhan",
+  "link": "https://newswav.com/article/samun-rompak-bukan-sekadar-hilang-harta-nyawa-jadi-taruhan-A2611_EL91MO",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-18T12:44:49.000Z",
+  "place": "Kuala Lumpur",
+  "area": "Kuala Lumpur, Malaysia",
+  "lat": 3.1517,
+  "lng": 101.6942,
+  "precision": "town"
+ },
+ {
+  "type": "assault",
+  "title": "Tular dua lelaki dipukul beramai-ramai",
+  "link": "https://www.sinarharian.com.my/article/805221/berita/semasa/tular-dua-lelaki-dipukul-beramai-ramai",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-18T10:56:00.000Z",
+  "place": "Jalan Haji Abdul Aziz, Klang",
+  "area": "Jalan Haji Abdul Aziz, Seksyen 30",
+  "lat": 2.9685,
+  "lng": 101.5302,
+  "precision": "area"
+ },
+ {
+  "type": "shooting",
+  "title": "Polis tembak mati suspek samun, rampas senjata api dan syabu",
+  "link": "https://wartaoriental.com/2026/11/18/polis-tembak-mati-suspek-samun-rampas-senjata-api-dan-syabu/",
+  "outlet": "Warta Oriental",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-18T09:22:56.000Z",
+  "place": "Chow Kit",
+  "area": "Chow Kit, Kampung Bharu",
+  "lat": 3.1652,
+  "lng": 101.6988,
   "precision": "area"
  }
 ]
