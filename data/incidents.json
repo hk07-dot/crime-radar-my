@@ -3568,541 +3568,6 @@
   "precision": "town"
  },
  {
-  "type": "break_in",
-  "title": "Geng Mat Tok aktif pecah rumah, curi kenderaan tumpas",
-  "link": "https://www.utusan.com.my/nasional/2026/09/geng-mat-tok-aktif-pecah-rumah-curi-kenderaan-tumpas/",
-  "outlet": "Utusan Malaysia",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-17T07:00:00.000Z",
-  "place": "Sungai Petani",
-  "area": "Sungai Petani, Kuala Muda",
-  "lat": 5.6435,
-  "lng": 100.487,
-  "precision": "town",
-  "alsoReported": [
-   {
-    "outlet": "Sinar Harian",
-    "link": "https://www.sinarharian.com.my/article/796714/berita/semasa/video-polis-tumpaskan-geng-mat-tok-selesai-sembilan-kes-pecah-rumah-curi-kenderaan",
-    "title": "[VIDEO] Polis tumpaskan Geng Mat Tok, selesai sembilan kes pecah rumah, curi kenderaan"
-   },
-   {
-    "outlet": "Harian Metro",
-    "link": "https://www.hmetro.com.my/mutakhir/2026/09/1411901/geng-mak-tok-pecah-rumah-curi-kenderaan-tumpas",
-    "title": "Geng Mak Tok pecah rumah, curi kenderaan tumpas"
-   },
-   {
-    "outlet": "Portal Berita RTM",
-    "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/geng-mak-tok-tumpas-sembilan-kes-pecah-rumah-selesai/",
-    "title": "Geng Mak Tok tumpas, sembilan kes pecah rumah selesai"
-   }
-  ]
- },
- {
-  "type": "break_in",
-  "title": "Tiga lelaki berusia antara 17 hingga 38 tahun ditahan kerana disyaki terlibat dalam kes pecah rumah di Tanjung Batu Tengah, di sini. Ketua Polis Daerah Tawau, ACP Rosdi Mat Jusoh berkata, kesemua suspek ditahan dalam satu operasi di Lorong Jurangan",
-  "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaU9VX2c4V25tZldxWDZKVFhYNlZOWXNORjU1SFVjdUpQNGdUeWtpeC1yYW1JOWd3ME1KOXpNQjFUUG9jZTFwbm1GV0QzLUpnZmVJUFA3eFZwX3lsbjVVUVVpVHpEcG9NNUszM25CSFRLcmtlVDU5U3FFZHp3cGljVW4wVmhFaFMtaXV4Z0xpSkR4VHhETm5WdjJ5cWlQc0hjSFROOGZjRW01eDRKWnhITGNJRUl5RkhnUnhjSFBIMV9JS1dUcEw0dlRoV05sUzBLWlp5RTB5WmM4YTB6OVE?oc=5",
-  "outlet": "Facebook",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-17T07:00:00.000Z",
-  "place": "Tanjung Batu Tengah",
-  "area": "Kampung Tengah, Temerloh",
-  "lat": 3.4341,
-  "lng": 102.4306,
-  "precision": "area"
- },
- {
-  "type": "break_in",
-  "title": "Polis tumpaskan Geng Mat Tok, selesai sembilan kes pecah rumah, curi kenderaan",
-  "link": "https://www.sinarharian.com.my/article/796736/video/berita-semasa-video/polis-tumpaskan-geng-mat-tok-selesai-sembilan-kes-pecah-rumah-curi-kenderaan",
-  "outlet": "Sinar Harian",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-17T07:00:00.000Z",
-  "place": "Taman Delima, Sungai Petani",
-  "area": "Taman Delima, Kampung Bakar Bata",
-  "lat": 5.6246,
-  "lng": 100.4666,
-  "precision": "area"
- },
- {
-  "type": "theft",
-  "title": "Lelaki ditahan curi kompresor penghawa dingin",
-  "link": "https://www.tvsarawak.my/2026/09/17/lelaki-ditahan-curi-kompresor-penghawa-dingin/",
-  "outlet": "Saluran 122",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-17T07:00:00.000Z",
-  "place": "Bandar Baru Permyjaya, Miri",
-  "area": "Bandar Baru Permyjaya, Permyjaya",
-  "lat": 4.4517,
-  "lng": 114.0371,
-  "precision": "area"
- },
- {
-  "type": "robbery",
-  "title": "Samun wanita, lelaki diberkas bersama rantai mangsa",
-  "link": "https://www.sinarharian.com.my/article/796587/berita/semasa/samun-wanita-lelaki-diberkas-bersama-rantai-mangsa",
-  "outlet": "Sinar Harian",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-16T07:00:00.000Z",
-  "place": "Kuala Lumpur",
-  "area": "Kuala Lumpur, Malaysia",
-  "lat": 3.1517,
-  "lng": 101.6942,
-  "precision": "town",
-  "alsoReported": [
-   {
-    "outlet": "Utusan Malaysia",
-    "link": "https://www.utusan.com.my/nasional/2026/09/samun-rm2-91-juta-polis-percaya-kejadian-ada-kaitan-orang-dalam/",
-    "title": "Samun RM2.91 juta: Polis percaya kejadian ada kaitan ‘orang dalam’"
-   },
-   {
-    "outlet": "Harian Metro",
-    "link": "https://www.hmetro.com.my/mutakhir/2026/09/1410616/polis-kenal-pasti-identiti-suspek-kes-samun-di-kondominium-mewah",
-    "title": "Polis kenal pasti identiti suspek kes samun di kondominium mewah"
-   },
-   {
-    "outlet": "Kosmo Online",
-    "link": "https://www.kosmo.com.my/2026/09/14/orang-dalam-identiti-suspek-dikenal-pasti-kes-samun-rm2-91-juta/",
-    "title": "Samun RM2.91 juta: Ada unsur ‘orang dalam’, identiti suspek dikenal pasti"
-   }
-  ]
- },
- {
-  "type": "robbery",
-  "title": "Polis tahan dua bekas banduan terlibat kes samun, pecah rumah",
-  "link": "https://www.astroawani.com/video/polis-tahan-dua-bekas-banduan-terlibat-kes-samun-pecah-rumah",
-  "outlet": "Astro Awani",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-16T07:00:00.000Z",
-  "place": "Forest City Starview",
-  "area": "Starview Bay, Forest City",
-  "lat": 1.341,
-  "lng": 103.5932,
-  "precision": "area"
- },
- {
-  "type": "vehicle_theft",
-  "title": "Suspek curi kereta ditahan dalam tempoh 24 jam",
-  "link": "https://www.tvsarawak.my/2026/09/16/suspek-curi-kereta-ditahan-dalam-tempoh-24-jam/",
-  "outlet": "Saluran 122",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-16T07:00:00.000Z",
-  "place": "Lawas",
-  "area": "Lawas, Bahagian Limbang",
-  "lat": 4.4551,
-  "lng": 115.4272,
-  "precision": "town"
- },
- {
-  "type": "theft",
-  "title": "Bergelut selepas kakak kantoi curi duit adik di Tawau",
-  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY2J6ZnlreEdTWl9FYW13VXl2aTVBLWxlUTZYOGM5OUQ2VFRRZjk5b1g3aVZVSHdHdFowSDFYcW5odFZsYjBlLVZ4d0JBVVV0ZTB1cExDOFA4czlSZGI3cjZ4ZE9uMzBDeTYyZ3l0TEZjMUV4OEk1eGNtbnRycnphMnR0TlI3dGFtWDFoYldRUGF5QkhGZzF2OVp0ZTFOZw?oc=5",
-  "outlet": "Sayang Sabah",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-16T05:48:01.000Z",
-  "place": "Tawau",
-  "area": "Tawau, Bahagian Tawau",
-  "lat": 4.2435,
-  "lng": 117.8853,
-  "precision": "area"
- },
- {
-  "type": "murder",
-  "title": "Wanita maut ditikam 13 kali, suami serah diri",
-  "link": "https://www.sinarharian.com.my/article/796365/berita/semasa/wanita-maut-ditikam-13-kali-suami-serah-diri",
-  "outlet": "Sinar Harian",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-15T07:00:00.000Z",
-  "place": "Kulim",
-  "area": "Kulim, Kedah",
-  "lat": 5.3707,
-  "lng": 100.6172,
-  "precision": "town",
-  "alsoReported": [
-   {
-    "outlet": "Astro Awani",
-    "link": "https://www.astroawani.com/berita-malaysia/wanita-maut-dipercayai-ditikam-suami-13-kali",
-    "title": "Wanita maut dipercayai ditikam suami 13 kali"
-   },
-   {
-    "outlet": "Portal Berita RTM",
-    "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/isteri-maut-ditikam-13-kali-akibat-cemburu/",
-    "title": "Isteri maut ditikam 13 kali akibat cemburu"
-   },
-   {
-    "outlet": "Sinar Harian",
-    "link": "https://www.sinarharian.com.my/article/796377/berita/semasa/isteri-maut-ditikam-suami-13-kali-suspek-sempat-mandi-ambil-anak-sebelum-serah-diri",
-    "title": "Isteri maut ditikam suami 13 kali: Suspek sempat mandi, ambil anak sebelum serah diri"
-   },
-   {
-    "outlet": "Utusan Malaysia",
-    "link": "https://www.utusan.com.my/nasional/2026/09/cemburu-punca-wanita-maut-ditikam-13-kali-oleh-suami/",
-    "title": "Cemburu punca wanita maut ditikam 13 kali oleh suami"
-   }
-  ]
- },
- {
-  "type": "robbery",
-  "title": "Dua lelaki disyaki aktif pecah rumah, samun ditahan",
-  "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/dua-lelaki-disyaki-aktif-pecah-rumah-samun-ditahan/",
-  "outlet": "Portal Berita RTM",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-15T07:00:00.000Z",
-  "place": "Gelang Patah, Iskandar Puteri",
-  "area": "Gelang Patah, Iskandar Puteri",
-  "lat": 1.4494,
-  "lng": 103.5873,
-  "precision": "area",
-  "alsoReported": [
-   {
-    "outlet": "Saluran 122",
-    "link": "https://www.tvsarawak.my/2026/09/15/dua-bekas-banduan-menyamar-sebagai-pengawal-keselamatan-curi-tembaga-rm50000/",
-    "title": "Dua bekas banduan menyamar sebagai pengawal keselamatan, curi tembaga RM50,000"
-   }
-  ]
- },
- {
-  "type": "murder",
-  "title": "'Dia tak pernah cerita masalah rumah tangga' - Ibu saudara wanita maut ditikam suami",
-  "link": "https://www.sinarharian.com.my/article/796398/berita/semasa/dia-tak-pernah-cerita-masalah-rumah-tangga---ibu-saudara-wanita-maut-ditikam-suami",
-  "outlet": "Sinar Harian",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-15T07:00:00.000Z",
-  "place": "Alor Setar",
-  "area": "Alor Setar, Kota Setar",
-  "lat": 6.1232,
-  "lng": 100.3684,
-  "precision": "town"
- },
- {
-  "type": "robbery",
-  "title": "Suspek samun, cedera dua etnik Rohingya akan didakwa di mahkamah",
-  "link": "https://www.utusan.com.my/terkini/2026/09/suspek-samun-cedera-dua-etnik-rohingya-akan-didakwa-di-mahkamah/",
-  "outlet": "Utusan Malaysia",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-15T07:00:00.000Z",
-  "place": "Taman Perling, Johor Bahru",
-  "area": "Taman Perling, Iskandar Puteri",
-  "lat": 1.4862,
-  "lng": 103.68,
-  "precision": "area",
-  "alsoReported": [
-   {
-    "outlet": "Astro Awani",
-    "link": "https://www.astroawani.com/video/jenayah-lelaki-ditahan-disyaki-samun-pukul-warga-asing",
-    "title": "Jenayah: Lelaki ditahan disyaki samun, pukul warga asing"
-   }
-  ]
- },
- {
-  "type": "break_in",
-  "title": "Empat warga asing disyaki Rohingya ditahan kes pecah rumah",
-  "link": "https://www.kosmo.com.my/2026/09/15/empat-warga-asing-disyaki-rohingya-ditahan-kes-pecah-rumah/",
-  "outlet": "Kosmo Online",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-15T07:00:00.000Z",
-  "place": "Kerian, Bagan Serai",
-  "area": "Mukim Bagan Serai, Kerian",
-  "lat": 5.0122,
-  "lng": 100.5336,
-  "precision": "area"
- },
- {
-  "type": "murder",
-  "title": "'Kami sebuah keluarga kehilangan anak perempuan' - Ibu remaja maut ditikam rayu keputusan bebas remaja lelaki",
-  "link": "https://www.hmetro.com.my/mutakhir/2026/09/1411190/kami-sebuah-keluarga-kehilangan-anak-perempuan-ibu-remaja-maut-ditikam-rayu",
-  "outlet": "Harian Metro",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-15T07:00:00.000Z",
-  "place": "Bandar Utama, Kuala Lumpur",
-  "area": "Bandar Utama, Petaling Jaya",
-  "lat": 3.1445,
-  "lng": 101.6102,
-  "precision": "area"
- },
- {
-  "type": "theft",
-  "title": "Dua lelaki diberkas curi tangga aluminium",
-  "link": "https://www.tvsarawak.my/2026/09/15/dua-lelaki-diberkas-curi-tangga-aluminium/",
-  "outlet": "Saluran 122",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-15T07:00:00.000Z",
-  "place": "Miri",
-  "area": "Miri, Bahagian Miri",
-  "lat": 4.394,
-  "lng": 113.988,
-  "precision": "town"
- },
- {
-  "type": "robbery",
-  "title": "Dua lelaki diberkas selepas samun kedai runcit bersenjata parang di Dengkil",
-  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaENJVTdKekFxMXludWREbUJ5ekY3WGFXMzFCbXhjYWhTTUdkYm5RYjk1UEVKbjlPQXp3V3Nid1hZNzFTMzE1NGVaUzRkSHJ2MVlHSzd3Ny1sRE1WUUNFLXRBa0ljZzJZOW4yRkw1TG5NY0RDRm8wQ0N2MWZVeWo3VUlIc2tkXzhCUmJJUlg5bjhWMy1zOGpKb2otYUZnaFhSVUVOeGk5Rmk5V0tZODVDV1BzX3ktaGJwR24w?oc=5",
-  "outlet": "Utusan Malaysia",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-14T07:00:00.000Z",
-  "place": "Dengkil",
-  "area": "Dengkil, Sepang",
-  "lat": 2.868,
-  "lng": 101.6756,
-  "precision": "area"
- },
- {
-  "type": "robbery",
-  "title": "Dua lelaki samun kedai runcit guna parang diberkas",
-  "link": "https://www.sinarharian.com.my/article/796215/berita/semasa/dua-lelaki-samun-kedai-runcit-guna-parang-diberkas",
-  "outlet": "Sinar Harian",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-14T07:00:00.000Z",
-  "place": "Sepang",
-  "area": "Sepang, Selangor",
-  "lat": 2.8009,
-  "lng": 101.7094,
-  "precision": "town"
- },
- {
-  "type": "break_in",
-  "title": "Bekas banduan tak serik, terbabit pecah rumah hingga curi lampin pakai buang",
-  "link": "https://www.hmetro.com.my/mutakhir/2026/09/1410895/bekas-banduan-tak-serik-terbabit-pecah-rumah-hingga-curi-lampin-pakai-buang",
-  "outlet": "Harian Metro",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-14T07:00:00.000Z",
-  "place": "Iskandar Puteri",
-  "area": "Iskandar Puteri, Johor Bahru",
-  "lat": 1.4523,
-  "lng": 103.6145,
-  "precision": "town"
- },
- {
-  "type": "robbery",
-  "title": "Rompak bersenjata, 5 remaja dihantar Sekolah Henry Gurney",
-  "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/14/rompak-bersenjata-5-remaja-dihantar-sekolah-henry-gurney",
-  "outlet": "Free Malaysia Today",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-14T07:00:00.000Z",
-  "place": "Kuching",
-  "area": "Kuching, Bahagian Kuching",
-  "lat": 1.5598,
-  "lng": 110.3454,
-  "precision": "area",
-  "alsoReported": [
-   {
-    "outlet": "Saluran 122",
-    "link": "https://www.tvsarawak.my/2026/09/12/suspek-curi-kabel-diberkas-positif-dadah/",
-    "title": "Suspek curi kabel diberkas, positif dadah"
-   }
-  ]
- },
- {
-  "type": "assault",
-  "title": "Pekerja Pasar Borong Cedera Ditikam Besi Tajam",
-  "link": "https://www.bernama.com/bm/am/news.php?id=2606804",
-  "outlet": "Bernama",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-13T09:48:00.000Z",
-  "place": "Kuala Lumpur",
-  "area": "Kuala Lumpur, Malaysia",
-  "lat": 3.1517,
-  "lng": 101.6942,
-  "precision": "area",
-  "alsoReported": [
-   {
-    "outlet": "Kosmo Online",
-    "link": "https://www.kosmo.com.my/2026/09/13/pekerja-pasar-cedera-ditikam/",
-    "title": "Pekerja pasar cedera ditikam"
-   },
-   {
-    "outlet": "NST Online",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObVZleGlIXzBDVC1POHl3U1pNVkt6bEZUWm91V2JtbzdFZHkxUThuU2dfUzI0V2ViTi1qemtyb2Z4VWdES19zdWhYTVpJaGtSOEt1bTZNbnJuNkN0QWR2Z1JCREE3TWNsYjFOXy00WjJVeUZUeG5MQ1hySzQ5Y2N2MjUyeF9jb0Y1UUdUUklkZmUzSjdQRTF2Wm1qWGRSeWdaTGZiMklveHPSAa4BQVVfeXFMTk5tdG5HTHlmeHhKYU83ZUIyWlpsaVhxaHp5Y01Xa0lhZ0cwQ2tYLW9rcl83QU8yTTgtTnhqVHpkS0xzTE1FOXhHenBQMDZqNEFZZHVyZ1RROVhoWmlCOC1OM1V0ZW1hdHUzaFlvRWozd1dxZ044cGNVUy1EdE5UdXBUSVgzZ2V1VTVPT3RycmZmWE5rYnc1Z0RadlRjVlFrWS1ydlhyLTJ6d25ndVN3?oc=5",
-    "title": "Man stabbed in back by unknown assailant at Kuala Lumpur market"
-   }
-  ]
- },
- {
-  "type": "extortion",
-  "title": "Lelaki samun, cedera dan ugut dua Rohingya ditahan",
-  "link": "https://malaysiagazette.com/2026/09/13/lelaki-samun-cedera-dan-ugut-dua-rohingya-ditahan/",
-  "outlet": "MalaysiaGazette",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-13T07:00:00.000Z",
-  "place": "Taman Perling, Johor Bahru",
-  "area": "Taman Perling, Iskandar Puteri",
-  "lat": 1.4862,
-  "lng": 103.68,
-  "precision": "area",
-  "alsoReported": [
-   {
-    "outlet": "Sinar Harian",
-    "link": "https://www.sinarharian.com.my/article/796092/edisi/johor/lelaki-ditahan-kes-samun-cedera-dan-ugut-dua-warga-asing",
-    "title": "Lelaki ditahan kes samun, cedera dan ugut dua warga asing"
-   }
-  ]
- },
- {
-  "type": "assault",
-  "title": "KL Wholesale Market worker stabbed",
-  "link": "https://www.thestar.com.my/news/nation/2026/09/13/kl-wholesale-market-worker-stabbed",
-  "outlet": "The Star",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-13T07:00:00.000Z",
-  "place": "Petaling Jaya",
-  "area": "Petaling Jaya, Petaling",
-  "lat": 3.0989,
-  "lng": 101.6454,
-  "precision": "town"
- },
- {
-  "type": "murder",
-  "title": "Ibu ditemui maut dipercayai dibunuh, polis tahan anak lelaki",
-  "link": "https://www.sinarharian.com.my/article/795957/berita/semasa/ibu-ditemui-maut-dipercayai-dibunuh-polis-tahan-anak-lelaki",
-  "outlet": "Sinar Harian",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-12T07:00:00.000Z",
-  "place": "Keningau",
-  "area": "Keningau, Bahagian Pedalaman",
-  "lat": 5.2179,
-  "lng": 116.2463,
-  "precision": "town",
-  "alsoReported": [
-   {
-    "outlet": "Sinar Harian",
-    "link": "https://www.sinarharian.com.my/article/795969/berita/semasa/selisih-faham-tekanan-selepas-bercerai-dipercayai-punca-ibu-maut-ditikam",
-    "title": "Selisih faham, tekanan selepas bercerai dipercayai punca ibu maut ditikam"
-   }
-  ]
- },
- {
-  "type": "vandalism",
-  "title": "Lelaki ditahan disyaki khianat kabel di Kuching",
-  "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU3NZd0lDUWZyOXlNdlU3Z1FnUXYwTzBhdnktdjBIVGU4dlo1T3ZRS28wRTN0YVNrN1B4cml6bzRTbG9rQkM2d0Fnbmd4ZFVnUzJLSFFlSDVtU0JXWW1yT0lLSEFvaFpTRDNmRmdPazl3d2NQVEtYSWdLUXRoamJzaUxuUQ?oc=5",
-  "outlet": "https://utusansarawak.com.my/",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-12T07:00:00.000Z",
-  "place": "Kuching",
-  "area": "Kuching, Bahagian Kuching",
-  "lat": 1.5598,
-  "lng": 110.3454,
-  "precision": "area"
- },
- {
-  "type": "theft",
-  "title": "Dua lelaki disyaki curi kabel ditahan orang awam",
-  "link": "https://www.utusanborneo.com.my/2026/09/12/dua-lelaki-disyaki-curi-kabel-ditahan-orang-awam",
-  "outlet": "Utusan Borneo",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-12T07:00:00.000Z",
-  "place": "Kampung Sugud",
-  "area": "Jalan Kampung Mahandoi, Donggongon",
-  "lat": 5.8932,
-  "lng": 116.0778,
-  "precision": "area",
-  "alsoReported": [
-   {
-    "outlet": "TV Sabah News",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmazl1RFBrT0NqQ1h6elljc3o2SkFja2ZYLVJWZ21Wa04ydFpmLTFUZmVadDNvcTJEb0ZyOGg2WXhhU0RtRWlDTzMwZldYeEdkR1JPS2xZWU55UW1HUW1weV9QaWdhN3N6SmlPR0pRdF9RVFNQa0ZmQmJMQQ?oc=5",
-    "title": "Dua lelaki curi kabel di Kampung Sugud, ditahan"
-   },
-   {
-    "outlet": "Sabah Media",
-    "link": "https://sabahmedia.com/2026/09/11/dua-lelaki-ditahan-disyaki-curi-kabel/",
-    "title": "Dua lelaki ditahan disyaki curi kabel"
-   }
-  ]
- },
- {
-  "type": "assault",
-  "title": "Ibu maut dipercayai ditikam anak kandung",
-  "link": "https://sabahmedia.com/2026/09/12/ibu-maut-dipercayai-ditikam-anak-kandung/",
-  "outlet": "Sabah Media",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-12T07:00:00.000Z",
-  "place": "Tambunan",
-  "area": "Tambunan, Bahagian Pedalaman",
-  "lat": 5.686,
-  "lng": 116.412,
-  "precision": "town"
- },
- {
-  "type": "robbery",
-  "title": "Lelaki samun 70 keping emas RM150,000 ditahan kurang 24 jam",
-  "link": "https://www.hmetro.com.my/mutakhir/2026/09/1409455/lelaki-samun-70-keping-emas-rm150000-ditahan-kurang-24-jam?source=widget",
-  "outlet": "Harian Metro",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-11T07:00:00.000Z",
-  "place": "Shah Alam",
-  "area": "Shah Alam, Petaling",
-  "lat": 3.0739,
-  "lng": 101.5185,
-  "precision": "town"
- },
- {
-  "type": "break_in",
-  "title": "M'sia police arrest 8 people, aged 26-60, linked to 17 car break-ins, including 4 S'pore vehicles in Desaru",
-  "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhUk1JOFZoR3RLV1N5SWVmUlU0aUttdTIxZlJpZjg5UUhWd0lHcFM2VGxXUzVPMDF2eGdxN0lrZkN2V1JyNG03dGtRWms3aFRuWURGQWxqb1NsNjROQlRvbW9WbzZiVzlBMHc?oc=5",
-  "outlet": "Mothership",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-11T07:00:00.000Z",
-  "place": "Desaru",
-  "area": "Desaru, Bandar Penawar",
-  "lat": 1.541,
-  "lng": 104.2643,
-  "precision": "area"
- },
- {
-  "type": "theft",
-  "title": "Tiga lelaki ditahan curi kabel TNB bernilai RM50,000",
-  "link": "https://www.sinarharian.com.my/article/795800/edisi/perak/tiga-lelaki-ditahan-curi-kabel-tnb-bernilai-rm50000",
-  "outlet": "Sinar Harian",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-11T07:00:00.000Z",
-  "place": "Ayer Tawar, Manjung",
-  "area": "Ayer Tawar, Manjung",
-  "lat": 4.2991,
-  "lng": 100.7581,
-  "precision": "area"
- },
- {
-  "type": "theft",
-  "title": "Polis tahan lima lelaki disyaki curi transformer, kabel di substesen SEB",
-  "link": "https://utusansarawak.com.my/polis-tahan-lima-lelaki-disyaki-curi-transformer-kabel-di-substesen-seb/",
-  "outlet": "https://utusansarawak.com.my/",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-11T07:00:00.000Z",
-  "place": "Serian",
-  "area": "Serian, Bahagian Serian",
-  "lat": 1.1009,
-  "lng": 110.7104,
-  "precision": "town"
- },
- {
   "type": "murder",
   "title": "Nine-year-old boy killed in suspected crocodile attack in Kudat",
   "link": "https://www.malaymail.com/news/malaysia/2026/11/11/nine-year-old-boy-killed-in-suspected-crocodile-attack-in-kudat/242892",
@@ -4115,5 +3580,205 @@
   "lat": 7.2316,
   "lng": 117.1712,
   "precision": "town"
+ },
+ {
+  "type": "robbery",
+  "title": "Suspek samun wanita di Senadin diberkas",
+  "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNVc0QzNSQVY0SFJ5SktoZ0tHaC1JUkJmVjROWklDMTVnYVc2NjdYaElVY2p3SjBLOUN4QnQ1OTEyMGsyZV9xWmVPZ0NiT083YVRZTnZfbERBX2l3S0ZKSUpZYUxNaEp2dzhjRVpGVDJNQ2ZzSGxkZ1dOSzB6Xy10S3JR?oc=5",
+  "outlet": "Saluran 122",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T04:09:00.000Z",
+  "place": "Senadin",
+  "area": "Senadin, Miri",
+  "lat": 4.5007,
+  "lng": 114.0168,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "https://utusansarawak.com.my/",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSlpnSl9PNWt1a0pIZ2dDZVJETko3YUxqUmViY3JGOGotOVFLeHNsaDV6TzA5UXFtRVZFcTZPTW9hcVFVSzIxTEhLUUdFLS1tazhCYmNJd2pTNGhPcXFnM3lfOEFnVmwwNXJUdUpKQTdzQl9mUkotQXU2N3dZTGdRUkVycmpiazg?oc=5",
+    "title": "Lelaki ditahan disyaki samun bersenjata di Senadin"
+   }
+  ]
+ },
+ {
+  "type": "assault",
+  "title": "Lelaki orang asli maut dipercayai diserang harimau di Sungai Siput",
+  "link": "https://www.utusan.com.my/terkini/2026/11/lelaki-orang-asli-maut-dipercayai-diserang-harimau-di-sungai-siput/?utm_source=rss&utm_medium=rss&utm_campaign=lelaki-orang-asli-maut-dipercayai-diserang-harimau-di-sungai-siput",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T03:48:43.000Z",
+  "place": "Sungai Siput",
+  "area": "Sungai Siput, Kuala Kangsar",
+  "lat": 4.8197,
+  "lng": 101.0722,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805262/berita/semasa/bapa-lima-anak-maut-dibaham-harimau",
+    "title": "Bapa lima anak maut dibaham harimau"
+   }
+  ]
+ },
+ {
+  "type": "robbery",
+  "title": "Samun kedai emas RM500,000: Dua lelaki direman tujuh hari",
+  "link": "https://www.kosmo.com.my/2026/11/19/samun-kedai-emas-rm500000-dua-lelaki-direman-tujuh-hari/?utm_source=rss&utm_medium=rss&utm_campaign=samun-kedai-emas-rm500000-dua-lelaki-direman-tujuh-hari",
+  "outlet": "Kosmo: Suapan Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T03:41:03.000Z",
+  "place": "Batu Enam, Kuala Terengganu",
+  "area": "Kampung Batu Enam, Kampung Air Leleh",
+  "lat": 5.3469,
+  "lng": 103.0908,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "NST Online",
+    "link": "https://www.nst.com.my/news/regional/2026/11/1581050/two-men-remanded-over-rm500000-goldsmith-shop-robbery",
+    "title": "Two men remanded over RM500,000 goldsmith shop robbery"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438188/2-suspek-samun-kedai-emas-direman-7-hari",
+    "title": "2 suspek samun kedai emas direman 7 hari"
+   }
+  ]
+ },
+ {
+  "type": "drugs",
+  "title": "Pemilik kapal MT Global 168 menyeludup lebih 1 tan ketamin sudah ditahan",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438213/pemilik-kapal-mt-global-168-menyeludup-lebih-1-tan-ketamin-sudah-ditahan",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T03:37:26.000Z",
+  "place": "Kuala Lumpur",
+  "area": "Kuala Lumpur, Malaysia",
+  "lat": 3.1517,
+  "lng": 101.6942,
+  "precision": "town"
+ },
+ {
+  "type": "shooting",
+  "title": "Kejadian berbalas tembakan di Ipoh berlaku ketika rondaan cegah samun",
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3BxVmVEUS1jY1JSOUNlbElQaWd6X01udlN4OE0yb19QNHpQX3ZJVEc1Vjc4YlczZHdwNGFTRVdYcmZUNWJaLV9KNlNCdkNoVEcteVBWbWkxa0hXVjNGb2NiU0ZpQVdpcHF3aEVQblE1YVZXcjh6QnNUaFJhWndQc2tDSlZUcWdoRGh4OUk2b1diZTRiZ0pVcXZva3dtY2RuZEhJekJaWHhNcWl3WHR3?oc=5",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T03:25:39.000Z",
+  "place": "Ipoh",
+  "area": "Majlis Bandaraya Ipoh, Kinta",
+  "lat": 4.5987,
+  "lng": 101.09,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Kosmo: Suapan Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/19/kemaskini-penjenayah-maut-ditembak-selepas-cuba-lolos/?utm_source=rss&utm_medium=rss&utm_campaign=kemaskini-penjenayah-maut-ditembak-selepas-cuba-lolos",
+    "title": "[KEMASKINI] Penjenayah maut ditembak selepas cuba lolos"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438199/polis-sahkan-lelaki-maut-selepas-berbalas-tembakan-di-ipoh",
+    "title": "Polis sahkan lelaki maut selepas berbalas tembakan di Ipoh"
+   },
+   {
+    "outlet": "Berita Harian",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ3R6cHNuaEZiQ1FyTWExR3VtcC05UG1PQmpKTFl2MnQ5Uk1xeG9vSjAwbFlROHBDc1JQUWI0ekJ6YUZvSjN2SGpFVmJUTi1vam1ZVG9xU0FmZmVKamZmaEJ2Z3NZMnVNZ2xPU0ZrR25HOWFPWUF3Tk9HS2c4aFRXakZSUkVHbG4zaFM3UDJKOWpEaXBZZXZ6RXItSdIBoAFBVV95cUxOUlV6eV9yRTl5d29fNWJVX0dJcFZfeGJlWmZsd0hNdnhQZlkyT05NM2EwUDE2Wl9FNktScnN6b2owYlFEX0ZTd0U1N1BHcXY4dS1VMm8wZGR0WWVHbmYtQWJILURDbU5GR2tFeE5GTXh4cnFxNTAzRGZrZ0xVcHFpaC1yVjNZYWZNUS00eS03V0E1bmhINmJoOUZpME9OSjFF?oc=5",
+    "title": "Polis sahkan lelaki maut ditembak di Ipoh"
+   },
+   {
+    "outlet": "Free Malaysia Today",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYzlKeU1IcXpyc3pmYXM1QktHWHdLNUJJMjhPb0h1czg0ckQwRkprU3RZbnRlVF9wQXBzYVUwdURFRmhjMVkwX1pWOWo4UXpLeEVYX0NXeGpLYmRvVEJ1Q3RJUWFjYjZoQ1g5R3ROaGQ0M3c3aWFubXF0TzBJcktaWGV6VDh4dS10bTFMYWpUTnNBajNrOXoycUdMX3ppaU1nWDlsNW9PNFU4X2tUcG5qNTZ3UFlsLS00NjRRTA?oc=5",
+    "title": "Lelaki dipercayai penjenayah ditembak mati di Ipoh"
+   },
+   {
+    "outlet": "Free Malaysia Today",
+    "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/19/man-killed-in-early-morning-shootout-with-cops-in-ipoh",
+    "title": "Man killed in early morning shootout with cops in Ipoh"
+   }
+  ]
+ },
+ {
+  "type": "assault",
+  "title": "‘Dia beritahu dipukul tiga rakan pada muka, kepala dan badan’",
+  "link": "https://www.kosmo.com.my/2026/11/19/dia-beritahu-dipukul-tiga-rakan-pada-muka-kepala-dan-badan/?utm_source=rss&utm_medium=rss&utm_campaign=dia-beritahu-dipukul-tiga-rakan-pada-muka-kepala-dan-badan",
+  "outlet": "Kosmo: Suapan Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T02:59:32.000Z",
+  "place": "Tangkak",
+  "area": "Tangkak, Johor",
+  "lat": 2.25,
+  "lng": 102.5833,
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805269/berita/semasa/gara-gara-whatsapp-pelajar-tingkatan-dua-dibelasah-tiga-pelajar-dalam-kelas",
+    "title": "Gara-gara WhatsApp, pelajar Tingkatan Tiga dibelasah tiga pelajar dalam kelas"
+   }
+  ]
+ },
+ {
+  "type": "theft",
+  "title": "Lelaki ditahan siasat kes curi termasuk peralatan pembinaan",
+  "link": "https://www.tvsarawak.my/2026/11/19/lelaki-ditahan-siasat-kes-curi-termasuk-peralatan-pembinaan/",
+  "outlet": "Saluran 122",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T02:56:00.000Z",
+  "place": "Saratok",
+  "area": "Saratok, Bahagian Betong",
+  "lat": 1.7636,
+  "lng": 111.4441,
+  "precision": "town"
+ },
+ {
+  "type": "break_in",
+  "title": "No forced entry as computer equipment disappears",
+  "link": "https://www.sarawaktribune.com/no-forced-entry-as-computer-equipment-disappears/",
+  "outlet": "New Sarawak Tribune: Sarawak Tribune Feed",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T02:34:56.000Z",
+  "place": "Bau",
+  "area": "Bau, Bahagian Kuching",
+  "lat": 1.4179,
+  "lng": 110.1553,
+  "precision": "town"
+ },
+ {
+  "type": "shooting",
+  "title": "Berbalas tembakan dengan polis, lelaki maut",
+  "link": "https://www.hmetro.com.my/utama/2026/11/1438174/berbalas-tembakan-dengan-polis-lelaki-maut",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T01:06:08.000Z",
+  "place": "Ulu Kinta, Ipoh",
+  "area": "Rancangan Perumahan Awam 2 Ulu Kinta, Majlis Bandaraya Ipoh",
+  "lat": 4.6617,
+  "lng": 101.1749,
+  "precision": "area"
+ },
+ {
+  "type": "shooting",
+  "title": "Penjenayah bersenjata api mati ditembak",
+  "link": "https://www.sinarharian.com.my/article/805263/berita/semasa/penjenayah-bersenjata-api-mati-ditembak",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T00:20:00.000Z",
+  "place": "Tambun, Ipoh",
+  "area": "Tambun, Majlis Bandaraya Ipoh",
+  "lat": 4.6112,
+  "lng": 101.1401,
+  "precision": "area"
  }
 ]

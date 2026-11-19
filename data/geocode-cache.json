@@ -1709,5 +1709,55 @@
  "area4:sungai semayan, kampung semayan, kudat": null,
  "area4:sungai semayan, kampung semayan": null,
  "area4:sungai semayan, kudat": null,
- "area4:sungai semayan": null
+ "area4:sungai semayan": null,
+ "area4:senadin": {
+  "lat": 4.5007,
+  "lng": 114.0168,
+  "label": "Senadin, Miri",
+  "kind": "suburb"
+ },
+ "area4:jalan persiaran lembah perpaduan, ipoh": null,
+ "area4:jalan persiaran lembah perpaduan": null,
+ "area4:sungai siput, ipoh": null,
+ "area4:batu enam, kuala terengganu": {
+  "lat": 5.3469,
+  "lng": 103.0908,
+  "label": "Kampung Batu Enam, Kampung Air Leleh",
+  "kind": "suburb"
+ },
+ "area4:tangkak": {
+  "lat": 2.25,
+  "lng": 102.5833,
+  "label": "Tangkak, Johor",
+  "kind": "district"
+ },
+ "area4:kabong, saratok": null,
+ "area4:kabong": {
+  "lat": 1.8822,
+  "lng": 111.2695,
+  "label": "Kabong, Bahagian Betong",
+  "kind": "county"
+ },
+ "area4:persiaran lembah perpaduan, tambun, ipoh": null,
+ "area4:persiaran lembah perpaduan, tambun": null,
+ "area4:persiaran lembah perpaduan, ipoh": null,
+ "area4:persiaran lembah perpaduan": null,
+ "area4:batu enam, gong badak, kuala terengganu": null,
+ "area4:batu enam, gong badak": null,
+ "area4:goldhill estate, jalan bidi, bau": null,
+ "area4:goldhill estate, jalan bidi": null,
+ "area4:goldhill estate, bau": null,
+ "area4:goldhill estate": null,
+ "area4:ulu kinta, ipoh": {
+  "lat": 4.6617,
+  "lng": 101.1749,
+  "label": "Rancangan Perumahan Awam 2 Ulu Kinta, Majlis Bandaraya Ipoh",
+  "kind": "neighbourhood"
+ },
+ "area4:tambun, ipoh": {
+  "lat": 4.6112,
+  "lng": 101.1401,
+  "label": "Tambun, Majlis Bandaraya Ipoh",
+  "kind": "suburb"
+ }
 }
