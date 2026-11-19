@@ -3806,6 +3806,16 @@
     "outlet": "Harian Metro",
     "link": "https://www.hmetro.com.my/utama/2026/11/1438470/sindiket-dadah-guna-aset-tudm-5-pegawai-antara-11-ditahan",
     "title": "Sindiket dadah guna aset TUDM: 5 pegawai antara 11 ditahan"
+   },
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805384/berita/semasa/5-pegawai-tudm-ditahan-pemeriksaan-rutin-bagasi-bongkar-cubaan-seludup-dadah---khaled-nordin",
+    "title": "5 pegawai TUDM ditahan: Pemeriksaan rutin bagasi bongkar cubaan seludup dadah - Khaled Nordin"
+   },
+   {
+    "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
+    "link": "https://utusansarawak.com.my/pemeriksaan-rutin-bagasi-bongkar-cubaan-seludup-dadah-lima-pegawai-tudm-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=pemeriksaan-rutin-bagasi-bongkar-cubaan-seludup-dadah-lima-pegawai-tudm-ditahan",
+    "title": "Pemeriksaan rutin bagasi bongkar cubaan seludup dadah, lima pegawai TUDM ditahan"
    }
   ]
  },
@@ -4302,6 +4312,11 @@
     "outlet": "MalaysiaGazette",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUUVGdE9zVE1BT2c0Y255ajZ5Y2N2ZmpBUjRDUHhSejZSZVJCRmlMUzhfdXBkREdIUzZ3QmttTGN5ZHlkXzZHbkd6OWJhb0FCWGdZZkhJdS12NUVyc2c1dXB1SmpCWnczR0x1VF9uMlFqN3V6Y0xaVWhxZGxsaDNJZmZBcFJBNVdua1FTTnM4WGRQYXBl?oc=5",
     "title": "Lelaki warga asing ditahan curi motosikal di Tawau"
+   },
+   {
+    "outlet": "TV Sabah News",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPc183LXB5MWM2Y01LalJKSVkzeU9ramIxTnZvclc3QmxkVlQ4T0o2cFNqUTRGdndHc3BTUEtFckFIUHZydHJabHBybldCY0ItYWhaN0pXemNCcE02N0xaNkJjOUQ2OFpjdkpxZnUyM19lR1RvVjhJNTJTNUFsZmpSNWxfMGF2eUFxb3VUTWNTV2I?oc=5",
+    "title": "Polis temui motosikal curi, lelaki warga asing ditahan di Tawau"
    }
   ]
  },
@@ -5049,6 +5064,11 @@
     "outlet": "Free Malaysia Today",
     "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/19/newborn-dies-after-allegedly-stabbed-by-19-year-old-mum",
     "title": "Newborn dies after allegedly stabbed by 19-year-old mum"
+   },
+   {
+    "outlet": "Warta Oriental",
+    "link": "https://wartaoriental.com/2026/11/19/bayi-perempuan-baru-dilahirkan-maut-ditikam-ibu-kandung/",
+    "title": "Bayi perempuan baru dilahirkan maut ditikam ibu kandung"
    }
   ]
  },
@@ -5239,6 +5259,27 @@
   "area": "Petaling Jaya, Petaling",
   "lat": 3.0989,
   "lng": 101.6454,
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/berita/2026/11/penemuan-dadah-kementerian-pertahanan-tidak-akan-berkompromi-siasat-dengan-telus/?utm_source=rss&utm_medium=rss&utm_campaign=penemuan-dadah-kementerian-pertahanan-tidak-akan-berkompromi-siasat-dengan-telus",
+    "title": "Penemuan dadah: Kementerian Pertahanan tidak akan berkompromi, siasat dengan telus"
+   }
+  ]
+ },
+ {
+  "type": "shooting",
+  "title": "'Rakan yang minta saya buat aksi 'wheelie' tapi dia cabut lari'",
+  "link": "https://www.sinarharian.com.my/article/805382/berita/semasa/rakan-yang-minta-saya-buat-aksi-wheelie-tapi-dia-cabut-lari",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T15:21:00.000Z",
+  "place": "Kota Bharu",
+  "area": "Kota Bharu, Kelantan",
+  "lat": 6.1248,
+  "lng": 102.2378,
   "precision": "town"
  }
 ]
