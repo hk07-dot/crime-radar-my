@@ -1,0 +1,639 @@
+{
+  "_note": "Approximate police-district (IPD) town locations. Keys are lowercase district names as they appear in the data.gov.my crime_district dataset, without prefixes like W.P. A district missing here is geocoded once and cached; add it here if it lands in the wrong place.",
+  "dang wangi": [
+    3.153,
+    101.698
+  ],
+  "brickfields": [
+    3.129,
+    101.685
+  ],
+  "cheras": [
+    3.105,
+    101.725
+  ],
+  "sentul": [
+    3.185,
+    101.69
+  ],
+  "wangsa maju": [
+    3.205,
+    101.735
+  ],
+  "putrajaya": [
+    2.926,
+    101.696
+  ],
+  "petaling jaya": [
+    3.107,
+    101.607
+  ],
+  "subang jaya": [
+    3.049,
+    101.585
+  ],
+  "shah alam": [
+    3.073,
+    101.519
+  ],
+  "klang utara": [
+    3.05,
+    101.45
+  ],
+  "klang selatan": [
+    3.01,
+    101.44
+  ],
+  "ampang jaya": [
+    3.15,
+    101.76
+  ],
+  "gombak": [
+    3.25,
+    101.65
+  ],
+  "kajang": [
+    2.993,
+    101.788
+  ],
+  "serdang": [
+    3.023,
+    101.715
+  ],
+  "sepang": [
+    2.817,
+    101.733
+  ],
+  "sungai buloh": [
+    3.205,
+    101.58
+  ],
+  "hulu selangor": [
+    3.565,
+    101.65
+  ],
+  "kuala selangor": [
+    3.34,
+    101.25
+  ],
+  "sabak bernam": [
+    3.68,
+    100.99
+  ],
+  "kuala langat": [
+    2.83,
+    101.49
+  ],
+  "timur laut": [
+    5.414,
+    100.329
+  ],
+  "barat daya": [
+    5.3,
+    100.26
+  ],
+  "seberang perai utara": [
+    5.517,
+    100.425
+  ],
+  "seberang perai tengah": [
+    5.354,
+    100.465
+  ],
+  "seberang perai selatan": [
+    5.21,
+    100.48
+  ],
+  "johor bahru utara": [
+    1.53,
+    103.74
+  ],
+  "johor bahru selatan": [
+    1.465,
+    103.76
+  ],
+  "iskandar puteri": [
+    1.43,
+    103.64
+  ],
+  "seri alam": [
+    1.51,
+    103.88
+  ],
+  "kulai": [
+    1.66,
+    103.6
+  ],
+  "batu pahat": [
+    1.85,
+    102.933
+  ],
+  "muar": [
+    2.044,
+    102.568
+  ],
+  "kluang": [
+    2.03,
+    103.32
+  ],
+  "segamat": [
+    2.51,
+    102.82
+  ],
+  "kota tinggi": [
+    1.73,
+    103.9
+  ],
+  "pontian": [
+    1.487,
+    103.39
+  ],
+  "ipoh": [
+    4.598,
+    101.09
+  ],
+  "taiping": [
+    4.85,
+    100.74
+  ],
+  "manjung": [
+    4.21,
+    100.66
+  ],
+  "melaka tengah": [
+    2.196,
+    102.248
+  ],
+  "alor gajah": [
+    2.38,
+    102.21
+  ],
+  "jasin": [
+    2.31,
+    102.43
+  ],
+  "seremban": [
+    2.726,
+    101.942
+  ],
+  "nilai": [
+    2.815,
+    101.798
+  ],
+  "port dickson": [
+    2.522,
+    101.796
+  ],
+  "kuantan": [
+    3.808,
+    103.326
+  ],
+  "kota setar": [
+    6.121,
+    100.368
+  ],
+  "kuala muda": [
+    5.647,
+    100.487
+  ],
+  "kota bharu": [
+    6.125,
+    102.238
+  ],
+  "kuala terengganu": [
+    5.33,
+    103.137
+  ],
+  "kota kinabalu": [
+    5.98,
+    116.074
+  ],
+  "kuching": [
+    1.554,
+    110.359
+  ],
+  "kangar": [
+    6.441,
+    100.199
+  ],
+  "bachok": [
+    6.05,
+    102.4
+  ],
+  "gua musang": [
+    4.88,
+    101.97
+  ],
+  "jeli": [
+    5.7,
+    101.84
+  ],
+  "kuala krai": [
+    5.53,
+    102.2
+  ],
+  "machang": [
+    5.77,
+    102.22
+  ],
+  "pasir mas": [
+    6.05,
+    102.14
+  ],
+  "pasir puteh": [
+    5.83,
+    102.4
+  ],
+  "tanah merah": [
+    5.8,
+    102.15
+  ],
+  "tumpat": [
+    6.2,
+    102.17
+  ],
+  "jelebu": [
+    2.94,
+    102.07
+  ],
+  "jempol": [
+    2.81,
+    102.4
+  ],
+  "kuala pilah": [
+    2.74,
+    102.25
+  ],
+  "rembau": [
+    2.59,
+    102.09
+  ],
+  "tampin": [
+    2.47,
+    102.23
+  ],
+  "bentong": [
+    3.52,
+    101.91
+  ],
+  "bera": [
+    3.35,
+    102.45
+  ],
+  "cameron highlands": [
+    4.47,
+    101.38
+  ],
+  "jerantut": [
+    3.94,
+    102.36
+  ],
+  "kuala lipis": [
+    4.18,
+    102.05
+  ],
+  "maran": [
+    3.59,
+    102.77
+  ],
+  "pekan": [
+    3.49,
+    103.39
+  ],
+  "raub": [
+    3.79,
+    101.86
+  ],
+  "rompin": [
+    2.81,
+    103.49
+  ],
+  "temerloh": [
+    3.45,
+    102.42
+  ],
+  "batu gajah": [
+    4.47,
+    101.04
+  ],
+  "gerik": [
+    5.43,
+    101.13
+  ],
+  "hilir perak": [
+    4.02,
+    101.02
+  ],
+  "kampar": [
+    4.31,
+    101.15
+  ],
+  "kerian": [
+    5.13,
+    100.49
+  ],
+  "kuala kangsar": [
+    4.77,
+    100.94
+  ],
+  "pengkalan hulu": [
+    5.7,
+    100.99
+  ],
+  "perak tengah": [
+    4.36,
+    100.98
+  ],
+  "selama": [
+    5.22,
+    100.69
+  ],
+  "sungai siput": [
+    4.82,
+    101.07
+  ],
+  "tanjong malim": [
+    3.68,
+    101.52
+  ],
+  "tapah": [
+    4.2,
+    101.26
+  ],
+  "arau": [
+    6.43,
+    100.27
+  ],
+  "padang besar": [
+    6.66,
+    100.32
+  ],
+  "baling": [
+    5.68,
+    100.92
+  ],
+  "bandar bharu": [
+    5.21,
+    100.61
+  ],
+  "kubang pasu": [
+    6.27,
+    100.42
+  ],
+  "kulim": [
+    5.37,
+    100.56
+  ],
+  "langkawi": [
+    6.32,
+    99.85
+  ],
+  "padang terap": [
+    6.25,
+    100.61
+  ],
+  "pendang": [
+    5.99,
+    100.48
+  ],
+  "sik": [
+    5.81,
+    100.74
+  ],
+  "yan": [
+    5.8,
+    100.38
+  ],
+  "mersing": [
+    2.43,
+    103.84
+  ],
+  "ledang": [
+    2.27,
+    102.55
+  ],
+  "simpang renggam": [
+    1.83,
+    103.31
+  ],
+  "nusajaya": [
+    1.43,
+    103.64
+  ],
+  "beaufort": [
+    5.35,
+    115.75
+  ],
+  "beluran": [
+    5.89,
+    117.56
+  ],
+  "keningau": [
+    5.34,
+    116.16
+  ],
+  "kota belud": [
+    6.35,
+    116.43
+  ],
+  "kota kinabatangan": [
+    5.58,
+    117.8
+  ],
+  "kinabatangan": [
+    5.58,
+    117.8
+  ],
+  "kota marudu": [
+    6.49,
+    116.75
+  ],
+  "kudat": [
+    6.88,
+    116.84
+  ],
+  "kunak": [
+    4.69,
+    118.25
+  ],
+  "lahad datu": [
+    5.03,
+    118.33
+  ],
+  "papar": [
+    5.73,
+    115.93
+  ],
+  "penampang": [
+    5.92,
+    116.11
+  ],
+  "putatan": [
+    5.88,
+    116.05
+  ],
+  "ranau": [
+    5.95,
+    116.66
+  ],
+  "sandakan": [
+    5.84,
+    118.12
+  ],
+  "semporna": [
+    4.48,
+    118.61
+  ],
+  "sipitang": [
+    5.08,
+    115.55
+  ],
+  "tawau": [
+    4.25,
+    117.89
+  ],
+  "tenom": [
+    5.12,
+    115.95
+  ],
+  "tuaran": [
+    6.18,
+    116.23
+  ],
+  "labuan": [
+    5.28,
+    115.24
+  ],
+  "bau": [
+    1.42,
+    110.15
+  ],
+  "belaga": [
+    2.7,
+    113.78
+  ],
+  "betong": [
+    1.41,
+    111.53
+  ],
+  "bintulu": [
+    3.17,
+    113.04
+  ],
+  "dalat": [
+    2.74,
+    111.93
+  ],
+  "julau": [
+    2.03,
+    111.93
+  ],
+  "kanowit": [
+    2.1,
+    112.15
+  ],
+  "kapit": [
+    2.01,
+    112.93
+  ],
+  "kota samarahan": [
+    1.46,
+    110.49
+  ],
+  "lawas": [
+    4.85,
+    115.4
+  ],
+  "limbang": [
+    4.75,
+    115
+  ],
+  "lubok antu": [
+    1.04,
+    111.83
+  ],
+  "lundu": [
+    1.67,
+    109.85
+  ],
+  "marudi": [
+    4.18,
+    114.32
+  ],
+  "matu daro": [
+    2.53,
+    111.43
+  ],
+  "meradong": [
+    2.17,
+    111.63
+  ],
+  "miri": [
+    4.4,
+    113.99
+  ],
+  "mukah": [
+    2.9,
+    112.09
+  ],
+  "padawan": [
+    1.43,
+    110.33
+  ],
+  "saratok": [
+    1.74,
+    111.34
+  ],
+  "sarikei": [
+    2.13,
+    111.52
+  ],
+  "serian": [
+    1.17,
+    110.57
+  ],
+  "sibu": [
+    2.29,
+    111.83
+  ],
+  "simunjan": [
+    1.38,
+    110.75
+  ],
+  "song": [
+    2,
+    112.55
+  ],
+  "sri aman": [
+    1.24,
+    111.46
+  ],
+  "tatau": [
+    2.88,
+    112.86
+  ],
+  "besut": [
+    5.74,
+    102.5
+  ],
+  "dungun": [
+    4.76,
+    103.42
+  ],
+  "hulu terengganu": [
+    5.07,
+    103.01
+  ],
+  "kemaman": [
+    4.23,
+    103.42
+  ],
+  "marang": [
+    5.21,
+    103.21
+  ],
+  "setiu": [
+    5.51,
+    102.74
+  ]
+}

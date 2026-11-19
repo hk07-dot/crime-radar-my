@@ -1,0 +1,1713 @@
+{
+ "any:kulaijaya, johor, malaysia": {
+  "lat": 1.6667,
+  "lng": 103.6,
+  "label": "Kulai, Johor",
+  "kind": "district"
+ },
+ "any:ledang, johor, malaysia": {
+  "lat": 2.25,
+  "lng": 102.5833,
+  "label": "Tangkak, Johor",
+  "kind": "district"
+ },
+ "any:mersing, johor, malaysia": {
+  "lat": 2.4299,
+  "lng": 103.8355,
+  "label": "Mersing, Johor",
+  "kind": "town"
+ },
+ "area4:ipoh": {
+  "lat": 4.5987,
+  "lng": 101.09,
+  "label": "Majlis Bandaraya Ipoh, Kinta",
+  "kind": "city"
+ },
+ "any:nusajaya, johor, malaysia": {
+  "lat": 1.4562,
+  "lng": 103.6126,
+  "label": "Nusajaya, Lebuhraya Hubungan Kedua",
+  "kind": "highway"
+ },
+ "area4:seri iskandar, ipoh": {
+  "lat": 4.3608,
+  "lng": 100.9583,
+  "label": "Jalan Ipoh, Seri Iskandar",
+  "kind": "residential"
+ },
+ "any:baling, kedah, malaysia": {
+  "lat": 5.5507,
+  "lng": 100.7976,
+  "label": "Baling, Kedah",
+  "kind": "district"
+ },
+ "area4:sk tasek, marang": null,
+ "any:bandar baharu, kedah, malaysia": {
+  "lat": 5.1673,
+  "lng": 100.5849,
+  "label": "Bandar Baharu, Kedah",
+  "kind": "district"
+ },
+ "area4:sk tasek": null,
+ "any:kubang pasu, kedah, malaysia": {
+  "lat": 6.3356,
+  "lng": 100.3723,
+  "label": "Kubang Pasu, Kedah",
+  "kind": "district"
+ },
+ "any:kulim, kedah, malaysia": {
+  "lat": 5.3707,
+  "lng": 100.6172,
+  "label": "Kulim, Kedah",
+  "kind": "district"
+ },
+ "any:langkawi, kedah, malaysia": {
+  "lat": 6.37,
+  "lng": 99.7929,
+  "label": "Langkawi, Kedah",
+  "kind": "district"
+ },
+ "area4:jalan cheras, kuala lumpur": null,
+ "any:padang terap, kedah, malaysia": {
+  "lat": 6.2567,
+  "lng": 100.6646,
+  "label": "Padang Terap, Kedah",
+  "kind": "district"
+ },
+ "area4:jalan cheras": null,
+ "any:pendang, kedah, malaysia": {
+  "lat": 5.9721,
+  "lng": 100.5502,
+  "label": "Pendang, Kedah",
+  "kind": "district"
+ },
+ "area4:taman muda, ampang": {
+  "lat": 3.1218,
+  "lng": 101.7568,
+  "label": "Taman Muda, Pandan Indah",
+  "kind": "neighbourhood"
+ },
+ "any:sik, kedah, malaysia": {
+  "lat": 5.9239,
+  "lng": 100.8231,
+  "label": "Sik, Kedah",
+  "kind": "district"
+ },
+ "area4:sungai petani": {
+  "lat": 5.6435,
+  "lng": 100.487,
+  "label": "Sungai Petani, Kuala Muda",
+  "kind": "town"
+ },
+ "any:yan, kedah, malaysia": {
+  "lat": 5.8483,
+  "lng": 100.4152,
+  "label": "Yan, Kedah",
+  "kind": "district"
+ },
+ "area4:jasin": {
+  "lat": 2.3058,
+  "lng": 102.4223,
+  "label": "Jasin, Melaka",
+  "kind": "district"
+ },
+ "area4:taman kempas, sungai petani": null,
+ "area4:taman kempas": null,
+ "area4:kota kinabalu": {
+  "lat": 5.978,
+  "lng": 116.0729,
+  "label": "Kota Kinabalu, Bahagian Pantai Barat",
+  "kind": "city"
+ },
+ "area4:kuala lumpur": {
+  "lat": 3.1517,
+  "lng": 101.6942,
+  "label": "Kuala Lumpur, Malaysia",
+  "kind": "state"
+ },
+ "area4:jasin, melaka": {
+  "lat": 2.3058,
+  "lng": 102.4223,
+  "label": "Jasin, Melaka",
+  "kind": "district"
+ },
+ "area4:batu pahat": {
+  "lat": 1.9333,
+  "lng": 103,
+  "label": "Batu Pahat, Johor",
+  "kind": "district"
+ },
+ "area4:kluang": {
+  "lat": 2.0323,
+  "lng": 103.3191,
+  "label": "Kluang, Johor",
+  "kind": "district"
+ },
+ "area4:taman kiaramas, kluang": null,
+ "area4:taman kiaramas": {
+  "lat": 6.0006,
+  "lng": 100.481,
+  "label": "Persiaran Kiaramas 1, Taman Kiara Mas",
+  "kind": "residential"
+ },
+ "area4:jalan kuching, kuala lumpur": null,
+ "area4:jalan kuching": null,
+ "area4:hulu terengganu": {
+  "lat": 4.9107,
+  "lng": 102.7651,
+  "label": "Hulu Terengganu, Terengganu",
+  "kind": "locality"
+ },
+ "area4:tasik kenyir, hulu terengganu": null,
+ "area4:tasik kenyir": null,
+ "area4:shah alam": {
+  "lat": 3.0739,
+  "lng": 101.5185,
+  "label": "Shah Alam, Petaling",
+  "kind": "city"
+ },
+ "area4:miri": {
+  "lat": 4.394,
+  "lng": 113.988,
+  "label": "Miri, Bahagian Miri",
+  "kind": "city"
+ },
+ "area4:batu niah, miri": {
+  "lat": 3.803,
+  "lng": 113.7554,
+  "label": "Batu Niah, Subis",
+  "kind": "town"
+ },
+ "area4:batu niah": {
+  "lat": 3.803,
+  "lng": 113.7554,
+  "label": "Batu Niah, Subis",
+  "kind": "town"
+ },
+ "area4:merlimau": {
+  "lat": 2.1464,
+  "lng": 102.4258,
+  "label": "Merlimau, Jasin",
+  "kind": "town"
+ },
+ "area4:semariang baru": null,
+ "area4:faridabad": null,
+ "area4:sibu": {
+  "lat": 2.2997,
+  "lng": 111.871,
+  "label": "Sibu, Bahagian Sibu",
+  "kind": "local_authority"
+ },
+ "area4:papar": {
+  "lat": 5.7461,
+  "lng": 116.045,
+  "label": "Papar, Bahagian Pantai Barat",
+  "kind": "region"
+ },
+ "area4:kampung gading, ulu bongawan, papar": null,
+ "area4:kampung gading, ulu bongawan": null,
+ "area4:kampung gading, papar": null,
+ "area4:kampung gading": {
+  "lat": 6.0827,
+  "lng": 102.0739,
+  "label": "Kampung Gading, Kampung Pohon Tanjung",
+  "kind": "hamlet"
+ },
+ "area4:rembau": {
+  "lat": 2.5579,
+  "lng": 102.1082,
+  "label": "Rembau, Negeri Sembilan",
+  "kind": "district"
+ },
+ "area4:kampung seberang batu hampar, rembau": {
+  "lat": 2.5867,
+  "lng": 102.0824,
+  "label": "Kampung Seberang Batu Hampar, Rembau",
+  "kind": "village"
+ },
+ "area4:jalan langgak duta, kuala lumpur": null,
+ "area4:jalan langgak duta": null,
+ "area4:threads": null,
+ "area4:kota tinggi": {
+  "lat": 1.7337,
+  "lng": 103.9007,
+  "label": "Kota Tinggi, Johor",
+  "kind": "town"
+ },
+ "area4:johor bahru": {
+  "lat": 1.4582,
+  "lng": 103.7649,
+  "label": "Johor Bahru, Johor",
+  "kind": "town"
+ },
+ "area4:jalan gertak merah, johor bahru": null,
+ "area4:jalan gertak merah": null,
+ "area4:alor setar": {
+  "lat": 6.1232,
+  "lng": 100.3684,
+  "label": "Alor Setar, Kota Setar",
+  "kind": "city"
+ },
+ "area4:jalan harvard, alor setar": null,
+ "area4:jalan harvard": null,
+ "area4:kuching": {
+  "lat": 1.5598,
+  "lng": 110.3454,
+  "label": "Kuching, Bahagian Kuching",
+  "kind": "city"
+ },
+ "area4:jalan green road, kuching": null,
+ "area4:jalan green road": {
+  "lat": 5.3947,
+  "lng": 100.3067,
+  "label": "Jalan Hijau Empat, Taman Green Lane",
+  "kind": "residential"
+ },
+ "area4:subang airport": null,
+ "area4:west hollywood": null,
+ "area4:yong peng, johor bahru": null,
+ "area4:yong peng": {
+  "lat": 2.0132,
+  "lng": 103.0571,
+  "label": "Yong Peng, Batu Pahat",
+  "kind": "town"
+ },
+ "area4:kota marudu": {
+  "lat": 6.4466,
+  "lng": 116.8283,
+  "label": "Kota Marudu, Bahagian Kudat",
+  "kind": "county"
+ },
+ "area4:bau": {
+  "lat": 1.4179,
+  "lng": 110.1553,
+  "label": "Bau, Bahagian Kuching",
+  "kind": "town"
+ },
+ "area4:site duyoh, kampung duyoh, bau": null,
+ "area4:site duyoh, kampung duyoh": null,
+ "area4:site duyoh, bau": null,
+ "area4:site duyoh": null,
+ "area4:sungai siput": {
+  "lat": 4.8197,
+  "lng": 101.0722,
+  "label": "Sungai Siput, Kuala Kangsar",
+  "kind": "town"
+ },
+ "area4:tawau": {
+  "lat": 4.2435,
+  "lng": 117.8853,
+  "label": "Tawau, Bahagian Tawau",
+  "kind": "city"
+ },
+ "area4:taman maluri cheras, kuala lumpur": null,
+ "area4:taman maluri cheras": null,
+ "area4:lembah klang": null,
+ "area4:gurun, sungai petani, alor setar": null,
+ "area4:gurun, sungai petani": {
+  "lat": 5.6395,
+  "lng": 100.4858,
+  "label": "Kuarters Hutan Renj Sungai Petani/Gurun, Pekan Baru",
+  "kind": "residential"
+ },
+ "area4:hutan simpan tasik bera": null,
+ "area4:panggung sari, pusat kraftangan, kuching": null,
+ "area4:panggung sari, pusat kraftangan": null,
+ "area4:panggung sari, kuching": null,
+ "area4:panggung sari": null,
+ "area4:genting highlands": {
+  "lat": 3.4237,
+  "lng": 101.7934,
+  "label": "Genting Highlands, Bentong",
+  "kind": "town"
+ },
+ "area4:jalan kampung air hitam, sungai sejuk, ipoh": null,
+ "area4:jalan kampung air hitam, sungai sejuk": null,
+ "area4:jalan kampung air hitam, ipoh": null,
+ "area4:jalan kampung air hitam": {
+  "lat": 5.0169,
+  "lng": 100.8232,
+  "label": "Jalan Kampung Paya Hilir, Kampung Air Hitam",
+  "kind": "residential"
+ },
+ "area4:kota bharu": {
+  "lat": 6.1248,
+  "lng": 102.2378,
+  "label": "Kota Bharu, Kelantan",
+  "kind": "town"
+ },
+ "area4:kampung padang lepai, kadok": null,
+ "area4:kampung padang lepai, kota bharu": null,
+ "area4:kampung padang lepai": null,
+ "area4:kadok, kota bharu": {
+  "lat": 5.9949,
+  "lng": 102.2455,
+  "label": "Kadok, Padang Chenok",
+  "kind": "suburb"
+ },
+ "area4:kuantan": {
+  "lat": 3.7974,
+  "lng": 103.3219,
+  "label": "Kuantan, Pahang",
+  "kind": "city"
+ },
+ "area4:jalan air putih, kuantan": null,
+ "area4:jalan air putih": {
+  "lat": 6.1114,
+  "lng": 100.3587,
+  "label": "Lorong Air Putih, Taman Setar",
+  "kind": "residential"
+ },
+ "area4:klang": {
+  "lat": 3.0448,
+  "lng": 101.4447,
+  "label": "Bandaraya Klang, Klang",
+  "kind": "city"
+ },
+ "area4:taman teluk gedong indah, klang": null,
+ "area4:taman teluk gedong indah": null,
+ "area4:parit": null,
+ "area4:kampung kadok, hrpz ii": null,
+ "area4:hrpz ii, kota bharu": null,
+ "area4:hrpz ii": null,
+ "area4:kampung kadok": {
+  "lat": 5.999,
+  "lng": 102.2476,
+  "label": "Kampung Kadok, Padang Chenok",
+  "kind": "hamlet"
+ },
+ "area4:genting": null,
+ "area4:tasik bera": null,
+ "area4:seremban": {
+  "lat": 2.7231,
+  "lng": 101.9401,
+  "label": "Seremban, Negeri Sembilan",
+  "kind": "city"
+ },
+ "area4:kampung padang lepai, kadok, kota bharu": null,
+ "area4:kampung rantau panjang, klang": {
+  "lat": 3.0636,
+  "lng": 101.4182,
+  "label": "Kampung Rantau Panjang, Kampung Batu 3",
+  "kind": "neighbourhood"
+ },
+ "area4:masjid al-aziz al-hadi, kota spp, kota bharu": null,
+ "area4:masjid al-aziz al-hadi, kota spp": null,
+ "area4:masjid al-aziz al-hadi, kota bharu": null,
+ "area4:masjid al-aziz al-hadi": null,
+ "area4:tumpat, kota bharu": null,
+ "area4:green road": null,
+ "area4:tumpat": {
+  "lat": 6.1764,
+  "lng": 102.1663,
+  "label": "Tumpat, Kelantan",
+  "kind": "district"
+ },
+ "area4:petaling jaya": {
+  "lat": 3.0989,
+  "lng": 101.6454,
+  "label": "Petaling Jaya, Petaling",
+  "kind": "city"
+ },
+ "area4:johor baru": {
+  "lat": 1.4582,
+  "lng": 103.7649,
+  "label": "Johor Bahru, Johor",
+  "kind": "town"
+ },
+ "area4:nexus, johor baru": null,
+ "area4:nexus": {
+  "lat": 3.1107,
+  "lng": 101.7306,
+  "label": "Nexus Taman Pertama, Cheras",
+  "kind": "residential"
+ },
+ "area4:ayer keroh": {
+  "lat": 2.256,
+  "lng": 102.2915,
+  "label": "Ayer Keroh, Majlis Perbandaran Hang Tuah Jaya",
+  "kind": "town"
+ },
+ "area4:bentong": {
+  "lat": 3.3625,
+  "lng": 102.0173,
+  "label": "Bentong, Pahang",
+  "kind": "district"
+ },
+ "area4:jalan air putih, kuantan, bentong": null,
+ "area4:jalan air putih, bentong": null,
+ "area4:perak tengah": {
+  "lat": 4.25,
+  "lng": 100.9167,
+  "label": "Perak Tengah, Perak",
+  "kind": "district"
+ },
+ "area4:kilometer 12, jalan trans, perak tengah": null,
+ "area4:kilometer 12, jalan trans": null,
+ "area4:kilometer 12, perak tengah": null,
+ "area4:kilometer 12": null,
+ "area4:air putih, kuantan": null,
+ "area4:air putih": {
+  "lat": 5.1816,
+  "lng": 100.6005,
+  "label": "Ayer Puteh, Bandar Baharu",
+  "kind": "village"
+ },
+ "area4:sepang": {
+  "lat": 2.8009,
+  "lng": 101.7094,
+  "label": "Sepang, Selangor",
+  "kind": "city"
+ },
+ "area4:bukit mertajam": {
+  "lat": 5.3643,
+  "lng": 100.461,
+  "label": "Bukit Mertajam, Seberang Perai Tengah",
+  "kind": "suburb"
+ },
+ "area4:seberang perai": {
+  "lat": 5.3539,
+  "lng": 100.4572,
+  "label": "Seberang Perai, Pulau Pinang",
+  "kind": "state_district"
+ },
+ "area4:kampung berangan": null,
+ "area4:bachok": {
+  "lat": 5.9951,
+  "lng": 102.3867,
+  "label": "باچوق / Bachok, Kelantan",
+  "kind": "district"
+ },
+ "area4:perumahan orang kurang upaya, bachok": null,
+ "area4:perumahan orang kurang upaya": null,
+ "area4:tanjung gemuk": null,
+ "area4:sekolah": {
+  "lat": 2.0425,
+  "lng": 102.5659,
+  "label": "Sekolah Menengah Kebangsaan Tun Dr. Ismail, Muar",
+  "kind": "city"
+ },
+ "area4:yong peng, batu pahat": {
+  "lat": 2.0132,
+  "lng": 103.0571,
+  "label": "Yong Peng, Batu Pahat",
+  "kind": "town"
+ },
+ "area4:taman sri bintang, kepong, petaling jaya": null,
+ "area4:taman sri bintang, kepong": null,
+ "area4:taman sri bintang, petaling jaya": null,
+ "area4:taman sri bintang": null,
+ "area4:stesen taman equine, kuala lumpur": null,
+ "area4:stesen taman equine": null,
+ "area4:laluan putrajaya, kuala lumpur": null,
+ "area4:laluan putrajaya": null,
+ "area4:kepong": {
+  "lat": 3.214,
+  "lng": 101.6348,
+  "label": "Kepong, Kuala Lumpur",
+  "kind": "town"
+ },
+ "area4:kapar, klang": {
+  "lat": 3.1377,
+  "lng": 101.3732,
+  "label": "Kapar, Bandaraya Klang",
+  "kind": "town"
+ },
+ "area4:jalan abas, kapar": null,
+ "area4:kapar, klang, kuala lumpur": null,
+ "area4:bank dunia": null,
+ "area4:kuala terengganu": {
+  "lat": 5.3296,
+  "lng": 103.1383,
+  "label": "Kuala Terengganu, Terengganu",
+  "kind": "city"
+ },
+ "area4:kampung banggol tasik, bukit payung, kuala terengganu": null,
+ "area4:kampung banggol tasik, bukit payung": null,
+ "area4:kampung banggol tasik, kuala terengganu": null,
+ "area4:kampung banggol tasik": {
+  "lat": 5.5437,
+  "lng": 102.7548,
+  "label": "Kampung Tasik, Bandar Permaisuri",
+  "kind": "hamlet"
+ },
+ "area4:bukit payong, kuala terengganu": null,
+ "area4:bukit payong": {
+  "lat": 5.2335,
+  "lng": 103.1013,
+  "label": "Bukit Payong, Marang",
+  "kind": "town"
+ },
+ "area4:lundu": {
+  "lat": 1.748,
+  "lng": 109.7772,
+  "label": "Lundu, Bahagian Kuching",
+  "kind": "county"
+ },
+ "area4:kampung trombol, lundu": null,
+ "area4:kampung trombol": null,
+ "area4:menglembu, ipoh": {
+  "lat": 4.5704,
+  "lng": 101.0413,
+  "label": "Menglembu, Majlis Bandaraya Ipoh",
+  "kind": "suburb"
+ },
+ "area4:marang": {
+  "lat": 5.1667,
+  "lng": 103.1667,
+  "label": "Marang, Terengganu",
+  "kind": "district"
+ },
+ "area4:kampung tasek, marang": {
+  "lat": 5.2374,
+  "lng": 103.0865,
+  "label": "Kampung Tasek, Marang",
+  "kind": "village"
+ },
+ "area4:kampung siol kandis": {
+  "lat": 1.5772,
+  "lng": 110.359,
+  "label": "Jalan Kampung Siol Kandis, Petra Jaya",
+  "kind": "residential"
+ },
+ "area4:yong peng, batu pahat, kuala lumpur": null,
+ "area4:kanowit": {
+  "lat": 1.9353,
+  "lng": 112.2099,
+  "label": "Kanowit, Bahagian Sibu",
+  "kind": "county"
+ },
+ "area4:man utd": null,
+ "area4:tanjong sepat, kuala langat, shah alam": null,
+ "area4:tanjong sepat, kuala langat": {
+  "lat": 2.6599,
+  "lng": 101.5629,
+  "label": "Pekan Tanjung Sepat, Kuala Langat",
+  "kind": "village"
+ },
+ "area4:kampung, ipoh": {
+  "lat": 4.5982,
+  "lng": 101.0633,
+  "label": "Kampung Baru Buntong, Buntong",
+  "kind": "hamlet"
+ },
+ "area4:kampung berangan, tumpat": {
+  "lat": 6.1684,
+  "lng": 102.1953,
+  "label": "Kampung Berangan, Kampung Kok Pasir",
+  "kind": "hamlet"
+ },
+ "area4:saratok": {
+  "lat": 1.7636,
+  "lng": 111.4441,
+  "label": "Saratok, Bahagian Betong",
+  "kind": "county"
+ },
+ "area4:depo risda ulu awik, saratok": null,
+ "area4:depo risda ulu awik": null,
+ "area4:ulu awik, saratok": {
+  "lat": 1.7737,
+  "lng": 111.3829,
+  "label": "Ulu Awik, Saratok",
+  "kind": "village"
+ },
+ "area4:jalan green, kuching": null,
+ "area4:jalan green": null,
+ "area4:nilai": {
+  "lat": 2.8021,
+  "lng": 101.7982,
+  "label": "Nilai, Seremban",
+  "kind": "town"
+ },
+ "area4:kompleks perumahan awam, nilai": null,
+ "area4:kompleks perumahan awam": null,
+ "area4:temerloh, kuantan": null,
+ "area4:temerloh": {
+  "lat": 3.6124,
+  "lng": 102.2567,
+  "label": "Temerloh, Pahang",
+  "kind": "district"
+ },
+ "area4:temerloh, mentakab, kuantan": null,
+ "area4:temerloh, mentakab": {
+  "lat": 3.4865,
+  "lng": 102.3515,
+  "label": "Mentakab, Temerloh",
+  "kind": "town"
+ },
+ "area4:kampung cheh hilir, kati": null,
+ "area4:kampung cheh hilir": null,
+ "area4:kajang, selangor, kuala lumpur": null,
+ "area4:kajang, selangor": {
+  "lat": 2.9948,
+  "lng": 101.7897,
+  "label": "Majlis Perbandaran Kajang, Hulu Langat",
+  "kind": "city"
+ },
+ "area4:felda lok heng selatan, facebook orang kota tinggi": null,
+ "area4:felda lok heng selatan, kota tinggi": null,
+ "area4:felda lok heng selatan": null,
+ "area4:facebook orang kota tinggi": null,
+ "area4:bukit merah": {
+  "lat": 4.5524,
+  "lng": 101.0409,
+  "label": "Bukit Merah, Majlis Bandaraya Ipoh",
+  "kind": "suburb"
+ },
+ "area4:ranau": {
+  "lat": 5.898,
+  "lng": 116.6696,
+  "label": "Ranau, Bahagian Pantai Barat",
+  "kind": "county"
+ },
+ "area4:pasir puteh, kelantan": {
+  "lat": 5.8346,
+  "lng": 102.383,
+  "label": "ڤاسير ڤوتيه / Pasir Puteh, Kelantan",
+  "kind": "district"
+ },
+ "area4:felda lok selatan": null,
+ "area4:parlimen": null,
+ "area4:matang": {
+  "lat": 4.8201,
+  "lng": 100.6719,
+  "label": "Matang, Larut",
+  "kind": "village"
+ },
+ "area4:kampung cheh hilir, kati, ipoh": null,
+ "area4:kampung cheh hilir, ipoh": null,
+ "area4:juhu": null,
+ "area4:bukit bintang": {
+  "lat": 3.1471,
+  "lng": 101.7086,
+  "label": "Bukit Bintang, Kuala Lumpur",
+  "kind": "suburb"
+ },
+ "area4:jalan cythula, miri": null,
+ "area4:jalan cythula": null,
+ "area4:jalan bukit bintang, kuala lumpur": null,
+ "area4:jalan bukit bintang": null,
+ "area4:felda lok hen": null,
+ "area4:pasir puteh, kota bharu": null,
+ "area4:pasir puteh": {
+  "lat": 5.8346,
+  "lng": 102.383,
+  "label": "ڤاسير ڤوتيه / Pasir Puteh, Kelantan",
+  "kind": "district"
+ },
+ "area4:pusat sukan stockholm": null,
+ "area4:dang wangi": null,
+ "area4:titiwangsa": null,
+ "area4:lutong baru, miri": {
+  "lat": 4.4754,
+  "lng": 114.0153,
+  "label": "Lutong Baru, Kampong Tulang",
+  "kind": "suburb"
+ },
+ "area4:oregon": null,
+ "area4:silver rail elementary school, oregon": null,
+ "area4:silver rail elementary school": null,
+ "area4:bend, oregon": null,
+ "area4:bend": null,
+ "area4:pasir mas": {
+  "lat": 6.0081,
+  "lng": 102.0925,
+  "label": "Pasir Mas, Kelantan",
+  "kind": "district"
+ },
+ "area4:kampung berangan, masjid al-aziz al-hadi": null,
+ "area4:masjid al-aziz al-hadi, kampung berangan, pasir mas": null,
+ "area4:masjid al-aziz al-hadi, kampung berangan": null,
+ "area4:masjid al-aziz al-hadi, pasir mas": null,
+ "area4:nilai, negeri sembilan": {
+  "lat": 2.8021,
+  "lng": 101.7982,
+  "label": "Nilai, Seremban",
+  "kind": "town"
+ },
+ "area4:kilometer 26, kuala lumpur": null,
+ "area4:kilometer 26": null,
+ "area4:damansara": {
+  "lat": 3.1537,
+  "lng": 101.5935,
+  "label": "Kota Damansara, Petaling Jaya",
+  "kind": "suburb"
+ },
+ "area4:kuarters klia, nilai": {
+  "lat": 2.7696,
+  "lng": 101.7624,
+  "label": "Jalan Dewan Kuarters KLIA, Kompleks KLIA",
+  "kind": "residential"
+ },
+ "area4:kompleks kediaman kakitangan awam klia, nilai": null,
+ "area4:kompleks kediaman kakitangan awam klia": null,
+ "area4:nilai, seremban": {
+  "lat": 2.8021,
+  "lng": 101.7982,
+  "label": "Nilai, Seremban",
+  "kind": "town"
+ },
+ "area4:nilai, negeri sembilan, tumpat": null,
+ "area4:permas jaya, masai, johor bahru": null,
+ "area4:permas jaya, masai": null,
+ "area4:permas jaya, johor bahru": {
+  "lat": 1.496,
+  "lng": 103.8165,
+  "label": "Bandar Baru Permas Jaya, Kampung Senibong",
+  "kind": "suburb"
+ },
+ "area4:cyberjaya": {
+  "lat": 2.9339,
+  "lng": 101.6456,
+  "label": "Cyberjaya, Sepang",
+  "kind": "town"
+ },
+ "area4:salak bharu, sungai siput": null,
+ "area4:salak bharu": null,
+ "area4:kuala kangsar, sungai siput": {
+  "lat": 4.8197,
+  "lng": 101.0722,
+  "label": "Sungai Siput, Kuala Kangsar",
+  "kind": "town"
+ },
+ "area4:kampung berangan, tumpat, pasir mas": null,
+ "area4:cyberjaya, sepang": {
+  "lat": 2.9339,
+  "lng": 101.6456,
+  "label": "Cyberjaya, Sepang",
+  "kind": "town"
+ },
+ "area4:kuarters lapangan terbang antarabangsa kuala lumpur, seremban": null,
+ "area4:kuarters lapangan terbang antarabangsa kuala lumpur": null,
+ "area4:kalabakan, tawau": {
+  "lat": 4.4496,
+  "lng": 117.9481,
+  "label": "Tawau Hills Park, Tawau",
+  "kind": "national_park"
+ },
+ "area4:kalabakan": {
+  "lat": 4.4809,
+  "lng": 117.4071,
+  "label": "Kalabakan, Bahagian Tawau",
+  "kind": "county"
+ },
+ "area4:kuarters klia": null,
+ "area4:kompleks perumahan awam, tumpat": null,
+ "area4:lapangan terbang antarabangsa kuala lumpur, tumpat": null,
+ "area4:lapangan terbang antarabangsa kuala lumpur": null,
+ "area4:kuarters lapangan terbang antarabangsa kuala lumpur, nilai": null,
+ "area4:selat hormuz": null,
+ "area4:kampung titingan, tawau": {
+  "lat": 4.2425,
+  "lng": 117.9043,
+  "label": "Kampung Titingan, Tawau",
+  "kind": "neighbourhood"
+ },
+ "area4:desa senadin, miri": {
+  "lat": 4.4947,
+  "lng": 114.0349,
+  "label": "Desa Senadin, Miri",
+  "kind": "residential"
+ },
+ "area4:sarikei": {
+  "lat": 2.0508,
+  "lng": 111.4176,
+  "label": "Sarikei, Bahagian Sarikei",
+  "kind": "county"
+ },
+ "area4:semenyih": {
+  "lat": 2.9474,
+  "lng": 101.846,
+  "label": "Semenyih, Majlis Perbandaran Kajang",
+  "kind": "town"
+ },
+ "area4:titingan": {
+  "lat": 4.2424,
+  "lng": 117.9003,
+  "label": "PPR Taman Sri Titingan, Tawau",
+  "kind": "residential"
+ },
+ "area4:kampung melayu pachor, seremban, kuala lumpur": null,
+ "area4:kampung melayu pachor, seremban": null,
+ "area4:kampung melayu pachor, kuala lumpur": null,
+ "area4:kampung melayu pachor": null,
+ "area4:kinabatangan": {
+  "lat": 5.3326,
+  "lng": 118.1213,
+  "label": "Kinabatangan, Bahagian Sandakan",
+  "kind": "county"
+ },
+ "area4:felda adela": null,
+ "area4:gurun, alor setar": null,
+ "area4:gurun": {
+  "lat": 5.8202,
+  "lng": 100.4772,
+  "label": "Gurun, Kuala Muda",
+  "kind": "town"
+ },
+ "area4:kampung melayu subang": {
+  "lat": 3.1544,
+  "lng": 101.5328,
+  "label": "Kampung Melayu Subang, Seksyen U6",
+  "kind": "residential"
+ },
+ "area4:sungai buloh": null,
+ "area4:kampung melayu subang, sungai buloh": null,
+ "area4:jalan harvard gold club, gurun": null,
+ "area4:jalan harvard gold club": null,
+ "area4:kampung melayu panchor, seremban": null,
+ "area4:kampung melayu panchor": null,
+ "area4:setiawangsa, kuala lumpur": {
+  "lat": 3.1828,
+  "lng": 101.7452,
+  "label": "Setiawangsa, Kuala Lumpur",
+  "kind": "suburb"
+ },
+ "area4:taman sri watan": {
+  "lat": 3.1386,
+  "lng": 101.7725,
+  "label": "Taman Sri Watan, Kampung Indah Permai",
+  "kind": "neighbourhood"
+ },
+ "area4:ketereh, kota bharu": {
+  "lat": 5.9589,
+  "lng": 102.2513,
+  "label": "Ketereh, Kota Bharu",
+  "kind": "town"
+ },
+ "area4:tabuan tranquility": {
+  "lat": 1.5187,
+  "lng": 110.3914,
+  "label": "Tabuan Tranquility, Kuching",
+  "kind": "suburb"
+ },
+ "area4:iskandar puteri": {
+  "lat": 1.4523,
+  "lng": 103.6145,
+  "label": "Iskandar Puteri, Johor Bahru",
+  "kind": "town"
+ },
+ "area4:taman pulai indah, iskandar puteri": {
+  "lat": 1.5397,
+  "lng": 103.5805,
+  "label": "Taman Pulai Indah, Iskandar Puteri",
+  "kind": "neighbourhood"
+ },
+ "area4:paya rumput": {
+  "lat": 2.2936,
+  "lng": 102.2155,
+  "label": "Paya Rumput, Bandaraya Melaka",
+  "kind": "quarter"
+ },
+ "area4:tangga batu": {
+  "lat": 2.2495,
+  "lng": 102.1555,
+  "label": "Tangga Batu, Bandaraya Melaka",
+  "kind": "quarter"
+ },
+ "area4:amman": null,
+ "area4:bachok, kota bharu": null,
+ "area4:teluk intan": {
+  "lat": 4.0232,
+  "lng": 101.0262,
+  "label": "Teluk Intan, Hilir Perak",
+  "kind": "city"
+ },
+ "area4:jalan yong peng-muar, parit yaani": null,
+ "area4:jalan yong peng-muar, batu pahat": null,
+ "area4:jalan yong peng-muar": null,
+ "area4:parit yaani, batu pahat": {
+  "lat": 1.954,
+  "lng": 103.0259,
+  "label": "Parit Yaani, Batu Pahat",
+  "kind": "village"
+ },
+ "area4:dun ayer keroh, rumbia": null,
+ "area4:dun ayer keroh": null,
+ "area4:niger": null,
+ "area4:brickfields": {
+  "lat": 3.1289,
+  "lng": 101.6846,
+  "label": "Brickfields, Kuala Lumpur",
+  "kind": "suburb"
+ },
+ "area4:indonesian": {
+  "lat": 3.1304,
+  "lng": 101.4784,
+  "label": "Indonesian Village, Seksyen U10",
+  "kind": "residential"
+ },
+ "area4:kuala selangor": {
+  "lat": 3.3621,
+  "lng": 101.3456,
+  "label": "Kuala Selangor, Selangor",
+  "kind": "district"
+ },
+ "area4:tanjong karang, kuala selangor": {
+  "lat": 3.4249,
+  "lng": 101.1765,
+  "label": "Tanjong Karang, Kuala Selangor",
+  "kind": "town"
+ },
+ "area4:brickfields, kuala lumpur": {
+  "lat": 3.1289,
+  "lng": 101.6846,
+  "label": "Brickfields, Kuala Lumpur",
+  "kind": "suburb"
+ },
+ "area4:kajang": {
+  "lat": 2.9948,
+  "lng": 101.7897,
+  "label": "Majlis Perbandaran Kajang, Hulu Langat",
+  "kind": "city"
+ },
+ "area4:damansara damai, petaling jaya, kuala lumpur": null,
+ "area4:damansara damai, petaling jaya": {
+  "lat": 3.1921,
+  "lng": 101.5919,
+  "label": "Damansara Damai, PJU 10",
+  "kind": "suburb"
+ },
+ "area4:frankfurt": null,
+ "area4:damansara damai": {
+  "lat": 3.1921,
+  "lng": 101.5919,
+  "label": "Damansara Damai, PJU 10",
+  "kind": "suburb"
+ },
+ "area4:lumut": {
+  "lat": 4.2246,
+  "lng": 100.6212,
+  "label": "Lumut, Manjung",
+  "kind": "town"
+ },
+ "area4:taman hijau, kampung koh, lumut": null,
+ "area4:taman hijau, kampung koh": null,
+ "area4:taman hijau, lumut": null,
+ "area4:taman hijau": null,
+ "area4:toronto": null,
+ "area4:sitiawan": {
+  "lat": 4.2162,
+  "lng": 100.6952,
+  "label": "Sitiawan, Manjung",
+  "kind": "town"
+ },
+ "area4:taman mas, sitiawan, lumut": null,
+ "area4:taman mas, sitiawan": {
+  "lat": 4.194,
+  "lng": 100.7083,
+  "label": "Taman Mas A, Sitiawan",
+  "kind": "neighbourhood"
+ },
+ "area4:bangi": null,
+ "area4:taman pandan damai, taman tas": null,
+ "area4:taman pandan damai": {
+  "lat": 3.7941,
+  "lng": 103.2418,
+  "label": "Lorong Pandan Damai 1/23, Taman Pandan Damai 1",
+  "kind": "residential"
+ },
+ "area4:bulatan kampung pandan": null,
+ "area4:labuan": {
+  "lat": 5.3168,
+  "lng": 115.2199,
+  "label": "Labuan, Malaysia",
+  "kind": "state"
+ },
+ "area4:taman tas, kuantan": {
+  "lat": 3.775,
+  "lng": 103.2364,
+  "label": "Taman Tas, Kuantan",
+  "kind": "neighbourhood"
+ },
+ "area4:taman orkid, sungai siput": null,
+ "area4:taman orkid": null,
+ "area4:kulai, johor bahru": null,
+ "area4:kulai": {
+  "lat": 1.6667,
+  "lng": 103.6,
+  "label": "Kulai, Johor",
+  "kind": "district"
+ },
+ "area4:kulai besar kula": null,
+ "area4:jitra": {
+  "lat": 6.2668,
+  "lng": 100.4197,
+  "label": "Jitra, Kubang Pasu",
+  "kind": "town"
+ },
+ "area4:sintok, jitra": null,
+ "area4:sintok": {
+  "lat": 6.4451,
+  "lng": 100.4811,
+  "label": "Sintok, Bukit Kachi",
+  "kind": "village"
+ },
+ "area4:kulim": {
+  "lat": 5.3707,
+  "lng": 100.6172,
+  "label": "Kulim, Kedah",
+  "kind": "district"
+ },
+ "area4:bangi avenue, kajang": {
+  "lat": 2.899,
+  "lng": 101.7929,
+  "label": "Bangi Avenue, Bangi Lama",
+  "kind": "neighbourhood"
+ },
+ "area4:bangi avenue, kuala lumpur": null,
+ "area4:bangi avenue": {
+  "lat": 2.899,
+  "lng": 101.7929,
+  "label": "Bangi Avenue, Bangi Lama",
+  "kind": "neighbourhood"
+ },
+ "area4:george town": {
+  "lat": 5.4142,
+  "lng": 100.3287,
+  "label": "George Town, Pulau Pinang",
+  "kind": "city"
+ },
+ "area4:bandar bukit tinggi, klang, shah alam": null,
+ "area4:bandar bukit tinggi, klang": {
+  "lat": 3.006,
+  "lng": 101.4369,
+  "label": "Bandar Bukit Tinggi, Bandaraya Klang",
+  "kind": "suburb"
+ },
+ "area4:kota samarahan": {
+  "lat": 1.4637,
+  "lng": 110.4891,
+  "label": "Kota Samarahan, Samarahan",
+  "kind": "city"
+ },
+ "area4:bejait ulu bawan, kanowit, saratok": null,
+ "area4:bejait ulu bawan, kanowit": null,
+ "area4:bejait ulu bawan, saratok": null,
+ "area4:bejait ulu bawan": null,
+ "area4:taiping, ipoh": {
+  "lat": 4.583,
+  "lng": 101.0807,
+  "label": "Taman Taiping, Kampung Kuchai",
+  "kind": "neighbourhood"
+ },
+ "area4:felda lok heng selatan, kota tinggi, johor bahru": null,
+ "area4:felda lok heng selatan, johor bahru": null,
+ "area4:congo": null,
+ "area4:awik, saratok": {
+  "lat": 1.7737,
+  "lng": 111.3829,
+  "label": "Ulu Awik, Saratok",
+  "kind": "village"
+ },
+ "area4:pulau, ipoh": null,
+ "area4:pulau": null,
+ "area4:tanjong bungah, bukit mertajam, ipoh": null,
+ "area4:tanjong bungah, bukit mertajam": null,
+ "area4:tanjong bungah, ipoh": null,
+ "area4:sibu foochow park, sarawak": null,
+ "area4:sibu foochow park": null,
+ "area4:jalan gambir, sibu": {
+  "lat": 2.3166,
+  "lng": 111.8433,
+  "label": "Jalan Gambir, Sibu",
+  "kind": "residential"
+ },
+ "area4:keningau": {
+  "lat": 5.2179,
+  "lng": 116.2463,
+  "label": "Keningau, Bahagian Pedalaman",
+  "kind": "county"
+ },
+ "area4:lahad datu": {
+  "lat": 5.1155,
+  "lng": 118.4306,
+  "label": "Lahad Datu, Bahagian Tawau",
+  "kind": "county"
+ },
+ "area4:pekan": {
+  "lat": 3.3782,
+  "lng": 103.2096,
+  "label": "Pekan, Pahang",
+  "kind": "district"
+ },
+ "area4:felda chini, pekan": {
+  "lat": 3.3754,
+  "lng": 102.944,
+  "label": "FELDA Chini, Pekan",
+  "kind": "village"
+ },
+ "area4:jalan khoo peng loong, sibu": null,
+ "area4:jalan khoo peng loong": null,
+ "area4:jalan awik, saratok": {
+  "lat": 1.8076,
+  "lng": 111.3895,
+  "label": "Jalan Raya Ulu Awik Saratok, Ulu Awik",
+  "kind": "residential"
+ },
+ "area4:tanjong bungah": {
+  "lat": 5.4648,
+  "lng": 100.2845,
+  "label": "Tanjong Bungah, Timur Laut",
+  "kind": "suburb"
+ },
+ "area4:muar, johor": {
+  "lat": 2.05,
+  "lng": 102.5667,
+  "label": "Muar, Johor",
+  "kind": "district"
+ },
+ "area4:kompleks perumahan penjawat awam, nilai, seremban": null,
+ "area4:kompleks perumahan penjawat awam, nilai": null,
+ "area4:kompleks perumahan penjawat awam, seremban": null,
+ "area4:kompleks perumahan penjawat awam": null,
+ "area4:kompleks mahkamah seremban": null,
+ "area4:hyderabad": null,
+ "area4:guwahati, hyderabad": null,
+ "area4:guwahati": null,
+ "area4:berlin": null,
+ "area4:banjaran alps bavaria, berlin": null,
+ "area4:banjaran alps bavaria": null,
+ "area4:kampung jawa": null,
+ "area4:pujut": {
+  "lat": 4.4366,
+  "lng": 114.0184,
+  "label": "Pujut, Kampung Piasau Utara",
+  "kind": "suburb"
+ },
+ "area4:mg flash": null,
+ "area4:langit, mengakar": null,
+ "area4:langit": null,
+ "area4:bumi": {
+  "lat": 2.5024,
+  "lng": 112.9547,
+  "label": "Sarawak, Malaysia",
+  "kind": "state"
+ },
+ "area4:taman seri jerai, gurun": {
+  "lat": 5.8034,
+  "lng": 100.4799,
+  "label": "Taman Seri Jerai, Gurun",
+  "kind": "residential"
+ },
+ "area4:litar antarabangsa sepang": null,
+ "area4:matu": {
+  "lat": 2.6541,
+  "lng": 111.6853,
+  "label": "Matu, Bahagian Mukah",
+  "kind": "county"
+ },
+ "area4:malaysia 2026, sepang": {
+  "lat": 2.8009,
+  "lng": 101.7094,
+  "label": "Sepang, Selangor",
+  "kind": "city"
+ },
+ "area4:kampung kedai menanti, pasir puteh, kota bharu": null,
+ "area4:kampung kedai menanti, pasir puteh": {
+  "lat": 5.9347,
+  "lng": 102.3433,
+  "label": "Kampung Kedai Menanti, ڤاسير ڤوتيه / Pasir Puteh",
+  "kind": "village"
+ },
+ "area4:plovdiv": null,
+ "area4:bulgaria, pimk": null,
+ "area4:bulgaria": null,
+ "area4:plovdiv, sofia": null,
+ "area4:serian": {
+  "lat": 1.1009,
+  "lng": 110.7104,
+  "label": "Serian, Bahagian Serian",
+  "kind": "county"
+ },
+ "area4:dighi": null,
+ "area4:dallas": {
+  "lat": 6.9742,
+  "lng": 117.1133,
+  "label": "Dallas, Bahagian Kudat",
+  "kind": "village"
+ },
+ "area4:pasir gudang, johor bahru": {
+  "lat": 1.4953,
+  "lng": 103.9207,
+  "label": "Pasir Gudang, Johor Bahru",
+  "kind": "town"
+ },
+ "area4:op spark": null,
+ "area4:labuan, op spark": null,
+ "area4:ampang": {
+  "lat": 3.122,
+  "lng": 101.7635,
+  "label": "Ampang, Majlis Perbandaran Ampang Jaya",
+  "kind": "city_district"
+ },
+ "area4:bidor sentral, ipoh": null,
+ "area4:bidor sentral": null,
+ "area4:taman sri bintang kepong, kuala lumpur": null,
+ "area4:taman sri bintang kepong": null,
+ "area4:tapah": null,
+ "area4:bidor sentral, bidor, tapah": null,
+ "area4:bidor sentral, bidor": null,
+ "area4:bidor sentral, tapah": null,
+ "area4:bidor, tapah": {
+  "lat": 4.1496,
+  "lng": 101.2693,
+  "label": "Jalan PR1MA Tapah 2, Residensi Tapah",
+  "kind": "residential"
+ },
+ "area4:pasir gudang, johor bharu": null,
+ "area4:pasir gudang": {
+  "lat": 1.4953,
+  "lng": 103.9207,
+  "label": "Pasir Gudang, Johor Bahru",
+  "kind": "town"
+ },
+ "area4:long lellang": {
+  "lat": 3.4207,
+  "lng": 115.1543,
+  "label": "Long Lellang, Bario",
+  "kind": "village"
+ },
+ "area4:plentong, johor bahru": {
+  "lat": 1.5242,
+  "lng": 103.8227,
+  "label": "Plentong, Johor Bahru",
+  "kind": "town"
+ },
+ "area4:tamil nadu": null,
+ "area4:youtuber, tamil nadu": null,
+ "area4:youtuber": null,
+ "area4:taman sri bintang, kepong, kuala lumpur": null,
+ "area4:taman sri bintang, kuala lumpur": null,
+ "area4:plentong": {
+  "lat": 1.5242,
+  "lng": 103.8227,
+  "label": "Plentong, Johor Bahru",
+  "kind": "town"
+ },
+ "area4:bratislava": null,
+ "area4:staskov, bratislava": null,
+ "area4:staskov": null,
+ "area4:bidor": {
+  "lat": 4.1139,
+  "lng": 101.2884,
+  "label": "Bidor, Batang Padang",
+  "kind": "town"
+ },
+ "area4:felda umas, jalan kalabakan, tawau": null,
+ "area4:felda umas, jalan kalabakan": null,
+ "area4:felda umas, tawau": {
+  "lat": 4.4778,
+  "lng": 117.6582,
+  "label": "Felda Gugusan Umas, Kalabakan",
+  "kind": "village"
+ },
+ "area4:segambut, kuala lumpur": {
+  "lat": 3.1871,
+  "lng": 101.6645,
+  "label": "Segambut, Kepong",
+  "kind": "suburb"
+ },
+ "area4:laluan kledang utara, taman wang": {
+  "lat": 4.5798,
+  "lng": 101.0355,
+  "label": "Laluan Kledang Utara 19, Taman Arkid",
+  "kind": "residential"
+ },
+ "area4:jalan 44, kuala lumpur": null,
+ "area4:jalan 44": null,
+ "area4:jalan kuda emas, kuala lumpur": null,
+ "area4:jalan kuda emas": {
+  "lat": 3.0378,
+  "lng": 101.719,
+  "label": "Jalan Kuda Emas, Seri Kembangan",
+  "kind": "residential"
+ },
+ "area4:kuala pilah": {
+  "lat": 2.7431,
+  "lng": 102.2155,
+  "label": "Kuala Pilah, Negeri Sembilan",
+  "kind": "district"
+ },
+ "area4:kampung tanjung bundong, kota samarahan": null,
+ "area4:kampung tanjung bundong": {
+  "lat": 1.4702,
+  "lng": 110.4888,
+  "label": "Kampung Tanjung Bundong Lot Fasa III, Kampung Tanjung Bundong Lot",
+  "kind": "neighbourhood"
+ },
+ "area4:jalan green, sri aman": null,
+ "area4:sri aman, kuching": null,
+ "area4:sri aman": {
+  "lat": 1.2088,
+  "lng": 111.408,
+  "label": "Sri Aman, Bahagian Sri Aman",
+  "kind": "county"
+ },
+ "area4:menglembu": {
+  "lat": 4.5704,
+  "lng": 101.0413,
+  "label": "Menglembu, Majlis Bandaraya Ipoh",
+  "kind": "suburb"
+ },
+ "area4:kampar": {
+  "lat": 4.3,
+  "lng": 101.15,
+  "label": "Kampar, Perak",
+  "kind": "district"
+ },
+ "area4:laluan kledang utara, taman wang, kampar": null,
+ "area4:taman wang, menglembu, kampar": null,
+ "area4:taman wang, menglembu": {
+  "lat": 4.5731,
+  "lng": 101.0487,
+  "label": "Bandar Baru Menglembu, Menglembu",
+  "kind": "neighbourhood"
+ },
+ "area4:taman wang, pusing": null,
+ "area4:ajbc": null,
+ "area4:jalan anson": null,
+ "area4:cheras": {
+  "lat": 3.0992,
+  "lng": 101.7374,
+  "label": "Cheras, Kuala Lumpur",
+  "kind": "suburb"
+ },
+ "area4:kampung skiat baru, bau": {
+  "lat": 1.3915,
+  "lng": 110.1928,
+  "label": "Lorong 7 Kampung Skiat Baru, Jambusan",
+  "kind": "residential"
+ },
+ "area4:festival tarian topeng andong": null,
+ "area4:kampung baru semenyih": {
+  "lat": 2.9507,
+  "lng": 101.8414,
+  "label": "Kampung Baru Semenyih, Semenyih",
+  "kind": "hamlet"
+ },
+ "area4:bagan serai": {
+  "lat": 5.0122,
+  "lng": 100.5336,
+  "label": "Mukim Bagan Serai, Kerian",
+  "kind": "town"
+ },
+ "area4:kerian, bagan serai": {
+  "lat": 5.0122,
+  "lng": 100.5336,
+  "label": "Mukim Bagan Serai, Kerian",
+  "kind": "town"
+ },
+ "area4:petra jaya": {
+  "lat": 1.5716,
+  "lng": 110.3512,
+  "label": "Petra Jaya, Kuching",
+  "kind": "suburb"
+ },
+ "area4:washington": null,
+ "area4:kampung delong, dungun": {
+  "lat": 4.8097,
+  "lng": 103.307,
+  "label": "Kampung Delong, Dungun",
+  "kind": "village"
+ },
+ "area4:bayan lepas": {
+  "lat": 5.2948,
+  "lng": 100.2596,
+  "label": "Bayan Lepas, Barat Daya",
+  "kind": "town"
+ },
+ "area4:lapangan terbang antarabangsa pulau pinang, george town": null,
+ "area4:lapangan terbang antarabangsa pulau pinang": null,
+ "area4:bayan lepas, george town": {
+  "lat": 5.2948,
+  "lng": 100.2596,
+  "label": "Bayan Lepas, Barat Daya",
+  "kind": "town"
+ },
+ "area4:jalan batu kawa, kuching": null,
+ "area4:jalan batu kawa": null,
+ "area4:kampung cheh kati, kuala kangsar, ipoh": null,
+ "area4:kampung cheh kati, kuala kangsar": null,
+ "area4:kampung cheh kati, ipoh": null,
+ "area4:kampung cheh kati": null,
+ "area4:taman rekreasi persisiran sungai raja, alor setar": null,
+ "area4:taman rekreasi persisiran sungai raja": null,
+ "area4:taman rekreasi, alor setar": null,
+ "area4:taman rekreasi": null,
+ "area4:kuala kangsar": {
+  "lat": 4.7721,
+  "lng": 100.9409,
+  "label": "Kuala Kangsar, Perak",
+  "kind": "city"
+ },
+ "area4:kampung cheh, kuala kangsar": null,
+ "area4:kampung cheh": {
+  "lat": 4.755,
+  "lng": 100.7667,
+  "label": "Kampung Cheh, Taiping",
+  "kind": "hamlet"
+ },
+ "area4:limbang": {
+  "lat": 4.352,
+  "lng": 115.0602,
+  "label": "Limbang, Bahagian Limbang",
+  "kind": "county"
+ },
+ "area4:kampung cheh hilir, kati, kuala kangsar": null,
+ "area4:kampung cheh hilir, kuala kangsar": null,
+ "area4:kampung tasek tambahan, ampang sabtu, shah alam": null,
+ "area4:kampung tasek tambahan, ampang sabtu": null,
+ "area4:kampung tasek tambahan, shah alam": null,
+ "area4:kampung tasek tambahan": {
+  "lat": 3.1253,
+  "lng": 101.7703,
+  "label": "Kampung Tasik Tambahan, Ampang",
+  "kind": "hamlet"
+ },
+ "area4:beluran": {
+  "lat": 6.1367,
+  "lng": 117.3629,
+  "label": "Beluran, Bahagian Sandakan",
+  "kind": "county"
+ },
+ "area4:telupid, beluran": null,
+ "area4:telupid": {
+  "lat": 5.7903,
+  "lng": 117.1698,
+  "label": "Telupid, Bahagian Sandakan",
+  "kind": "county"
+ },
+ "area4:beaufort": {
+  "lat": 5.2911,
+  "lng": 115.6725,
+  "label": "Beaufort, Bahagian Pedalaman",
+  "kind": "county"
+ },
+ "area4:kampung darat, menumbok, beaufort": null,
+ "area4:kampung darat, menumbok": null,
+ "area4:kampung darat, beaufort": null,
+ "area4:kampung darat": null,
+ "area4:pekan telupid, beluran": null,
+ "area4:pekan telupid": null,
+ "area4:bandar baru samariang, kuching": null,
+ "area4:bandar baru samariang": null,
+ "area4:kampung tasek tambahan, ampang, shah alam": null,
+ "area4:kampung tasek tambahan, ampang": {
+  "lat": 3.1253,
+  "lng": 101.7703,
+  "label": "Kampung Tasik Tambahan, Ampang",
+  "kind": "hamlet"
+ },
+ "area4:jalan anson, george town": null,
+ "area4:taman desa kujid, pasir mas": null,
+ "area4:taman desa kujid, kampung pok, kota bharu": null,
+ "area4:taman desa kujid, kampung pok": null,
+ "area4:taman desa kujid, kota bharu": null,
+ "area4:taman desa kujid": null,
+ "area4:georgetown": null,
+ "area4:jalan anson, georgetown": null,
+ "area4:bad salzuflen, north rhine": null,
+ "area4:bad salzuflen": null,
+ "area4:king centre, kuching": null,
+ "area4:king centre": null,
+ "area4:kampung sungai baong, krokop, miri": null,
+ "area4:kampung sungai baong, krokop": {
+  "lat": 4.4251,
+  "lng": 114.0031,
+  "label": "Jalan Krokop 10, Piasau Jaya",
+  "kind": "residential"
+ },
+ "area4:kampung tasik tambahan, ampang, kuala lumpur": null,
+ "area4:kampung tasik tambahan, ampang": {
+  "lat": 3.1253,
+  "lng": 101.7703,
+  "label": "Kampung Tasik Tambahan, Ampang",
+  "kind": "hamlet"
+ },
+ "area4:pavilion embassy, kuala lumpur": {
+  "lat": 3.1614,
+  "lng": 101.7245,
+  "label": "Pavilion Embassy, Kampung Datuk Keramat",
+  "kind": "residential"
+ },
+ "area4:bengkulu": null,
+ "area4:pavilion embassy, jalan ampang, kuala lumpur": null,
+ "area4:pavilion embassy, jalan ampang": null,
+ "area4:batu gajah": null,
+ "area4:taman desa kujid, kampung panji, kota bharu": null,
+ "area4:taman desa kujid, kampung panji": null,
+ "area4:ladang kapilit, batu, tawau": null,
+ "area4:ladang kapilit, batu": null,
+ "area4:ladang kapilit, tawau": null,
+ "area4:ladang kapilit": null,
+ "area4:bukit ubi": null,
+ "area4:padang besar": {
+  "lat": 6.6599,
+  "lng": 100.3165,
+  "label": "Padang Besar, Perlis",
+  "kind": "town"
+ },
+ "area4:air itam": {
+  "lat": 5.4019,
+  "lng": 100.2778,
+  "label": "Ayer Itam, George Town",
+  "kind": "city"
+ },
+ "area4:tebingan limbang": null,
+ "area4:politeknik premier port dickson, johor bahru": null,
+ "area4:politeknik premier port dickson": null,
+ "area4:servay hypermarket, putatan, kota kinabalu": null,
+ "area4:servay hypermarket, putatan": null,
+ "area4:servay hypermarket, kota kinabalu": null,
+ "area4:servay hypermarket": null,
+ "area4:lorong jurangan, tanjung batu tengah": null,
+ "area4:tanjung batu tengah": {
+  "lat": 3.4341,
+  "lng": 102.4306,
+  "label": "Kampung Tengah, Temerloh",
+  "kind": "hamlet"
+ },
+ "area4:taman delima, sungai petani": {
+  "lat": 5.6246,
+  "lng": 100.4666,
+  "label": "Taman Delima, Kampung Bakar Bata",
+  "kind": "neighbourhood"
+ },
+ "area4:kampung pangkalan asli, merotai besar, tawau": null,
+ "area4:kampung pangkalan asli, merotai besar": null,
+ "area4:kampung pangkalan asli, tawau": null,
+ "area4:kampung pangkalan asli": null,
+ "area4:bandar baru permyjaya, miri": {
+  "lat": 4.4517,
+  "lng": 114.0371,
+  "label": "Bandar Baru Permyjaya, Permyjaya",
+  "kind": "quarter"
+ },
+ "area4:cheras business centre, kuala lumpur": null,
+ "area4:cheras business centre": null,
+ "area4:forest city starview, gelang patah": null,
+ "area4:forest city starview": {
+  "lat": 1.341,
+  "lng": 103.5932,
+  "label": "Starview Bay, Forest City",
+  "kind": "residential"
+ },
+ "area4:lawas": {
+  "lat": 4.4551,
+  "lng": 115.4272,
+  "label": "Lawas, Bahagian Limbang",
+  "kind": "county"
+ },
+ "area4:taman tiram, kulim": null,
+ "area4:taman tiram": {
+  "lat": 3.0895,
+  "lng": 101.7383,
+  "label": "Jalan Tiram, Taman Taynton View",
+  "kind": "residential"
+ },
+ "area4:taman tiram, hi, kulim": null,
+ "area4:taman tiram, hi": null,
+ "area4:gelang patah, iskandar puteri": {
+  "lat": 1.4494,
+  "lng": 103.5873,
+  "label": "Gelang Patah, Iskandar Puteri",
+  "kind": "town"
+ },
+ "area4:taman tiram, kulim, alor setar": null,
+ "area4:taman tiram, alor setar": null,
+ "area4:taman perling, johor bahru": {
+  "lat": 1.4862,
+  "lng": 103.68,
+  "label": "Taman Perling, Iskandar Puteri",
+  "kind": "suburb"
+ },
+ "area4:bandar utama, kuala lumpur": {
+  "lat": 3.1445,
+  "lng": 101.6102,
+  "label": "Bandar Utama, Petaling Jaya",
+  "kind": "suburb"
+ },
+ "area4:dengkil": {
+  "lat": 2.868,
+  "lng": 101.6756,
+  "label": "Dengkil, Sepang",
+  "kind": "town"
+ },
+ "area4:taman delux, dengkil, sepang": null,
+ "area4:taman delux, dengkil": null,
+ "area4:taman delux, sepang": null,
+ "area4:taman delux": null,
+ "area4:jalan ampang": null,
+ "area4:jalan ampang, kuala lumpur": null,
+ "area4:threads, petaling jaya": null,
+ "area4:king albert park gcb": null,
+ "area4:m'sia": null,
+ "area4:pasar borong kuala lumpur": null,
+ "area4:nexus, petaling jaya": null,
+ "area4:pasar borong kl": null,
+ "area4:taiping": {
+  "lat": 4.8547,
+  "lng": 100.7439,
+  "label": "Taiping, Larut",
+  "kind": "city"
+ },
+ "area4:empangan durian tunggal": null,
+ "area4:penampang": {
+  "lat": 5.8626,
+  "lng": 116.1138,
+  "label": "Penampang, Bahagian Pantai Barat",
+  "kind": "district"
+ },
+ "area4:kampung sugud, penampang": null,
+ "area4:kampung sugud": {
+  "lat": 5.8932,
+  "lng": 116.0778,
+  "label": "Jalan Kampung Mahandoi, Donggongon",
+  "kind": "residential"
+ },
+ "area4:tambunan": {
+  "lat": 5.686,
+  "lng": 116.412,
+  "label": "Tambunan, Bahagian Pedalaman",
+  "kind": "county"
+ },
+ "area4:kampung katagayan, tambunan": null,
+ "area4:kampung katagayan": null,
+ "area4:jalan tun datuk patinggi abang haji muhammad salahuddin, kuching": null,
+ "area4:jalan tun datuk patinggi abang haji muhammad salahuddin": null,
+ "area4:kampung bintawa ulu, kuching": null,
+ "area4:kampung bintawa ulu": null,
+ "area4:desaru": {
+  "lat": 1.541,
+  "lng": 104.2643,
+  "label": "Desaru, Bandar Penawar",
+  "kind": "hamlet"
+ },
+ "area4:manjung": {
+  "lat": 4.3348,
+  "lng": 100.6343,
+  "label": "Manjung, Perak",
+  "kind": "district"
+ },
+ "area4:ayer tawar, manjung": {
+  "lat": 4.2991,
+  "lng": 100.7581,
+  "label": "Ayer Tawar, Manjung",
+  "kind": "town"
+ },
+ "area4:pusat dagangan dunia, kuala lumpur": null,
+ "area4:pusat dagangan dunia": null,
+ "area4:jalan pondok batang, jasin": null,
+ "area4:jalan pondok batang": null,
+ "area4:kudat": {
+  "lat": 7.2316,
+  "lng": 117.1712,
+  "label": "Kudat, Bahagian Kudat",
+  "kind": "county"
+ },
+ "area4:sungai semayan, kampung semayan, kudat": null,
+ "area4:sungai semayan, kampung semayan": null,
+ "area4:sungai semayan, kudat": null,
+ "area4:sungai semayan": null
+}

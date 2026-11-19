@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-11-11T10:54:30.877Z",
+  "feeds": [
+    {
+      "name": "Malay Mail",
+      "url": "https://www.malaymail.com/feed/rss/malaysia"
+    },
+    {
+      "name": "Free Malaysia Today",
+      "url": "https://www.freemalaysiatoday.com/category/nation/feed/"
+    },
+    {
+      "name": "Sinar Harian Semasa",
+      "url": "https://www.sinarharian.com.my/rssFeed/211"
+    },
+    {
+      "name": "Harian Metro Mutakhir",
+      "url": "https://www.hmetro.com.my/mutakhir.xml"
+    },
+    {
+      "name": "Kosmo: Suapan Kosmo Online",
+      "url": "https://www.kosmo.com.my/feed/"
+    },
+    {
+      "name": "Borneo Post: Borneo Post Online Feed",
+      "url": "https://www.theborneopost.com/feed/"
+    },
+    {
+      "name": "Malaysiakini",
+      "url": "https://www.malaysiakini.com/rss/en/news.rss"
+    },
+    {
+      "name": "Utusan Sarawak: UTUSAN SARAWAK Feed",
+      "url": "https://utusansarawak.com.my/feed/"
+    },
+    {
+      "name": "Bernama",
+      "url": "https://www.bernama.com/en/rssfeed.php"
+    },
+    {
+      "name": "Harian Metro",
+      "url": "https://www.hmetro.com.my/utama.xml"
+    },
+    {
+      "name": "Malaysiakini BM",
+      "url": "https://www.malaysiakini.com/rss/my/news.rss"
+    },
+    {
+      "name": "Utusan Malaysia: Suapan Utusan Malaysia",
+      "url": "https://www.utusan.com.my/feed/"
+    },
+    {
+      "name": "Dayak Daily",
+      "url": "https://dayakdaily.com/feed/"
+    },
+    {
+      "name": "Buletin Mutiara: Buletin Mutiara Feed",
+      "url": "https://www.buletinmutiara.com/feed/"
+    },
+    {
+      "name": "New Sarawak Tribune: Sarawak Tribune Feed",
+      "url": "https://www.sarawaktribune.com/feed/"
+    }
+  ]
+}

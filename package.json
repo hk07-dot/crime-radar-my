@@ -1,0 +1,20 @@
+{
+  "name": "crime-radar-my",
+  "version": "0.1.0",
+  "description": "Map of crime reports within 10 km of the user in Malaysia, from official PDRM statistics, news and social media.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "ingest": "node ingest/run.js",
+    "check-feeds": "node ingest/check-feeds.js",
+    "check-google-news": "node ingest/check-google-news.js",
+    "check-social": "node ingest/check-social.js",
+    "backfill": "node ingest/backfill.js",
+    "build": "node scripts/build-static.js",
+    "update": "node scripts/update.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
