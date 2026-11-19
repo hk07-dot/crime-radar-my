@@ -317,7 +317,14 @@
   "area": "Kuala Lumpur, Malaysia",
   "lat": 3.1517,
   "lng": 101.6942,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Utusan Malaysia",
+    "link": "https://www.utusan.com.my/berita/2026/10/penjenayah-tular-damansara-damai-cedera-ditembak-polis-ada-10-rekod-jenayah/",
+    "title": "Penjenayah tular Damansara Damai cedera ditembak polis, ada 10 rekod jenayah"
+   }
+  ]
  },
  {
   "type": "murder",
@@ -1240,7 +1247,14 @@
   "area": "Kota Damansara, Petaling Jaya",
   "lat": 3.1537,
   "lng": 101.5935,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Buletin TV3",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPei03WlRiMTJMYnQ1TnRqeVZvTTEwQXRqamlRQlBqTDRwTUtCWEtybDhIbUtuaDVTVDUxcVVCYmh6Ykw2UEZ6Wl82aUFzWURiMjVsOFZMTzFrQWQ5M19WMWgwSW9DOEdZNHdSMTJhWGgxeEhLQjFuUkxMUGFlQ05WWFpJTnJ0Q00?oc=5",
+    "title": "Polis buru suspek curi kabel MRT di Damansara"
+   }
+  ]
  },
  {
   "type": "murder",
@@ -1254,7 +1268,14 @@
   "area": "Jalan Dewan Kuarters KLIA, Kompleks KLIA",
   "lat": 2.7696,
   "lng": 101.7624,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/10/1425352/bunuh-isteri-suspek-ada-16-rekod-jenayah",
+    "title": "Bunuh isteri: Suspek ada 16 rekod jenayah"
+   }
+  ]
  },
  {
   "type": "murder",
@@ -1343,7 +1364,19 @@
   "area": "Sepang, Selangor",
   "lat": 2.8009,
   "lng": 101.7094,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Facebook",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUGVUX3JkSEJjRzZfRUREZEZGWE1fWDlmaWNDWEVuSzBSSS10WlljR3FlNFpkZlI5b1NJeG13TTFVMTdSUzN3MzZaekFXWXFJNUw3UlRJMFZPci1HSHRuVGs5RE9FRjBnUXIwUzlVaHdTVmlYVFBBVW9vOFhxQ3hSWDdkRDhyekk4YXRBbkZ1M2dXV0V2OVdPQnpVbUR4V3NpMWIyVzBhVVA3eGdIQ2FYaGU0bWVtUUo4WDdkSFVUUkZackZMdUsxYg?oc=5",
+    "title": "Pegawai kastam maut dipercayai dibunuh suaminya di kuarters KLIA"
+   },
+   {
+    "outlet": "NST Online",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbGdFS3Blc21aaWZLdXFROU54aVpfZ0dTRkFmQUZURWs3S0FvRkxxSHAwUFUtQW0xUlljTGNuQjR6WG9MTTdUM2ZIM2JQd1J4NGk5c0NtTnpVTXhfaU9BaUdpbS1nVU5HaUJlVGlRMTM1NFhDSEFQa2JocG42ODdTTndpQUJZOHhOSWhJLVF5VkxzQ2R4NjdFclItLXNqTGprRVB1VWljTC1aa1RScWw3WFJXT3lhZkFR0gG-AUFVX3lxTE5kV1lTZ3pNZWFHRzhTUjhiYnpyWDhVSkJHcWlvVF9iVkVGRTVKc1hzX2dhajhkeWpWU0Nrd1ZaSFF6MHpjS3hnVW9qeFFwcXFOX2NwWEk3clI2RW9DSXdoUklya1R5cWhCYXJtOGxfZ2l0NHdBNWdOTnFoUVNTNkIzVW9BUmtSU1Z2XzZiOEpia3lrZmxXYndTUUViY3RRYlFvTjB2U2ZKNlpQbGI1TUVKV2JYZUdBLVhSMUxKckE?oc=5",
+    "title": "[UPDATED] Husband surrenders after wife found murdered at KLIA quarters"
+   }
+  ]
  },
  {
   "type": "assault",
@@ -1518,7 +1551,14 @@
   "area": "Semenyih, Majlis Perbandaran Kajang",
   "lat": 2.9474,
   "lng": 101.846,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "The Sun Malaysia",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQamoxVDFBNF9RdURYMS1obHZ4dVNMTXlQSGsyVjNqYTliZlVZTkVSUURCcVdQX2xUdUVmMi1xYVNYT1ZfSDJFX2tPOVk4bTZrcFJfSDF0M2VoeWpGYzJBT2FvVmFwcEtPYUZETzlCQWkxNF8waVh3SkxYa3lOcGhnanJlbEI1VzFrbVptLW5JR3NlbmhySWI1Z29DTE8zZjRpelNLNA?oc=5",
+    "title": "Man allegedly kidnapped, tortured and killed before body was buried in Semenyih"
+   }
+  ]
  },
  {
   "type": "robbery",
@@ -1728,7 +1768,19 @@
   "area": "Taman Sri Watan, Kampung Indah Permai",
   "lat": 3.1386,
   "lng": 101.7725,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Astro Awani",
+    "link": "https://www.astroawani.com/berita-malaysia/dua-lelaki-disyaki-curi-kabel-ditahan-selepas-kereta-terbabas",
+    "title": "Dua lelaki disyaki curi kabel ditahan selepas kereta terbabas"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/10/1421664/2-suspek-curi-kabel-ditahan-selepas-kereta-terbabas?source=widget",
+    "title": "2 suspek curi kabel ditahan selepas kereta terbabas"
+   }
+  ]
  },
  {
   "type": "shooting",
@@ -4155,6 +4207,11 @@
     "outlet": "Sayang Sabah",
     "link": "https://sayangsabah.com.my/home/2026/11/17/guna-nombor-pendaftaran-lain-lelaki-warga-asing-kantoi-curi-motosikal/",
     "title": "Guna nombor pendaftaran lain, lelaki warga asing kantoi curi motosikal"
+   },
+   {
+    "outlet": "MalaysiaGazette",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUUVGdE9zVE1BT2c0Y255ajZ5Y2N2ZmpBUjRDUHhSejZSZVJCRmlMUzhfdXBkREdIUzZ3QmttTGN5ZHlkXzZHbkd6OWJhb0FCWGdZZkhJdS12NUVyc2c1dXB1SmpCWnczR0x1VF9uMlFqN3V6Y0xaVWhxZGxsaDNJZmZBcFJBNVdua1FTTnM4WGRQYXBl?oc=5",
+    "title": "Lelaki warga asing ditahan curi motosikal di Tawau"
    }
   ]
  },
@@ -4789,5 +4846,89 @@
   "lat": 4.5987,
   "lng": 101.09,
   "precision": "town"
+ },
+ {
+  "type": "murder",
+  "title": "22yo motorcyclist killed in crash at Miri roundabout",
+  "link": "https://dayakdaily.com/22yo-motorcyclist-killed-in-crash-at-miri-roundabout/",
+  "outlet": "Dayak Daily",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T08:30:51.000Z",
+  "place": "Miri",
+  "area": "Miri, Bahagian Miri",
+  "lat": 4.394,
+  "lng": 113.988,
+  "precision": "area"
+ },
+ {
+  "type": "snatch_theft",
+  "title": "Lelaki 12 rekod jenayah ditahan terbabit kes ragut di Demak",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRkEwXzZUVWUxTDE3UHRlOVNCNWdLNlI3dlNORTc2TmZFakRPZlAxYnV6UVN3VDNmVncyeXAxUDZxQXpfckNqTFpUSXBjYXc2QWh2b01yRXJZeFV2N3d5OHZwWkdTRmptWkx2aFlob1huRDFnU1ZoYm5UcDBfM193eHpQSXF1eFZiT3did1hHU0hReUNjRl9DQUNkWDI?oc=5",
+  "outlet": "Saluran 122",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-24T07:00:00.000Z",
+  "place": "Demak",
+  "area": "Demak Laut, Kuching",
+  "lat": 1.5877,
+  "lng": 110.418,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "[VIDEO] ‘Petang curi, malam pulangkan’",
+  "link": "https://www.kosmo.com.my/2026/10/18/video-petang-curi-malam-pulangkan/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-18T07:00:00.000Z",
+  "place": "Kampung Sungai Penchala, Kuala Lumpur",
+  "area": "Kampung Sungai Penchala, Kampung Palimbayan Indah",
+  "lat": 3.1625,
+  "lng": 101.6261,
+  "precision": "area"
+ },
+ {
+  "type": "shooting",
+  "title": "Tiga termasuk guru besar ditembak, remaja 14 tahun ditahan",
+  "link": "https://berita.rtm.gov.my/global/senarai-berita-global/senarai-artikel/tiga-termasuk-guru-besar-ditembak-remaja-14-tahun-ditahan/",
+  "outlet": "Portal Berita RTM",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-12T07:00:00.000Z",
+  "place": "Marseille",
+  "area": "Jalan Marseille, Segambut",
+  "lat": 3.1761,
+  "lng": 101.6533,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "Lelaki ditahan kes curi di Plentong positif dadah, ada dua rekod jenayah",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa09jRjR0RWdIN0RoX0kwbm5KQWEzcExZNTl1N3hpREpfOWc0dmUzdGIzMUpYWk16aUlMVWtyaWlLcXJ4VHN0blo0Q0FmU2d5UWRNdlp0ZjBLQl9LUElFeXVJUi1RcDU2eGJwZUZObS1mTm9MY1VpejN1dHlYX2ZpWWxfN21QaHYyMHZ2bHpEaGZDRjFDRHZCbGpzRGpwenlrNzZ0M3dvZDBPTFlQUVJEY0tiYjFfc25KNzdldDJrb9IBxAFBVV95cUxPTWxzMzgxamZvYV9kNHVZZWh1ckRDcW9pSkhfNFg3NXhmZ29yRE9tMVJVUGpKVHJGV1dtRHp5LVR2SS1haVFJaHJpaEZTOTFhUGlfNEtoZnBrc0tGS1Joem5jWG1URHpOclgtT19XamJjb0FRZjVyS21jWmtVU181aFNZZDRGM1loWHRPSWdFbF9jeGI1MjRoSmI2X2hwLU90UGx2WG91bUNiQ0FsWHFSMGhoRF9HV2wxanpKaEY0S3huSndV?oc=5",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-11T07:00:00.000Z",
+  "place": "Plentong",
+  "area": "Plentong, Johor Bahru",
+  "lat": 1.5242,
+  "lng": 103.8227,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Dua ditahan, rampas ganja bernilai RM455,000 di Kuala Perlis",
+  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVzZOWlVaTjJEM2UzeDRraVB0NGhTR2tQZmVVT2d1OXBqbEhNN2QxWUhSSk1lVFl4YTdDWktFVEJvRkE5cUFXMTNKU1ZPb0pSLTNrTWZQVDVMb1VDSy1NUklQazA1b2RSQTJxbGVvYnZKMG05eHNWMTZ2cHJyNG5TQmF0X3Q4RWxTZW5MX1lRTlViVWlodXc?oc=5",
+  "outlet": "Astro Awani",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-10T07:00:00.000Z",
+  "place": "Kuala Perlis",
+  "area": "Kuala Perlis, Perlis",
+  "lat": 6.4033,
+  "lng": 100.1346,
+  "precision": "area"
  }
 ]

@@ -2055,5 +2055,45 @@
  },
  "area4:pukul isteri": null,
  "area4:nexus, ipoh": null,
- "area4:january 1997": null
+ "area4:january 1997": null,
+ "area4:okinawa": null,
+ "area4:beverly hills": null,
+ "area4:demak": {
+  "lat": 1.5877,
+  "lng": 110.418,
+  "label": "Demak Laut, Kuching",
+  "kind": "town"
+ },
+ "area4:kampung sungai penchala, kuala lumpur, petaling jaya": null,
+ "area4:kampung sungai penchala, kuala lumpur": {
+  "lat": 3.1625,
+  "lng": 101.6261,
+  "label": "Kampung Sungai Penchala, Kampung Palimbayan Indah",
+  "kind": "neighbourhood"
+ },
+ "area4:marseille": {
+  "lat": 3.1761,
+  "lng": 101.6533,
+  "label": "Jalan Marseille, Segambut",
+  "kind": "residential"
+ },
+ "area4:aubagne, marseille": null,
+ "area4:aubagne": null,
+ "area4:taman sri watan, ampang, kuala lumpur": null,
+ "area4:taman sri watan, ampang": {
+  "lat": 3.1386,
+  "lng": 101.7725,
+  "label": "Taman Sri Watan, Kampung Indah Permai",
+  "kind": "neighbourhood"
+ },
+ "area4:lebuh raya damansara-puchong, kuala lumpur": null,
+ "area4:lebuh raya damansara-puchong": null,
+ "area4:bandar kluang, klua": null,
+ "area4:bandar kluang": null,
+ "area4:kuala perlis": {
+  "lat": 6.4033,
+  "lng": 100.1346,
+  "label": "Kuala Perlis, Perlis",
+  "kind": "town"
+ }
 }
