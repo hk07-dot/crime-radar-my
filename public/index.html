@@ -196,104 +196,479 @@ li .m.src { color: var(--accent-700); }
 .pin-warn { border: 2.5px solid var(--accent); background: transparent; }
 .pin-me { background: var(--ring); box-shadow: 0 0 0 2px var(--bg); }
 .pin-end { background: var(--fg); box-shadow: 0 0 0 2px var(--bg); }
+/* Dashboard: covers the map (the panel stays beside it on wide screens), the whole screen on phones. */
+.dash { position: fixed; inset: 0; z-index: 2000; background: var(--bg); overflow-y: auto; overflow-x: hidden;
+  padding: 18px max(16px, env(safe-area-inset-right)) calc(24px + env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left)); }
+@media (min-width: 860px) { .dash { left: 400px; padding: 22px 28px 32px; } }
+.dash-in { max-width: 1120px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+.dash-head { display: flex; gap: 12px; justify-content: space-between; align-items: flex-start; padding-bottom: 14px; border-bottom: 2px solid var(--rule); }
+.dash-head h2 { font: 800 26px/1.05 var(--sans); letter-spacing: -.02em; margin: 6px 0 0; }
+.dash-head button { flex: none; }
+.dash-ctl { display: flex; flex-wrap: wrap; gap: 10px; }
+.dash-ctl .seg { flex: 1 1 260px; }
+.dash-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; align-items: start; }
+@media (min-width: 1240px) { .dash-grid { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); } }
+.dash-grid > * { min-width: 0; }
+.rank { border-top: 2px solid var(--rule); }
+.rank li { border-bottom: 1px solid var(--line); }
+.rank button { width: 100%; border: 0; padding: 10px 8px 10px 0; display: grid; grid-template-columns: 34px minmax(0, 1fr) auto; column-gap: 10px; row-gap: 6px; align-items: baseline; font-weight: 400; }
+.rank button[aria-pressed="true"] { background: var(--accent-100); box-shadow: inset 4px 0 0 var(--accent); }
+.rank .n { font: 800 22px/1 var(--sans); letter-spacing: -.03em; text-align: right; font-variant-numeric: tabular-nums; }
+.rank .nm { font: 700 14.5px/1.25 var(--sans); overflow-wrap: anywhere; }
+.rank .nm small { display: block; margin-top: 2px; color: var(--muted); font: 600 10px/1.3 var(--narrow); letter-spacing: .08em; text-transform: uppercase; }
+.rank .v { text-align: right; font: 800 16px/1.2 var(--sans); font-variant-numeric: tabular-nums; }
+.rank .v small { display: block; margin-top: 2px; font: 600 10px/1.3 var(--narrow); letter-spacing: .06em; color: var(--muted); }
+.rank .bar { grid-column: 2 / 4; height: 8px; background: var(--n300); }
+.rank .bar i { display: block; height: 100%; background: var(--fg); }
+.rank button[aria-pressed="true"] .bar i { background: var(--accent); }
+.up { color: var(--accent-700) !important; } .down { color: var(--muted); }
+.detail { border: 2px solid var(--rule); padding: 14px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
+.detail h3 { font: 800 22px/1.1 var(--sans); letter-spacing: -.02em; margin: 4px 0 0; overflow-wrap: anywhere; }
+.bars li { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 10px; row-gap: 4px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+.bars { border-top: 2px solid var(--rule); }
+.bars .k { font: 700 13.5px/1.3 var(--sans); }
+.bars .k em { font-style: normal; color: var(--muted); font: 600 10px/1 var(--narrow); letter-spacing: .08em; margin-right: 6px; }
+.bars .c { font: 800 14px/1.3 var(--sans); font-variant-numeric: tabular-nums; text-align: right; }
+.bars .c small { color: var(--muted); font: 600 10px/1 var(--narrow); letter-spacing: .06em; margin-left: 6px; }
+.bars .bar { grid-column: 1 / 3; height: 6px; background: var(--n300); }
+.bars .bar i { display: block; height: 100%; background: var(--accent); }
+.bars.ink .bar i { background: var(--fg); }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+/* Language switch, top right of the panel header */
+header { display: flex; gap: 12px; justify-content: space-between; align-items: flex-start; }
+.lang { flex: none; display: flex; border: 2px solid var(--rule); }
+.lang label { position: relative; padding: 5px 8px; font: 600 10.5px/1.2 var(--narrow); letter-spacing: .1em; cursor: pointer; }
+.lang label + label { border-left: 2px solid var(--rule); }
+.lang input { position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none; }
+.lang label:has(input:checked) { background: var(--fg); color: var(--bg); }
+.lang label:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* Dashboard sections */
+.dash-tabs { display: flex; flex-wrap: wrap; border: 2px solid var(--rule); }
+.dash-tabs label { flex: 1 1 auto; position: relative; padding: 10px 12px; font: 800 14px/1.2 var(--sans); cursor: pointer; white-space: nowrap; }
+.dash-tabs label + label { border-left: 2px solid var(--rule); }
+.dash-tabs input { position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none; }
+.dash-tabs label:has(input:checked) { background: var(--fg); color: var(--bg); }
+.dash-tabs label:not(:has(input:checked)):hover { background: color-mix(in srgb, var(--fg) 7%, transparent); }
+.dash-tabs label:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: -4px; }
+@media (max-width: 560px) { .dash-tabs label { flex: 1 1 50%; } .dash-tabs label:nth-child(3) { border-left: 0; } .dash-tabs label:nth-child(n+3) { border-top: 2px solid var(--rule); } }
+.panel { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+.panel > * { min-width: 0; }
+.cols { display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; align-items: start; }
+@media (min-width: 1100px) { .cols { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.cols > * { min-width: 0; }
+.latest { border-top: 2px solid var(--rule); }
+.latest li { padding: 9px 0; border-bottom: 1px solid var(--line); }
+.latest a { font-weight: 700; color: var(--fg); }
+.latest a:hover { color: var(--accent-700); }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); border-top: 2px solid var(--rule); border-left: 2px solid var(--rule); }
+.card { padding: 12px; border-right: 2px solid var(--rule); border-bottom: 2px solid var(--rule); min-width: 0; }
+.card .label { margin: 0 0 8px; }
+.card b { display: block; font: 800 26px/1 var(--sans); letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+.card small { display: block; margin-top: 6px; color: var(--muted); font: 600 10.5px/1.4 var(--narrow); letter-spacing: .06em; }
+.sources { border-top: 2px solid var(--rule); padding-top: 12px; display: grid; gap: 6px; }
+.sources p { margin: 0; }
 </style>
 </head>
 <body>
-<div id="map" role="application" aria-label="Map of crime reports near you"></div>
+<div id="map" role="application" data-t-aria="map_aria"></div>
 
 <section class="sheet" aria-live="polite">
   <header>
-    <p class="kicker" id="window-label">Crime Radar MY</p>
-    <h1>Crime within 10 km</h1>
-    <p class="sub" id="where">Locating you…</p>
+    <div>
+      <p class="kicker" id="window-label">Crime Radar MY</p>
+      <h1 data-t="h1"></h1>
+      <p class="sub" id="where"></p>
+    </div>
+    <div class="lang" role="radiogroup" aria-label="Language / Bahasa">
+      <label><input type="radio" name="lang" value="en">EN</label>
+      <label><input type="radio" name="lang" value="ms">BM</label>
+    </div>
   </header>
 
-  <button class="primary" id="locate">Use my location</button>
+  <div class="row">
+    <button class="primary" id="locate" style="flex:1" data-t="use_loc"></button>
+    <button id="dash-open" type="button" aria-controls="dash" aria-expanded="false" style="flex:1" data-t="dash_btn"></button>
+  </div>
   <div>
-    <p class="label">Range</p>
-    <div class="seg" role="radiogroup" aria-label="Time range for news and social reports">
-      <label><input type="radio" name="days" value="7">7 days</label>
-      <label><input type="radio" name="days" value="30">30 days</label>
-      <label><input type="radio" name="days" value="2m" checked>2 months</label>
+    <p class="label" data-t="range"></p>
+    <div class="seg" role="radiogroup" data-t-aria="range_aria">
+      <label><input type="radio" name="days" value="7"><span data-t="d7"></span></label>
+      <label><input type="radio" name="days" value="30"><span data-t="d30"></span></label>
+      <label><input type="radio" name="days" value="2m" checked><span data-t="d2m"></span></label>
     </div>
   </div>
   <p class="note" id="range"></p>
-  <p class="note">Or search a place on the map, or tap anywhere on it, to check another area.</p>
+  <p class="note" data-t="hint"></p>
 
   <details class="route" id="route-box">
-    <summary>Route check</summary>
+    <summary data-t="route"></summary>
     <div class="route-body">
     <div class="trip">
     <div class="field">
-      <label for="r-from">From</label>
-      <div class="in"><input id="r-from" type="text" placeholder="Start: town, taman or address" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="r-from-list">
-        <button type="button" class="here" id="r-from-here">My location</button></div>
+      <label for="r-from" data-t="from"></label>
+      <div class="in"><input id="r-from" type="text" data-t-ph="from_ph" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="r-from-list">
+        <button type="button" class="here" id="r-from-here" data-t="my_loc"></button></div>
       <ul id="r-from-list" role="listbox" hidden></ul>
     </div>
     <div class="field">
-      <label for="r-to">To</label>
-      <div class="in"><input id="r-to" type="text" placeholder="Destination" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="r-to-list"></div>
+      <label for="r-to" data-t="to"></label>
+      <div class="in"><input id="r-to" type="text" data-t-ph="to_ph" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="r-to-list"></div>
       <ul id="r-to-list" role="listbox" hidden></ul>
     </div>
     </div>
-    <div class="seg" role="radiogroup" aria-label="Travel mode">
-      <label><input type="radio" name="r-mode" value="car" checked>Drive</label>
-      <label><input type="radio" name="r-mode" value="foot">Walk</label>
-      <label><input type="radio" name="r-mode" value="bike">Cycle</label>
+    <div class="seg" role="radiogroup" data-t-aria="mode_aria">
+      <label><input type="radio" name="r-mode" value="car" checked><span data-t="drive"></span></label>
+      <label><input type="radio" name="r-mode" value="foot"><span data-t="walk"></span></label>
+      <label><input type="radio" name="r-mode" value="bike"><span data-t="cycle"></span></label>
     </div>
     <div class="row">
-      <button class="primary" id="r-go" type="button" style="flex:1">Check route →</button>
-      <button id="r-clear" type="button" hidden>Clear</button>
+      <button class="primary" id="r-go" type="button" style="flex:1" data-t="check_route"></button>
+      <button id="r-clear" type="button" hidden data-t="clear"></button>
     </div>
     <div class="route-out" id="r-out" hidden aria-live="polite"></div>
     </div>
   </details>
 
-  <div class="chips" role="group" aria-label="Layers to show">
-    <label class="chip"><input type="checkbox" id="f-official" checked><span class="dot official"></span>Official</label>
-    <label class="chip"><input type="checkbox" id="f-news" checked><span class="dot news"></span>News</label>
-    <label class="chip"><input type="checkbox" id="f-social" checked><span class="dot social"></span>Social</label>
-    <label class="chip"><input type="checkbox" id="f-heat" checked><span class="dot heat"></span>Crime density</label>
+  <div class="chips" role="group" data-t-aria="layers_aria">
+    <label class="chip"><input type="checkbox" id="f-official" checked><span class="dot official"></span><span data-t="l_official"></span></label>
+    <label class="chip"><input type="checkbox" id="f-news" checked><span class="dot news"></span><span data-t="l_news"></span></label>
+    <label class="chip"><input type="checkbox" id="f-social" checked><span class="dot social"></span><span data-t="l_social"></span></label>
+    <label class="chip"><input type="checkbox" id="f-heat" checked><span class="dot heat"></span><span data-t="l_heat"></span></label>
   </div>
 
   <div class="area" id="area" hidden>
     <span class="sw" id="area-sw"></span>
-    <span>Crime density here: <b id="area-l"></b></span>
+    <span><span data-t="density_here"></span> <b id="area-l"></b></span>
   </div>
 
   <div class="stats">
-    <div class="stat"><b id="s-official">–</b><span id="s-official-l">official cases</span></div>
-    <div class="stat"><b id="s-news">–</b><span>news reports</span></div>
-    <div class="stat"><b id="s-social">–</b><span>social posts</span></div>
+    <div class="stat"><b id="s-official">–</b><span id="s-official-l"></span></div>
+    <div class="stat"><b id="s-news">–</b><span data-t="news_reports"></span></div>
+    <div class="stat"><b id="s-social">–</b><span data-t="social_posts"></span></div>
   </div>
 
   <div>
-    <p class="label">Recent reports</p>
-    <ul id="list"><li class="empty">Loading…</li></ul>
+    <p class="label" data-t="recent"></p>
+    <ul id="list"><li class="empty" data-t="loading"></li></ul>
   </div>
 
   <div>
-    <p class="label">Crime density shading</p>
+    <p class="label" data-t="shading"></p>
     <div class="legend" id="legend"></div>
   </div>
 
   <div>
-    <p class="label">Police districts nearby</p>
+    <p class="label" data-t="nearby"></p>
     <ul id="districts"></ul>
   </div>
 
-  <p class="note">Official figures are annual totals per police district from the Royal Malaysia Police, published on data.gov.my (CC BY 4.0). They count crimes where a conviction was secured, not every report. News and social items are placed at neighbourhood level from the article text and can be wrong. Hollow pins marked town-level only give the town where the story was filed. Social posts are unverified. The red shading spreads each police district's annual case count around its HQ and ranks areas nationally: "very high" is the densest ground that together holds 10% of all cases in Malaysia. It shows case counts, not crime per person, and can't tell one street from the next. In an emergency call 999.</p>
+  <p class="note" data-t="footnote"></p>
+</section>
+
+<section class="dash" id="dash" hidden role="dialog" aria-labelledby="dash-h">
+  <div class="dash-in">
+    <div class="dash-head">
+      <div>
+        <p class="kicker" id="dash-k"></p>
+        <h2 id="dash-h" data-t="dash_title"></h2>
+      </div>
+      <button type="button" id="dash-close" data-t="close"></button>
+    </div>
+    <div class="dash-tabs" role="radiogroup" data-t-aria="tabs_aria">
+      <label><input type="radio" name="d-tab" value="areas" checked><span data-t="tab_areas"></span></label>
+      <label><input type="radio" name="d-tab" value="states"><span data-t="tab_states"></span></label>
+      <label><input type="radio" name="d-tab" value="news"><span data-t="tab_news"></span></label>
+      <label><input type="radio" name="d-tab" value="dosm"><span data-t="tab_dosm"></span></label>
+    </div>
+    <div class="dash-ctl" id="d-ctl">
+      <div class="seg" role="radiogroup" data-t-aria="scope_aria" id="d-scope-seg">
+        <label><input type="radio" name="d-scope" value="my" checked>Malaysia</label>
+        <label><input type="radio" name="d-scope" value="state"><span id="d-state"></span></label>
+      </div>
+      <div class="seg" role="radiogroup" data-t-aria="measure_aria">
+        <label><input type="radio" name="d-measure" value="total" checked><span data-t="m_total"></span></label>
+        <label><input type="radio" name="d-measure" value="assault"><span data-t="m_assault"></span></label>
+        <label><input type="radio" name="d-measure" value="property"><span data-t="m_property"></span></label>
+      </div>
+    </div>
+
+    <div class="panel" id="p-areas">
+      <div class="dash-grid">
+        <div>
+          <p class="label" id="rank-l"></p>
+          <ol class="rank" id="rank" style="list-style:none;margin:0;padding:0"></ol>
+          <p class="note" style="margin-top:10px" data-t="areas_note"></p>
+        </div>
+        <div class="detail" id="detail" aria-live="polite"></div>
+      </div>
+    </div>
+
+    <div class="panel" id="p-states" hidden>
+      <div class="dash-grid">
+        <div>
+          <p class="label" id="srank-l"></p>
+          <ol class="rank" id="srank" style="list-style:none;margin:0;padding:0"></ol>
+          <p class="note" style="margin-top:10px" data-t="states_note"></p>
+        </div>
+        <div class="detail" id="sdetail" aria-live="polite"></div>
+      </div>
+    </div>
+
+    <div class="panel" id="p-news" hidden></div>
+    <div class="panel" id="p-dosm" hidden></div>
+
+    <div class="sources">
+      <p class="label" data-t="sources"></p>
+      <p class="note" id="src-list"></p>
+    </div>
+  </div>
 </section>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
+// ---------- Language: English and Bahasa Malaysia ----------
+// Every piece of text on the page comes from STR. Static elements carry data-t (text), data-t-ph
+// (placeholder) or data-t-aria (aria-label); the rest is built in script with t().
+const STR = {
+  en: {
+    map_aria: 'Map of crime reports near you',
+    h1: 'Crime within 10 km', locating: 'Locating you…', use_loc: 'Use my location', dash_btn: 'Crime dashboard',
+    range: 'Range', d7: '7 days', d30: '30 days', d2m: '2 months', range_aria: 'Time range for news and social reports',
+    range_names: { 7: 'Last 7 days', 30: 'Last 30 days', '2m': 'Last 2 months' },
+    hint: 'Or search a place on the map, or tap anywhere on it, to check another area.',
+    route: 'Route check', from: 'From', to: 'To', from_ph: 'Start: town, taman or address', to_ph: 'Destination', my_loc: 'My location',
+    drive: 'Drive', walk: 'Walk', cycle: 'Cycle', mode_aria: 'Travel mode', check_route: 'Check route →', clear: 'Clear',
+    layers_aria: 'Layers to show', l_official: 'Official', l_news: 'News', l_social: 'Social', l_heat: 'Crime density',
+    density_here: 'Crime density here:', official_cases: y => `official cases ${y}`, news_reports: 'news reports', social_posts: 'social posts',
+    recent: 'Recent reports', loading: 'Loading…', shading: 'Crime density shading', nearby: 'Police districts nearby',
+    footnote: 'Official figures are annual totals per police district from the Royal Malaysia Police, published on data.gov.my (CC BY 4.0). They count crimes where a conviction was secured, not every report. News and social items are placed at neighbourhood level from the article text and can be wrong. Hollow pins marked town-level only give the town where the story was filed. Social posts are unverified. The red shading spreads each police district\'s annual case count around its HQ and ranks areas nationally: "very high" is the densest ground that together holds 10% of all cases in Malaysia. It shows case counts, not crime per person, and can\'t tell one street from the next. In an emergency call 999.',
+    search_ph: 'Search a town, taman or address', search_aria: 'Search a place in Malaysia', clear_search: 'Clear search',
+    no_match: q => `No places in Malaysia match "${q}".`, search_down: 'Search is unavailable. Check that the server is running.',
+    finding_loc: 'Finding your location…', loc_denied_ph: 'Location not shared. Type a start instead.',
+    pick_first: 'Pick a start and a destination from the suggestions first.', finding_route: 'Finding the route…',
+    no_server: 'Couldn\'t reach the server. Check that it\'s running.',
+    density_tip: l => `${l} crime density`, near: 'near', the_route: 'the route', m_from_route: m => `${m} m from the route`,
+    open_source: 'Open source', from_pin: 'From', to_pin: 'To',
+    route_high: (km, roads) => `${km} of the route runs through high or very high crime density${roads ? `, on ${roads}` : ''}.`,
+    route_none: 'No part of the route runs through high or very high crime density.',
+    strip_aria: 'Crime density along the route', along: 'Reported crime along the route', unnamed: 'Unnamed road',
+    no_reports_route: (m, a, b) => `No news or social reports within ${m} m of the route between ${a} and ${b}.`,
+    town_near: n => `${n} more report${n > 1 ? 's' : ''} near the route only give${n > 1 ? '' : 's'} the town, so ${n > 1 ? 'they aren\'t' : 'it isn\'t'} listed by road.`,
+    route_note: m => `Roads are matched to reports within ${m} m. Report locations are approximate and the shading comes from police-district totals, so treat this as a guide, not a safety rating.`,
+    levels: ['Low', 'Moderate', 'Elevated', 'High', 'Very high'],
+    level_note: p => `densest areas holding ${p}% of cases`, per_km2: n => `${n}+ a year per km²`, no_shading: 'no shading',
+    heat_unavail: 'Density shading unavailable.',
+    range_text: (a, b) => `Reports from ${a} to ${b}, by this device's date.`, to_date: d => `to ${d}`, updated: x => ` Data updated ${x}.`,
+    ago_min: n => `${n} min ago`, ago_h: n => `${n}h ago`, ago_d: n => `${n}d ago`,
+    load_fail: e => `Couldn't load reports: ${e}. Check that the server is running and online.`,
+    cases_line: (y, n, a, p) => `${y}: <b>${n}</b> cases (${a} violent, ${p} property)`, top: 'Top',
+    loc_table: 'Area level. Location from district table.', loc_geo: 'Area level. Location geocoded.',
+    district_row: (km, n, y) => `${km} km · ${n} cases in ${y}`, outside: ' · nearest, outside 10 km', no_district: 'No district data.',
+    unverified: 'unverified', town_level: 'town-level',
+    town_note: 'The article only names the town, so this pin marks the town, not the scene.', also_by: 'Also reported by',
+    lbl_social: 'Social', lbl_news: 'News', more: n => `+${n} more`,
+    no_reports_area: 'No news or social reports in this area for the selected period.',
+    loc_unavail: 'Location unavailable. Showing Kuala Lumpur.', around_loc: a => `Around your location (±${a} m)`,
+    loc_not_shared: 'Location not shared. Showing Kuala Lumpur. Tap the map to move.', around_point: 'Around the point you picked',
+    around: x => `Around ${x}`,
+    // Dashboard
+    dash_title: 'Crime dashboard', close: 'Close ×', tabs_aria: 'Dashboard sections',
+    tab_areas: 'Top 10 areas', tab_states: 'By state', tab_news: 'News reports', tab_dosm: 'DOSM 2026',
+    scope_aria: 'Where to rank', measure_aria: 'Which crimes to rank by',
+    m_total: 'All crime', m_assault: 'Violent', m_property: 'Property',
+    measures: { total: 'All crime', assault: 'Violent crime', property: 'Property crime' },
+    official_k: y => `Official police figures · ${y}`,
+    top10_l: (m, w, y) => `Top 10 · ${m} · ${w} · ${y}`, your_area: 'your area', your_area_k: 'Your area', selected: 'Selected area',
+    ranked_of: (n, N, w) => `Ranked ${n} of ${N} in ${w}:`,
+    areas_note: 'Pick an area to see its top crimes. Areas are police districts (IPD). They\'re ranked by number of cases, not cases per person, because population isn\'t published for police districts. Change is against the year before.',
+    no_change: 'No change', vs: y => `vs ${y}`,
+    nat_rank: (n, N) => `${n} of ${N} in Malaysia for all crime`,
+    all_cases: 'all cases', violent: 'violent', property: 'property',
+    top_crimes: (n, y) => `Top ${n} crimes · ${y}`, no_cases: 'No cases recorded.',
+    only_types: (n, y) => `Only ${n} of the police's 12 crime types had cases here in ${y}.`,
+    news_near: r => `News and social reports near here · ${r}`,
+    near_note: (km, a, b) => `Within ${km} km of the IPD headquarters, ${a} to ${b}. Places come from the article text, so they're approximate.`,
+    no_news_here: 'No news or social reports near here in this period.',
+    show_map: 'Show this area on the map →', fig_fail: e => `Couldn't load the figures: ${e}.`,
+    states_l: (m, y) => `States · ${m} · ${y}`,
+    states_note: 'Pick a state to see its top crimes. State totals add up its police districts and count cases, not cases per person. Online fraud comes from DOSM\'s 2026 release.',
+    state_k: 'State', state_rank: (n, N) => `${n} of ${N} states for all crime`, districts_n: n => `${n} police districts`,
+    fraud_l: y => `Online fraud cases · ${y} · DOSM`, fraud_none: 'DOSM doesn\'t list this state separately.',
+    state_news: r => `News and social reports in this state · ${r}`,
+    state_news_note: 'Each report is counted in the state of its nearest police district HQ.',
+    no_news_state: 'No news or social reports in this state in this period.',
+    see_areas: s => `See the top 10 areas in ${s} →`,
+    news_k: r => `News and social media · ${r}`, news_h: 'What the news is reporting',
+    n_total: 'reports', n_news: 'news', n_social: 'social', n_types: 'Top crime types', n_states: 'States with the most reports',
+    n_areas: 'Areas with the most reports', n_latest: 'Latest reports', n_none: 'No news or social reports in this period.',
+    n_note: (a, b) => `Collected from Malaysian news outlets' feeds and public social media posts, ${a} to ${b}. Each report is placed from the article text and counted in its nearest police district, so places are approximate. Social posts are unverified. Change the period with Range in the side panel.`,
+    n_area_row: n => `IPD ${n}`,
+    dosm_k: d => `Department of Statistics Malaysia · released ${d}`, dosm_h: 'Crime Statistics, Malaysia, 2026',
+    dosm_sub: (y, p) => `National figures for ${y}, compared with ${p}.`, dosm_prev: (p, n) => `${p}: ${n}`,
+    dosm_fraud_l: y => `Online fraud cases by state · ${y}`,
+    dosm_note: 'This release uses the International Classification of Crime for Statistical Purposes (ICCS). Its categories differ from the police index crime used elsewhere in this app, and it isn\'t broken down by police district, so its numbers don\'t add up to the area figures.',
+    dosm_links: 'Release page', dosm_pdf: 'Full publication (PDF)', dosm_missing: 'The DOSM figures couldn\'t be loaded.',
+    rm_million: n => `RM${n} million`,
+    dosm_labels: {
+      homicide: 'Homicide', sexual_assault: 'Sexual assault', domestic_violence: 'Domestic violence', robbery: 'Robbery',
+      theft_personal: 'Theft of personal property', fraud_face: 'Face-to-face fraud', online_fraud: 'Online fraud',
+      cybercrime: 'Cybercrime', cyber_losses: 'Cybercrime losses', controlled_goods: 'Misappropriation of controlled goods',
+      positive_urine: 'Positive drug urine tests (police)',
+    },
+    sources: 'Sources',
+    src_pdrm: y => `Areas and states: Royal Malaysia Police (PDRM) crime by police district, ${y}, via data.gov.my (CC BY 4.0).`,
+    src_dosm: (d, y) => `National figures and online fraud by state: DOSM, Crime Statistics, Malaysia, 2026 (${y} data), released ${d}.`,
+    src_news: 'News and social reports: collected by this app from Malaysian news feeds and public social media posts.',
+  },
+  ms: {
+    map_aria: 'Peta laporan jenayah berhampiran anda',
+    h1: 'Jenayah dalam lingkungan 10 km', locating: 'Mencari lokasi anda…', use_loc: 'Gunakan lokasi saya', dash_btn: 'Papan pemuka jenayah',
+    range: 'Julat', d7: '7 hari', d30: '30 hari', d2m: '2 bulan', range_aria: 'Julat masa laporan berita dan media sosial',
+    range_names: { 7: '7 hari lepas', 30: '30 hari lepas', '2m': '2 bulan lepas' },
+    hint: 'Atau cari tempat pada peta, atau ketik di mana-mana pada peta, untuk menyemak kawasan lain.',
+    route: 'Semak laluan', from: 'Dari', to: 'Ke', from_ph: 'Mula: bandar, taman atau alamat', to_ph: 'Destinasi', my_loc: 'Lokasi saya',
+    drive: 'Memandu', walk: 'Berjalan', cycle: 'Berbasikal', mode_aria: 'Cara perjalanan', check_route: 'Semak laluan →', clear: 'Kosongkan',
+    layers_aria: 'Lapisan untuk dipaparkan', l_official: 'Rasmi', l_news: 'Berita', l_social: 'Sosial', l_heat: 'Kepadatan jenayah',
+    density_here: 'Kepadatan jenayah di sini:', official_cases: y => `kes rasmi ${y}`, news_reports: 'laporan berita', social_posts: 'hantaran sosial',
+    recent: 'Laporan terkini', loading: 'Memuatkan…', shading: 'Petunjuk kepadatan jenayah', nearby: 'Daerah polis berhampiran',
+    footnote: 'Angka rasmi ialah jumlah tahunan bagi setiap daerah polis daripada Polis Diraja Malaysia, diterbitkan di data.gov.my (CC BY 4.0). Angka ini mengira jenayah yang mendapat sabitan, bukan setiap laporan. Laporan berita dan media sosial diletakkan di peringkat kejiranan berdasarkan teks artikel dan mungkin tersilap. Pin berongga bertanda peringkat bandar hanya menunjukkan bandar tempat berita itu ditulis. Hantaran media sosial belum disahkan. Warna merah menyebarkan jumlah kes tahunan setiap daerah polis di sekitar ibu pejabatnya dan menyusun kawasan di peringkat kebangsaan: "sangat tinggi" ialah kawasan terpadat yang bersama-sama merangkumi 10% daripada semua kes di Malaysia. Ia menunjukkan bilangan kes, bukan jenayah bagi setiap orang, dan tidak dapat membezakan satu jalan dengan jalan lain. Dalam kecemasan, hubungi 999.',
+    search_ph: 'Cari bandar, taman atau alamat', search_aria: 'Cari tempat di Malaysia', clear_search: 'Kosongkan carian',
+    no_match: q => `Tiada tempat di Malaysia yang sepadan dengan "${q}".`, search_down: 'Carian tidak tersedia. Pastikan pelayan sedang berjalan.',
+    finding_loc: 'Mencari lokasi anda…', loc_denied_ph: 'Lokasi tidak dikongsi. Taip titik mula.',
+    pick_first: 'Pilih titik mula dan destinasi daripada cadangan dahulu.', finding_route: 'Mencari laluan…',
+    no_server: 'Tidak dapat menghubungi pelayan. Pastikan ia sedang berjalan.',
+    density_tip: l => `Kepadatan jenayah ${l.toLowerCase()}`, near: 'berhampiran', the_route: 'laluan', m_from_route: m => `${m} m dari laluan`,
+    open_source: 'Buka sumber', from_pin: 'Dari', to_pin: 'Ke',
+    route_high: (km, roads) => `${km} daripada laluan ini melalui kawasan berkepadatan jenayah tinggi atau sangat tinggi${roads ? `, di ${roads}` : ''}.`,
+    route_none: 'Tiada bahagian laluan ini melalui kawasan berkepadatan jenayah tinggi atau sangat tinggi.',
+    strip_aria: 'Kepadatan jenayah di sepanjang laluan', along: 'Jenayah yang dilaporkan di sepanjang laluan', unnamed: 'Jalan tanpa nama',
+    no_reports_route: (m, a, b) => `Tiada laporan berita atau media sosial dalam lingkungan ${m} m dari laluan antara ${a} dan ${b}.`,
+    town_near: n => `${n} lagi laporan berhampiran laluan hanya menyebut bandar, jadi tidak disenaraikan mengikut jalan.`,
+    route_note: m => `Jalan dipadankan dengan laporan dalam lingkungan ${m} m. Lokasi laporan adalah anggaran dan warna datang daripada jumlah daerah polis, jadi gunakan ini sebagai panduan, bukan penarafan keselamatan.`,
+    levels: ['Rendah', 'Sederhana', 'Meningkat', 'Tinggi', 'Sangat tinggi'],
+    level_note: p => `kawasan terpadat yang merangkumi ${p}% kes`, per_km2: n => `${n}+ setahun bagi setiap km²`, no_shading: 'tiada warna',
+    heat_unavail: 'Petunjuk kepadatan tidak tersedia.',
+    range_text: (a, b) => `Laporan dari ${a} hingga ${b}, mengikut tarikh peranti ini.`, to_date: d => `hingga ${d}`, updated: x => ` Data dikemas kini ${x}.`,
+    ago_min: n => `${n} minit lalu`, ago_h: n => `${n} jam lalu`, ago_d: n => `${n} hari lalu`,
+    load_fail: e => `Tidak dapat memuatkan laporan: ${e}. Pastikan pelayan berjalan dan dalam talian.`,
+    cases_line: (y, n, a, p) => `${y}: <b>${n}</b> kes (${a} kekerasan, ${p} harta benda)`, top: 'Utama',
+    loc_table: 'Peringkat kawasan. Lokasi daripada jadual daerah.', loc_geo: 'Peringkat kawasan. Lokasi melalui geokod.',
+    district_row: (km, n, y) => `${km} km · ${n} kes pada ${y}`, outside: ' · terdekat, di luar 10 km', no_district: 'Tiada data daerah.',
+    unverified: 'belum disahkan', town_level: 'peringkat bandar',
+    town_note: 'Artikel hanya menyebut bandar, jadi pin ini menandakan bandar, bukan lokasi kejadian.', also_by: 'Turut dilaporkan oleh',
+    lbl_social: 'Sosial', lbl_news: 'Berita', more: n => `+${n} lagi`,
+    no_reports_area: 'Tiada laporan berita atau media sosial di kawasan ini bagi tempoh yang dipilih.',
+    loc_unavail: 'Lokasi tidak tersedia. Memaparkan Kuala Lumpur.', around_loc: a => `Sekitar lokasi anda (±${a} m)`,
+    loc_not_shared: 'Lokasi tidak dikongsi. Memaparkan Kuala Lumpur. Ketik peta untuk beralih.', around_point: 'Sekitar titik yang anda pilih',
+    around: x => `Sekitar ${x}`,
+    dash_title: 'Papan pemuka jenayah', close: 'Tutup ×', tabs_aria: 'Bahagian papan pemuka',
+    tab_areas: '10 kawasan teratas', tab_states: 'Mengikut negeri', tab_news: 'Laporan berita', tab_dosm: 'DOSM 2026',
+    scope_aria: 'Kawasan kedudukan', measure_aria: 'Jenis jenayah untuk kedudukan',
+    m_total: 'Semua jenayah', m_assault: 'Kekerasan', m_property: 'Harta benda',
+    measures: { total: 'Semua jenayah', assault: 'Jenayah kekerasan', property: 'Jenayah harta benda' },
+    official_k: y => `Angka rasmi polis · ${y}`,
+    top10_l: (m, w, y) => `10 teratas · ${m} · ${w} · ${y}`, your_area: 'kawasan anda', your_area_k: 'Kawasan anda', selected: 'Kawasan dipilih',
+    ranked_of: (n, N, w) => `Kedudukan ${n} daripada ${N} di ${w}:`,
+    areas_note: 'Pilih kawasan untuk melihat jenayah utamanya. Kawasan ialah daerah polis (IPD). Kedudukan mengikut bilangan kes, bukan kes bagi setiap orang, kerana jumlah penduduk tidak diterbitkan mengikut daerah polis. Perubahan dibandingkan dengan tahun sebelumnya.',
+    no_change: 'Tiada perubahan', vs: y => `berbanding ${y}`,
+    nat_rank: (n, N) => `Kedudukan ${n} daripada ${N} di Malaysia bagi semua jenayah`,
+    all_cases: 'semua kes', violent: 'kekerasan', property: 'harta benda',
+    top_crimes: (n, y) => `${n} jenayah utama · ${y}`, no_cases: 'Tiada kes direkodkan.',
+    only_types: (n, y) => `Hanya ${n} daripada 12 jenis jenayah polis mencatatkan kes di sini pada ${y}.`,
+    news_near: r => `Laporan berita dan media sosial berhampiran · ${r}`,
+    near_note: (km, a, b) => `Dalam lingkungan ${km} km dari ibu pejabat IPD, ${a} hingga ${b}. Lokasi diambil daripada teks artikel, jadi ia hanya anggaran.`,
+    no_news_here: 'Tiada laporan berita atau media sosial berhampiran dalam tempoh ini.',
+    show_map: 'Tunjukkan kawasan ini pada peta →', fig_fail: e => `Tidak dapat memuatkan angka: ${e}.`,
+    states_l: (m, y) => `Negeri · ${m} · ${y}`,
+    states_note: 'Pilih negeri untuk melihat jenayah utamanya. Jumlah negeri ialah gabungan daerah polisnya dan mengira bilangan kes, bukan kes bagi setiap orang. Penipuan dalam talian diambil daripada terbitan DOSM 2026.',
+    state_k: 'Negeri', state_rank: (n, N) => `Kedudukan ${n} daripada ${N} negeri bagi semua jenayah`, districts_n: n => `${n} daerah polis`,
+    fraud_l: y => `Kes penipuan dalam talian · ${y} · DOSM`, fraud_none: 'DOSM tidak menyenaraikan negeri ini secara berasingan.',
+    state_news: r => `Laporan berita dan media sosial di negeri ini · ${r}`,
+    state_news_note: 'Setiap laporan dikira dalam negeri ibu pejabat daerah polis yang terdekat.',
+    no_news_state: 'Tiada laporan berita atau media sosial di negeri ini dalam tempoh ini.',
+    see_areas: s => `Lihat 10 kawasan teratas di ${s} →`,
+    news_k: r => `Berita dan media sosial · ${r}`, news_h: 'Apa yang dilaporkan berita',
+    n_total: 'laporan', n_news: 'berita', n_social: 'sosial', n_types: 'Jenis jenayah utama', n_states: 'Negeri dengan laporan terbanyak',
+    n_areas: 'Kawasan dengan laporan terbanyak', n_latest: 'Laporan terkini', n_none: 'Tiada laporan berita atau media sosial dalam tempoh ini.',
+    n_note: (a, b) => `Dikumpul daripada suapan berita tempatan Malaysia dan hantaran media sosial awam, ${a} hingga ${b}. Setiap laporan diletakkan berdasarkan teks artikel dan dikira dalam daerah polis yang terdekat, jadi lokasinya hanya anggaran. Hantaran media sosial belum disahkan. Tukar tempoh dengan Julat di panel sisi.`,
+    n_area_row: n => `IPD ${n}`,
+    dosm_k: d => `Jabatan Perangkaan Malaysia · diterbitkan ${d}`, dosm_h: 'Statistik Jenayah, Malaysia, 2026',
+    dosm_sub: (y, p) => `Angka kebangsaan bagi ${y}, berbanding ${p}.`, dosm_prev: (p, n) => `${p}: ${n}`,
+    dosm_fraud_l: y => `Kes penipuan dalam talian mengikut negeri · ${y}`,
+    dosm_note: 'Terbitan ini menggunakan Klasifikasi Jenayah Antarabangsa bagi Tujuan Statistik (ICCS). Kategorinya berbeza daripada jenayah indeks polis yang digunakan di bahagian lain aplikasi ini, dan ia tidak dipecahkan mengikut daerah polis, jadi angkanya tidak sama dengan angka kawasan.',
+    dosm_links: 'Halaman terbitan', dosm_pdf: 'Penerbitan penuh (PDF)', dosm_missing: 'Angka DOSM tidak dapat dimuatkan.',
+    rm_million: n => `RM${n} juta`,
+    dosm_labels: {
+      homicide: 'Pembunuhan', sexual_assault: 'Serangan seksual', domestic_violence: 'Keganasan rumah tangga', robbery: 'Rompakan',
+      theft_personal: 'Kecurian harta peribadi', fraud_face: 'Penipuan bersemuka', online_fraud: 'Penipuan dalam talian',
+      cybercrime: 'Jenayah siber', cyber_losses: 'Kerugian jenayah siber', controlled_goods: 'Penyelewengan barang kawalan',
+      positive_urine: 'Ujian air kencing positif dadah (polis)',
+    },
+    sources: 'Sumber',
+    src_pdrm: y => `Kawasan dan negeri: jenayah mengikut daerah polis, Polis Diraja Malaysia (PDRM), ${y}, melalui data.gov.my (CC BY 4.0).`,
+    src_dosm: (d, y) => `Angka kebangsaan dan penipuan dalam talian mengikut negeri: DOSM, Statistik Jenayah, Malaysia, 2026 (data ${y}), diterbitkan ${d}.`,
+    src_news: 'Laporan berita dan media sosial: dikumpul oleh aplikasi ini daripada suapan berita Malaysia dan hantaran media sosial awam.',
+  },
+};
+// Crime type names: the police dataset's 12 types and the news categories.
+const TYPES = {
+  en: {
+    causing_injury: 'Causing injury', murder: 'Murder', rape: 'Rape',
+    robbery_gang_armed: 'Armed gang robbery', robbery_gang_unarmed: 'Gang robbery, unarmed',
+    robbery_solo_armed: 'Armed robbery, alone', robbery_solo_unarmed: 'Robbery, alone and unarmed',
+    break_in: 'Break-in', theft_other: 'Other theft', theft_vehicle_lorry: 'Lorry and van theft',
+    theft_vehicle_motorcar: 'Car theft', theft_vehicle_motorcycle: 'Motorcycle theft',
+    shooting: 'Shooting', kidnap: 'Kidnapping', extortion: 'Extortion', robbery: 'Robbery', snatch_theft: 'Snatch theft',
+    vehicle_theft: 'Vehicle theft', assault: 'Assault', rape_sexual: 'Rape or sexual assault', theft: 'Theft', scam: 'Scam or fraud',
+    drugs: 'Drugs', vandalism: 'Vandalism or arson', police_case: 'Other police case',
+  },
+  ms: {
+    causing_injury: 'Mencederakan', murder: 'Bunuh', rape: 'Rogol',
+    robbery_gang_armed: 'Samun berkawan bersenjata', robbery_gang_unarmed: 'Samun berkawan tanpa senjata',
+    robbery_solo_armed: 'Samun bersenjata, bersendirian', robbery_solo_unarmed: 'Samun tanpa senjata, bersendirian',
+    break_in: 'Pecah rumah', theft_other: 'Curi lain-lain', theft_vehicle_lorry: 'Curi lori dan van',
+    theft_vehicle_motorcar: 'Curi kereta', theft_vehicle_motorcycle: 'Curi motosikal',
+    shooting: 'Tembakan', kidnap: 'Culik', extortion: 'Peras ugut', robbery: 'Rompakan', snatch_theft: 'Ragut',
+    vehicle_theft: 'Curi kenderaan', assault: 'Serangan', rape_sexual: 'Rogol atau serangan seksual', theft: 'Kecurian', scam: 'Penipuan',
+    drugs: 'Dadah', vandalism: 'Vandalisme atau bakar', police_case: 'Kes polis lain',
+  },
+};
+// Messages the server or the static build can return, in Bahasa Malaysia.
+const API_MS = {
+  'lat/lng must be a location in Malaysia': 'Lokasi mesti di Malaysia.',
+  'Choose a start and a destination in Malaysia.': 'Pilih titik mula dan destinasi di Malaysia.',
+  'That trip is too long to check. Try one under 400 km.': 'Perjalanan itu terlalu jauh untuk disemak. Cuba perjalanan kurang daripada 400 km.',
+  'No route found between those places.': 'Tiada laluan ditemui antara tempat-tempat itu.',
+  'The routing service is busy. Try again in a minute.': 'Perkhidmatan laluan sedang sibuk. Cuba lagi sebentar lagi.',
+  'Couldn\'t reach the routing service. Check your connection and try again.': 'Tidak dapat menghubungi perkhidmatan laluan. Semak sambungan anda dan cuba lagi.',
+  'Place search is busy. Try again in a minute.': 'Carian tempat sedang sibuk. Cuba lagi sebentar lagi.',
+  'Those coordinates are outside Malaysia.': 'Koordinat itu berada di luar Malaysia.',
+  'Police district': 'Daerah polis', 'Coordinates': 'Koordinat',
+};
+
+let lang = 'en';
+try { lang = localStorage.getItem('lang') || ''; } catch {}
+if (!STR[lang]) lang = /^ms|^id/i.test(navigator.language || '') ? 'ms' : 'en';
+const t = (k, ...a) => { const v = STR[lang][k] ?? STR.en[k]; return typeof v === 'function' ? v(...a) : v; };
+const apiText = s => lang === 'ms' ? (API_MS[s] || s) : s;
+const nice = k => TYPES[lang][k] || TYPES.en[k] || String(k).replace(/_/g, ' ').replace(/^./, c => c.toUpperCase());
+const levelName = l => t('levels')[Math.max(0, Math.min(4, Math.floor(l)))];
+const locale = () => lang === 'ms' ? 'ms-MY' : 'en-MY';
+const num = n => Number(n).toLocaleString(locale());
+function applyStatic() {
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-t]').forEach(el => { el.textContent = t(el.dataset.t); });
+  document.querySelectorAll('[data-t-ph]').forEach(el => { el.placeholder = t(el.dataset.tPh); });
+  document.querySelectorAll('[data-t-aria]').forEach(el => { el.setAttribute('aria-label', t(el.dataset.tAria)); });
+  document.querySelector(`input[name="lang"][value="${lang}"]`).checked = true;
+}
+applyStatic();
+
 const RADIUS_KM = 10;
 const KL = [3.1478, 101.6953];
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const nice = t => t.replace(/_/g, ' ');
 // The report range, counted from this device's date and time zone.
 // "Last 2 months" on 11 Nov runs from 11 Sep; a day that doesn't exist (30 Feb) becomes the month's last day.
 function deviceRange(v) {
@@ -310,14 +685,14 @@ function deviceRange(v) {
 }
 const rangeVal = () => document.querySelector('input[name="days"]:checked').value;
 const modeVal = () => document.querySelector('input[name="r-mode"]:checked').value;
-const RANGE_NAMES = { 7: 'Last 7 days', 30: 'Last 30 days', '2m': 'Last 2 months' };
+const rangeName = () => t('range_names')[rangeVal()];
 // Data calls. With the Node server (npm start) they go to /api/…; on GitHub Pages the static build adds
 // window.STATIC_API, which answers the same calls in the browser from the published data files.
 const api = path => window.STATIC_API ? window.STATIC_API(path) : fetch(path).then(r => r.json());
-const fmtDay = d => d.toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' });
+const fmtDay = d => (d instanceof Date ? d : new Date(d)).toLocaleDateString(locale(), { day: 'numeric', month: 'short', year: 'numeric' });
 const ago = iso => {
   const h = (Date.now() - Date.parse(iso)) / 36e5;
-  return h < 1 ? `${Math.max(1, Math.round(h * 60))} min ago` : h < 24 ? `${Math.round(h)}h ago` : `${Math.round(h / 24)}d ago`;
+  return h < 1 ? t('ago_min', Math.max(1, Math.round(h * 60))) : h < 24 ? t('ago_h', Math.round(h)) : t('ago_d', Math.round(h / 24));
 };
 
 const map = L.map('map', { zoomControl: true }).setView(KL, 12);
@@ -336,17 +711,16 @@ map.getPane('heat').classList.add('leaflet-heat-pane');
 let heatLayer = null, heatData = null;
 const heatColor = lvl => css(`--heat-${Math.min(4, Math.max(1, Math.floor(lvl)))}`);
 
-// Place search, top right of the map. District towns come back instantly; the full geocoder
-// answer follows a moment later.
+// Place search, top right of the map.
 const SearchBox = L.Control.extend({
   options: { position: 'topright' },
   onAdd() {
     const div = L.DomUtil.create('div', 'search');
     div.innerHTML = `<form role="search">
         <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-        <input id="search-q" type="text" enterkeyhint="search" placeholder="Search a town, taman or address" aria-label="Search a place in Malaysia"
+        <input id="search-q" type="text" enterkeyhint="search" data-t-ph="search_ph" data-t-aria="search_aria"
           autocomplete="off" role="combobox" aria-expanded="false" aria-controls="search-list">
-        <button type="button" id="search-clear" aria-label="Clear search" hidden>×</button>
+        <button type="button" id="search-clear" data-t-aria="clear_search" hidden>×</button>
       </form>
       <ul id="search-list" role="listbox" hidden></ul>`;
     L.DomEvent.disableClickPropagation(div);
@@ -355,6 +729,7 @@ const SearchBox = L.Control.extend({
   },
 });
 new SearchBox().addTo(map);
+applyStatic();
 
 // Place autocomplete, shared by the map's search box and the route's From/To fields.
 // District towns come back instantly; the full geocoder answer follows a moment later.
@@ -363,7 +738,7 @@ function autocomplete(input, list, onChoose) {
   const show = (rs, msg) => {
     results = rs; sel = rs.length ? 0 : -1;
     list.innerHTML = rs.length
-      ? rs.map((r, i) => `<li role="option" id="${list.id}-${i}" aria-selected="${i === 0}" data-i="${i}"><b>${esc(r.label)}</b><span>${esc(r.sub || '')}</span></li>`).join('')
+      ? rs.map((r, i) => `<li role="option" id="${list.id}-${i}" aria-selected="${i === 0}" data-i="${i}"><b>${esc(r.label)}</b><span>${esc(apiText(r.sub || ''))}</span></li>`).join('')
       : (msg ? `<li class="msg">${esc(msg)}</li>` : '');
     list.hidden = !list.innerHTML;
     input.setAttribute('aria-expanded', String(!list.hidden));
@@ -380,8 +755,8 @@ function autocomplete(input, list, onChoose) {
     try {
       const r = await api(`/api/search?q=${encodeURIComponent(q)}${local ? '&local=1' : ''}`);
       if (my !== seq || (local && !r.results.length)) return;
-      show(r.results, r.error || (local ? '' : `No places in Malaysia match "${q}".`));
-    } catch { if (my === seq) show([], 'Search is unavailable. Check that the server is running.'); }
+      show(r.results, r.error ? apiText(r.error) : (local ? '' : t('no_match', q)));
+    } catch { if (my === seq) show([], t('search_down')); }
   };
   input.addEventListener('input', () => {
     const q = input.value.trim();
@@ -407,8 +782,10 @@ function autocomplete(input, list, onChoose) {
   return { clear: () => { input.value = ''; show([]); } };
 }
 
-const mapSearch = autocomplete($('search-q'), $('search-list'),
-  r => setPoint(r.lat, r.lng, `Around ${r.label}${r.sub && r.kind !== 'coordinates' ? `, ${r.sub.split(',')[0]}` : ''}`));
+const mapSearch = autocomplete($('search-q'), $('search-list'), r => {
+  const name = `${r.label}${r.sub && r.kind !== 'coordinates' && r.kind !== 'district' ? `, ${r.sub.split(',')[0]}` : ''}`;
+  setPoint(r.lat, r.lng, () => t('around', name));
+});
 $('search-q').closest('form').addEventListener('submit', e => e.preventDefault());
 $('search-q').addEventListener('typed', () => { $('search-clear').hidden = !$('search-q').value; });
 $('search-clear').addEventListener('click', () => { mapSearch.clear(); $('search-clear').hidden = true; $('search-q').focus(); });
@@ -418,128 +795,138 @@ $('search-clear').addEventListener('click', () => { mapSearch.clear(); $('search
 // roads it uses listed by road.
 const routeLayer = L.layerGroup().addTo(map);
 const trip = { from: null, to: null };
+let lastRoute = null;
 autocomplete($('r-from'), $('r-from-list'), r => { trip.from = r; });
 autocomplete($('r-to'), $('r-to-list'), r => { trip.to = r; });
 $('r-from').addEventListener('typed', () => { trip.from = null; });
 $('r-to').addEventListener('typed', () => { trip.to = null; });
 $('r-from-here').addEventListener('click', () => {
   if (!navigator.geolocation) return;
-  $('r-from').value = 'Finding your location…';
+  $('r-from').value = t('finding_loc');
   navigator.geolocation.getCurrentPosition(
-    p => { trip.from = { lat: p.coords.latitude, lng: p.coords.longitude, label: 'My location' }; $('r-from').value = 'My location'; },
-    () => { $('r-from').value = ''; $('r-from').placeholder = 'Location not shared. Type a start instead.'; },
+    p => { trip.from = { lat: p.coords.latitude, lng: p.coords.longitude, label: t('my_loc') }; $('r-from').value = t('my_loc'); },
+    () => { $('r-from').value = ''; $('r-from').placeholder = t('loc_denied_ph'); },
     { timeout: 10000, maximumAge: 300000 });
 });
 
-const fmtKm = km => km < 1 ? `${Math.round(km * 1000)} m` : `${km.toFixed(km < 10 ? 1 : 0)} km`;
-const fmtMin = m => m < 60 ? `${m} min` : `${Math.floor(m / 60)} h ${m % 60} min`;
+const fmtKm = km => km < 1 ? `${Math.round(km * 1000)} m` : `${km.toLocaleString(locale(), { maximumFractionDigits: km < 10 ? 1 : 0 })} km`;
+const fmtMin = m => m < 60 ? `${m} min` : lang === 'ms' ? `${Math.floor(m / 60)} jam ${m % 60} min` : `${Math.floor(m / 60)} h ${m % 60} min`;
 const routeColor = lvl => lvl ? css(`--heat-${lvl}`) : css('--route');
 
 async function checkTrip() {
   const out = $('r-out');
   out.hidden = false;
-  if (!trip.from || !trip.to) { out.innerHTML = '<p class="note">Pick a start and a destination from the suggestions first.</p>'; return; }
-  out.innerHTML = '<p class="note">Finding the route…</p>';
+  if (!trip.from || !trip.to) { out.innerHTML = `<p class="note">${esc(t('pick_first'))}</p>`; return; }
+  out.innerHTML = `<p class="note">${esc(t('finding_route'))}</p>`;
   const { from, to } = deviceRange(rangeVal());
   const qs = new URLSearchParams({ from: `${trip.from.lat},${trip.from.lng}`, to: `${trip.to.lat},${trip.to.lng}`, mode: modeVal(),
     since: from.toISOString(), until: to.toISOString() });
   let r;
   try { r = await api(`/api/route?${qs}`); }
-  catch { out.innerHTML = '<p class="note">Couldn\'t reach the server. Check that it\'s running.</p>'; return; }
-  if (r.error) { out.innerHTML = `<p class="note">${esc(r.error)}</p>`; return; }
-  drawRoute(r);
+  catch { out.innerHTML = `<p class="note">${esc(t('no_server'))}</p>`; return; }
+  if (r.error) { out.innerHTML = `<p class="note">${esc(apiText(r.error))}</p>`; return; }
+  lastRoute = r;
+  drawRoute(r, true);
 }
 
-function drawRoute(r) {
+function drawRoute(r, fit) {
   routeLayer.clearLayers();
   const all = r.stretches.flatMap(s => s.coords);
   // A light casing under the coloured stretches keeps the line readable over the red shading.
   L.polyline(all, { color: css('--bg'), weight: 10, opacity: 0.95, interactive: false }).addTo(routeLayer);
   for (const s of r.stretches) {
     L.polyline(s.coords, { color: routeColor(s.level), weight: 6, opacity: 0.95 })
-      .bindTooltip(`${esc(s.label)} crime density${s.roads.length ? ` · ${esc(s.roads.join(', '))}` : ''}`, { sticky: true })
+      .bindTooltip(`${esc(t('density_tip', levelName(s.level)))}${s.roads.length ? ` · ${esc(s.roads.join(', '))}` : ''}`, { sticky: true })
       .addTo(routeLayer);
   }
   const pin = (p, label) => L.marker(p, { icon: L.divIcon({ className: 'pin pin-end', html: '', iconSize: [14, 14], iconAnchor: [7, 7] }) }).bindTooltip(label).addTo(routeLayer);
-  pin(all[0], `From: ${trip.from.label}`); pin(all[all.length - 1], `To: ${trip.to.label}`);
+  pin(all[0], `${t('from_pin')}: ${trip.from?.label || ''}`); pin(all[all.length - 1], `${t('to_pin')}: ${trip.to?.label || ''}`);
   for (const w of r.warnings) {
     L.marker([w.lat, w.lng], { icon: L.divIcon({ className: 'pin pin-warn', html: '', iconSize: [20, 20], iconAnchor: [10, 10] }) })
-      .bindPopup(`<b>${esc(nice(w.type))}</b> near ${esc(w.road || 'the route')}${w.source === 'social' ? ' <span class="tag unverified">unverified</span>' : ''}<br>${esc(w.title)}<br><small>${w.distanceM} m from the route · ${ago(w.publishedAt)} · ${esc(w.outlet)}</small><br><a href="${esc(w.link)}" target="_blank" rel="noopener">Open source</a>`)
+      .bindPopup(`<b>${esc(nice(w.type))}</b> ${t('near')} ${esc(w.road || t('the_route'))}${w.source === 'social' ? ` <span class="tag unverified">${t('unverified')}</span>` : ''}<br>${esc(w.title)}<br><small>${t('m_from_route', w.distanceM)} · ${ago(w.publishedAt)} · ${esc(w.outlet)}</small><br><a href="${esc(w.link)}" target="_blank" rel="noopener">${t('open_source')}</a>`)
       .addTo(routeLayer);
   }
-  map.fitBounds(L.latLngBounds(all), { padding: [30, 30] });
+  if (fit) map.fitBounds(L.latLngBounds(all), { padding: [30, 30] });
 
   const total = r.kmByLevel.reduce((s, l) => s + l.km, 0) || 1;
   const high = r.kmByLevel.filter(l => l.level >= 3).reduce((s, l) => s + l.km, 0);
-  const strip = r.kmByLevel.filter(l => l.km > 0).map(l => `<i style="width:${(100 * l.km / total).toFixed(1)}%;background:${routeColor(l.level)}" title="${esc(l.label)}: ${fmtKm(l.km)}"></i>`).join('');
+  const strip = r.kmByLevel.filter(l => l.km > 0).map(l => `<i style="width:${(100 * l.km / total).toFixed(1)}%;background:${routeColor(l.level)}" title="${esc(levelName(l.level))}: ${fmtKm(l.km)}"></i>`).join('');
   const { from, to } = deviceRange(rangeVal());
   $('r-out').innerHTML = `
-    <div class="route-sum">${fmtKm(r.distanceKm)} · ${fmtMin(r.durationMin)} <span>${esc(trip.from.label)} → ${esc(trip.to.label)}</span></div>
-    <div><div class="strip" role="img" aria-label="Crime density along the route">${strip}</div>
-      <p class="note">${high >= 0.1 ? `${fmtKm(high)} of the route runs through high or very high crime density${r.highRoads.length ? `, on ${esc(r.highRoads.join(', '))}` : ''}.` : 'No part of the route runs through high or very high crime density.'}</p></div>
+    <div class="route-sum">${fmtKm(r.distanceKm)} · ${fmtMin(r.durationMin)} <span>${esc(trip.from?.label || '')} → ${esc(trip.to?.label || '')}</span></div>
+    <div><div class="strip" role="img" aria-label="${esc(t('strip_aria'))}">${strip}</div>
+      <p class="note">${esc(high >= 0.1 ? t('route_high', fmtKm(high), r.highRoads.join(', ')) : t('route_none'))}</p></div>
     <div>
-      <p class="label">Reported crime along the route</p>
+      <p class="label">${esc(t('along'))}</p>
       ${r.warnings.length ? `<ul class="warns">${r.warnings.slice(0, 30).map((w, i) => `
-        <li class="${w.source}" data-w="${i}"><div><span class="road">${esc(w.road || 'Unnamed road')}</span>: ${esc(nice(w.type))}${w.source === 'social' ? '<span class="tag unverified">unverified</span>' : ''}</div>
-        <div class="m">${esc(w.title)}</div><div class="m">${w.distanceM} m from the route · ${ago(w.publishedAt)} · ${esc(w.outlet)}</div></li>`).join('')}</ul>`
-      : `<p class="note">No news or social reports within ${r.nearM} m of the route between ${fmtDay(from)} and ${fmtDay(to)}.</p>`}
-      ${r.townLevelNear ? `<p class="note">${r.townLevelNear} more report${r.townLevelNear > 1 ? 's' : ''} near the route only give${r.townLevelNear > 1 ? '' : 's'} the town, so ${r.townLevelNear > 1 ? 'they aren\'t' : 'it isn\'t'} listed by road.</p>` : ''}
+        <li class="${w.source}" data-w="${i}"><div><span class="road">${esc(w.road || t('unnamed'))}</span>: ${esc(nice(w.type))}${w.source === 'social' ? `<span class="tag unverified">${t('unverified')}</span>` : ''}</div>
+        <div class="m">${esc(w.title)}</div><div class="m">${t('m_from_route', w.distanceM)} · ${ago(w.publishedAt)} · ${esc(w.outlet)}</div></li>`).join('')}</ul>`
+      : `<p class="note">${esc(t('no_reports_route', r.nearM, fmtDay(from), fmtDay(to)))}</p>`}
+      ${r.townLevelNear ? `<p class="note">${esc(t('town_near', r.townLevelNear))}</p>` : ''}
     </div>
-    <p class="note">Roads are matched to reports within ${r.nearM} m. Report locations are approximate and the shading comes from police-district totals, so treat this as a guide, not a safety rating.</p>`;
+    <p class="note">${esc(t('route_note', r.nearM))}</p>`;
   $('r-out').querySelectorAll('li[data-w]').forEach(li => li.addEventListener('click', () => {
     const w = r.warnings[+li.dataset.w]; map.setView([w.lat, w.lng], Math.max(map.getZoom(), 15));
   }));
   $('r-clear').hidden = false;
 }
 $('r-go').addEventListener('click', checkTrip);
-$('r-clear').addEventListener('click', () => { routeLayer.clearLayers(); $('r-out').hidden = true; $('r-clear').hidden = true; });
+$('r-clear').addEventListener('click', () => { routeLayer.clearLayers(); lastRoute = null; $('r-out').hidden = true; $('r-clear').hidden = true; });
 
 const MapLegend = L.Control.extend({
   options: { position: 'bottomright' },
-  onAdd() {
-    const div = L.DomUtil.create('div', 'map-legend');
-    div.innerHTML = '<b>Crime density</b><div class="cells">' +
-      ['Low', 'Moderate', 'Elevated', 'High', 'Very high'].map((l, i) => `<i title="${l}" style="background:${i ? `var(--heat-${i})` : 'transparent'}"></i>`).join('') +
-      '</div><div class="ends"><span>Low</span><span>Very high</span></div>';
-    return div;
+  onAdd() { this._div = L.DomUtil.create('div', 'map-legend'); this.update(); return this._div; },
+  update() {
+    if (!this._div) return;
+    const lv = t('levels');
+    this._div.innerHTML = `<b>${esc(t('l_heat'))}</b><div class="cells">` +
+      lv.map((l, i) => `<i title="${esc(l)}" style="background:${i ? `var(--heat-${i})` : 'transparent'}"></i>`).join('') +
+      `</div><div class="ends"><span>${esc(lv[0])}</span><span>${esc(lv[4])}</span></div>`;
   },
 });
 const mapLegend = new MapLegend();
 
 const layers = { official: L.layerGroup().addTo(map), news: L.layerGroup().addTo(map), social: L.layerGroup().addTo(map) };
-let here = null, ring = null, me = null, data = { districts: [], incidents: [] };
+let here = null, ring = null, me = null, whereText = () => t('locating'), data = { districts: [], incidents: [] };
 const markerFor = new Map();
+const showWhere = () => { $('where').textContent = whereText(); };
+showWhere();
 
+// label: a function, so the text can be redrawn when the language changes.
 function setPoint(lat, lng, label) {
   here = { lat, lng };
   ring?.remove(); me?.remove();
   ring = L.circle([lat, lng], { radius: RADIUS_KM * 1000, color: css('--ring'), weight: 1.5, dashArray: '4 4', fill: false, interactive: false }).addTo(map);
   me = L.marker([lat, lng], { interactive: false, icon: L.divIcon({ className: 'pin pin-me', html: '', iconSize: [12, 12], iconAnchor: [6, 6] }) }).addTo(map);
   map.fitBounds(ring.getBounds(), { padding: [20, 20] });
-  $('where').textContent = label;
+  whereText = label; showWhere();
   load();
+}
+
+let metaAt = null;
+function showRange() {
+  const { from, to } = deviceRange(rangeVal());
+  $('range').textContent = t('range_text', fmtDay(from), fmtDay(to)) + (metaAt ? t('updated', ago(metaAt)) : '');
+  $('window-label').textContent = `${rangeName()} · ${t('to_date', fmtDay(to))}`;
 }
 
 async function load() {
   const q = `lat=${here.lat}&lng=${here.lng}&radius=${RADIUS_KM}`;
   const { from, to } = deviceRange(rangeVal());
-  $('range').textContent = `Reports from ${fmtDay(from)} to ${fmtDay(to)}, by this device's date.`;
-  $('window-label').textContent = `${RANGE_NAMES[rangeVal()]} · to ${fmtDay(to)}`;
-  if (window.STATIC_API) api('/api/meta').then(m => {
-    if (m?.generatedAt) $('range').textContent += ` Data updated ${ago(m.generatedAt)}.`;
-  }).catch(() => {});
-  $('list').innerHTML = '<li class="empty">Loading…</li>';
+  showRange();
+  if (window.STATIC_API) api('/api/meta').then(m => { if (m?.generatedAt) { metaAt = m.generatedAt; showRange(); } }).catch(() => {});
+  $('list').innerHTML = `<li class="empty">${esc(t('loading'))}</li>`;
   try {
     const [off, inc, ht] = await Promise.all([
       api(`/api/official?${q}`),
       api(`/api/incidents?${q}&from=${encodeURIComponent(from.toISOString())}&to=${encodeURIComponent(to.toISOString())}`),
       api(`/api/heat?${q}`).catch(() => null),
     ]);
-    if (off.error) throw new Error(off.error);
+    if (off.error) throw new Error(apiText(off.error));
     heatData = ht && !ht.error ? ht : null;
     data = { districts: off.districts || [], year: off.year, incidents: inc.incidents || [] };
   } catch (e) {
-    $('list').innerHTML = `<li class="empty">Couldn't load reports: ${esc(e.message)}. Check that the server is running and online.</li>`;
+    $('list').innerHTML = `<li class="empty">${esc(t('load_fail', e.message))}</li>`;
     return;
   }
   render();
@@ -551,8 +938,9 @@ function drawHeat() {
   heatLayer?.remove(); heatLayer = null;
   const on = $('f-heat').checked && heatData;
   on ? mapLegend.addTo(map) : mapLegend.remove();
+  mapLegend.update();
   $('area').hidden = !heatData;
-  if (!heatData) { $('legend').innerHTML = '<span>Density shading unavailable.</span>'; return; }
+  if (!heatData) { $('legend').innerHTML = `<span>${esc(t('heat_unavail'))}</span>`; return; }
 
   const stops = [1, 2, 3, 4].map(i => {
     const c = css(`--heat-${i}`);
@@ -583,10 +971,11 @@ function drawHeat() {
 
   const h = heatData.here;
   $('area-sw').style.background = h.level < 1 ? 'transparent' : heatColor(h.level);
-  $('area-l').textContent = h.label;
+  $('area-l').textContent = levelName(h.level);
+  const shares = [75, 50, 25, 10];
   $('legend').innerHTML = heatData.legend.slice().reverse().map(l =>
-    `<div><i style="background:${css(`--heat-${l.level}`)}"></i><span><b>${esc(l.label)}</b>: ${esc(l.note)} (${l.minCasesPerKm2.toLocaleString()}+ a year per km²)</span></div>`).join('') +
-    `<div><i style="border:1px solid var(--line)"></i><span><b>Low</b>: no shading</span></div>`;
+    `<div><i style="background:${css(`--heat-${l.level}`)}"></i><span><b>${esc(levelName(l.level))}</b>: ${esc(t('level_note', shares[l.level - 1]))} (${esc(t('per_km2', num(l.minCasesPerKm2)))})</span></div>`).join('') +
+    `<div><i style="border:1px solid var(--line)"></i><span><b>${esc(levelName(0))}</b>: ${esc(t('no_shading'))}</span></div>`;
 }
 
 function render() {
@@ -598,19 +987,19 @@ function render() {
 
   const inside = data.districts.filter(d => d.distanceKm <= RADIUS_KM);
   const officialTotal = inside.reduce((s, d) => s + d.total, 0);
-  $('s-official').textContent = inside.length ? officialTotal.toLocaleString() : '0';
-  $('s-official-l').textContent = `official cases ${data.year || ''}`.trim();
+  $('s-official').textContent = inside.length ? num(officialTotal) : '0';
+  $('s-official-l').textContent = t('official_cases', data.year || '').trim();
 
   // Official: one ring per district HQ, sized by annual total.
   const max = Math.max(1, ...data.districts.map(d => d.total));
   $('districts').innerHTML = data.districts.map(d => {
-    const top = Object.entries(d.byType).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([t, n]) => `${nice(t)} ${n}`).join(' · ');
+    const top = Object.entries(d.byType).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([k, n]) => `${nice(k)} ${num(n)}`).join(' · ');
     const m = L.circleMarker([d.lat, d.lng], { radius: 10 + 22 * Math.sqrt(d.total / max), color: css('--official'), weight: 1.5, opacity: .7, fillColor: css('--bg'), fillOpacity: $('f-heat').checked ? .08 : .3 })
-      .bindPopup(`<b>IPD ${esc(d.district)}</b>, ${esc(d.state)}<br>${d.year}: <b>${d.total.toLocaleString()}</b> cases (${d.assault} violent, ${d.property} property)<br>Top: ${esc(top)}<br><small>Area level. Location ${d.located === 'table' ? 'from district table' : 'geocoded'}.</small>`);
+      .bindPopup(`<b>IPD ${esc(d.district)}</b>, ${esc(d.state)}<br>${t('cases_line', d.year, num(d.total), num(d.assault), num(d.property))}<br>${t('top')}: ${esc(top)}<br><small>${t(d.located === 'table' ? 'loc_table' : 'loc_geo')}</small>`);
     layers.official.addLayer(m);
     markerFor.set(`d:${d.district}`, m);
-    return `<li class="official" data-key="d:${esc(d.district)}"><div class="t">IPD ${esc(d.district)}</div><div class="m">${d.distanceKm} km · ${d.total.toLocaleString()} cases in ${d.year}${d.distanceKm > RADIUS_KM ? ' · nearest, outside 10 km' : ''}</div></li>`;
-  }).join('') || '<li class="empty">No district data.</li>';
+    return `<li class="official" data-key="d:${esc(d.district)}"><div class="t">IPD ${esc(d.district)}</div><div class="m">${esc(t('district_row', d.distanceKm, num(d.total), d.year))}${d.distanceKm > RADIUS_KM ? esc(t('outside')) : ''}</div></li>`;
+  }).join('') || `<li class="empty">${esc(t('no_district'))}</li>`;
 
   // News and social: individual pins.
   const visible = data.incidents.filter(i => show[i.source]);
@@ -626,16 +1015,16 @@ function render() {
     const m = L.marker([i.lat, i.lng], {
       icon: L.divIcon({ className: `pin ${approx ? 'pin-town' : social ? 'pin-social' : 'pin-news'}`, html: '', iconSize: [size, size], iconAnchor: [size / 2, size / 2] }),
       keyboard: false,
-    }).bindPopup(`<b>${esc(nice(i.type))}</b>${social ? ' <span class="tag unverified">unverified</span>' : ''}${approx ? ' <span class="tag approx">town-level</span>' : ''}<br>${esc(i.title)}<br><small>${esc(i.area)} · ${ago(i.publishedAt)} · ${esc(i.outlet)}</small>${approx ? '<br><small>The article only names the town, so this pin marks the town, not the scene.</small>' : ''}<br><a href="${esc(i.link)}" target="_blank" rel="noopener">Open source</a>${more ? `<br><small>Also reported by ${more}</small>` : ''}`);
+    }).bindPopup(`<b>${esc(nice(i.type))}</b>${social ? ` <span class="tag unverified">${t('unverified')}</span>` : ''}${approx ? ` <span class="tag approx">${t('town_level')}</span>` : ''}<br>${esc(i.title)}<br><small>${esc(i.area)} · ${ago(i.publishedAt)} · ${esc(i.outlet)}</small>${approx ? `<br><small>${esc(t('town_note'))}</small>` : ''}<br><a href="${esc(i.link)}" target="_blank" rel="noopener">${t('open_source')}</a>${more ? `<br><small>${t('also_by')} ${more}</small>` : ''}`);
     layers[i.source].addLayer(m);
     markerFor.set(`i:${i.link}`, m);
   }
   $('list').innerHTML = visible.length ? visible.slice(0, 40).map(i => `
     <li class="${i.source}" data-key="i:${esc(i.link)}">
-      <div class="t">${esc(nice(i.type))}${i.source === 'social' ? '<span class="tag unverified">unverified</span>' : ''}${i.precision === 'town' ? '<span class="tag approx">town-level</span>' : ''}</div>
+      <div class="t">${esc(nice(i.type))}${i.source === 'social' ? `<span class="tag unverified">${t('unverified')}</span>` : ''}${i.precision === 'town' ? `<span class="tag approx">${t('town_level')}</span>` : ''}</div>
       <div class="m">${esc(i.area)} · ${i.distanceKm} km · ${ago(i.publishedAt)}</div>
-      <div class="m src">${i.source === 'social' ? 'Social' : 'News'} · ${esc(i.outlet)}${i.alsoReported?.length ? ` +${i.alsoReported.length} more` : ''}</div>
-    </li>`).join('') : '<li class="empty">No news or social reports in this area for the selected period.</li>';
+      <div class="m src">${t(i.source === 'social' ? 'lbl_social' : 'lbl_news')} · ${esc(i.outlet)}${i.alsoReported?.length ? ` ${t('more', i.alsoReported.length)}` : ''}</div>
+    </li>`).join('') : `<li class="empty">${esc(t('no_reports_area'))}</li>`;
 }
 
 function focus(e) {
@@ -648,18 +1037,317 @@ $('list').addEventListener('click', focus);
 $('districts').addEventListener('click', focus);
 
 function locate() {
-  if (!navigator.geolocation) return setPoint(...KL, 'Location unavailable. Showing Kuala Lumpur.');
-  $('where').textContent = 'Locating you…';
+  if (!navigator.geolocation) return setPoint(...KL, () => t('loc_unavail'));
+  whereText = () => t('locating'); showWhere();
   navigator.geolocation.getCurrentPosition(
-    p => setPoint(p.coords.latitude, p.coords.longitude, `Around your location (±${Math.round(p.coords.accuracy)} m)`),
-    () => setPoint(...KL, 'Location not shared. Showing Kuala Lumpur. Tap the map to move.'),
+    p => { const acc = Math.round(p.coords.accuracy); setPoint(p.coords.latitude, p.coords.longitude, () => t('around_loc', acc)); },
+    () => setPoint(...KL, () => t('loc_not_shared')),
     { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
 }
 $('locate').addEventListener('click', locate);
-map.on('click', e => setPoint(e.latlng.lat, e.latlng.lng, 'Around the point you picked'));
-document.querySelectorAll('input[name="days"]').forEach(el => el.addEventListener('change', () => here && load()));
+map.on('click', e => setPoint(e.latlng.lat, e.latlng.lng, () => t('around_point')));
+document.querySelectorAll('input[name="days"]').forEach(el => el.addEventListener('change', () => {
+  if (here) load();
+  if (!$('dash').hidden) loadDashReports();
+}));
 ['f-official', 'f-news', 'f-social'].forEach(id => $(id).addEventListener('change', render));
 $('f-heat').addEventListener('change', render);
+
+// ---------- Dashboard ----------
+// Four sections: the top 10 police districts, states, the news and social reports, and DOSM's 2026 release.
+const dash = { all: null, year: null, sel: null, home: null, state: null, dosm: null, incidents: [], reportsFor: null, seq: 0 };
+const dKey = d => `${d.state}|${d.district}`;
+const radio = n => document.querySelector(`input[name="${n}"]:checked`).value;
+const kmBetween = (a, b) => {
+  const x = (b.lng - a.lng) * Math.cos((a.lat + b.lat) * Math.PI / 360), y = b.lat - a.lat;
+  return Math.sqrt(x * x + y * y) * 111.2;
+};
+const nearestDistrict = p => dash.all.reduce((best, d) => kmBetween(p, d) < kmBetween(p, best) ? d : best);
+// "▲ 12%" / "▼ 5%" against the year before; rises in the accent colour.
+function change(now, before, prevYear) {
+  if (!before) return '';
+  const p = Math.round(100 * (now - before) / before);
+  const yr = prevYear ? ` ${t('vs', prevYear)}` : '';
+  if (p === 0) return `<span class="down">${esc(t('no_change'))}${yr}</span>`;
+  return `<span class="${p > 0 ? 'up' : 'down'}">${p > 0 ? '▲' : '▼'} ${Math.abs(p)}%${yr}</span>`;
+}
+const barRows = (rows, max, cls = '') => `<ul class="bars ${cls}">${rows.map(([k, n, extra], i) => `<li>
+    <span class="k"><em>${i + 1}</em>${k}</span><span class="c">${num(n)}${extra ? `<small>${extra}</small>` : ''}</span>
+    <span class="bar"><i style="width:${(100 * n / Math.max(1, max)).toFixed(1)}%"></i></span></li>`).join('')}</ul>`;
+const share = (n, total) => n / (total || 1) < .005 ? '<1%' : `${Math.round(100 * n / (total || 1))}%`;
+
+async function openDash() {
+  $('dash').hidden = false;
+  $('dash-open').setAttribute('aria-expanded', 'true');
+  $('dash-close').focus();
+  if (!dash.all) {
+    $('rank').innerHTML = `<li class="empty" style="padding:10px 0">${esc(t('loading'))}</li>`;
+    $('detail').innerHTML = '';
+    try {
+      const r = await dashCall();
+      if (r.error || !r.districts?.length) throw new Error(apiText(r.error || 'no district data'));
+      dash.all = r.districts; dash.year = +r.year; dash.dosm = r.dosm;
+      setReports(r);
+    } catch (e) {
+      $('rank').innerHTML = `<li class="empty" style="padding:10px 0">${esc(t('fig_fail', e.message))}</li>`;
+      return;
+    }
+  } else if (dash.reportsFor !== rangeVal()) loadDashReports();
+  // Start on the police district nearest the place the map is showing.
+  const home = nearestDistrict(here || { lat: KL[0], lng: KL[1] });
+  dash.sel = dash.home = dKey(home);
+  dash.state ||= home.state;
+  renderDash();
+}
+function dashCall() {
+  const { from, to } = deviceRange(rangeVal());
+  return api(`/api/dashboard?from=${encodeURIComponent(from.toISOString())}&to=${encodeURIComponent(to.toISOString())}`);
+}
+// Each report is counted in its nearest police district (and that district's state).
+function setReports(r) {
+  dash.reportsFor = rangeVal();
+  dash.incidents = (r.incidents || []).map(i => {
+    const d = nearestDistrict(i);
+    return { ...i, district: d.district, state: d.state, dkey: dKey(d) };
+  });
+}
+async function loadDashReports() {
+  const my = ++dash.seq;
+  try { const r = await dashCall(); if (my === dash.seq && dash.all) { setReports(r); renderDash(); } } catch {}
+}
+function closeDash() {
+  $('dash').hidden = true;
+  $('dash-open').setAttribute('aria-expanded', 'false');
+  $('dash-open').focus();
+}
+
+function renderDash() {
+  if (!dash.all) return;
+  const tab = radio('d-tab');
+  ['areas', 'states', 'news', 'dosm'].forEach(p => { $(`p-${p}`).hidden = p !== tab; });
+  $('d-ctl').hidden = tab === 'news' || tab === 'dosm';
+  $('d-scope-seg').hidden = tab !== 'areas';
+  $('dash-k').textContent = tab === 'dosm' && dash.dosm ? t('dosm_k', fmtDay(dash.dosm.released))
+    : tab === 'news' ? t('news_k', rangeName()) : t('official_k', dash.year);
+  if (tab === 'areas') renderAreas();
+  if (tab === 'states') renderStates();
+  if (tab === 'news') renderNews();
+  if (tab === 'dosm') renderDosm();
+  const d = dash.dosm;
+  $('src-list').innerHTML = [t('src_pdrm', dash.year),
+    d ? `${esc(t('src_dosm', fmtDay(d.released), d.year))} <a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(t('dosm_links'))}</a> · <a href="${esc(d.pdf)}" target="_blank" rel="noopener">${esc(t('dosm_pdf'))}</a>` : '',
+    t('src_news')].filter(Boolean).map((s, i) => i === 1 ? s : esc(s)).join('<br>');
+}
+
+// --- Top 10 areas ---
+function renderAreas() {
+  const all = dash.all, m = radio('d-measure'), scope = radio('d-scope');
+  const sel = all.find(d => dKey(d) === dash.sel) || all[0];
+  $('d-state').textContent = sel.state;
+  const pool = scope === 'state' ? all.filter(d => d.state === sel.state) : all;
+  const sorted = [...pool].sort((a, b) => b[m] - a[m]);
+  const top = sorted.slice(0, 10);
+  const max = Math.max(1, top[0]?.[m] || 0);
+  const where = scope === 'state' ? sel.state : 'Malaysia';
+  $('rank-l').textContent = t('top10_l', t('measures')[m], where, dash.year);
+  const row = (d, n) => `<li><button type="button" data-k="${esc(dKey(d))}" aria-pressed="${dKey(d) === dash.sel}">
+      <span class="n">${n}</span>
+      <span class="nm">IPD ${esc(d.district)}<small>${esc(d.state)}${dKey(d) === dash.home ? ` · ${esc(t('your_area'))}` : ''}</small></span>
+      <span class="v">${num(d[m])}<small>${change(d[m], d.prev?.[m])}</small></span>
+      <span class="bar"><i style="width:${(100 * d[m] / max).toFixed(1)}%"></i></span></button></li>`;
+  let html = top.map((d, i) => row(d, i + 1)).join('');
+  // The selected area, if it isn't in the top 10, is shown below with its own rank.
+  const at = sorted.findIndex(d => dKey(d) === dash.sel);
+  if (at >= 10) html += `<li class="empty" style="padding:8px 0 4px;border-bottom:0;font-size:12.5px">${esc(t('ranked_of', at + 1, sorted.length, where))}</li>` + row(sorted[at], at + 1);
+  $('rank').innerHTML = html;
+  renderAreaDetail(sel);
+}
+
+function typeBars(byType, total) {
+  const types = Object.entries(byType).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  return { types, html: types.length ? barRows(types.map(([k, n]) => [esc(nice(k)), n, share(n, total)]), types[0][1]) : `<p class="note">${esc(t('no_cases'))}</p>` };
+}
+function reportBars(items, emptyKey) {
+  const counts = {};
+  for (const i of items) counts[i.type] = (counts[i.type] || 0) + 1;
+  const rows = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  return rows.length ? barRows(rows.map(([k, n]) => [esc(nice(k)), n]), rows[0][1], 'ink') : `<p class="note">${esc(t(emptyKey))}</p>`;
+}
+
+function renderAreaDetail(d) {
+  const all = dash.all, year = dash.year;
+  const natRank = [...all].sort((a, b) => b.total - a.total).findIndex(x => dKey(x) === dKey(d)) + 1;
+  const { types, html } = typeBars(d.byType, d.total);
+  const stat = (n, label, before) => `<div class="stat"><b>${num(n)}</b><span>${esc(label)}</span><span>${change(n, before) || '&nbsp;'}</span></div>`;
+  const { from, to } = deviceRange(rangeVal());
+  const near = dash.incidents.filter(i => kmBetween(d, i) <= RADIUS_KM);
+  $('detail').innerHTML = `
+    <div>
+      <p class="kicker">${esc(t(dKey(d) === dash.home ? 'your_area_k' : 'selected'))} · ${year}</p>
+      <h3>IPD ${esc(d.district)}</h3>
+      <p class="sub">${esc(d.state)} · ${esc(t('nat_rank', natRank, all.length))}</p>
+    </div>
+    <div class="stats">${stat(d.total, t('all_cases'), d.prev?.total)}${stat(d.assault, t('violent'), d.prev?.assault)}${stat(d.property, t('property'), d.prev?.property)}</div>
+    <div>
+      <p class="label">${esc(t('top_crimes', types.length, year))}</p>
+      ${html}
+      ${types.length < 10 ? `<p class="note" style="margin-top:8px">${esc(t('only_types', types.length, year))}</p>` : ''}
+    </div>
+    <div>
+      <p class="label">${esc(t('news_near', rangeName()))}</p>
+      ${reportBars(near, 'no_news_here')}
+      <p class="note" style="margin-top:8px">${esc(t('near_note', RADIUS_KM, fmtDay(from), fmtDay(to)))}</p>
+    </div>
+    <button class="primary" type="button" id="d-map">${esc(t('show_map'))}</button>`;
+  $('d-map').addEventListener('click', () => { closeDash(); setPoint(d.lat, d.lng, () => t('around', `IPD ${d.district}, ${d.state}`)); });
+}
+
+// --- States ---
+function stateTotals() {
+  const by = new Map();
+  for (const d of dash.all) {
+    if (!by.has(d.state)) by.set(d.state, { state: d.state, districts: 0, total: 0, assault: 0, property: 0, byType: {}, prev: { total: 0, assault: 0, property: 0 }, hasPrev: true });
+    const s = by.get(d.state);
+    s.districts++;
+    for (const k of ['total', 'assault', 'property']) { s[k] += d[k]; s.prev[k] += d.prev?.[k] || 0; }
+    if (!d.prev) s.hasPrev = false;
+    for (const [k, n] of Object.entries(d.byType)) s.byType[k] = (s.byType[k] || 0) + n;
+  }
+  return [...by.values()].map(s => ({ ...s, prev: s.hasPrev ? s.prev : null }));
+}
+function renderStates() {
+  const m = radio('d-measure');
+  const states = stateTotals();
+  const sorted = [...states].sort((a, b) => b[m] - a[m]);
+  if (!states.some(s => s.state === dash.state)) dash.state = sorted[0].state;
+  const max = Math.max(1, sorted[0]?.[m] || 0);
+  const homeState = dash.all.find(d => dKey(d) === dash.home)?.state;
+  $('srank-l').textContent = t('states_l', t('measures')[m], dash.year);
+  $('srank').innerHTML = sorted.map((s, i) => `<li><button type="button" data-s="${esc(s.state)}" aria-pressed="${s.state === dash.state}">
+      <span class="n">${i + 1}</span>
+      <span class="nm">${esc(s.state)}<small>${esc(t('districts_n', s.districts))}${s.state === homeState ? ` · ${esc(t('your_area'))}` : ''}</small></span>
+      <span class="v">${num(s[m])}<small>${change(s[m], s.prev?.[m])}</small></span>
+      <span class="bar"><i style="width:${(100 * s[m] / max).toFixed(1)}%"></i></span></button></li>`).join('');
+  renderStateDetail(states.find(s => s.state === dash.state), states);
+}
+function renderStateDetail(s, states) {
+  const year = dash.year;
+  const rank = [...states].sort((a, b) => b.total - a.total).findIndex(x => x.state === s.state) + 1;
+  const { types, html } = typeBars(s.byType, s.total);
+  const stat = (n, label, before) => `<div class="stat"><b>${num(n)}</b><span>${esc(label)}</span><span>${change(n, before) || '&nbsp;'}</span></div>`;
+  const dosm = dash.dosm?.onlineFraudByState;
+  const fNow = dosm?.[dash.dosm.year]?.[s.state], fPrev = dosm?.[dash.dosm.prevYear]?.[s.state];
+  const reports = dash.incidents.filter(i => i.state === s.state);
+  $('sdetail').innerHTML = `
+    <div>
+      <p class="kicker">${esc(t('state_k'))} · ${year}</p>
+      <h3>${esc(s.state)}</h3>
+      <p class="sub">${esc(t('state_rank', rank, states.length))} · ${esc(t('districts_n', s.districts))}</p>
+    </div>
+    <div class="stats">${stat(s.total, t('all_cases'), s.prev?.total)}${stat(s.assault, t('violent'), s.prev?.assault)}${stat(s.property, t('property'), s.prev?.property)}</div>
+    <div>
+      <p class="label">${esc(t('top_crimes', types.length, year))}</p>
+      ${html}
+    </div>
+    ${dash.dosm ? `<div>
+      <p class="label">${esc(t('fraud_l', dash.dosm.year))}</p>
+      ${fNow != null ? `<div class="stats" style="grid-template-columns:1fr"><div class="stat"><b>${num(fNow)}</b><span>${change(fNow, fPrev, dash.dosm.prevYear) || '&nbsp;'}</span></div></div>`
+        : `<p class="note">${esc(t('fraud_none'))}</p>`}
+    </div>` : ''}
+    <div>
+      <p class="label">${esc(t('state_news', rangeName()))}</p>
+      ${reportBars(reports, 'no_news_state')}
+      <p class="note" style="margin-top:8px">${esc(t('state_news_note'))}</p>
+    </div>
+    <button class="primary" type="button" id="s-areas">${esc(t('see_areas', s.state))}</button>`;
+  $('s-areas').addEventListener('click', () => {
+    const top = dash.all.filter(d => d.state === s.state).sort((a, b) => b.total - a.total)[0];
+    dash.sel = dKey(top);
+    document.querySelector('input[name="d-scope"][value="state"]').checked = true;
+    document.querySelector('input[name="d-tab"][value="areas"]').checked = true;
+    renderDash();
+  });
+}
+
+// --- News reports ---
+function renderNews() {
+  const items = dash.incidents;
+  const { from, to } = deviceRange(rangeVal());
+  const count = (key, f = () => true) => {
+    const c = new Map();
+    for (const i of items) if (f(i)) c.set(i[key], (c.get(i[key]) || 0) + 1);
+    return [...c.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10);
+  };
+  const nNews = items.filter(i => i.source === 'news').length;
+  if (!items.length) { $('p-news').innerHTML = `<h3 style="font:800 22px/1.1 var(--sans);margin:0">${esc(t('news_h'))}</h3><p class="note">${esc(t('n_none'))}</p><p class="note">${esc(t('n_note', fmtDay(from), fmtDay(to)))}</p>`; return; }
+  const types = count('type'), states = count('state');
+  const areas = count('dkey').map(([k, n]) => [esc(t('n_area_row', k.split('|')[1])) + `<small style="margin-left:6px;color:var(--muted);font:600 10px/1 var(--narrow);letter-spacing:.06em">${esc(k.split('|')[0])}</small>`, n]);
+  $('p-news').innerHTML = `
+    <h3 style="font:800 22px/1.1 var(--sans);letter-spacing:-.02em;margin:0">${esc(t('news_h'))}</h3>
+    <div class="stats">
+      <div class="stat"><b>${num(items.length)}</b><span>${esc(t('n_total'))}</span></div>
+      <div class="stat"><b>${num(nNews)}</b><span>${esc(t('n_news'))}</span></div>
+      <div class="stat"><b>${num(items.length - nNews)}</b><span>${esc(t('n_social'))}</span></div>
+    </div>
+    <div class="cols">
+      <div><p class="label">${esc(t('n_types'))}</p>${barRows(types.map(([k, n]) => [esc(nice(k)), n, share(n, items.length)]), types[0][1])}</div>
+      <div><p class="label">${esc(t('n_states'))}</p>${barRows(states.map(([k, n]) => [esc(k), n, share(n, items.length)]), states[0][1], 'ink')}</div>
+      <div><p class="label">${esc(t('n_areas'))}</p>${barRows(areas, areas[0][1], 'ink')}</div>
+      <div><p class="label">${esc(t('n_latest'))}</p><ul class="latest">${items.slice(0, 10).map(i => `<li>
+          <a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+          <div class="m" style="color:var(--muted);font:600 10.5px/1.4 var(--narrow);letter-spacing:.06em;text-transform:uppercase;margin-top:3px">${esc(nice(i.type))} · ${esc(i.area || i.district)} · ${ago(i.publishedAt)} · ${esc(i.outlet)}${i.source === 'social' ? ` · ${esc(t('unverified'))}` : ''}</div></li>`).join('')}</ul></div>
+    </div>
+    <p class="note">${esc(t('n_note', fmtDay(from), fmtDay(to)))}</p>`;
+}
+
+// --- DOSM 2026 release ---
+function renderDosm() {
+  const d = dash.dosm;
+  if (!d) { $('p-dosm').innerHTML = `<p class="note">${esc(t('dosm_missing'))}</p>`; return; }
+  const val = h => h.unit === 'rm_million' ? t('rm_million', num(h.now)) : num(h.now);
+  const prev = h => h.unit === 'rm_million' ? t('rm_million', num(h.prev)) : num(h.prev);
+  const fNow = d.onlineFraudByState[d.year], fPrev = d.onlineFraudByState[d.prevYear];
+  const rows = Object.entries(fNow).sort((a, b) => b[1] - a[1]);
+  $('p-dosm').innerHTML = `
+    <div>
+      <h3 style="font:800 22px/1.1 var(--sans);letter-spacing:-.02em;margin:0">${esc(t('dosm_h'))}</h3>
+      <p class="sub">${esc(t('dosm_sub', d.year, d.prevYear))}</p>
+    </div>
+    <div class="cards">${d.headline.map(h => `<div class="card">
+        <p class="label">${esc(t('dosm_labels')[h.key] || h.key)}</p>
+        <b>${esc(val(h))}</b>
+        <small>${change(h.now, h.prev)} · ${esc(t('dosm_prev', d.prevYear, prev(h)))}</small></div>`).join('')}</div>
+    <div>
+      <p class="label">${esc(t('dosm_fraud_l', d.year))}</p>
+      ${barRows(rows.map(([s, n]) => [esc(s), n, change(n, fPrev[s])]), rows[0][1])}
+    </div>
+    <p class="note">${esc(t('dosm_note'))}</p>`;
+}
+
+$('dash-open').addEventListener('click', openDash);
+$('dash-close').addEventListener('click', closeDash);
+$('rank').addEventListener('click', e => {
+  const b = e.target.closest('button[data-k]');
+  if (b) { dash.sel = b.dataset.k; renderDash(); $('rank').querySelector(`button[data-k="${CSS.escape(dash.sel)}"]`)?.focus(); }
+});
+$('srank').addEventListener('click', e => {
+  const b = e.target.closest('button[data-s]');
+  if (b) { dash.state = b.dataset.s; renderDash(); $('srank').querySelector(`button[data-s="${CSS.escape(dash.state)}"]`)?.focus(); }
+});
+document.querySelectorAll('input[name="d-scope"], input[name="d-measure"], input[name="d-tab"]').forEach(el => el.addEventListener('change', renderDash));
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('dash').hidden) closeDash(); });
+
+// ---------- Switching language ----------
+document.querySelectorAll('input[name="lang"]').forEach(el => el.addEventListener('change', () => {
+  lang = el.value;
+  try { localStorage.setItem('lang', lang); } catch {}
+  applyStatic();
+  showWhere();
+  if (here) { showRange(); render(); }
+  if (lastRoute && !$('r-out').hidden) drawRoute(lastRoute, false);
+  if (!$('dash').hidden) renderDash();
+}));
+
 locate();
 </script>
 </body>

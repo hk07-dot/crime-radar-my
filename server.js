@@ -2,7 +2,8 @@
 //   GET /api/official?lat=..&lng=..&radius=10   official PDRM district stats near a point
 //   GET /api/incidents?lat=..&lng=..&radius=10&from=ISO&to=ISO   news + social incidents near a point.
 //       from/to come from the viewer's device date; without them, the last two months by this computer's date.
-//   GET /api/heat?lat=..&lng=..                          crime density grid for the red overlay
+//   GET /api/dashboard?from=ISO&to=ISO                   districts, DOSM figures and all reports, for the dashboard
+//   GET /api/heat?lat=..&lng=..                        crime density grid for the red overlay
 //   GET /api/search?q=..                                 place search for the map's search box
 //   GET /api/route?from=lat,lng&to=lat,lng&mode=car|foot|bike&since=ISO&until=ISO   route with crime along it
 const http = require('http');
@@ -42,6 +43,23 @@ async function official(q, res) {
   // District HQs inside the radius, plus the nearest one so there is always a reference figure.
   const near = all.filter((d, i) => d.distanceKm <= p.radius || i === 0);
   json(res, 200, { year: all[0]?.year, source: 'Royal Malaysia Police via data.gov.my (CC BY 4.0)', districts: near });
+}
+
+// Everything the dashboard needs: every district (national and state rankings), the DOSM release's
+// figures, and all news and social reports in the viewer's date range (from/to, from the device).
+const DOSM_FILE = path.join(__dirname, 'data', 'dosm-2026.json');
+const DASH_KEEP = ['type', 'title', 'link', 'outlet', 'source', 'publishedAt', 'area', 'lat', 'lng', 'precision'];
+async function dashboard(q, res) {
+  const districts = await getDistricts();
+  let dosm = null;
+  try { dosm = JSON.parse(fs.readFileSync(DOSM_FILE, 'utf8')); } catch {}
+  const from = Date.parse(q.get('from')), to = Date.parse(q.get('to'));
+  const since = Number.isFinite(from) ? from : windowStart().getTime(), until = Number.isFinite(to) ? to : Date.now() + 864e5;
+  const incidents = store.load()
+    .filter(i => { const t = Date.parse(i.publishedAt); return t >= since && t <= until; })
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .map(i => Object.fromEntries(DASH_KEEP.filter(k => i[k] !== undefined).map(k => [k, i[k]])));
+  json(res, 200, { year: districts[0]?.year, source: 'Royal Malaysia Police via data.gov.my (CC BY 4.0)', districts, dosm, incidents });
 }
 
 async function heatGrid(q, res) {
@@ -122,6 +140,7 @@ const server = http.createServer(async (req, res) => {
   try {
     if (url.pathname === '/api/official') return await official(url.searchParams, res);
     if (url.pathname === '/api/incidents') return incidents(url.searchParams, res);
+    if (url.pathname === '/api/dashboard') return await dashboard(url.searchParams, res);
     if (url.pathname === '/api/heat') return await heatGrid(url.searchParams, res);
     if (url.pathname === '/api/search') return await search(url.searchParams, res);
     if (url.pathname === '/api/route') return await route(url.searchParams, res);

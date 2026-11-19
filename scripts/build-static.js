@@ -53,6 +53,7 @@ async function buildData() {
   write('data/districts.json', JSON.stringify(districts));
   write('data/incidents.json', JSON.stringify(incidents));
   write('data/meta.json', JSON.stringify(meta));
+  write('data/dosm.json', read('data/dosm-2026.json'));
   return meta;
 }
 

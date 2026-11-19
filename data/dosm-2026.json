@@ -1,0 +1,28 @@
+{
+  "_about": "Figures from DOSM's Crime Statistics, Malaysia, 2026 (reference year 2025). Headline figures from the release page; online fraud by state from Table 7.3 of the publication. Entered by hand: update when DOSM publishes a new edition.",
+  "title": "Crime Statistics, Malaysia, 2026",
+  "publisher": "Department of Statistics Malaysia (DOSM)",
+  "released": "2026-10-16",
+  "year": 2025,
+  "prevYear": 2024,
+  "url": "https://www.dosm.gov.my/portal-main/release-content/crime-statistics-malaysia-2026",
+  "pdf": "https://www.dosm.gov.my/uploads/release-content/file_20261015173513.pdf",
+  "headline": [
+    { "key": "homicide", "prev": 243, "now": 252 },
+    { "key": "sexual_assault", "prev": 3992, "now": 4562 },
+    { "key": "domestic_violence", "prev": 7116, "now": 6522 },
+    { "key": "robbery", "prev": 3394, "now": 3108 },
+    { "key": "theft_personal", "prev": 17997, "now": 18477 },
+    { "key": "fraud_face", "prev": 37240, "now": 69001 },
+    { "key": "online_fraud", "prev": 35368, "now": 66204 },
+    { "key": "cybercrime", "prev": 708, "now": 1486 },
+    { "key": "cyber_losses", "prev": 33, "now": 238, "unit": "rm_million" },
+    { "key": "controlled_goods", "prev": 2245, "now": 1901 },
+    { "key": "positive_urine", "prev": 157014, "now": 152856 }
+  ],
+  "onlineFraudByState": {
+    "table": "7.3",
+    "2024": { "Johor": 4131, "Kedah": 2024, "Kelantan": 945, "Melaka": 1732, "Negeri Sembilan": 2396, "Pahang": 1971, "Perak": 3005, "Perlis": 440, "Pulau Pinang": 2603, "Sabah": 2014, "Sarawak": 2271, "Selangor": 6512, "Terengganu": 1251, "W.P. Kuala Lumpur": 4073 },
+    "2025": { "Johor": 9938, "Kedah": 5120, "Kelantan": 1748, "Melaka": 2521, "Negeri Sembilan": 3329, "Pahang": 2925, "Perak": 4872, "Perlis": 457, "Pulau Pinang": 4201, "Sabah": 2708, "Sarawak": 3338, "Selangor": 15770, "Terengganu": 1990, "W.P. Kuala Lumpur": 7287 }
+  }
+}
