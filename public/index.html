@@ -1046,7 +1046,8 @@ function locate() {
     () => setPoint(...KL, () => t('loc_not_shared')),
     { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
 }
-$('locate').addEventListener('click', locate);
+// Use my location also closes the dashboard, so the map is in view.
+$('locate').addEventListener('click', () => { closeDash('locate'); locate(); });
 map.on('click', e => setPoint(e.latlng.lat, e.latlng.lng, () => t('around_point')));
 document.querySelectorAll('input[name="days"]').forEach(el => el.addEventListener('change', () => {
   if (here) load();
@@ -1078,9 +1079,16 @@ const barRows = (rows, max, cls = '') => `<ul class="bars ${cls}">${rows.map(([k
     <span class="bar"><i style="width:${(100 * n / Math.max(1, max)).toFixed(1)}%"></i></span></li>`).join('')}</ul>`;
 const share = (n, total) => n / (total || 1) < .005 ? '<1%' : `${Math.round(100 * n / (total || 1))}%`;
 
+// The two buttons at the top of the panel work as a pair: the one in use is highlighted.
+function markActive(dashOpen) {
+  $('dash-open').classList.toggle('primary', dashOpen);
+  $('locate').classList.toggle('primary', !dashOpen);
+  $('dash-open').setAttribute('aria-expanded', String(dashOpen));
+  $('dash-open').setAttribute('aria-pressed', String(dashOpen));
+}
 async function openDash() {
   $('dash').hidden = false;
-  $('dash-open').setAttribute('aria-expanded', 'true');
+  markActive(true);
   $('dash-close').focus();
   if (!dash.all) {
     $('rank').innerHTML = `<li class="empty" style="padding:10px 0">${esc(t('loading'))}</li>`;
@@ -1117,10 +1125,11 @@ async function loadDashReports() {
   const my = ++dash.seq;
   try { const r = await dashCall(); if (my === dash.seq && dash.all) { setReports(r); renderDash(); } } catch {}
 }
-function closeDash() {
+function closeDash(focusOn = 'dash-open') {
+  if ($('dash').hidden) return;
   $('dash').hidden = true;
-  $('dash-open').setAttribute('aria-expanded', 'false');
-  $('dash-open').focus();
+  markActive(false);
+  $(focusOn)?.focus();
 }
 
 function renderDash() {
@@ -1326,8 +1335,9 @@ function renderDosm() {
     <p class="note">${esc(t('dosm_note'))}</p>`;
 }
 
-$('dash-open').addEventListener('click', openDash);
-$('dash-close').addEventListener('click', closeDash);
+// Clicking the dashboard button again closes it.
+$('dash-open').addEventListener('click', () => $('dash').hidden ? openDash() : closeDash());
+$('dash-close').addEventListener('click', () => closeDash());
 $('rank').addEventListener('click', e => {
   const b = e.target.closest('button[data-k]');
   if (b) { dash.sel = b.dataset.k; renderDash(); $('rank').querySelector(`button[data-k="${CSS.escape(dash.sel)}"]`)?.focus(); }
