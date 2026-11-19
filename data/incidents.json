@@ -3816,6 +3816,11 @@
     "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
     "link": "https://utusansarawak.com.my/pemeriksaan-rutin-bagasi-bongkar-cubaan-seludup-dadah-lima-pegawai-tudm-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=pemeriksaan-rutin-bagasi-bongkar-cubaan-seludup-dadah-lima-pegawai-tudm-ditahan",
     "title": "Pemeriksaan rutin bagasi bongkar cubaan seludup dadah, lima pegawai TUDM ditahan"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438497/seludup-dadah-guna-aset-tentera-tudm-tidak-kompromi-lapor-sendiri-pegawai",
+    "title": "Seludup dadah guna aset tentera: TUDM tidak kompromi, lapor sendiri pegawai kepada PDRM"
    }
   ]
  },
@@ -5265,6 +5270,11 @@
     "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
     "link": "https://www.utusan.com.my/berita/2026/11/penemuan-dadah-kementerian-pertahanan-tidak-akan-berkompromi-siasat-dengan-telus/?utm_source=rss&utm_medium=rss&utm_campaign=penemuan-dadah-kementerian-pertahanan-tidak-akan-berkompromi-siasat-dengan-telus",
     "title": "Penemuan dadah: Kementerian Pertahanan tidak akan berkompromi, siasat dengan telus"
+   },
+   {
+    "outlet": "Kosmo: Suapan Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/19/pegawai-tudm-ditahan-dadah-dikesan-ketika-pemeriksaan-rutin-bagasi/?utm_source=rss&utm_medium=rss&utm_campaign=pegawai-tudm-ditahan-dadah-dikesan-ketika-pemeriksaan-rutin-bagasi",
+    "title": "Lima bagasi, sebuah kotak isi dadah dijumpai di Pangkalan Udara Subang"
    }
   ]
  },
@@ -5281,5 +5291,19 @@
   "lat": 6.1248,
   "lng": 102.2378,
   "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "Lima pegawai ditahan, guna aset TUDM seludup dadah RM4.83 juta ke Sabah",
+  "link": "https://www.kosmo.com.my/2026/11/19/lima-pegawai-ditahan-guna-aset-tudm-seludup-dadah-rm4-83-juta-ke-sabah/?utm_source=rss&utm_medium=rss&utm_campaign=lima-pegawai-ditahan-guna-aset-tudm-seludup-dadah-rm4-83-juta-ke-sabah",
+  "outlet": "Kosmo: Suapan Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T14:39:12.000Z",
+  "place": "Lembah Kl",
+  "area": "Pantai Dalam, Kuala Lumpur",
+  "lat": 3.1016,
+  "lng": 101.6689,
+  "precision": "area"
  }
 ]

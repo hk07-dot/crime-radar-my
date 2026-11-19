@@ -2193,5 +2193,15 @@
  "area4:bangunan pergerakan, kuala lumpur": null,
  "area4:bangunan pergerakan": null,
  "area4:padang tembak, pengkalan chepa, kota bharu": null,
- "area4:padang tembak, kota bharu": null
+ "area4:padang tembak, kota bharu": null,
+ "area4:pangkalan udara subang, petaling jaya": null,
+ "area4:bangunan pergerakan udara, petaling jaya": null,
+ "area4:bangunan pergerakan udara": null,
+ "area4:lembah kl, petaling jaya": null,
+ "area4:lembah kl": {
+  "lat": 3.1016,
+  "lng": 101.6689,
+  "label": "Pantai Dalam, Kuala Lumpur",
+  "kind": "suburb"
+ }
 }
