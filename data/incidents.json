@@ -3880,6 +3880,21 @@
     "outlet": "AsiaOne.com",
     "link": "https://www.asiaone.com/malaysia/police-shoot-dead-kl-robbery-suspect-linked-24-cases-hotel-raid",
     "title": "Police shoot dead KL robbery suspect linked to 24 cases in hotel raid, Malaysia News"
+   },
+   {
+    "outlet": "Sinar Harian",
+    "link": "https://www.sinarharian.com.my/article/805317/berita/semasa/polis-buru-saki-baki-rangkaian-samun-guna-teksi",
+    "title": "Polis buru saki-baki rangkaian samun guna teksi"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLWNFbEdydVc1ejJnTHY2MDNkZU9NOFMxMDVjNGstZEZqV0IzRlVUOC1VT3FOUEJYQTdmTF83UDZQS2tNWS12Y25vM2s1c3FKaGFEWlJkNGFLQ2loa0pmZ2tEUW1WUmE1bDFuUGc2Mzh5RzFfQUlSa3F1aGJTTEFzYldEcXh0MlI1RnRwOHlLY1pFOWJkOEZJdUxMWmdwbUZsT3M0azJiYUdVY0VtaHVXV2tyS25iUTU2U3JlRlJ3NGI2LW52bHdwVEp1SXoyZko2Q1VR0gHTAUFVX3lxTE4tY0VsR3J1VzV6MmdMdjYwM2RlT004UzEwNWM0ay1kRmpXQjNGVVQ4LVVPcU5QQlhBN2ZMXzdQNlBLa01ZLXZjbm8zazVzcUpoYURaUmQ0YUtDaWhrSmZna0RRbVZSYTVsMW5QZzYzOHlHMV9BSVJrcXVoYlNMQXNiV0RxeHQyUjVGdHA4eUtjWkU5YmQ4Rkl1TExaZ3BtRmxPczRrMmJhR1VjRW1odVdXa3JLbmJRNTZTcmVGUnc0YjYtbnZsd3BUSnVJejJmSjZDVVE?oc=5",
+    "title": "Police shoot dead robbery suspect linked to 24 cases in Chow Kit hotel raid"
+   },
+   {
+    "outlet": "Motoqar",
+    "link": "https://www.motoqar.com/2026/147757/dalang-24-kes-samun-suspek-menyamar-jadi-pemandu-teksi.html",
+    "title": "Dalang 24 kes samun, suspek menyamar jadi pemandu teksi"
    }
   ]
  },
@@ -3930,6 +3945,11 @@
     "outlet": "Instagram",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrcFVyOW5tYjBQbVBqbDdzTDBkYWo0Ui1xTXVBbnUzNTRZTkY1V21NVnp6aVNkU1R2THRpZTR5eG12MkJBRHozX1Z6d2w2MjVSOFE?oc=5",
     "title": "Seorang lelaki yang dipercayai menggunakan teksi sebagai modus operandi untuk menyamun penumpang wanita dan warga emas maut ditembak dalam satu serbuan di Chow Kit, awal pagi tadi. Menurut Ketua Polis Kuala Lumpur, Datuk Fadil Marsus, susp"
+   },
+   {
+    "outlet": "New Sarawak Tribune: Sarawak Tribune Feed",
+    "link": "https://www.sarawaktribune.com/man-shot-dead-in-chow-kit-police-shootout-linked-to-nine-robbery-cases/",
+    "title": "Man shot dead in Chow Kit police shootout linked to nine robbery cases"
    }
   ]
  },
@@ -4013,6 +4033,83 @@
   "area": "Jalan Mahkamah, Bintangor",
   "lat": 2.1675,
   "lng": 111.6331,
+  "precision": "area"
+ },
+ {
+  "type": "robbery",
+  "title": "Dua suspek samun ditahan cuba lolos ke negara jiran",
+  "link": "https://www.astroawani.com/video/dua-suspek-samun-ditahan-cuba-lolos-ke-negara-jiran",
+  "outlet": "Astro Awani",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T07:42:56.000Z",
+  "place": "Batu 6, Kuala Terengganu",
+  "area": "Kuala Terengganu, Terengganu",
+  "lat": 5.3296,
+  "lng": 103.1383,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Serial robbery suspect killed in shootout",
+  "link": "https://www.thestar.com.my/news/nation/2026/11/19/serial-robbery-suspect-killed-in-shootout",
+  "outlet": "The Star",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-18T23:29:23.000Z",
+  "place": "Nexus, Kuala Lumpur",
+  "area": "Nexus Taman Pertama, Cheras",
+  "lat": 3.1107,
+  "lng": 101.7306,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Tiga Lelaki Ditahan Cuba Curi Kabel",
+  "link": "https://www.bernama.com/bm/jenayah_mahkamah/news.php?id=2635787",
+  "outlet": "bernama",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-17T13:49:00.000Z",
+  "place": "Jalan Seri Sentosa, Taman Seri",
+  "area": "Jalan Seri Sentosa 4, Seri Sentosa",
+  "lat": 3.0793,
+  "lng": 101.6606,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian",
+    "link": "https://www.sinarharian.com.my/article/805055/berita/semasa/tiga-lelaki-diberkas-cuba-curi-kabel-dalam-lubang-utiliti",
+    "title": "Tiga lelaki diberkas cuba curi kabel dalam lubang utiliti"
+   }
+  ]
+ },
+ {
+  "type": "assault",
+  "title": "Policeman whose wrist was severed in Kepong machete attack considered for field promotion",
+  "link": "https://www.malaymail.com/news/malaysia/2026/11/17/policeman-whose-wrist-was-severed-in-kepong-machete-attack-considered-for-field-promotion/243654",
+  "outlet": "Malay Mail",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-17T12:17:37.000Z",
+  "place": "Kepong, Kuala Lumpur",
+  "area": "Kepong, Kuala Lumpur",
+  "lat": 3.214,
+  "lng": 101.6348,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Lelaki Warga Asing Ditahan Bersama Motosikal Curi di Tawau",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONG1xa3J5Z01WaThGYndRRDdvbldtRmYxRmpUVGlUU2otLTJKOVlYVW11WFlyWXlUV2pXYTlTQnA4SzJsZVVhcG9RUDRyMFhVQzk2NG44bXZHeFJRQlpzYXkzRG1EUWRWOFdLUjAtc1d1WUdDblF5dDBhQm55US1CQXNVWldFc1UzZTlSbA?oc=5",
+  "outlet": "Sabah News",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-17T12:09:41.000Z",
+  "place": "Tawau",
+  "area": "Tawau, Bahagian Tawau",
+  "lat": 4.2435,
+  "lng": 117.8853,
   "precision": "area"
  }
 ]
