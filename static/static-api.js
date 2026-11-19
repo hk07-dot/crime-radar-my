@@ -127,7 +127,7 @@
   let dosmPromise = null;
   async function dashboard(q) {
     const d = await data();
-    dosmPromise ||= fetch('data/dosm.json').then(r => r.ok ? r.json() : null).catch(() => null);
+    dosmPromise ||= fetch(`data/dosm.json?v=${Math.floor(Date.now() / 300e3)}`).then(r => r.ok ? r.json() : null).catch(() => null);
     const incidents = inRange(d.incidents, q, 'from', 'to').sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
     return { year: d.districts[0]?.year, source: 'Royal Malaysia Police via data.gov.my (CC BY 4.0)', districts: d.districts, dosm: await dosmPromise, incidents };
   }

@@ -490,6 +490,7 @@ const STR = {
     near_note: (km, a, b) => `Within ${km} km of the IPD headquarters, ${a} to ${b}. Places come from the article text, so they're approximate.`,
     no_news_here: 'No news or social reports near here in this period.',
     show_map: 'Show this area on the map →', fig_fail: e => `Couldn't load the figures: ${e}.`,
+    reload: 'The site was just updated. Reload the page (Ctrl+F5, or pull down on a phone) to get the new version.',
     states_l: (m, y) => `States · ${m} · ${y}`,
     states_note: 'Pick a state to see its top crimes. State totals add up its police districts and count cases, not cases per person. Online fraud comes from DOSM\'s 2026 release.',
     state_k: 'State', state_rank: (n, N) => `${n} of ${N} states for all crime`, districts_n: n => `${n} police districts`,
@@ -579,6 +580,7 @@ const STR = {
     near_note: (km, a, b) => `Dalam lingkungan ${km} km dari ibu pejabat IPD, ${a} hingga ${b}. Lokasi diambil daripada teks artikel, jadi ia hanya anggaran.`,
     no_news_here: 'Tiada laporan berita atau media sosial berhampiran dalam tempoh ini.',
     show_map: 'Tunjukkan kawasan ini pada peta →', fig_fail: e => `Tidak dapat memuatkan angka: ${e}.`,
+    reload: 'Laman ini baru dikemas kini. Muat semula halaman (Ctrl+F5, atau tarik ke bawah pada telefon) untuk mendapatkan versi baharu.',
     states_l: (m, y) => `Negeri · ${m} · ${y}`,
     states_note: 'Pilih negeri untuk melihat jenayah utamanya. Jumlah negeri ialah gabungan daerah polisnya dan mengira bilangan kes, bukan kes bagi setiap orang. Penipuan dalam talian diambil daripada terbitan DOSM 2026.',
     state_k: 'Negeri', state_rank: (n, N) => `Kedudukan ${n} daripada ${N} negeri bagi semua jenayah`, districts_n: n => `${n} daerah polis`,
@@ -1089,7 +1091,7 @@ async function openDash() {
       dash.all = r.districts; dash.year = +r.year; dash.dosm = r.dosm;
       setReports(r);
     } catch (e) {
-      $('rank').innerHTML = `<li class="empty" style="padding:10px 0">${esc(t('fig_fail', e.message))}</li>`;
+      $('rank').innerHTML = `<li class="empty" style="padding:10px 0">${esc(/Unknown call/.test(e.message) ? t('reload') : t('fig_fail', e.message))}</li>`;
       return;
     }
   } else if (dash.reportsFor !== rangeVal()) loadDashReports();

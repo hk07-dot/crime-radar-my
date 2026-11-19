@@ -33,11 +33,14 @@ window.CR = { heat: require('./heat'), route: require('./route'), haversineKm };
 `;
 }
 
-function buildPage() {
+// The script links carry a fingerprint of their contents (?v=…). Browsers may keep GitHub Pages files for
+// 10 minutes, each on its own clock, so without it a new page could run with an old script.
+const fingerprint = text => require('crypto').createHash('sha1').update(text).digest('hex').slice(0, 10);
+function buildPage(core, staticApi) {
   const html = read('public/index.html');
   const marker = '<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>';
   if (!html.includes(marker)) throw new Error('build-static: Leaflet script tag not found in public/index.html');
-  return html.replace(marker, `${marker}\n<script src="js/core.js"></script>\n<script src="js/static-api.js"></script>`);
+  return html.replace(marker, `${marker}\n<script src="js/core.js?v=${fingerprint(core)}"></script>\n<script src="js/static-api.js?v=${fingerprint(staticApi)}"></script>`);
 }
 
 async function buildData() {
@@ -58,9 +61,10 @@ async function buildData() {
 }
 
 async function build() {
-  write('index.html', buildPage());
-  write('js/core.js', bundleCore());
-  write('js/static-api.js', read('static/static-api.js'));
+  const core = bundleCore(), staticApi = read('static/static-api.js');
+  write('js/core.js', core);
+  write('js/static-api.js', staticApi);
+  write('index.html', buildPage(core, staticApi));
   write('.nojekyll', '');
   const meta = await buildData();
   console.log(`[build] docs/ ready: ${meta.districts} districts, ${meta.incidents} incidents, official year ${meta.officialYear}`);
