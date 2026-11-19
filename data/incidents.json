@@ -3795,7 +3795,19 @@
   "area": "Kuala Lumpur, Malaysia",
   "lat": 3.1517,
   "lng": 101.6942,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805378/berita/semasa/sindiket-dadah-eksploitasi-penerbangan-ketenteraan-terbongkar-lima-pegawai-tudm-antara-11-ditahan",
+    "title": "Sindiket dadah eksploitasi penerbangan ketenteraan terbongkar, lima pegawai TUDM antara 11 ditahan"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/utama/2026/11/1438470/sindiket-dadah-guna-aset-tudm-5-pegawai-antara-11-ditahan",
+    "title": "Sindiket dadah guna aset TUDM: 5 pegawai antara 11 ditahan"
+   }
+  ]
  },
  {
   "type": "shooting",
@@ -5027,6 +5039,16 @@
     "outlet": "Free Malaysia Today",
     "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/19/newborn-dies-after-allegedly-stabbed-by-19-year-old-mum",
     "title": "Newborn dies after allegedly stabbed by 19-year-old mum"
+   },
+   {
+    "outlet": "Saluran 122",
+    "link": "https://www.tvsarawak.my/2026/11/19/bayi-perempuan-baru-dilahirkan-maut-ditikam-ibu-kandung/",
+    "title": "Bayi perempuan baru dilahirkan maut ditikam ibu kandung"
+   },
+   {
+    "outlet": "Free Malaysia Today",
+    "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/19/newborn-dies-after-allegedly-stabbed-by-19-year-old-mum",
+    "title": "Newborn dies after allegedly stabbed by 19-year-old mum"
    }
   ]
  },
@@ -5204,5 +5226,19 @@
     "title": "Polis buru empat lagi ahli kumpulan samun empat negeri"
    }
   ]
+ },
+ {
+  "type": "drugs",
+  "title": "Lima pegawai TUDM ditahan, seludup dadah RM4.83 juta",
+  "link": "https://www.utusan.com.my/nasional/2026/11/lima-pegawai-tudm-ditahan-seludup-dadah-rm4-83-juta/?utm_source=rss&utm_medium=rss&utm_campaign=lima-pegawai-tudm-ditahan-seludup-dadah-rm4-83-juta",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T13:56:21.000Z",
+  "place": "Petaling Jaya",
+  "area": "Petaling Jaya, Petaling",
+  "lat": 3.0989,
+  "lng": 101.6454,
+  "precision": "town"
  }
 ]
