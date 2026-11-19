@@ -120,7 +120,7 @@
   "area": "Kuala Lumpur, Malaysia",
   "lat": 3.1517,
   "lng": 101.6942,
-  "precision": "town",
+  "precision": "area",
   "alsoReported": [
    {
     "outlet": "Portal Berita RTM",
@@ -4033,7 +4033,14 @@
   "area": "Jalan Mahkamah, Bintangor",
   "lat": 2.1675,
   "lng": 111.6331,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
+    "link": "https://utusansarawak.com.my/dua-hari-selepas-curi-beg-pinggang-warga-emas-lelaki-23-tahun-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=dua-hari-selepas-curi-beg-pinggang-warga-emas-lelaki-23-tahun-ditahan",
+    "title": "Dua hari selepas curi beg pinggang warga emas, lelaki 23 tahun ditahan"
+   }
+  ]
  },
  {
   "type": "robbery",
@@ -4096,7 +4103,14 @@
   "area": "Kepong, Kuala Lumpur",
   "lat": 3.214,
   "lng": 101.6348,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "The Sun Malaysia",
+    "link": "https://thesun.my/news/dual-machete-wielding-man-who-severed-cops-hand-shot-dead/",
+    "title": "Dual machete-wielding man who severed cop’s hand shot dead"
+   }
+  ]
  },
  {
   "type": "theft",
@@ -4248,6 +4262,21 @@
     "outlet": "Berita Harian",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM25HSHhYZF9FNlhaY24tM3daSGlJamdnWEZTbUE1YWlib0xSbnI3bnF5YWRtb3B4d29icVdpM0NpeTBUVkl6SS1HQTZlX3lPQmQwU3ZCcHNlOW5MY18tckphVFVudmhGRTIxazliV0x3X3RZbzJTZnhJeHVtaFdIclBkdW5LTnFoSE95MFo1QW9QcmoySVpsX1NMTnVuU0ZwcTloTmVjZnc2MFBMZ0FjU9IBtgFBVV95cUxNVHlxQnpvbmdFdzdNbUxIY1dnclZIaGhxYzlPTXJfbjUwMmlhS3hIQkFDRGsyak40allHV1RxQlh5aGpaV3NQMTJMSGY4WVVwcDdsd1ZBWk1KV2c4T2laN1ptZFpIeGJiM0tmNk1mSVl6YjdIOF8yMnVDRWlmdVB5MUpWZTJVeUQ2NU9JQjFVaUZyb1czRXFaOGFBemxCYmRObWhaa3dOQjI0MDNIdXctVmpVeElxdw?oc=5",
     "title": "7 ditahan kes lelaki maut ditikam di Sulaman Sentral"
+   },
+   {
+    "outlet": "Saluran 122",
+    "link": "https://www.tvsarawak.my/2026/11/15/lelaki-38-tahun-dicari-bantu-siasatan-kes-bunuh/",
+    "title": "Lelaki 38 tahun dicari bantu siasatan kes bunuh"
+   },
+   {
+    "outlet": "Sayang Sabah",
+    "link": "https://sayangsabah.com.my/home/2026/11/14/lelaki-maut-ditikam-ketika-cuba-meleraikan-pertengkaran/",
+    "title": "Lelaki maut ditikam ketika cuba meleraikan pertengkaran"
+   },
+   {
+    "outlet": "TV Sabah News",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xMTRpUFVCMXBKS2d3WGpwZEcwQmdsZVdrSjNUd2x3WlZmckowMGxKLVNDazJQRkFueU9ndUgwbHVqM0xuaGYwVjVRWkgtSUEwY0xIUkllV1RHaE9ZYXVSMGdtNmJ6MWNCMnVYaWEzVE96ZWxCbjR0M0FTTWYyYlU?oc=5",
+    "title": "Lelaki maut dipercayai ditikam di Sulaman Sentral"
    }
   ]
  },
@@ -4292,5 +4321,286 @@
   "lat": 3.1517,
   "lng": 101.6942,
   "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Foreign woman found dead by river in Bidor suspected murdered",
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObXFoMDhERWt0S3lmei0tOEM1V3JBWk1vOEQ0OVlNLXFFcmZEOEdzcmRsVE1RaFhkNmNmSjROU1BZalgtbjlXMlpYMVB4ZG5Cb19SZ3VlVURXRHd2V1dyYkdWbzM0VE1IZnZOZW9vS0JSa25hd1NOcGo4QURzWDNqWEpxY2FSam00V1UteGI2M2ZZNml6bzNLZjE5QUxCTkVsWmdScmJSTURRR1U?oc=5",
+  "outlet": "The Vibes",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-15T09:25:00.000Z",
+  "place": "Bidor",
+  "area": "Bidor, Batang Padang",
+  "lat": 4.1139,
+  "lng": 101.2884,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Ah Chuan Bertengkar Sebelum Di Tembak Rakan Sekerja #MGFlash Pekerja yang maut ditembak dalam kejadian di sebuah stor simpanan minyak diesel di Mukim 14, Bukit Minyak, Pulau Pinang semalam bertengkar dengan rakan sekerjanya sebelum ditem",
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSE01c3o4Q1phWjRjcHZxWTN3R1k1VkZjOEhDV1BxdWszeWtkRW54SXhQQ2NjSnJxVU9uOWZJOC1xVVhJR1ZvSFgxVEE5NEpwV054M1NjWXktYXc1QjJ0RkloTEI5NWNUdjNqRHJoXzVpTVpsSzRQX1ptYlJyTE43bmtIMjkwdHRsQnRtcU45NnZxc3ROSmthQktMYW16eHN5bnAyVGR1WGxpTVA1T20xNUh5QUU2ektTU2xSby0wYTItNTZCRG9DbXF0WFpiTTIxSkZ2SE5wS21kV2VXVm5n?oc=5",
+  "outlet": "Facebook",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-15T03:47:35.000Z",
+  "place": "Mukim 14, Bukit Minyak",
+  "area": "Bukit Minyak, Seberang Perai Tengah",
+  "lat": 5.3046,
+  "lng": 100.4523,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1436538/lelaki-maut-ditembak-selepas-bertengkar-di-depoh-simpanan-diesel",
+    "title": "Lelaki maut ditembak selepas bertengkar di depoh simpanan diesel"
+   },
+   {
+    "outlet": "Facebook",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRjJXUG1MNEdCbVQ2a29McGZXV0c2YVdPWVhFSGtDclVZekNzaFh0Uk04VE5wRkVIbldZT3RhRUFPZ1BoMzEzc2pNTVRvYkUzZmJvcmVBMVdfZE1EVXVTZVJlaFpxeXp6akkyNFRib2xzWlpMVGI1NFVGenJUbkxsTUd3S2NCbEhIWG5QVzIyVGdkVWhXb040Uk1oQmZOT0txLURqMVE5b1IxSURtZ2luQ1R2Q0w0UUJaalNicW1IelNpYUU2TW90ajc5MVEzOWo2MWFkRHVJcmRuSl9QTnpN?oc=5",
+    "title": "Pekerja Depoh Diesel Maut Ditembak Tiga Kali #MGFlash Seorang lelaki berusia 41 tahun maut ditembak rakan sekerja di sebuah depoh penyimpanan diesel perindustrian di Mukim 14, Bukit Minyak, Pulau Pinang. #malaysiagazette #pekerjadepohdiesel"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1436375/lelaki-maut-ditembak-rakan-sekerja-di-depoh-diesel-bukit-minyak",
+    "title": "Lelaki maut ditembak rakan sekerja di depoh diesel Bukit Minyak"
+   }
+  ]
+ },
+ {
+  "type": "theft",
+  "title": "M’sian Newlyweds Return From Holiday to Find Home Ransacked, Savings and Furniture Stolen in Shah Alam",
+  "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TM3NBc2FpdllGRE5pS3Z3Y3NYTjM4NjlGbHgxQVl6d2pRMmlQUkNjeDJiN3Z5cTdyb3JuZ0Z1SjFZOENJelktNXJwVWNwRFRFSS1ZUHBNOUJSTEJETzhDUEZoSG9MZw?oc=5",
+  "outlet": "Wake Up Singapore",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-15T01:00:46.000Z",
+  "place": "Shah Alam",
+  "area": "Shah Alam, Petaling",
+  "lat": 3.0739,
+  "lng": 101.5185,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Man shot dead at oil depot in Bukit Mertajam",
+  "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOemZ6QUNFRnNxUElfN2xNNFlMc0hGMmNqY0V1LTAwVl9lOUtPanRpbTNYT0tfVjJLVENiSHRDTW05a0VKZWpaMHVzU3p1cEZwUGpGY1NyNlJpbDdSN21sNGw4ZVF2QU9Sek5VUGNrTWFySGhvcDNtQ2FmZHJHaXVZOHBXQkpMQldkdS1LbU9B?oc=5",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-14T23:58:26.000Z",
+  "place": "Bukit Mertajam",
+  "area": "Bukit Mertajam, Seberang Perai Tengah",
+  "lat": 5.3643,
+  "lng": 100.461,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "The Star",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZVNwbi0ycXhDeVJfVWVyUFAwYWh3N2dZSmJCREllWTVjYXd6QjdRcVBCS2NORFpmVXVMWl95cjE4WUplODVfaG9ObjVsOVZiX2dlREw0UnhKbWl0Y01rWW96dmJjMEFCa0pYM0c2SkYxOWs2eXJTbFRaTFl0NkRXU29QczdVRk8zMWZ0aVdIQlhlMExWR2c?oc=5",
+    "title": "Man shot dead at Bukit Mertajam oil depot"
+   }
+  ]
+ },
+ {
+  "type": "murder",
+  "title": "Lelaki maut ditembak rakan sekerja di depot simpanan minyak",
+  "link": "https://www.kosmo.com.my/2026/11/15/lelaki-maut-ditembak-rakan-sekerja-di-depot-simpanan-minyak/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-14T16:07:00.000Z",
+  "place": "Bukit Tengah",
+  "area": "Bukit Tengah, Permatang Pauh",
+  "lat": 5.3685,
+  "lng": 100.4197,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Lelaki maut ditikam ketika cuba meleraikan pergaduhan",
+  "link": "https://www.sinarharian.com.my/article/804595/berita/semasa/lelaki-maut-ditikam-ketika-cuba-meleraikan-pergaduhan",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-14T11:36:00.000Z",
+  "place": "Kota Kinabalu",
+  "area": "Kota Kinabalu, Bahagian Pantai Barat",
+  "lat": 5.978,
+  "lng": 116.0729,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Daily Express Malaysia",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONmVDak5ybFRXYU9jTkkwWWJtNlZEX3k3cEd3YjdfcUJrbEZ2X1NuT2llYjh1TlRlaGQ2NWs0R2dIVUplaGFWWWc1MUs1N0ppUXkyZDJBOHJlNm9ZUkJzTmVIR0IxN3d1dExQOGpDQV94cmdCeDNDSXhETGM0T243SmlGMVNIZzBlOXZZYk56M3QxMGo5UUd6REpSRGlRRHla?oc=5",
+    "title": "Man killed in KK stabbing after intervening in dispute"
+   }
+  ]
+ },
+ {
+  "type": "assault",
+  "title": "Saspek Serang Polis Sampai Putus Tangan Disahkan PATI",
+  "link": "https://pandulaju.com.my/polis-tembak-mati-pati-serang-polis-putus-tangan/",
+  "outlet": "PanduLaju",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-13T12:12:58.000Z",
+  "place": "Kepong",
+  "area": "Kepong, Kuala Lumpur",
+  "lat": 3.214,
+  "lng": 101.6348,
+  "precision": "area"
+ },
+ {
+  "type": "robbery",
+  "title": "Polis giat kesan dua individu dipercayai terlibat samun bersenjata",
+  "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/polis-giat-kesan-dua-individu-dipercayai-terlibat-samun-bersenjata/",
+  "outlet": "Portal Berita RTM",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-13T09:53:26.000Z",
+  "place": "Batu 6, Kuala Terengganu",
+  "area": "Kuala Terengganu, Terengganu",
+  "lat": 5.3296,
+  "lng": 103.1383,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1435748/kes-samun-kedai-emas-polis-minta-dik-min-mat-long-serah-diri?source=widget",
+    "title": "Kes samun kedai emas, polis minta Dik Min, Mat Long serah diri"
+   },
+   {
+    "outlet": "https://utusanmelayuplus.com/",
+    "link": "https://utusanmelayuplus.com/dua-lelaki-samun-kedai-emas-bersenjatakan-parang-larikan-tiga-dulang-emas/",
+    "title": "Dua lelaki samun kedai emas bersenjatakan parang, larikan tiga dulang emas"
+   }
+  ]
+ },
+ {
+  "type": "robbery",
+  "title": "Dik Min, Mat Long diburu bantu siasatan kes samun kedai emas di Gong Badak",
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN0ZXczFJTExkZnpHSjJ6TEhSNjJrcEM0Q2swSkl3MFVya0ZubklPbWx0V2prRVpjaXl5alB6UEZWQUxmZUdUd2hmUlZ0Zlg0SDlfbXIweklMOUNnenZjVkVWYzhLeDVpYnhMcUttV0JmTlhnTlZxY3Y4bTFXZ29hREZYR2g3bWNZSUhjYmZPd3NteGxnem1PaVZZSURfbXpqdDl5T0cwalFEcUtLSUc4S3pFZw?oc=5",
+  "outlet": "MalaysiaGazette",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-13T08:15:12.000Z",
+  "place": "Gong Badak",
+  "area": "Gong Badak, Gong Dato",
+  "lat": 5.3955,
+  "lng": 103.0813,
+  "precision": "area"
+ },
+ {
+  "type": "robbery",
+  "title": "[VIDEO] Dik Min, Mat Long dicari kes samun kedai emas di Kuala Nerus",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR2s0aUxtOWpjelhBaGNaNEdPZ2N2X3pBTlYwZ3lzOEhMWlk4a0p2cTQzTjk0N1Etd0xoczhfY2hPVlZZbTJKVWZIQlcxQUJxZlA5SHJBbm1Zdnh1TWtQVHFsNVo2eURaTmFZd3hpYmpLSFlUM0JKOE1SYUNVeVBhLUNycmV6RDJQNkNMLUFDRmI2emROM01FMzR0VVA?oc=5",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-13T07:34:00.000Z",
+  "place": "Kuala Nerus",
+  "area": "Kuala Nerus, Terengganu",
+  "lat": 5.3957,
+  "lng": 103.0615,
+  "precision": "area"
+ },
+ {
+  "type": "break_in",
+  "title": "Dua rumah dipecah masuk curi Sony PlayStation 5",
+  "link": "https://tvsabahnews.com/dua-rumah-dipecah-masuk-curi-sony-playstation-5/",
+  "outlet": "TV Sabah News",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-13T05:17:18.000Z",
+  "place": "Kota Marudu",
+  "area": "Kota Marudu, Bahagian Kudat",
+  "lat": 6.4466,
+  "lng": 116.8283,
+  "precision": "town"
+ },
+ {
+  "type": "robbery",
+  "title": "Should he have intervened? Bystander’s actions debated after suspected robbery",
+  "link": "https://thesun.my/going-viral/should-he-have-intervened-bystanders-actions-debated-after-suspected-robbery/",
+  "outlet": "The Sun Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-13T03:52:58.000Z",
+  "place": "Tebengau, Kedah",
+  "area": "Tebengau, Kota Setar",
+  "lat": 6.045,
+  "lng": 100.3326,
+  "precision": "area"
+ },
+ {
+  "type": "break_in",
+  "title": "Polis tahan dua lelaki, selesai tiga kes pecah rumah, kedai di Mentakab",
+  "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZkVBU3Ruc3RkZm1vM1J2RE14N2NPYllQTzRUWVozQ3duTnlnUmdCMDVwMzlVcGltdFhUR2JwUjJIZkdSYlNFakNfeXRneXpLLVB4TjVyaXNZMWtNc3Vwb1JyRUtoTW9rYnRJVm1LQnpkdzFOdnhPLTJ5cUZyQjVxUWJpejVDNmFweUNhRGFGVkFkNjBScnhjNlhBSUF5NFpqRHRzN1JIY0ZvT0kwZTNVUEM3RU5rNy1iTDVWWmtpM2pyU0IxRHdZ0gFcQVVfeXFMTXpVbXZyLThDSnBDZU5nM19nWW9XUTdwWFU5Wjk1bGNtV3RmbzY1ckFaQ1pkZG8wNlZOQkhPZkg0RjhCZmsyT2x0S3N6c0NDcGE3Rlk2RlI1eV9CQVM?oc=5",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-13T02:52:00.000Z",
+  "place": "Mentakab",
+  "area": "Mentakab, Temerloh",
+  "lat": 3.4865,
+  "lng": 102.3515,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Nigerian Man Shot Dead By Malaysian Police After Cutting Officer’s Wrist With Machete",
+  "link": "https://saharareporters.com/2026/11/12/nigerian-man-shot-dead-malaysian-police-after-cutting-officers-wrist-machete",
+  "outlet": "Sahara Reporters",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-12T18:20:52.000Z",
+  "place": "Kuala Lumpur",
+  "area": "Kuala Lumpur, Malaysia",
+  "lat": 3.1517,
+  "lng": 101.6942,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "BarristerNG.com",
+    "link": "https://barristerng.com/tragedy-in-malaysia-nigerian-man-shot-dead-by-police-after-cutting-officers-wrist-with-machete/",
+    "title": "Tragedy in Malaysia: Nigerian Man Shot Dead by Police After Cutting Officer’s Wrist With Machete"
+   }
+  ]
+ },
+ {
+  "type": "murder",
+  "title": "Machete-wielding man shot dead after severing police officer’s hand in Malaysia",
+  "link": "https://www.straitstimes.com/asia/se-asia/machete-wielding-man-shot-dead-after-severing-police-officers-hand-in-malaysia",
+  "outlet": "The Straits Times",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-12T10:32:00.000Z",
+  "place": "Gombak",
+  "area": "Gombak, Selangor",
+  "lat": 3.3,
+  "lng": 101.7,
+  "precision": "town"
+ },
+ {
+  "type": "robbery",
+  "title": "Polis Buru Dua Lelaki Samun Kedai Emas #mgflash Polis sedang memburu dua lelaki yang menyamun sebuah kedai emas di Batu 6, di Kuala Terengganu, pagi tadi #malaysiagazette #SamunKedaiEmas",
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ2RJc2F0NGw4UERGZ2RYckJTZGRTbmQ2X1pXc3VfQzdoVE9URDJLLU9rbTUyNld3MlNfbF8wWWtmNmVlVFBBQlYxUExFczNUZEh6c0FVS2t2QkhSa2VieDBrSFZvTW9kMHozV2gxQ2tLaENrd2JvLTRKRXM4V3dodzIwUEZKVEFKb0xVNTVtclk1X2JCcmpvR0MyeF9nM0R6LXBPT2JuRXo4MmFqdFJUaGdaWFI4WFJyU29Ha01nbHVqRUhwbjhCQnJtRDAzY3ZrRkoyVDdlZXFpOTkyV1ZZ?oc=5",
+  "outlet": "Facebook",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-12T09:33:06.000Z",
+  "place": "Batu 6",
+  "area": "Batu 6, Sandakan",
+  "lat": 5.8655,
+  "lng": 118.0591,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUl3NjQyeUc0VktMLTBXb1lBaFNUNlJXQXBZd3NSWTJxUmVPOURzelltNEdvRmNRTXUzbmdEaC0yU2xIeU0xZlBWZXBJR0FXcjNpWjdWbzMtRE56REZjaXA3Qnp4a01LajlaZnVSSnVjZ1U2TXEtVUNmSmFKLU50MG1RLXhRenlnQXhnODNQcHRUampoczhPQ29LM25yY1pO0gGmAUFVX3lxTFBuV3VjLU5vZHN2d2NwaHBYQ05FUTBqQlZETzh6UjQxRlpxYVoxaVFRUC1tX1BCU1V5cnIyb0pib3Ztb2lXNEhZMUJ0ckFWT29OX01Vc0xiY2NZcVk3NkJFRFBKdXFwbDRXcy1lWDRZdFp5R1FCSktSdThUcDg2WFEtRFRRNmFDSk8wb3VFTHdUbkpQMkxoeG1MZ091ZkVwSEliTzJGdUE?oc=5",
+    "title": "2 lelaki samun kedai emas di Batu 6 diburu polis"
+   }
+  ]
  }
 ]

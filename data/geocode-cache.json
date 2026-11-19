@@ -1912,5 +1912,94 @@
  "area4:kampung sungai buaya, kampung gajah": null,
  "area4:kampung sungai buaya, teluk intan": null,
  "area4:kampung sungai buaya": null,
- "area4:suria klcc": null
+ "area4:suria klcc": null,
+ "area4:vizbegovo": null,
+ "area4:rueifang": null,
+ "area4:dungun": {
+  "lat": 4.7644,
+  "lng": 103.4184,
+  "label": "Dungun, Terengganu",
+  "kind": "town"
+ },
+ "area4:sulaman sentral, kuala manggatal, kota kinabalu": {
+  "lat": 6.0573,
+  "lng": 116.1504,
+  "label": "Lorong Sulaman Sentral, Taman Kuala Menggatal Phase 1",
+  "kind": "residential"
+ },
+ "area4:mukim 14, bukit minyak": {
+  "lat": 5.3046,
+  "lng": 100.4523,
+  "label": "Bukit Minyak, Seberang Perai Tengah",
+  "kind": "suburb"
+ },
+ "area4:mukim 14, bukit minyak, bukit mertajam": null,
+ "area4:bukit tengah, bukit mertajam": null,
+ "area4:bukit tengah": {
+  "lat": 5.3685,
+  "lng": 100.4197,
+  "label": "Bukit Tengah, Permatang Pauh",
+  "kind": "suburb"
+ },
+ "area4:sulaman sentral, kuala menggatal, kota kinabalu": {
+  "lat": 6.0573,
+  "lng": 116.1504,
+  "label": "Lorong Sulaman Sentral, Taman Kuala Menggatal Phase 1",
+  "kind": "residential"
+ },
+ "area4:jalan repok, sarikei": null,
+ "area4:jalan repok": null,
+ "area4:broken head": null,
+ "area4:bahrain, centcom lapor": null,
+ "area4:bahrain": null,
+ "area4:batu enam": null,
+ "area4:gong badak": {
+  "lat": 5.3955,
+  "lng": 103.0813,
+  "label": "Gong Badak, Gong Dato",
+  "kind": "suburb"
+ },
+ "area4:kuala nerus": {
+  "lat": 5.3957,
+  "lng": 103.0615,
+  "label": "Kuala Nerus, Terengganu",
+  "kind": "district"
+ },
+ "area4:tebengau, kedah": {
+  "lat": 6.045,
+  "lng": 100.3326,
+  "label": "Tebengau, Kota Setar",
+  "kind": "village"
+ },
+ "area4:mentakab": {
+  "lat": 3.4865,
+  "lng": 102.3515,
+  "label": "Mentakab, Temerloh",
+  "kind": "town"
+ },
+ "area4:malaysia police attack": null,
+ "area4:desa aman puri, kepong": null,
+ "area4:desa aman puri": null,
+ "area4:logan circle, washington": null,
+ "area4:logan circle": null,
+ "area4:credit": null,
+ "area4:desa amanpuri, kepong, credit": null,
+ "area4:desa amanpuri, kepong": null,
+ "area4:desa amanpuri, credit": null,
+ "area4:desa amanpuri": null,
+ "area4:please": null,
+ "area4:gombak": {
+  "lat": 3.3,
+  "lng": 101.7,
+  "label": "Gombak, Selangor",
+  "kind": "district"
+ },
+ "area4:desa amanpuri, kepong, gombak": null,
+ "area4:desa amanpuri, gombak": null,
+ "area4:batu 6": {
+  "lat": 5.8655,
+  "lng": 118.0591,
+  "label": "Batu 6, Sandakan",
+  "kind": "suburb"
+ }
 }
