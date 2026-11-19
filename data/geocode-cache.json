@@ -2095,5 +2095,73 @@
   "lng": 100.1346,
   "label": "Kuala Perlis, Perlis",
   "kind": "town"
- }
+ },
+ "area4:jalan masjid lama, kabong": null,
+ "area4:jalan masjid lama, sarikei, saratok": null,
+ "area4:jalan masjid lama, sarikei": null,
+ "area4:pantai remis, ipoh": null,
+ "area4:pantai remis": {
+  "lat": 4.4553,
+  "lng": 100.626,
+  "label": "Pantai Remis, Manjung",
+  "kind": "village"
+ },
+ "area4:jalan tanjung rambutan": {
+  "lat": 4.6661,
+  "lng": 101.1618,
+  "label": "Jalan Bunga Melur, Taman Chong Kwee",
+  "kind": "residential"
+ },
+ "area4:bera": {
+  "lat": 3.2367,
+  "lng": 102.5418,
+  "label": "Bera, Pahang",
+  "kind": "district"
+ },
+ "area4:kampung tanah merah, jalan tanjung, tawau": null,
+ "area4:kampung tanah merah, jalan tanjung": {
+  "lat": 6.0128,
+  "lng": 100.4809,
+  "label": "Jalan Seri Tanjung 3, Taman Seri Tanjung",
+  "kind": "residential"
+ },
+ "area4:kampung tanah merah, tawau": null,
+ "area4:kampung tanah merah": null,
+ "area4:kota spp warisan": null,
+ "area4:malay, johor bahru": null,
+ "area4:malay": {
+  "lat": 3.9202,
+  "lng": 103.0367,
+  "label": "Kampung Melayu Sungai Lembing, Sungai Lembing",
+  "kind": "hamlet"
+ },
+ "area4:masai": {
+  "lat": 1.4865,
+  "lng": 103.8854,
+  "label": "Masai, Johor Bahru",
+  "kind": "town"
+ },
+ "area4:pasir gudang, johor": {
+  "lat": 1.4953,
+  "lng": 103.9207,
+  "label": "Pasir Gudang, Johor Bahru",
+  "kind": "town"
+ },
+ "area4:jalan damai, tawau": null,
+ "area4:jalan damai": null,
+ "area4:ladang felda umas 6 tawau": null,
+ "area4:seksyen 16, shah alam": {
+  "lat": 3.0587,
+  "lng": 101.4954,
+  "label": "Seksyen 16, Shah Alam",
+  "kind": "quarter"
+ },
+ "area4:lapangan terb": null,
+ "area4:balik pulau": {
+  "lat": 5.3511,
+  "lng": 100.2353,
+  "label": "Balik Pulau, Pondok Upih",
+  "kind": "suburb"
+ },
+ "area4:bayan lepas, balik pulau": null
 }
