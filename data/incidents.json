@@ -1905,6 +1905,11 @@
     "outlet": "Free Malaysia Today",
     "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/02/2-sahabat-mengaku-tak-salah-cuba-rompak-barang-kemas-rm8-2-juta",
     "title": "2 sahabat mengaku tak salah cuba rompak barang kemas RM8.2 juta"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSGE1dXRJdlN1U0xvQXN3cnJVaHpNbTVVWkNXSWpiRENDMmRNVFRwaW10WUN2VUN6c0licVR0RC1Vb1p4R2syUGx6OUNaTlNEVTBVNDVhTnQzRkY4ZDN2RUR4QVVRdUlxdnhfYUU1Tmt1RnNabUFOWjlkUUhlRVV2UWFxdTAtOUJGSWs2ZWhFaXB3MTM3cm94ZVBwR2Z1ZEVfWDFfdGxxYmpHQ2h2bVJfWk1VQUxBMmlHWTNtZzl6Uy1LaXFPTXpxZ0NOX3c1YlQxclRNUtIB2gFBVV95cUxQT2ZZWkJ1U0JHcm16QU9MQ3NSVkl6eTNBUFBqVWhGcl9ScHp1VFV5bWFkYjdzejFzazJBRkd3YjlsRHFpX0JVbEhLWUxrakhwRGVCR3p0UzZiUkpQeE0yLUlTY2F1M0xLRlBrYU1mT0w2UXBxV2xXQW9TWjlFQ2pieG5QdnVNMzkwQ3drQnZldHg4d19ZM3NyS3ItTlo4QW5oT0xLZzBfS0lvalA2Nmhib0kyUlBzYlZUTFFERHZuSUdDRURoTGoyTEFQVWp2OGh2NE1GM1FhcUptQQ?oc=5",
+    "title": "Two friends plead not guilty to attempted RM8.2m jewellery robbery in Brickfields"
    }
   ]
  },
@@ -2025,6 +2030,11 @@
     "outlet": "The Star",
     "link": "https://www.thestar.com.my/news/nation/2026/10/31/damansara-damai-jewellery-shop-loses-rm300000-in-robbery",
     "title": "Damansara Damai jewellery shop loses RM300,000 in robbery"
+   },
+   {
+    "outlet": "NST Online",
+    "link": "https://www.nst.com.my/news/regional/2026/10/1567701/pregnant-mother-hides-behind-counter-sword-wielding-robber-strikes",
+    "title": "Pregnant mother hides behind counter as sword-wielding robber strikes jewellery shop"
    }
   ]
  },
@@ -4039,6 +4049,11 @@
     "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
     "link": "https://utusansarawak.com.my/dua-hari-selepas-curi-beg-pinggang-warga-emas-lelaki-23-tahun-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=dua-hari-selepas-curi-beg-pinggang-warga-emas-lelaki-23-tahun-ditahan",
     "title": "Dua hari selepas curi beg pinggang warga emas, lelaki 23 tahun ditahan"
+   },
+   {
+    "outlet": "utusansarawak.com.my",
+    "link": "https://utusansarawak.com.my/dua-hari-selepas-curi-beg-pinggang-warga-emas-lelaki-23-tahun-ditahan/",
+    "title": "Dua hari selepas curi beg pinggang warga emas, lelaki 23 tahun ditahan"
    }
   ]
  },
@@ -4449,7 +4464,24 @@
   "area": "Kepong, Kuala Lumpur",
   "lat": 3.214,
   "lng": 101.6348,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "www.beritaharian.sg",
+    "link": "https://www.beritaharian.sg/malaysia/pergelangan-tangan-polis-putus-ditetak-warga-asing-di-selangor-suspek-ditembak-mati",
+    "title": "Pergelangan tangan polis putus ditetak warga asing di Selangor, suspek ditembak mati"
+   },
+   {
+    "outlet": "The Star",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSDVvSUsyTzB2VDVDNnRCYzYwdndUQzR0OXR6ZlhlSjVjMkpKblJ2VlZFWnkyT0dwcjFDTGY4WXdaYzJZZm1nZ2FSLTFxSnJMVVhYaWFxUkNGOHdQUEVnb3hfMFVvNmRNdVVzYzNHdkJPSXZkQzVOQUhtNVlCa3hTTndxVWhlSFF2YlR1Y0VydjFlSmNuUVhhZkluVExvLWRfNy1fYjBoS293blg2alNjb052YW9qT1Jnb0lQZDZn?oc=5",
+    "title": "Machete attacker shot dead by police after severing cop’s hand in Kepong"
+   },
+   {
+    "outlet": "NST Online",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTnZCT2loTDRCa1dSRjU0T3VieXl5ZVRWbHlSYVVHam93YXo0bXNVRF9qYXZOdmJ5NUlZWHNrcjdzbTNWanNfM2JkaE91QjlZNzh6SVRmZ3FjN2cwUEpZbC1LN2tGbE10d0hNOTdlZTRoUEs1VEk3X1A3eWo1RFZvX0RkY1pKTFZpdzF1cDI3QTVsMGROWkFubEdmVEdEdjk1dnFCbW5jMEdydlg0UXFma2FsU29kQdIBuwFBVV95cUxNT3huTTFzM0MtT0oyeWphbzRscV9KZmx1dGk2VUdHQ3gwOU40TW5SWjMyZzNyUnRQYjl6eE1HbDB2YmtYbkttbUNsTHBUQTdSWGFoVWlJOXBfakdhbzR0WDBwOEw3bUllRUMxbFRNaTN5aW5ZbXNsMFlTSlpCbmwzTXFVUjhJYkJvdndhX29iTUs4WlhBNElGQTNORkpuWTZTWWJpOXRWajNieDJmY2FUMDVUR1VDSW85Zl9J?oc=5",
+    "title": "Suspect who severed cop's hand shot dead in Kepong police showdown"
+   }
+  ]
  },
  {
   "type": "robbery",
@@ -4565,6 +4597,16 @@
     "outlet": "BarristerNG.com",
     "link": "https://barristerng.com/tragedy-in-malaysia-nigerian-man-shot-dead-by-police-after-cutting-officers-wrist-with-machete/",
     "title": "Tragedy in Malaysia: Nigerian Man Shot Dead by Police After Cutting Officer’s Wrist With Machete"
+   },
+   {
+    "outlet": "Sinar Harian",
+    "link": "https://www.sinarharian.com.my/article/804231/berita/semasa/jangan-tunggu-diserang---anggota-polis-kl-diarah-sentiasa-bersedia-dengan-senjata-api",
+    "title": "'Jangan tunggu diserang' - Anggota polis KL diarah sentiasa bersedia dengan senjata api"
+   },
+   {
+    "outlet": "AsiaOne.com",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLXZNR0RZbl9QSmdjZnBucnc1ZzlwbGo3ejhvaFJXem1HdlJZcFg3MDZXSTFxYVdBclYxeEo1Zk1fZVI0NmhxNTVkckNkQUhmRHZBYUlNc2d2eWg1c0dvaGlnbTRxLUhBVGxVeDlFclRPbmVjdVNpRy1pNTQ2MXVJNEotQzlLR19mQmc?oc=5",
+    "title": "Parang-armed foreign man shot dead in Kuala Lumpur after severing police officer's hand, Malaysia News"
    }
   ]
  },
@@ -4602,5 +4644,150 @@
     "title": "2 lelaki samun kedai emas di Batu 6 diburu polis"
    }
   ]
+ },
+ {
+  "type": "robbery",
+  "title": "[VIDEO] Polis buru dua lelaki samun kedai emas",
+  "link": "https://www.kosmo.com.my/2026/11/12/video-polis-buru-dua-lelaki-samun-kedai-emas/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-12T08:17:00.000Z",
+  "place": "Batu Enam, Kuala Nerus",
+  "area": "Kampung Batu Enam, Kampung Air Leleh",
+  "lat": 5.3469,
+  "lng": 103.0908,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/samun-kedai-emas-rm300000-lesap/",
+    "title": "Samun kedai emas, RM300,000 lesap"
+   }
+  ]
+ },
+ {
+  "type": "assault",
+  "title": "Warga emas maut dipukul: Lelaki, dua wanita direman enam hari",
+  "link": "https://www.sinarharian.com.my/article/804274/berita/semasa/warga-emas-maut-dipukul-lelaki-dua-wanita-direman-enam-hari",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-12T07:31:00.000Z",
+  "place": "Seremban",
+  "area": "Seremban, Negeri Sembilan",
+  "lat": 2.7231,
+  "lng": 101.9401,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "Polis tahan lelaki disyaki curi dompet di Cheras",
+  "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOEVlNUJhWlpGa1pXN3FIejZ3SlNDN3UweHNMSXV6RkFoLU9wMnpqd3J5UElBdmE1UE1SMHNSX3RUeGtVblVQN3R3NEYtazVFVUN4TV94dTNLd2w1azVyN1FzLUoycFFjVGtmUWhVODBkV3BXZlZtTjhKWlp0MFJjdmd5d2Z3OWg1UWczUXNhU25mSzA?oc=5",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-12T06:06:11.000Z",
+  "place": "Cheras",
+  "area": "Cheras, Kuala Lumpur",
+  "lat": 3.0992,
+  "lng": 101.7374,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Lelaki warga asing tetak anggota polis maut ditembak",
+  "link": "https://www.sinarharian.com.my/article/804196/berita/semasa/lelaki-warga-asing-tetak-anggota-polis-maut-ditembak",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-11T16:48:00.000Z",
+  "place": "Desa Aman, Selayang",
+  "area": "Kampung Desa Aman, Majlis Perbandaran Selayang",
+  "lat": 3.2054,
+  "lng": 101.5962,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Johor pawn shop heist: 7 arrested, former manager suspected of masterminding $9m theft, says police chief",
+  "link": "https://www.asiaone.com/malaysia/johor-pawn-shop-heist-7-arrested-former-manager-suspected-masterminding-9m-theft-says",
+  "outlet": "AsiaOne.com",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-11T00:30:00.000Z",
+  "place": "Kota Tinggi",
+  "area": "Kota Tinggi, Johor",
+  "lat": 1.7337,
+  "lng": 103.9007,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/bekas-pengurus-dalang-samun-kedai-pajak-rm28-4-juta/",
+    "title": "Bekas pengurus dalang samun kedai pajak RM28.4 juta"
+   },
+   {
+    "outlet": "Free Malaysia Today",
+    "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/10/7-ditahan-kes-ar-rahnu-rugi-rm28-4-juta-akibat-pecah-masuk",
+    "title": "7 ditahan kes Ar-Rahnu rugi RM28.4 juta akibat pecah masuk"
+   }
+  ]
+ },
+ {
+  "type": "assault",
+  "title": "Keluarga jururawat parah ditikam suami harap keadilan",
+  "link": "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/keluarga-jururawat-parah-ditikam-suami-harap-keadilan/",
+  "outlet": "Portal Berita RTM",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-10T08:00:00.000Z",
+  "place": "Kota Bharu",
+  "area": "Kota Bharu, Kelantan",
+  "lat": 6.1248,
+  "lng": 102.2378,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "Suspek dikejar polis miliki senjata tajam, alat curi kabel dan dadah",
+  "link": "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/suspek-dikejar-polis-miliki-senjata-tajam-alat-curi-kabel-dan-dadah/",
+  "outlet": "Portal Berita RTM",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-10T08:00:00.000Z",
+  "place": "Jalan Wangsa, Bukit Antarabangsa",
+  "area": "Jalan Wangsa 5A, Taman Wangsa Ukay",
+  "lat": 3.183,
+  "lng": 101.7665,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "3 Lelaki Direman Miliki Dadah Dan Senjata Api #MGFlash Tiga lelaki tempatan direman selama tujuh hari bagi membantu siasatan kes memiliki pelbagai jenis dadah dan senjata api yang ditemukan dalam serbuan di sebuah premis di Jelutong, Pulau Pinang",
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQTZsbnFYX2RrV3lRNGFWZEFDQUVqMl9FZnRUOS1TNndsLUJYSFB6T25JOEVWdkt1eUgzaWdwYUx4ei1HMFBVYXdwOW9RS3FuOTBTeHBZSGYwamY4TWVuY3VnNWpiR1ZieEJGcTBuNzRJSVZjb3daLVFqX3I0bmRaZEwzWmFrUWV4Wks5YXExSXFzdVU5V2RianZsOVFYVE9LTXRJNTRYM000QzNrUlk3MWtwdDFJdjExRFB2dmpUaDZua3Z6OVBQWVA0bmxzN0JsaWMwSUFlc1RUODl4c1FN?oc=5",
+  "outlet": "Facebook",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-02T08:00:00.000Z",
+  "place": "Jelutong, Pulau Pinang",
+  "area": "Jelutong, Timur Laut",
+  "lat": 5.3873,
+  "lng": 100.3146,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Manjung police bust 4WD theft ring active in Perak, Kuala Lumpur",
+  "link": "https://www.thestar.com.my/news/nation/2026/10/31/manjung-police-bust-4wd-theft-ring-active-in-perak-kuala-lumpur?tblci=Girl%20Falls%20In%20Shopping%20Mall%20China",
+  "outlet": "The Star",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-31T07:00:00.000Z",
+  "place": "Ipoh",
+  "area": "Majlis Bandaraya Ipoh, Kinta",
+  "lat": 4.5987,
+  "lng": 101.09,
+  "precision": "town"
  }
 ]

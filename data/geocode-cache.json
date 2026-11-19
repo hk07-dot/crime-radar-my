@@ -2001,5 +2001,59 @@
   "lng": 118.0591,
   "label": "Batu 6, Sandakan",
   "kind": "suburb"
- }
+ },
+ "area4:batu enam, kuala nerus": {
+  "lat": 5.3469,
+  "lng": 103.0908,
+  "label": "Kampung Batu Enam, Kampung Air Leleh",
+  "kind": "suburb"
+ },
+ "area4:gombak, kuala lumpur": null,
+ "area4:kampung kuyuh, pitas, kota marudu": null,
+ "area4:kampung kuyuh, pitas": null,
+ "area4:kampung kuyuh, kota marudu": null,
+ "area4:kampung kuyuh": {
+  "lat": 3.0295,
+  "lng": 101.7048,
+  "label": "Jalan Kuyuh, SK 5",
+  "kind": "residential"
+ },
+ "area4:jalan sealine, permyjaya tudan": null,
+ "area4:permyjaya tudan, miri": null,
+ "area4:permyjaya tudan": null,
+ "area4:jalan sealine, kampung senadin, miri": null,
+ "area4:jalan sealine, kampung senadin": null,
+ "area4:selayang": {
+  "lat": 3.2537,
+  "lng": 101.6539,
+  "label": "Majlis Perbandaran Selayang, Gombak",
+  "kind": "city"
+ },
+ "area4:desa aman, selayang": {
+  "lat": 3.2054,
+  "lng": 101.5962,
+  "label": "Kampung Desa Aman, Majlis Perbandaran Selayang",
+  "kind": "hamlet"
+ },
+ "area4:kota tinggi, johor bahru": null,
+ "area4:selayang hospital": null,
+ "area4:jalan wangsa, bukit antarabangsa, kuala lumpur": null,
+ "area4:jalan wangsa, bukit antarabangsa": {
+  "lat": 3.183,
+  "lng": 101.7665,
+  "label": "Jalan Wangsa 5A, Taman Wangsa Ukay",
+  "kind": "residential"
+ },
+ "area4:kota ting, johor bahru": null,
+ "area4:kota ting": null,
+ "area4:jalan gambir": null,
+ "area4:jelutong, pulau pinang": {
+  "lat": 5.3873,
+  "lng": 100.3146,
+  "label": "Jelutong, Timur Laut",
+  "kind": "suburb"
+ },
+ "area4:pukul isteri": null,
+ "area4:nexus, ipoh": null,
+ "area4:january 1997": null
 }
