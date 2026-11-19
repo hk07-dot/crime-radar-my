@@ -2172,5 +2172,18 @@
  },
  "area4:tambun": null,
  "area4:kampung cina sempalit, raub": null,
- "area4:kampung cina sempalit": null
+ "area4:kampung cina sempalit": null,
+ "area4:parit buntar": {
+  "lat": 5.092,
+  "lng": 100.4863,
+  "label": "Mukim Parit Buntar, Kerian",
+  "kind": "town"
+ },
+ "area4:kuala kurau, parit buntar": null,
+ "area4:kuala kurau": {
+  "lat": 5.0235,
+  "lng": 100.4354,
+  "label": "Kuala Kurau, Kerian",
+  "kind": "town"
+ }
 }
