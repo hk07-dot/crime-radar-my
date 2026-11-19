@@ -1882,5 +1882,35 @@
   "lng": 101.6348,
   "label": "Kepong, Kuala Lumpur",
   "kind": "town"
- }
+ },
+ "area4:tapah, kuala lumpur": {
+  "lat": 3.1948,
+  "lng": 101.6809,
+  "label": "Jalan Tapah, Taman Kaya",
+  "kind": "residential"
+ },
+ "area4:tapah, ipoh": {
+  "lat": 4.6217,
+  "lng": 101.0651,
+  "label": "Kampung Sungai Tapah, Manjoi",
+  "kind": "neighbourhood"
+ },
+ "area4:lot baru perumahan kabong": null,
+ "area4:jalan kausing baru, tawau": null,
+ "area4:jalan kausing baru": null,
+ "area4:banting": null,
+ "area4:tai-tawi": null,
+ "area4:sulaman sentral": {
+  "lat": 6.0573,
+  "lng": 116.1504,
+  "label": "Lorong Sulaman Sentral, Taman Kuala Menggatal Phase 1",
+  "kind": "residential"
+ },
+ "area4:kampung tinanom, ranau": null,
+ "area4:kampung tinanom": null,
+ "area4:kampung sungai buaya, kampung gajah, teluk intan": null,
+ "area4:kampung sungai buaya, kampung gajah": null,
+ "area4:kampung sungai buaya, teluk intan": null,
+ "area4:kampung sungai buaya": null,
+ "area4:suria klcc": null
 }
