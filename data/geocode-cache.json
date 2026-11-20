@@ -2373,5 +2373,11 @@
   "label": "Cheras, Kuala Lumpur",
   "kind": "suburb"
  },
- "area4:klia terminal": null
+ "area4:klia terminal": null,
+ "area4:kapit": {
+  "lat": 2.0139,
+  "lng": 112.9357,
+  "label": "Kapit, Bahagian Kapit",
+  "kind": "city"
+ }
 }

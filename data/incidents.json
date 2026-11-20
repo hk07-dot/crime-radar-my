@@ -5359,6 +5359,11 @@
     "outlet": "Kosmo: Suapan Kosmo Online",
     "link": "https://www.kosmo.com.my/2026/11/19/pegawai-tudm-ditahan-dadah-dikesan-ketika-pemeriksaan-rutin-bagasi/?utm_source=rss&utm_medium=rss&utm_campaign=pegawai-tudm-ditahan-dadah-dikesan-ketika-pemeriksaan-rutin-bagasi",
     "title": "Lima bagasi, sebuah kotak isi dadah dijumpai di Pangkalan Udara Subang"
+   },
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/tudm-tidak-berkompromi-tujuh-anggota-dan-pegawai-sudah-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=tudm-tidak-berkompromi-tujuh-anggota-dan-pegawai-sudah-ditahan",
+    "title": "TUDM tidak berkompromi, tujuh anggota dan pegawai sudah ditahan"
    }
   ]
  },
@@ -5755,7 +5760,14 @@
   "area": "Subang, Shah Alam",
   "lat": 3.1505,
   "lng": 101.5312,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805496/berita/semasa/pangkat-bukan-pelindung-tudm-tegas-isu-dadah---muhamad-norazlan",
+    "title": "'Pangkat bukan pelindung, TUDM tegas isu dadah' - Muhamad Norazlan"
+   }
+  ]
  },
  {
   "type": "murder",
@@ -5896,5 +5908,19 @@
   "lat": 3.0739,
   "lng": 101.5185,
   "precision": "town"
+ },
+ {
+  "type": "assault",
+  "title": "Four teenage girls arrested over alleged assault on homeless man in Kapit",
+  "link": "https://dayakdaily.com/four-teenage-girls-arrested-over-alleged-assault-on-homeless-man-in-kapit/",
+  "outlet": "Dayak Daily",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T10:46:57.000Z",
+  "place": "Kapit",
+  "area": "Kapit, Bahagian Kapit",
+  "lat": 2.0139,
+  "lng": 112.9357,
+  "precision": "area"
  }
 ]
