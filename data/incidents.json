@@ -5807,5 +5807,61 @@
   "lat": 4.2435,
   "lng": 117.8853,
   "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Perhilitan sahkan harimau dipercayai serang lelaki mati ditembak",
+  "link": "https://www.utusan.com.my/berita/2026/11/perhilitan-sahkan-harimau-dipercayai-serang-lelaki-mati-ditembak/?utm_source=rss&utm_medium=rss&utm_campaign=perhilitan-sahkan-harimau-dipercayai-serang-lelaki-mati-ditembak",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T08:54:54.000Z",
+  "place": "Petaling Jaya",
+  "area": "Petaling Jaya, Petaling",
+  "lat": 3.0989,
+  "lng": 101.6454,
+  "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "Dua lelaki positif dadah ditahan di Bau",
+  "link": "https://utusansarawak.com.my/dua-lelaki-positif-dadah-ditahan-di-bau-3/?utm_source=rss&utm_medium=rss&utm_campaign=dua-lelaki-positif-dadah-ditahan-di-bau-3",
+  "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T08:45:21.000Z",
+  "place": "Bau",
+  "area": "Bau, Bahagian Kuching",
+  "lat": 1.4179,
+  "lng": 110.1553,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Subcontractor arrested over unpaid RM44,000 workers’ salaries",
+  "link": "https://www.sarawaktribune.com/subcontractor-arrested-over-unpaid-rm44000-workers-salaries/",
+  "outlet": "New Sarawak Tribune: Sarawak Tribune Feed",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T08:34:27.000Z",
+  "place": "Saratok",
+  "area": "Saratok, Bahagian Betong",
+  "lat": 1.7636,
+  "lng": 111.4441,
+  "precision": "town"
+ },
+ {
+  "type": "break_in",
+  "title": "Chinese man arrested trying to leave Singapore hours after alleged break-in and theft attempt at temple near Jalan Senyum",
+  "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWXIyTllSY3BaZnFuckpVTDRJM3pRSXV0X1BILVpLeHJOZUVibWtHRUloMG1haFJ1LWsxZmQ4Q1pnSFhkenZVUnctRTR1elZWZ2dQMWNsaEFhenBTbG92eWpwNmE2UE5FZkZPc3cyVXlOaXZ3eXc2UVhnck4zYmNaWDZEMU5janJlRDdtakUyT3hWMkpEY3VQeFMyT3F1VGxuMnhTaVdfRFNLWERjcG1tVTZRMTRwTy03MnoycVA1bTJ1dmJTSUtGTmI0Sms1dTlPcmZZbUZOUHBCWEJzSXRCTw?oc=5",
+  "outlet": "The Independent Singapore",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T23:33:13.000Z",
+  "place": "Jalan Senyum",
+  "area": "Jalan Senyum, Kampung Wadi Hana",
+  "lat": 1.4766,
+  "lng": 103.7609,
+  "precision": "area"
  }
 ]

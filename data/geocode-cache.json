@@ -2352,5 +2352,12 @@
   "kind": "district"
  },
  "area4:stesen penguatkuasa jabatan pengangkutan jalan, gua musang": null,
- "area4:stesen penguatkuasa jabatan pengangkutan jalan": null
+ "area4:stesen penguatkuasa jabatan pengangkutan jalan": null,
+ "area4:sarikei, saratok": null,
+ "area4:jalan senyum": {
+  "lat": 1.4766,
+  "lng": 103.7609,
+  "label": "Jalan Senyum, Kampung Wadi Hana",
+  "kind": "residential"
+ }
 }
