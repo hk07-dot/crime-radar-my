@@ -2379,5 +2379,16 @@
   "lng": 112.9357,
   "label": "Kapit, Bahagian Kapit",
   "kind": "city"
+ },
+ "area4:jeti ciq tawau, kota kinabalu": null,
+ "area4:jeti ciq tawau": null,
+ "area4:kampung bawong, sungai siput, ipoh": null,
+ "area4:kampung sessang, kabong": null,
+ "area4:kampung sessang": null,
+ "area4:likas": {
+  "lat": 5.9876,
+  "lng": 116.1024,
+  "label": "Likas, Kota Kinabalu",
+  "kind": "village"
  }
 }

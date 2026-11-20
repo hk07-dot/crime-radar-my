@@ -4282,7 +4282,14 @@
   "area": "Nexus Taman Pertama, Cheras",
   "lat": 3.1107,
   "lng": 101.7306,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "The Star",
+    "link": "https://www.thestar.com.my/news/nation/2026/11/20/man-shot-dead-linked-to-several-cases-say-police",
+    "title": "Man shot dead linked to several cases, say police"
+   }
+  ]
  },
  {
   "type": "theft",
@@ -4432,6 +4439,11 @@
     "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
     "link": "https://utusansarawak.com.my/lelaki-ditahan-disyaki-curi-diesel-lori-sawit-tukar-syabu-sebagai-bayaran/?utm_source=rss&utm_medium=rss&utm_campaign=lelaki-ditahan-disyaki-curi-diesel-lori-sawit-tukar-syabu-sebagai-bayaran",
     "title": "Lelaki ditahan disyaki curi diesel lori sawit, tukar syabu sebagai bayaran"
+   },
+   {
+    "outlet": "Saluran 122",
+    "link": "https://www.tvsarawak.my/2026/11/20/lelaki-ditahan-polis-siasat-diesel-curi-ditukar-dengan-dadah/",
+    "title": "Lelaki ditahan, polis siasat diesel curi ditukar dengan dadah"
    }
   ]
  },
@@ -5940,6 +5952,34 @@
   "area": "Cheras, Kuala Lumpur",
   "lat": 3.0992,
   "lng": 101.7374,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Lelaki disyaki terbabit kes bunuh diberkas di Jeti CIQ Tawau",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438858/lelaki-disyaki-terbabit-kes-bunuh-diberkas-di-jeti-ciq-tawau",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T11:48:20.000Z",
+  "place": "Sulaman Sentral, Kuala Manggatal, Kota Kinabalu",
+  "area": "Lorong Sulaman Sentral, Taman Kuala Menggatal Phase 1",
+  "lat": 6.0573,
+  "lng": 116.1504,
+  "precision": "area"
+ },
+ {
+  "type": "robbery",
+  "title": "Two jailed 10 years, ordered four strokes for armed gang robbery in Likas",
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY1VYWE85MHVyUjRrMTZnMmlwSEx1OExNOWRJcEQzaGpGYVdLTjN5TG1OeEVQLWV5LU9PMVdqOFpLUlpZbTFuV0FsNHE4T1F2cE1QcVFsa1YwTUtPVVdpLW02eTRqMVJCekdOamRvZEVNa0R0MWZZdzJVMUFtMGxwZXQ0M2ZPSUxHby16T21XdEI3YnNwUGpGdWQzUjdUaEhhYXdjZHZ1c2pXQ0c0U0dIc2VmUQ?oc=5",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T09:15:00.000Z",
+  "place": "Likas",
+  "area": "Likas, Kota Kinabalu",
+  "lat": 5.9876,
+  "lng": 116.1024,
   "precision": "area"
  }
 ]
