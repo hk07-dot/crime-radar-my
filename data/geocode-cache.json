@@ -2205,5 +2205,13 @@
   "kind": "suburb"
  },
  "area4:pusat transformasi bandar, kuala lumpur": null,
- "area4:pusat transformasi bandar": null
+ "area4:pusat transformasi bandar": null,
+ "area4:panta, ipoh": null,
+ "area4:panta": null,
+ "area4:parit bunga, tangkak": {
+  "lat": 2.0763,
+  "lng": 102.55,
+  "label": "Parit Bunga, Tangkak",
+  "kind": "quarter"
+ }
 }
