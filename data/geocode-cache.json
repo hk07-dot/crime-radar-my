@@ -2359,5 +2359,19 @@
   "lng": 103.7609,
   "label": "Jalan Senyum, Kampung Wadi Hana",
   "kind": "residential"
- }
+ },
+ "area4:tawau, sabah, kuala lumpur": null,
+ "area4:tawau, sabah": {
+  "lat": 4.2435,
+  "lng": 117.8853,
+  "label": "Tawau, Bahagian Tawau",
+  "kind": "city"
+ },
+ "area4:cheras, kuala lumpur": {
+  "lat": 3.0992,
+  "lng": 101.7374,
+  "label": "Cheras, Kuala Lumpur",
+  "kind": "suburb"
+ },
+ "area4:klia terminal": null
 }

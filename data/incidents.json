@@ -5566,11 +5566,11 @@
   "source": "news",
   "verified": true,
   "publishedAt": "2026-11-20T04:10:05.000Z",
-  "place": "Tawau",
+  "place": "Tawau, Sabah",
   "area": "Tawau, Bahagian Tawau",
   "lat": 4.2435,
   "lng": 117.8853,
-  "precision": "town",
+  "precision": "area",
   "alsoReported": [
    {
     "outlet": "Harian Metro Mutakhir",
@@ -5581,6 +5581,11 @@
     "outlet": "Sinar Harian Semasa",
     "link": "https://www.sinarharian.com.my/article/805435/berita/semasa/koperal-pegawai-waran-ii-tudm-direman-bantu-siasatan-rampasan-dadah",
     "title": "Koperal, Pegawai Waran II TUDM direman bantu siasatan rampasan dadah"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438814/seludup-dadah-guna-aset-tentera-2-lagi-anggota-tudm-ditahan",
+    "title": "Seludup dadah guna aset tentera: 2 lagi anggota TUDM ditahan"
    }
   ]
  },
@@ -5863,5 +5868,33 @@
   "lat": 1.4766,
   "lng": 103.7609,
   "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Polis tahan kerani IT, curi toner pencetak milik hospital bernilai RM18,000",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438794/polis-tahan-kerani-it-curi-toner-pencetak-milik-hospital-bernilai-rm18000",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T09:17:29.000Z",
+  "place": "Cheras, Kuala Lumpur",
+  "area": "Cheras, Kuala Lumpur",
+  "lat": 3.0992,
+  "lng": 101.7374,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Uniform, pangkat bukan lesen lakukan jenayah",
+  "link": "https://www.sinarharian.com.my/article/805490/berita/nasional/uniform-pangkat-bukan-lesen-lakukan-jenayah",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T08:22:00.000Z",
+  "place": "Shah Alam",
+  "area": "Shah Alam, Petaling",
+  "lat": 3.0739,
+  "lng": 101.5185,
+  "precision": "town"
  }
 ]
