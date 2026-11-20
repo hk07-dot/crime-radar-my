@@ -276,7 +276,7 @@ header { display: flex; gap: 12px; justify-content: space-between; align-items: 
   <header>
     <div>
       <p class="kicker" id="window-label">Crime Radar MY</p>
-      <h1 data-t="h1"></h1>
+      <h1 id="h1"></h1>
       <p class="sub" id="where"></p>
     </div>
     <div class="lang" role="radiogroup" aria-label="Language / Bahasa">
@@ -288,6 +288,15 @@ header { display: flex; gap: 12px; justify-content: space-between; align-items: 
   <div class="row">
     <button class="primary" id="locate" style="flex:1" data-t="use_loc"></button>
     <button id="dash-open" type="button" aria-controls="dash" aria-expanded="false" style="flex:1" data-t="dash_btn"></button>
+  </div>
+  <div>
+    <p class="label" data-t="distance"></p>
+    <div class="seg" role="radiogroup" data-t-aria="distance_aria">
+      <label><input type="radio" name="km" value="2">2 km</label>
+      <label><input type="radio" name="km" value="3">3 km</label>
+      <label><input type="radio" name="km" value="5">5 km</label>
+      <label><input type="radio" name="km" value="10" checked>10 km</label>
+    </div>
   </div>
   <div>
     <p class="label" data-t="range"></p>
@@ -434,7 +443,8 @@ header { display: flex; gap: 12px; justify-content: space-between; align-items: 
 const STR = {
   en: {
     map_aria: 'Map of crime reports near you',
-    h1: 'Crime within 10 km', locating: 'Locating you…', use_loc: 'Use my location', dash_btn: 'Crime dashboard',
+    h1: k => `Crime within ${k} km`, distance: 'Distance', distance_aria: 'How far around the point to show',
+    official_ipd: (y, n) => `official cases ${y}, IPD ${n}`, locating: 'Locating you…', use_loc: 'Use my location', dash_btn: 'Crime dashboard',
     range: 'Range', d7: '7 days', d30: '30 days', d2m: '2 months', range_aria: 'Time range for news and social reports',
     range_names: { 7: 'Last 7 days', 30: 'Last 30 days', '2m': 'Last 2 months' },
     hint: 'Or search a place on the map, or tap anywhere on it, to check another area.',
@@ -465,7 +475,7 @@ const STR = {
     load_fail: e => `Couldn't load reports: ${e}. Check that the server is running and online.`,
     cases_line: (y, n, a, p) => `${y}: <b>${n}</b> cases (${a} violent, ${p} property)`, top: 'Top',
     loc_table: 'Area level. Location from district table.', loc_geo: 'Area level. Location geocoded.',
-    district_row: (km, n, y) => `${km} km · ${n} cases in ${y}`, outside: ' · nearest, outside 10 km', no_district: 'No district data.',
+    district_row: (km, n, y) => `${km} km · ${n} cases in ${y}`, outside: k => ` · nearest, outside ${k} km`, no_district: 'No district data.',
     unverified: 'unverified', town_level: 'town-level',
     town_note: 'The article only names the town, so this pin marks the town, not the scene.', also_by: 'Also reported by',
     lbl_social: 'Social', lbl_news: 'News', more: n => `+${n} more`,
@@ -528,7 +538,8 @@ const STR = {
   },
   ms: {
     map_aria: 'Peta laporan jenayah berhampiran anda',
-    h1: 'Jenayah dalam lingkungan 10 km', locating: 'Mencari lokasi anda…', use_loc: 'Gunakan lokasi saya', dash_btn: 'Papan pemuka jenayah',
+    h1: k => `Jenayah dalam lingkungan ${k} km`, distance: 'Jarak', distance_aria: 'Jarak di sekeliling titik untuk dipaparkan',
+    official_ipd: (y, n) => `kes rasmi ${y}, IPD ${n}`, locating: 'Mencari lokasi anda…', use_loc: 'Gunakan lokasi saya', dash_btn: 'Papan pemuka jenayah',
     range: 'Julat', d7: '7 hari', d30: '30 hari', d2m: '2 bulan', range_aria: 'Julat masa laporan berita dan media sosial',
     range_names: { 7: '7 hari lepas', 30: '30 hari lepas', '2m': '2 bulan lepas' },
     hint: 'Atau cari tempat pada peta, atau ketik di mana-mana pada peta, untuk menyemak kawasan lain.',
@@ -559,7 +570,7 @@ const STR = {
     load_fail: e => `Tidak dapat memuatkan laporan: ${e}. Pastikan pelayan berjalan dan dalam talian.`,
     cases_line: (y, n, a, p) => `${y}: <b>${n}</b> kes (${a} kekerasan, ${p} harta benda)`, top: 'Utama',
     loc_table: 'Peringkat kawasan. Lokasi daripada jadual daerah.', loc_geo: 'Peringkat kawasan. Lokasi melalui geokod.',
-    district_row: (km, n, y) => `${km} km · ${n} kes pada ${y}`, outside: ' · terdekat, di luar 10 km', no_district: 'Tiada data daerah.',
+    district_row: (km, n, y) => `${km} km · ${n} kes pada ${y}`, outside: k => ` · terdekat, di luar ${k} km`, no_district: 'Tiada data daerah.',
     unverified: 'belum disahkan', town_level: 'peringkat bandar',
     town_note: 'Artikel hanya menyebut bandar, jadi pin ini menandakan bandar, bukan lokasi kejadian.', also_by: 'Turut dilaporkan oleh',
     lbl_social: 'Sosial', lbl_news: 'Berita', more: n => `+${n} lagi`,
@@ -674,7 +685,13 @@ function applyStatic() {
 }
 applyStatic();
 
+// Distance around the point: 2, 3, 5 or 10 km, remembered on this device. The dashboard keeps 10 km
+// around each police district HQ, so its figures don't change with this.
 const RADIUS_KM = 10;
+let radiusKm = 10;
+try { const v = +localStorage.getItem('radiusKm'); if ([2, 3, 5, 10].includes(v)) radiusKm = v; } catch {}
+document.querySelector(`input[name="km"][value="${radiusKm}"]`).checked = true;
+const showTitle = () => { $('h1').textContent = t('h1', radiusKm); };
 const KL = [3.1478, 101.6953];
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const $ = id => document.getElementById(id);
@@ -909,7 +926,7 @@ function setPoint(lat, lng, label, fix) {
   here = { lat, lng };
   ring?.remove(); me?.remove(); accCircle?.remove(); accCircle = null;
   if (fix) accCircle = L.circle([lat, lng], { radius: fix.acc, color: css('--ring'), weight: 1, opacity: .6, fillColor: css('--ring'), fillOpacity: .12, interactive: false }).addTo(map);
-  ring = L.circle([lat, lng], { radius: RADIUS_KM * 1000, color: css('--ring'), weight: 1.5, dashArray: '4 4', fill: false, interactive: false }).addTo(map);
+  ring = L.circle([lat, lng], { radius: radiusKm * 1000, color: css('--ring'), weight: 1.5, dashArray: '4 4', fill: false, interactive: false }).addTo(map);
   me = L.marker([lat, lng], { interactive: false, icon: L.divIcon({ className: 'pin pin-me', html: '', iconSize: [12, 12], iconAnchor: [6, 6] }) }).addTo(map);
   map.fitBounds(ring.getBounds(), { padding: [20, 20] });
   whereText = label; showWhere();
@@ -924,7 +941,7 @@ function showRange() {
 }
 
 async function load() {
-  const q = `lat=${here.lat}&lng=${here.lng}&radius=${RADIUS_KM}`;
+  const q = `lat=${here.lat}&lng=${here.lng}&radius=${radiusKm}`;
   const { from, to } = deviceRange(rangeVal());
   showRange();
   if (window.STATIC_API) api('/api/meta').then(m => { if (m?.generatedAt) { metaAt = m.generatedAt; showRange(); } }).catch(() => {});
@@ -998,10 +1015,11 @@ function render() {
   const show = { official: $('f-official').checked, news: $('f-news').checked, social: $('f-social').checked };
   Object.entries(show).forEach(([k, on]) => on ? map.addLayer(layers[k]) : map.removeLayer(layers[k]));
 
-  const inside = data.districts.filter(d => d.distanceKm <= RADIUS_KM);
-  const officialTotal = inside.reduce((s, d) => s + d.total, 0);
-  $('s-official').textContent = inside.length ? num(officialTotal) : '0';
-  $('s-official-l').textContent = t('official_cases', data.year || '').trim();
+  // With no police district HQ inside a small circle, show the district the point is in rather than 0.
+  const inside = data.districts.filter(d => d.distanceKm <= radiusKm);
+  const own = data.districts[0];
+  $('s-official').textContent = inside.length ? num(inside.reduce((s, d) => s + d.total, 0)) : own ? num(own.total) : '0';
+  $('s-official-l').textContent = !inside.length && own ? t('official_ipd', data.year || '', own.district) : t('official_cases', data.year || '').trim();
 
   // Official: one ring per district HQ, sized by annual total.
   const max = Math.max(1, ...data.districts.map(d => d.total));
@@ -1011,7 +1029,7 @@ function render() {
       .bindPopup(`<b>IPD ${esc(d.district)}</b>, ${esc(d.state)}<br>${t('cases_line', d.year, num(d.total), num(d.assault), num(d.property))}<br>${t('top')}: ${esc(top)}<br><small>${t(d.located === 'table' ? 'loc_table' : 'loc_geo')}</small>`);
     layers.official.addLayer(m);
     markerFor.set(`d:${d.district}`, m);
-    return `<li class="official" data-key="d:${esc(d.district)}"><div class="t">IPD ${esc(d.district)}</div><div class="m">${esc(t('district_row', d.distanceKm, num(d.total), d.year))}${d.distanceKm > RADIUS_KM ? esc(t('outside')) : ''}</div></li>`;
+    return `<li class="official" data-key="d:${esc(d.district)}"><div class="t">IPD ${esc(d.district)}</div><div class="m">${esc(t('district_row', d.distanceKm, num(d.total), d.year))}${d.distanceKm > radiusKm ? esc(t('outside', radiusKm)) : ''}</div></li>`;
   }).join('') || `<li class="empty">${esc(t('no_district'))}</li>`;
 
   // News and social: individual pins.
@@ -1093,6 +1111,12 @@ map.on('click', e => setPoint(e.latlng.lat, e.latlng.lng, () => t('around_point'
 document.querySelectorAll('input[name="days"]').forEach(el => el.addEventListener('change', () => {
   if (here) load();
   if (!$('dash').hidden) loadDashReports();
+}));
+document.querySelectorAll('input[name="km"]').forEach(el => el.addEventListener('change', () => {
+  radiusKm = +el.value;
+  try { localStorage.setItem('radiusKm', radiusKm); } catch {}
+  showTitle();
+  if (here) setPoint(here.lat, here.lng, whereText, accCircle ? { acc: accCircle.getRadius() } : null);
 }));
 ['f-official', 'f-news', 'f-social'].forEach(id => $(id).addEventListener('change', render));
 $('f-heat').addEventListener('change', render);
@@ -1395,12 +1419,14 @@ document.querySelectorAll('input[name="lang"]').forEach(el => el.addEventListene
   lang = el.value;
   try { localStorage.setItem('lang', lang); } catch {}
   applyStatic();
+  showTitle();
   showWhere();
   if (here) { showRange(); render(); }
   if (lastRoute && !$('r-out').hidden) drawRoute(lastRoute, false);
   if (!$('dash').hidden) renderDash();
 }));
 
+showTitle();
 locate();
 </script>
 </body>

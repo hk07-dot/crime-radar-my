@@ -5793,5 +5793,19 @@
   "lat": 5.0198,
   "lng": 102.0383,
   "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Sindiket seludup rokok lebih RM1.1 juta di Tawau tumpas",
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR3dPbWIya2JrbFhQbXBLV2lrQVhCbjJ4MUpPT3FqbndfdUdkYld2eEVNZzRMMW11OWk4QXJFbUFIOTJ3T1J0cUstZ2Rkdl9LWXZlVy15d0xJWGYxNngyV3ItcndXV2p4RUpwS1R6ZHFyZ0R1WTd4a1NDUW5yU0pvMmRGdWFFak1YRzZiZ2lWQkZvRG5nLUJFVXNWN2RfTzdO?oc=5",
+  "outlet": "Sayang Sabah",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-17T08:53:07.000Z",
+  "place": "Tawau",
+  "area": "Tawau, Bahagian Tawau",
+  "lat": 4.2435,
+  "lng": 117.8853,
+  "precision": "area"
  }
 ]
