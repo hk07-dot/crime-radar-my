@@ -223,6 +223,8 @@ li .m.src { color: var(--accent-700); }
 .rank button[aria-pressed="true"] .bar i { background: var(--accent); }
 .up { color: var(--accent-700) !important; } .down { color: var(--muted); }
 .detail { border: 2px solid var(--rule); padding: 14px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
+.stat.old b { color: var(--muted); }
+.police { border-top: 2px solid var(--rule); padding-top: 12px; }
 .detail h3 { font: 800 22px/1.1 var(--sans); letter-spacing: -.02em; margin: 4px 0 0; overflow-wrap: anywhere; }
 .bars li { border-bottom: 1px solid var(--line); }
 .bars .row { width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 10px; row-gap: 4px; padding: 7px 0; text-align: left; }
@@ -352,7 +354,7 @@ header { display: flex; gap: 12px; justify-content: space-between; align-items: 
   </details>
 
   <div class="chips" role="group" data-t-aria="layers_aria">
-    <label class="chip"><input type="checkbox" id="f-official" checked><span class="dot official"></span><span data-t="l_official"></span></label>
+    <label class="chip"><input type="checkbox" id="f-official"><span class="dot official"></span><span data-t="l_official"></span></label>
     <label class="chip"><input type="checkbox" id="f-news" checked><span class="dot news"></span><span data-t="l_news"></span></label>
     <label class="chip"><input type="checkbox" id="f-social" checked><span class="dot social"></span><span data-t="l_social"></span></label>
     <label class="chip"><input type="checkbox" id="f-heat" checked><span class="dot heat"></span><span data-t="l_heat"></span></label>
@@ -364,9 +366,9 @@ header { display: flex; gap: 12px; justify-content: space-between; align-items: 
   </div>
 
   <div class="stats">
-    <div class="stat"><b id="s-official">–</b><span id="s-official-l"></span></div>
     <div class="stat"><b id="s-news">–</b><span data-t="news_reports"></span></div>
     <div class="stat"><b id="s-social">–</b><span data-t="social_posts"></span></div>
+    <div class="stat old"><b id="s-official">–</b><span id="s-official-l"></span></div>
   </div>
 
   <div>
@@ -397,9 +399,9 @@ header { display: flex; gap: 12px; justify-content: space-between; align-items: 
       <button type="button" id="dash-close" data-t="close"></button>
     </div>
     <div class="dash-tabs" role="radiogroup" data-t-aria="tabs_aria">
-      <label><input type="radio" name="d-tab" value="areas" checked><span data-t="tab_areas"></span></label>
+      <label><input type="radio" name="d-tab" value="news" checked><span data-t="tab_news"></span></label>
+      <label><input type="radio" name="d-tab" value="areas"><span data-t="tab_areas"></span></label>
       <label><input type="radio" name="d-tab" value="states"><span data-t="tab_states"></span></label>
-      <label><input type="radio" name="d-tab" value="news"><span data-t="tab_news"></span></label>
       <label><input type="radio" name="d-tab" value="dosm"><span data-t="tab_dosm"></span></label>
     </div>
     <div class="dash-ctl" id="d-ctl">
@@ -408,7 +410,8 @@ header { display: flex; gap: 12px; justify-content: space-between; align-items: 
         <label><input type="radio" name="d-scope" value="state"><span id="d-state"></span></label>
       </div>
       <div class="seg" role="radiogroup" data-t-aria="measure_aria">
-        <label><input type="radio" name="d-measure" value="total" checked><span data-t="m_total"></span></label>
+        <label><input type="radio" name="d-measure" value="news" checked><span data-t="m_news"></span></label>
+        <label><input type="radio" name="d-measure" value="total"><span data-t="m_total"></span></label>
         <label><input type="radio" name="d-measure" value="assault"><span data-t="m_assault"></span></label>
         <label><input type="radio" name="d-measure" value="property"><span data-t="m_property"></span></label>
       </div>
@@ -461,9 +464,9 @@ const STR = {
     hint: 'Or search a place on the map, or tap anywhere on it, to check another area.',
     route: 'Route check', from: 'From', to: 'To', from_ph: 'Start: town, taman or address', to_ph: 'Destination', my_loc: 'My location',
     drive: 'Drive', walk: 'Walk', cycle: 'Cycle', mode_aria: 'Travel mode', check_route: 'Check route →', clear: 'Clear',
-    layers_aria: 'Layers to show', l_official: 'Official', l_news: 'News', l_social: 'Social', l_heat: 'Crime density',
-    density_here: 'Crime density here:', official_cases: y => `official cases ${y}`, news_reports: 'news reports', social_posts: 'social posts',
-    recent: 'Recent reports', loading: 'Loading…', shading: 'Crime density shading', nearby: 'Police districts nearby',
+    layers_aria: 'Layers to show', l_official: 'Official', l_news: 'News', l_social: 'Social', l_heat: 'Density (police data)',
+    density_here: 'Density here (police data):', official_cases: y => `official cases ${y}`, news_reports: 'news reports', social_posts: 'social posts',
+    recent: 'Recent reports', loading: 'Loading…', shading: 'Crime density shading', nearby: 'Police districts nearby · official figures',
     footnote: 'Official figures are annual totals per police district from the Royal Malaysia Police, published on data.gov.my (CC BY 4.0). They count crimes where a conviction was secured, not every report. News and social items are placed at neighbourhood level from the article text and can be wrong. Hollow pins marked town-level only give the town where the story was filed. Social posts are unverified. The red shading spreads each police district\'s annual case count around its HQ and ranks areas nationally: "very high" is the densest ground that together holds 10% of all cases in Malaysia. It shows case counts, not crime per person, and can\'t tell one street from the next. In an emergency call 999.',
     search_ph: 'Search a town, taman or address', search_aria: 'Search a place in Malaysia', clear_search: 'Clear search',
     no_match: q => `No places in Malaysia match "${q}".`, search_down: 'Search is unavailable. Check that the server is running.',
@@ -501,8 +504,11 @@ const STR = {
     dash_title: 'Crime dashboard', close: 'Close ×', tabs_aria: 'Dashboard sections',
     tab_areas: 'Top 10 areas', tab_states: 'By state', tab_news: 'News reports', tab_dosm: 'DOSM 2026',
     scope_aria: 'Where to rank', measure_aria: 'Which crimes to rank by',
-    m_total: 'All crime', m_assault: 'Violent', m_property: 'Property',
-    measures: { total: 'All crime', assault: 'Violent crime', property: 'Property crime' },
+    m_news: 'News reports', m_total: 'Police: all', m_assault: 'Police: violent', m_property: 'Police: property',
+    measures: { news: 'News and social reports', total: 'Police: all crime', assault: 'Police: violent crime', property: 'Police: property crime' },
+    police_k: y => `Police figures · ${y}, latest published`, police_cases: y => `police cases ${y}`,
+    police_note: y => `The police publish district figures once a year, and ${y} is the latest. The news and social reports above are current.`,
+    top_news: r => `Top crimes in the news · ${r}`, news_rank_area: (n, N) => `${n} of ${N} areas with news reports`, news_rank_state: (n, N) => `${n} of ${N} states for news reports`,
     official_k: y => `Official police figures · ${y}`,
     top10_l: (m, w, y) => `Top 10 · ${m} · ${w} · ${y}`, your_area: 'your area', your_area_k: 'Your area', selected: 'Selected area',
     ranked_of: (n, N, w) => `Ranked ${n} of ${N} in ${w}:`,
@@ -513,7 +519,7 @@ const STR = {
     top_crimes: (n, y) => `Top ${n} crimes · ${y}`, no_cases: 'No cases recorded.',
     only_types: (n, y) => `Only ${n} of the police's 12 crime types had cases here in ${y}.`,
     news_near: r => `News and social reports near here · ${r}`,
-    near_note: (km, a, b) => `Within ${km} km of the district police HQ (IPD), ${a} to ${b}. Places come from the article text, so they're approximate.`,
+    near_note: (a, b) => `Reports placed in this police district (the nearest IPD), ${a} to ${b}. Places come from the article text, so they're approximate.`,
     no_news_here: 'No news or social reports near here in this period.',
     n_reports_tog: n => `${n} news report${n === 1 ? '' : 's'}`, refs_more: n => `+${n} more in this period`,
     refs_none: 'No news or social reports for this in the period.',
@@ -558,9 +564,9 @@ const STR = {
     hint: 'Atau cari tempat pada peta, atau ketik di mana-mana pada peta, untuk menyemak kawasan lain.',
     route: 'Semak laluan', from: 'Dari', to: 'Ke', from_ph: 'Mula: bandar, taman atau alamat', to_ph: 'Destinasi', my_loc: 'Lokasi saya',
     drive: 'Memandu', walk: 'Berjalan', cycle: 'Berbasikal', mode_aria: 'Cara perjalanan', check_route: 'Semak laluan →', clear: 'Kosongkan',
-    layers_aria: 'Lapisan untuk dipaparkan', l_official: 'Rasmi', l_news: 'Berita', l_social: 'Sosial', l_heat: 'Kepadatan jenayah',
-    density_here: 'Kepadatan jenayah di sini:', official_cases: y => `kes rasmi ${y}`, news_reports: 'laporan berita', social_posts: 'hantaran sosial',
-    recent: 'Laporan terkini', loading: 'Memuatkan…', shading: 'Petunjuk kepadatan jenayah', nearby: 'Daerah polis berhampiran',
+    layers_aria: 'Lapisan untuk dipaparkan', l_official: 'Rasmi', l_news: 'Berita', l_social: 'Sosial', l_heat: 'Kepadatan (data polis)',
+    density_here: 'Kepadatan di sini (data polis):', official_cases: y => `kes rasmi ${y}`, news_reports: 'laporan berita', social_posts: 'hantaran sosial',
+    recent: 'Laporan terkini', loading: 'Memuatkan…', shading: 'Petunjuk kepadatan jenayah', nearby: 'Daerah polis berhampiran · angka rasmi',
     footnote: 'Angka rasmi ialah jumlah tahunan bagi setiap daerah polis daripada Polis Diraja Malaysia, diterbitkan di data.gov.my (CC BY 4.0). Angka ini mengira jenayah yang mendapat sabitan, bukan setiap laporan. Laporan berita dan media sosial diletakkan di peringkat kejiranan berdasarkan teks artikel dan mungkin tersilap. Pin berongga bertanda peringkat bandar hanya menunjukkan bandar tempat berita itu ditulis. Hantaran media sosial belum disahkan. Warna merah menyebarkan jumlah kes tahunan setiap daerah polis di sekitar ibu pejabatnya dan menyusun kawasan di peringkat kebangsaan: "sangat tinggi" ialah kawasan terpadat yang bersama-sama merangkumi 10% daripada semua kes di Malaysia. Ia menunjukkan bilangan kes, bukan jenayah bagi setiap orang, dan tidak dapat membezakan satu jalan dengan jalan lain. Dalam kecemasan, hubungi 999.',
     search_ph: 'Cari bandar, taman atau alamat', search_aria: 'Cari tempat di Malaysia', clear_search: 'Kosongkan carian',
     no_match: q => `Tiada tempat di Malaysia yang sepadan dengan "${q}".`, search_down: 'Carian tidak tersedia. Pastikan pelayan sedang berjalan.',
@@ -597,8 +603,11 @@ const STR = {
     dash_title: 'Papan pemuka jenayah', close: 'Tutup ×', tabs_aria: 'Bahagian papan pemuka',
     tab_areas: '10 kawasan teratas', tab_states: 'Mengikut negeri', tab_news: 'Laporan berita', tab_dosm: 'DOSM 2026',
     scope_aria: 'Skop kedudukan', measure_aria: 'Jenis jenayah untuk kedudukan',
-    m_total: 'Semua jenayah', m_assault: 'Kekerasan', m_property: 'Harta benda',
-    measures: { total: 'Semua jenayah', assault: 'Jenayah kekerasan', property: 'Jenayah harta benda' },
+    m_news: 'Laporan berita', m_total: 'Polis: semua', m_assault: 'Polis: kekerasan', m_property: 'Polis: harta benda',
+    measures: { news: 'Laporan berita dan media sosial', total: 'Polis: semua jenayah', assault: 'Polis: jenayah kekerasan', property: 'Polis: jenayah harta benda' },
+    police_k: y => `Angka polis · ${y}, terkini yang diterbitkan`, police_cases: y => `kes polis ${y}`,
+    police_note: y => `Polis menerbitkan angka daerah setahun sekali, dan ${y} ialah yang terkini. Laporan berita dan media sosial di atas adalah semasa.`,
+    top_news: r => `Jenayah utama dalam berita · ${r}`, news_rank_area: (n, N) => `Kedudukan ${n} daripada ${N} kawasan yang mempunyai laporan berita`, news_rank_state: (n, N) => `Kedudukan ${n} daripada ${N} negeri bagi laporan berita`,
     official_k: y => `Angka rasmi polis · ${y}`,
     top10_l: (m, w, y) => `10 teratas · ${m} · ${w} · ${y}`, your_area: 'kawasan anda', your_area_k: 'Kawasan anda', selected: 'Kawasan dipilih',
     ranked_of: (n, N, w) => `Kedudukan ${n} daripada ${N} di ${w}:`,
@@ -609,7 +618,7 @@ const STR = {
     top_crimes: (n, y) => `${n} jenayah utama · ${y}`, no_cases: 'Tiada kes direkodkan.',
     only_types: (n, y) => `Hanya ${n} daripada 12 jenis jenayah polis mencatatkan kes di sini pada ${y}.`,
     news_near: r => `Laporan berita dan media sosial berhampiran · ${r}`,
-    near_note: (km, a, b) => `Dalam lingkungan ${km} km dari IPD, ${a} hingga ${b}. Lokasi diambil daripada teks artikel, jadi ia hanya anggaran.`,
+    near_note: (a, b) => `Laporan yang diletakkan dalam daerah polis ini (IPD terdekat), ${a} hingga ${b}. Lokasi diambil daripada teks artikel, jadi ia hanya anggaran.`,
     no_news_here: 'Tiada laporan berita atau media sosial berhampiran dalam tempoh ini.',
     n_reports_tog: n => `${n} laporan berita`, refs_more: n => `+${n} lagi dalam tempoh ini`,
     refs_none: 'Tiada laporan berita atau media sosial bagi perkara ini dalam tempoh ini.',
@@ -1214,6 +1223,9 @@ function setReports(r) {
     const d = nearestDistrict(i);
     return { ...i, district: d.district, state: d.state, dkey: dKey(d) };
   });
+  const by = new Map();
+  for (const i of dash.incidents) by.set(i.dkey, (by.get(i.dkey) || 0) + 1);
+  for (const d of dash.all) d.news = by.get(dKey(d)) || 0;
 }
 async function loadDashReports() {
   const my = ++dash.seq;
@@ -1233,7 +1245,7 @@ function renderDash() {
   $('d-ctl').hidden = tab === 'news' || tab === 'dosm';
   $('d-scope-seg').hidden = tab !== 'areas';
   $('dash-k').textContent = tab === 'dosm' && dash.dosm ? t('dosm_k', fmtDay(dash.dosm.released))
-    : tab === 'news' ? t('news_k', rangeName()) : t('official_k', dash.year);
+    : tab === 'news' || radio('d-measure') === 'news' ? t('news_k', rangeName()) : t('official_k', dash.year);
   if (tab === 'areas') renderAreas();
   if (tab === 'states') renderStates();
   if (tab === 'news') renderNews();
@@ -1249,18 +1261,21 @@ function renderAreas() {
   const all = dash.all, m = radio('d-measure'), scope = radio('d-scope');
   const sel = all.find(d => dKey(d) === dash.sel) || all[0];
   $('d-state').textContent = sel.state;
-  const pool = scope === 'state' ? all.filter(d => d.state === sel.state) : all;
+  const news = m === 'news';
+  // Ranked by news reports, areas without any are left out (the selected one still shows below).
+  const pool = (scope === 'state' ? all.filter(d => d.state === sel.state) : all).filter(d => !news || d.news > 0 || dKey(d) === dash.sel);
   const sorted = [...pool].sort((a, b) => b[m] - a[m]);
   const top = sorted.slice(0, 10);
   const max = Math.max(1, top[0]?.[m] || 0);
   const where = scope === 'state' ? sel.state : 'Malaysia';
-  $('rank-l').textContent = t('top10_l', t('measures')[m], where, dash.year);
+  const allNews = dash.incidents.length;
+  $('rank-l').textContent = t('top10_l', t('measures')[m], where, news ? rangeName() : dash.year);
   const row = (d, n) => {
     const ref = `a:${dKey(d)}`, open = dash.open === ref, items = nearReports(d);
     return `<li><button type="button" data-k="${esc(dKey(d))}" data-ref="${esc(ref)}" aria-pressed="${dKey(d) === dash.sel}" aria-expanded="${open}">
       <span class="n">${n}</span>
-      <span class="nm">IPD ${esc(d.district)}<small>${esc(d.state)}${dKey(d) === dash.home ? ` · ${esc(t('your_area'))}` : ''} · ${newsCount(items)} <span aria-hidden="true">${open ? '▴' : '▾'}</span></small></span>
-      <span class="v">${num(d[m])}<small>${change(d[m], d.prev?.[m])}</small></span>
+      <span class="nm">IPD ${esc(d.district)}<small>${esc(d.state)}${dKey(d) === dash.home ? ` · ${esc(t('your_area'))}` : ''} · ${news ? esc(`${num(d.total)} ${t('police_cases', dash.year)}`) : newsCount(items)} <span aria-hidden="true">${open ? '▴' : '▾'}</span></small></span>
+      <span class="v">${num(d[m])}<small>${news ? share(d.news, allNews) : change(d[m], d.prev?.[m])}</small></span>
       <span class="bar"><i style="width:${(100 * d[m] / max).toFixed(1)}%"></i></span></button>${open ? refsList(items) : ''}</li>`;
   };
   let html = top.map((d, i) => row(d, i + 1)).join('');
@@ -1275,7 +1290,7 @@ function typeBars(byType, total) {
   const types = Object.entries(byType).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]).slice(0, 10);
   return { types, html: types.length ? barRows(types.map(([k, n]) => [esc(nice(k)), n, share(n, total)]), types[0][1]) : `<p class="note">${esc(t('no_cases'))}</p>` };
 }
-const nearReports = d => dash.incidents.filter(i => kmBetween(d, i) <= RADIUS_KM);
+const nearReports = d => dash.incidents.filter(i => i.dkey === dKey(d));
 // News bars by crime type; refPrefix makes each type open its own reports.
 function reportBars(items, emptyKey, refPrefix) {
   const by = new Map();
@@ -1287,26 +1302,33 @@ function reportBars(items, emptyKey, refPrefix) {
 function renderAreaDetail(d) {
   const all = dash.all, year = dash.year;
   const natRank = [...all].sort((a, b) => b.total - a.total).findIndex(x => dKey(x) === dKey(d)) + 1;
+  const withNews = [...all].filter(x => x.news > 0).sort((a, b) => b.news - a.news);
+  const newsRank = withNews.findIndex(x => dKey(x) === dKey(d)) + 1;
   const { types, html } = typeBars(d.byType, d.total);
   const stat = (n, label, before) => `<div class="stat"><b>${num(n)}</b><span>${esc(label)}</span><span>${change(n, before) || '&nbsp;'}</span></div>`;
+  const plain = (n, label) => `<div class="stat"><b>${num(n)}</b><span>${esc(label)}</span></div>`;
   const { from, to } = deviceRange(rangeVal());
   const near = nearReports(d);
+  const nNews = near.filter(i => i.source === 'news').length;
   $('detail').innerHTML = `
     <div>
-      <p class="kicker">${esc(t(dKey(d) === dash.home ? 'your_area_k' : 'selected'))} · ${year}</p>
+      <p class="kicker">${esc(t(dKey(d) === dash.home ? 'your_area_k' : 'selected'))} · ${esc(rangeName())}</p>
       <h3>IPD ${esc(d.district)}</h3>
-      <p class="sub">${esc(d.state)} · ${esc(t('nat_rank', natRank, all.length))}</p>
+      <p class="sub">${esc(d.state)}${newsRank ? ` · ${esc(t('news_rank_area', newsRank, withNews.length))}` : ''}</p>
     </div>
-    <div class="stats">${stat(d.total, t('all_cases'), d.prev?.total)}${stat(d.assault, t('violent'), d.prev?.assault)}${stat(d.property, t('property'), d.prev?.property)}</div>
+    <div class="stats">${plain(nNews, t('news_reports'))}${plain(near.length - nNews, t('social_posts'))}<div class="stat old"><b>${num(d.total)}</b><span>${esc(t('police_cases', year))}</span></div></div>
     <div>
-      <p class="label">${esc(t('top_crimes', types.length, year))}</p>
-      ${html}
-      ${types.length < 10 ? `<p class="note" style="margin-top:8px">${esc(t('only_types', types.length, year))}</p>` : ''}
-    </div>
-    <div>
-      <p class="label">${esc(t('news_near', rangeName()))}</p>
+      <p class="label">${esc(t('top_news', rangeName()))}</p>
       ${reportBars(near, 'no_news_here', `at:${dKey(d)}`)}
-      <p class="note" style="margin-top:8px">${esc(t('near_note', RADIUS_KM, fmtDay(from), fmtDay(to)))}</p>
+      <p class="note" style="margin-top:8px">${esc(t('near_note', fmtDay(from), fmtDay(to)))}</p>
+    </div>
+    <div class="police">
+      <p class="label">${esc(t('police_k', year))}</p>
+      <p class="sub" style="margin:0 0 10px">${esc(t('nat_rank', natRank, all.length))}</p>
+      <div class="stats">${stat(d.total, t('all_cases'), d.prev?.total)}${stat(d.assault, t('violent'), d.prev?.assault)}${stat(d.property, t('property'), d.prev?.property)}</div>
+      <p class="label" style="margin-top:14px">${esc(t('top_crimes', types.length, year))}</p>
+      ${html}
+      <p class="note" style="margin-top:8px">${esc(t('police_note', year))}</p>
     </div>
     <button class="primary" type="button" id="d-map">${esc(t('show_map'))}</button>`;
   $('d-map').addEventListener('click', () => { closeDash(); setPoint(d.lat, d.lng, () => t('around', `IPD ${d.district}, ${d.state}`)); });
@@ -1316,9 +1338,10 @@ function renderAreaDetail(d) {
 function stateTotals() {
   const by = new Map();
   for (const d of dash.all) {
-    if (!by.has(d.state)) by.set(d.state, { state: d.state, districts: 0, total: 0, assault: 0, property: 0, byType: {}, prev: { total: 0, assault: 0, property: 0 }, hasPrev: true });
+    if (!by.has(d.state)) by.set(d.state, { state: d.state, districts: 0, news: 0, total: 0, assault: 0, property: 0, byType: {}, prev: { total: 0, assault: 0, property: 0 }, hasPrev: true });
     const s = by.get(d.state);
     s.districts++;
+    s.news += d.news || 0;
     for (const k of ['total', 'assault', 'property']) { s[k] += d[k]; s.prev[k] += d.prev?.[k] || 0; }
     if (!d.prev) s.hasPrev = false;
     for (const [k, n] of Object.entries(d.byType)) s.byType[k] = (s.byType[k] || 0) + n;
@@ -1332,13 +1355,14 @@ function renderStates() {
   if (!states.some(s => s.state === dash.state)) dash.state = sorted[0].state;
   const max = Math.max(1, sorted[0]?.[m] || 0);
   const homeState = dash.all.find(d => dKey(d) === dash.home)?.state;
-  $('srank-l').textContent = t('states_l', t('measures')[m], dash.year);
+  const news = m === 'news', allNews = dash.incidents.length;
+  $('srank-l').textContent = t('states_l', t('measures')[m], news ? rangeName() : dash.year);
   $('srank').innerHTML = sorted.map((s, i) => {
     const ref = `s:${s.state}`, open = dash.open === ref, items = dash.incidents.filter(x => x.state === s.state);
     return `<li><button type="button" data-s="${esc(s.state)}" data-ref="${esc(ref)}" aria-pressed="${s.state === dash.state}" aria-expanded="${open}">
       <span class="n">${i + 1}</span>
-      <span class="nm">${esc(s.state)}<small>${esc(t('districts_n', s.districts))}${s.state === homeState ? ` · ${esc(t('your_area'))}` : ''} · ${newsCount(items)} <span aria-hidden="true">${open ? '▴' : '▾'}</span></small></span>
-      <span class="v">${num(s[m])}<small>${change(s[m], s.prev?.[m])}</small></span>
+      <span class="nm">${esc(s.state)}<small>${s.state === homeState ? `${esc(t('your_area'))} · ` : ''}${news ? esc(`${num(s.total)} ${t('police_cases', dash.year)}`) : newsCount(items)} <span aria-hidden="true">${open ? '▴' : '▾'}</span></small></span>
+      <span class="v">${num(s[m])}<small>${news ? share(s.news, allNews) : change(s[m], s.prev?.[m])}</small></span>
       <span class="bar"><i style="width:${(100 * s[m] / max).toFixed(1)}%"></i></span></button>${open ? refsList(items) : ''}</li>`;
   }).join('');
   renderStateDetail(states.find(s => s.state === dash.state), states);
@@ -1351,30 +1375,38 @@ function renderStateDetail(s, states) {
   const dosm = dash.dosm?.onlineFraudByState;
   const fNow = dosm?.[dash.dosm.year]?.[s.state], fPrev = dosm?.[dash.dosm.prevYear]?.[s.state];
   const reports = dash.incidents.filter(i => i.state === s.state);
+  const nNews = reports.filter(i => i.source === 'news').length;
+  const newsRank = [...states].filter(x => x.news > 0).sort((a, b) => b.news - a.news).findIndex(x => x.state === s.state) + 1;
+  const plain = (n, label) => `<div class="stat"><b>${num(n)}</b><span>${esc(label)}</span></div>`;
   $('sdetail').innerHTML = `
     <div>
-      <p class="kicker">${esc(t('state_k'))} · ${year}</p>
+      <p class="kicker">${esc(t('state_k'))} · ${esc(rangeName())}</p>
       <h3>${esc(s.state)}</h3>
-      <p class="sub">${esc(t('state_rank', rank, states.length))} · ${esc(t('districts_n', s.districts))}</p>
+      <p class="sub">${newsRank ? `${esc(t('news_rank_state', newsRank, states.filter(x => x.news > 0).length))} · ` : ''}${esc(t('districts_n', s.districts))}</p>
     </div>
-    <div class="stats">${stat(s.total, t('all_cases'), s.prev?.total)}${stat(s.assault, t('violent'), s.prev?.assault)}${stat(s.property, t('property'), s.prev?.property)}</div>
+    <div class="stats">${plain(nNews, t('news_reports'))}${plain(reports.length - nNews, t('social_posts'))}<div class="stat old"><b>${num(s.total)}</b><span>${esc(t('police_cases', year))}</span></div></div>
     <div>
-      <p class="label">${esc(t('top_crimes', types.length, year))}</p>
+      <p class="label">${esc(t('top_news', rangeName()))}</p>
+      ${reportBars(reports, 'no_news_state', `st:${s.state}`)}
+      <p class="note" style="margin-top:8px">${esc(t('state_news_note'))}</p>
+    </div>
+    <div class="police">
+      <p class="label">${esc(t('police_k', year))}</p>
+      <p class="sub" style="margin:0 0 10px">${esc(t('state_rank', rank, states.length))}</p>
+      <div class="stats">${stat(s.total, t('all_cases'), s.prev?.total)}${stat(s.assault, t('violent'), s.prev?.assault)}${stat(s.property, t('property'), s.prev?.property)}</div>
+      <p class="label" style="margin-top:14px">${esc(t('top_crimes', types.length, year))}</p>
       ${html}
+      <p class="note" style="margin-top:8px">${esc(t('police_note', year))}</p>
     </div>
     ${dash.dosm ? `<div>
       <p class="label">${esc(t('fraud_l', dash.dosm.year))}</p>
       ${fNow != null ? `<div class="stats" style="grid-template-columns:1fr"><div class="stat"><b>${num(fNow)}</b><span>${change(fNow, fPrev, dash.dosm.prevYear) || '&nbsp;'}</span></div></div>`
         : `<p class="note">${esc(t('fraud_none'))}</p>`}
     </div>` : ''}
-    <div>
-      <p class="label">${esc(t('state_news', rangeName()))}</p>
-      ${reportBars(reports, 'no_news_state', `st:${s.state}`)}
-      <p class="note" style="margin-top:8px">${esc(t('state_news_note'))}</p>
-    </div>
     <button class="primary" type="button" id="s-areas">${esc(t('see_areas', s.state))}</button>`;
   $('s-areas').addEventListener('click', () => {
-    const top = dash.all.filter(d => d.state === s.state).sort((a, b) => b.total - a.total)[0];
+    const m = radio('d-measure');
+    const top = dash.all.filter(d => d.state === s.state).sort((a, b) => b[m] - a[m])[0];
     dash.sel = dKey(top);
     document.querySelector('input[name="d-scope"][value="state"]').checked = true;
     document.querySelector('input[name="d-tab"][value="areas"]').checked = true;
