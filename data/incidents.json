@@ -1604,6 +1604,16 @@
     "outlet": "Utusan Malaysia",
     "link": "https://www.utusan.com.my/nasional/jenayah/2026/10/lelaki-diculik-dikurung-didera-dibunuh/",
     "title": "Lelaki diculik, dikurung, didera, dibunuh"
+   },
+   {
+    "outlet": "https://utusanmelayuplus.com/",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNDhpb3d2M3BqNFU4dFpzRkFLQkRpaHB5Wk9MenVFYUFTS0dPM3o1SXlwcFN2UHB0WjhUOUk4MWVNUDJWNGxIV3N5b3J2aU5YV3V3dHVqVEZySUhXb0dnZHdnVVZhM2V0d05qWHBqdGVyNy1HSHMyQXBjUHpBU3BrWGJKYUdLbTV0?oc=5",
+    "title": "Polis buru lima suspek kes bunuh lelaki di Semenyih"
+   },
+   {
+    "outlet": "Free Malaysia Today",
+    "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/14/polis-buru-5-lagi-lelaki-berkait-kes-culik-bunuh-penjual-durian",
+    "title": "Polis buru 5 lagi lelaki berkait kes culik, bunuh penjual durian"
    }
   ]
  },
@@ -3725,6 +3735,11 @@
     "outlet": "Kosmo: Suapan Kosmo Online",
     "link": "https://www.kosmo.com.my/2026/11/19/mati-diserang-harimau-banyak-kesan-gigitan-di-leher-mangsa/?utm_source=rss&utm_medium=rss&utm_campaign=mati-diserang-harimau-banyak-kesan-gigitan-di-leher-mangsa",
     "title": "Mati diserang harimau: Banyak kesan gigitan di leher mangsa"
+   },
+   {
+    "outlet": "Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/20/harimau-bunuh-orang-asli-mati-ditembak/",
+    "title": "Harimau bunuh Orang Asli mati ditembak"
    }
   ]
  },
@@ -4008,7 +4023,14 @@
   "area": "Petaling Jaya, Petaling",
   "lat": 3.0989,
   "lng": 101.6454,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/20/video-tak-jadi-pecah-rumah-lepas-nampak-cctv/",
+    "title": "[VIDEO] Tak jadi pecah rumah lepas nampak CCTV"
+   }
+  ]
  },
  {
   "type": "robbery",
@@ -5461,6 +5483,69 @@
   "area": "Kampung Berangan, Kampung Kok Pasir",
   "lat": 6.1684,
   "lng": 102.1953,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Gara-gara hisap rokok elektronik dalam kereta api, lelaki dicekup bersama 15 katrij dadah",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438645/gara-gara-hisap-rokok-elektronik-dalam-kereta-api-lelaki-dicekup-bersama-15",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T04:23:34.000Z",
+  "place": "Arau",
+  "area": "Arau, Kangar",
+  "lat": 6.4307,
+  "lng": 100.2719,
+  "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "Edar dadah guna aset tentera: Dua anggota TUDM direman",
+  "link": "https://www.utusan.com.my/berita/2026/11/edar-dadah-guna-aset-tentera-dua-anggota-tudm-direman/?utm_source=rss&utm_medium=rss&utm_campaign=edar-dadah-guna-aset-tentera-dua-anggota-tudm-direman",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T04:10:05.000Z",
+  "place": "Tawau",
+  "area": "Tawau, Bahagian Tawau",
+  "lat": 4.2435,
+  "lng": 117.8853,
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438625/seludup-dadah-guna-aset-tentera-2-anggota-tudm-direman-7-hari",
+    "title": "Seludup dadah guna aset tentera: 2 anggota TUDM direman 7 hari"
+   }
+  ]
+ },
+ {
+  "type": "murder",
+  "title": "Koroner putuskan Muhammad Afis maut dipukul dalam lokap di IPD Yan, keluarga tuntut siasat kes bunuh",
+  "link": "https://www.hmetro.com.my/utama/2026/11/1438635/koroner-putuskan-muhammad-afis-maut-dipukul-dalam-lokap-di-ipd-yan-keluarga",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T04:01:22.000Z",
+  "place": "Alor Setar",
+  "area": "Alor Setar, Kota Setar",
+  "lat": 6.1232,
+  "lng": 100.3684,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "“Suspek sendiri hubungi polis” – Pelajar 19 Tahun Ditemui M*ut Di Bilik Sewa",
+  "link": "https://lobakmerah.com/suspek-sendiri-hubungi-polis-pelajar-19-tahun-ditemui-mut-di-bilik-sewa/",
+  "outlet": "Lobak Merah",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-06T07:00:00.000Z",
+  "place": "Jalan Air Putih",
+  "area": "Lorong Air Putih, Taman Setar",
+  "lat": 6.1114,
+  "lng": 100.3587,
   "precision": "area"
  }
 ]
