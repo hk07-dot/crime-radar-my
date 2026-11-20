@@ -1141,6 +1141,11 @@
     "outlet": "Harian Metro",
     "link": "https://www.hmetro.com.my/mutakhir/2026/10/1425287/dua-anak-kepada-wanita-oku-mati-ditikam-masih-di-institusi-jkm?source=widget",
     "title": "Dua anak kepada wanita OKU mati ditikam masih di institusi JKM"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/10/1425287/dua-anak-kepada-wanita-oku-mati-ditikam-masih-di-institusi-jkm",
+    "title": "Dua anak kepada wanita OKU mati ditikam masih di institusi JKM"
    }
   ]
  },
@@ -2034,7 +2039,14 @@
   "area": "Tanjong Karang, Kuala Selangor",
   "lat": 3.4249,
   "lng": 101.1765,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1430956/dua-lelaki-pecah-masuk-sekolah-agama-swasta-larikan-wang-tunai",
+    "title": "Dua lelaki pecah masuk sekolah agama swasta larikan wang tunai"
+   }
+  ]
  },
  {
   "type": "theft",
@@ -5517,6 +5529,11 @@
     "outlet": "Harian Metro Mutakhir",
     "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438625/seludup-dadah-guna-aset-tentera-2-anggota-tudm-direman-7-hari",
     "title": "Seludup dadah guna aset tentera: 2 anggota TUDM direman 7 hari"
+   },
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805435/berita/semasa/koperal-pegawai-waran-ii-tudm-direman-bantu-siasatan-rampasan-dadah",
+    "title": "Koperal, Pegawai Waran II TUDM direman bantu siasatan rampasan dadah"
    }
   ]
  },
@@ -5546,6 +5563,62 @@
   "area": "Lorong Air Putih, Taman Setar",
   "lat": 6.1114,
   "lng": 100.3587,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Kilang dobi kena gempur, puluhan warga asing dicekup",
+  "link": "https://www.sinarharian.com.my/article/805436/berita/semasa/kilang-dobi-kena-gempur-puluhan-warga-asing-dicekup",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T04:56:00.000Z",
+  "place": "Subang Jaya",
+  "area": "Majlis Bandaraya Subang Jaya, Petaling",
+  "lat": 3.0515,
+  "lng": 101.5823,
+  "precision": "town"
+ },
+ {
+  "type": "murder",
+  "title": "Mother and child believed killed in Batu Pahat house fire",
+  "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/mother-and-child-believed-killed-in-batu-pahat-house-fire",
+  "outlet": "Free Malaysia Today",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T04:32:55.000Z",
+  "place": "Batu Pahat",
+  "area": "Batu Pahat, Johor",
+  "lat": 1.9333,
+  "lng": 103,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "'One man job' syndicate at KLIA: Senior MCBA officer nabbed, probed under anti-trafficking law",
+  "link": "https://www.malaysiakini.com/news/889496-one-man-job-syndicate-at-klia-senior-mcba-officer-nabbed-probed-under-anti-trafficking-law",
+  "outlet": "Malaysiakini",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T04:30:00.000Z",
+  "place": "Sepang",
+  "area": "Sepang, Selangor",
+  "lat": 2.8009,
+  "lng": 101.7094,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Dua lelaki ditahan curi komponen motosikal",
+  "link": "https://www.tvsarawak.my/2026/10/30/dua-lelaki-ditahan-curi-komponen-motosikal/",
+  "outlet": "Saluran 122",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-30T07:00:00.000Z",
+  "place": "Bandar Baru Permyjaya, Miri",
+  "area": "Bandar Baru Permyjaya, Permyjaya",
+  "lat": 4.4517,
+  "lng": 114.0371,
   "precision": "area"
  }
 ]

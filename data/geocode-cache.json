@@ -2277,5 +2277,15 @@
   "kind": "village"
  },
  "area4:jalan kuarters klia, nilai": null,
- "area4:jalan kuarters klia": null
+ "area4:jalan kuarters klia": null,
+ "area4:wilayah nakhon si thammarat": null,
+ "area4:pangkalan udara subang, shah alam, tawau": null,
+ "area4:pangkalan udara subang, shah alam": null,
+ "area4:pangkalan udara subang, tawau": null,
+ "area4:subang jaya": {
+  "lat": 3.0515,
+  "lng": 101.5823,
+  "label": "Majlis Bandaraya Subang Jaya, Petaling",
+  "kind": "city"
+ }
 }
