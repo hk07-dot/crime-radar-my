@@ -5966,7 +5966,14 @@
   "area": "Lorong Sulaman Sentral, Taman Kuala Menggatal Phase 1",
   "lat": 6.0573,
   "lng": 116.1504,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805509/berita/semasa/suspek-kes-bunuh-lelaki-cuba-lerai-pergaduhan-diberkas-selepas-enam-hari-bersembunyi",
+    "title": "Suspek kes bunuh lelaki cuba lerai pergaduhan diberkas selepas enam hari bersembunyi"
+   }
+  ]
  },
  {
   "type": "robbery",
@@ -5981,5 +5988,19 @@
   "lat": 5.9876,
   "lng": 116.1024,
   "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Kuching City kutip mata penuh, benam Negeri Sembilan di Seremban",
+  "link": "https://www.utusan.com.my/sukan/2026/11/kuching-city-kutip-mata-penuh-benam-negeri-sembilan-di-seremban/?utm_source=rss&utm_medium=rss&utm_campaign=kuching-city-kutip-mata-penuh-benam-negeri-sembilan-di-seremban",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T12:47:58.000Z",
+  "place": "Seremban",
+  "area": "Seremban, Negeri Sembilan",
+  "lat": 2.7231,
+  "lng": 101.9401,
+  "precision": "town"
  }
 ]

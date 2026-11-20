@@ -2390,5 +2390,16 @@
   "lng": 116.1024,
   "label": "Likas, Kota Kinabalu",
   "kind": "village"
- }
+ },
+ "area4:sulaman sentral, manggatal, tawau": null,
+ "area4:sulaman sentral, manggatal": {
+  "lat": 6.0573,
+  "lng": 116.1504,
+  "label": "Lorong Sulaman Sentral, Taman Kuala Menggatal Phase 1",
+  "kind": "residential"
+ },
+ "area4:stadium tuanku abdul rahman, paroi, seremban": null,
+ "area4:stadium tuanku abdul rahman, paroi": null,
+ "area4:stadium tuanku abdul rahman, seremban": null,
+ "area4:stadium tuanku abdul rahman": null
 }
