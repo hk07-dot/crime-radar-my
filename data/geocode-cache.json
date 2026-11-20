@@ -2213,5 +2213,30 @@
   "lng": 102.55,
   "label": "Parit Bunga, Tangkak",
   "kind": "quarter"
+ },
+ "area4:skudai": {
+  "lat": 1.537,
+  "lng": 103.6621,
+  "label": "Skudai, Iskandar Puteri",
+  "kind": "town"
+ },
+ "area4:gandhinagar": null,
+ "area4:pelajar mati dibunuh": null,
+ "area4:kuala pilah 25 september": null,
+ "area4:jalan pintas, penampang": null,
+ "area4:jalan pintas": {
+  "lat": 1.8406,
+  "lng": 103.0741,
+  "label": "Jalan Pintas, Kampung Parit Haji Salleh Ros",
+  "kind": "residential"
+ },
+ "area4:sukan asia, kuala lumpur": null,
+ "area4:sukan asia": null,
+ "area4:sri aman, saratok": null,
+ "area4:semporna": {
+  "lat": 4.4791,
+  "lng": 118.4298,
+  "label": "Semporna, Bahagian Tawau",
+  "kind": "county"
  }
 }

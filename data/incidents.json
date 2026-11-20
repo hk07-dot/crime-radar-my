@@ -2730,6 +2730,11 @@
     "outlet": "Harian Metro",
     "link": "https://www.hmetro.com.my/mutakhir/2026/10/1417612/suspek-curi-lori-direman-tiga-hari",
     "title": "Suspek curi lori direman tiga hari"
+   },
+   {
+    "outlet": "Utusan Malaysia",
+    "link": "https://www.utusan.com.my/terkini/2026/10/suspek-curi-lori-berwarna-hijau-direman-tiga-hari/",
+    "title": "Suspek curi lori berwarna hijau direman tiga hari"
    }
   ]
  },
@@ -2970,6 +2975,11 @@
     "outlet": "Kosmo Online",
     "link": "https://www.kosmo.com.my/2026/09/28/wanita-maut-ditikam-anak-dengan-pisau/",
     "title": "Wanita maut ditikam anak dengan pisau"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/09/1416364/warga-emas-maut-ditikam-anak-perempuan?source=widget",
+    "title": "Warga emas maut ditikam anak perempuan"
    }
   ]
  },
@@ -3027,7 +3037,14 @@
   "area": "Kuala Pilah, Negeri Sembilan",
   "lat": 2.7431,
   "lng": 102.2155,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian",
+    "link": "https://www.sinarharian.com.my/article/798565/berita/semasa/pelajar-maut-di-asrama-suspek-pelajar-tingkatan-empat-disambung-reman",
+    "title": "Pelajar maut di asrama: Suspek pelajar Tingkatan Empat disambung reman"
+   }
+  ]
  },
  {
   "type": "theft",
@@ -3309,6 +3326,11 @@
     "outlet": "NST Online",
     "link": "https://www.nst.com.my/news/nation/2026/09/1539584/woman-dies-after-being-stabbed-through-gap-wooden-floor",
     "title": "Woman dies after being stabbed through gap in wooden floor"
+   },
+   {
+    "outlet": "Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/09/24/perselisihan-faham-dipercayai-punca-wanita-oku-dibunuh/",
+    "title": "Perselisihan faham dipercayai punca wanita OKU dibunuh"
    }
   ]
  },
@@ -3381,6 +3403,11 @@
     "outlet": "Buletin TV3",
     "link": "https://www.buletintv3.my/jenayah/lelaki-curi-kabel-guna-pacuan-empat-roda-dicekup-polis/",
     "title": "Lelaki curi kabel guna pacuan empat roda dicekup polis"
+   },
+   {
+    "outlet": "Facebook",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZHhTd3VTNXJlNE1MTFBEbUdib1daNFFCUk9mNDNsVFdyXzRTeHBSM2t2OXBYS3JRZmgtckdsdF95SmRCM1k1eHVFa05MN0Jjd0FtaTdaZGlZOTE2TUEtOTY3Sk5SazdYUnlIVnZtaWp5SWZ1VXRSbXp0M0lsLWFFdTN3OGJZV19jLXRBdmZyQVduQ19fVlZoVE1DdnFrc0NXdWlSRlNBUVpjMUE1aDdmV2Ftd2RGb2NCRkIzSmFsZ3VwdG9JSVhGam10b1ROMnR6ZXgweHBIbjhPTnl0Y0E?oc=5",
+    "title": "Lelaki Dicekup Ketika Sedang Curi Kabel Di Ampang #MGFlash Polis menahan seorang lelaki ketika cuba menarik keluar kabel dari sebuah lurang menggunakan kenderaan pacuan empat roda di Kampung Tasik Tambahan, Ampang, kelmarin. #malaysiaga"
    }
   ]
  },
@@ -4323,7 +4350,14 @@
   "area": "Kabong, Bahagian Betong",
   "lat": 1.8822,
   "lng": 111.2695,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "https://utusansarawak.com.my/",
+    "link": "https://utusansarawak.com.my/lelaki-ditahan-disyaki-curi-diesel-lori-sawit-tukar-syabu-sebagai-bayaran/",
+    "title": "Lelaki ditahan disyaki curi diesel lori sawit, tukar syabu sebagai bayaran"
+   }
+  ]
  },
  {
   "type": "murder",
@@ -5267,6 +5301,62 @@
   "area": "Parit Bunga, Tangkak",
   "lat": 2.0763,
   "lng": 102.55,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Suami orang dicekup berkhalwat dengan wanita bujang di rumah sewa",
+  "link": "https://www.sinarharian.com.my/article/805408/berita/semasa/suami-orang-dicekup-berkhalwat-dengan-wanita-bujang-di-rumah-sewa",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T01:24:00.000Z",
+  "place": "Skudai",
+  "area": "Skudai, Iskandar Puteri",
+  "lat": 1.537,
+  "lng": 103.6621,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "‘Pondan’ pengedar ekstasi dicekup ketika hantar bekalan",
+  "link": "https://sayangsabah.com.my/home/2026/09/27/pondan-pengedar-ekstasi-dicekup-ketika-hantar-bekalan/",
+  "outlet": "Sayang Sabah",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-27T07:00:00.000Z",
+  "place": "Penampang",
+  "area": "Penampang, Bahagian Pantai Barat",
+  "lat": 5.8626,
+  "lng": 116.1138,
+  "precision": "town"
+ },
+ {
+  "type": "snatch_theft",
+  "title": "Prestasi merosot saat akhir ragut impian Johnathan-Syasya",
+  "link": "https://www.hmetro.com.my/arena/lain/2026/09/1415237/prestasi-merosot-saat-akhir-ragut-impian-johnathan-syasya?source=widget",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-25T07:00:00.000Z",
+  "place": "Kuala Lumpur",
+  "area": "Kuala Lumpur, Malaysia",
+  "lat": 3.1517,
+  "lng": 101.6942,
+  "precision": "town"
+ },
+ {
+  "type": "assault",
+  "title": "Polis Saratok cekup suspek serang kedai serbaneka dengan api, bahan letupan",
+  "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/polis-saratok-cekup-suspek-serang-kedai-serbaneka-dengan-api-bahan-letupan/",
+  "outlet": "Portal Berita RTM",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-22T07:00:00.000Z",
+  "place": "Sri Aman",
+  "area": "Sri Aman, Bahagian Sri Aman",
+  "lat": 1.2088,
+  "lng": 111.408,
   "precision": "area"
  }
 ]
