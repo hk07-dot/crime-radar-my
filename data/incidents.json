@@ -5803,7 +5803,14 @@
   "area": "Kampung Orang Asli Bawong, Kuala Kangsar",
   "lat": 4.9967,
   "lng": 101.1403,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Portal Berita RTM",
+    "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/harimau-belang-ditembak-mati-selepas-insiden-korbankan-nyawa/",
+    "title": "Harimau belang ditembak mati selepas insiden korbankan nyawa"
+   }
+  ]
  },
  {
   "type": "shooting",
@@ -6006,6 +6013,20 @@
   "area": "Seremban, Negeri Sembilan",
   "lat": 2.7231,
   "lng": 101.9401,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "519 PATI dicekup dalam operasi 3 hari",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1438922/519-pati-dicekup-dalam-operasi-3-hari",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T15:16:11.000Z",
+  "place": "Klang",
+  "area": "Bandaraya Klang, Klang",
+  "lat": 3.0448,
+  "lng": 101.4447,
   "precision": "town"
  }
 ]
