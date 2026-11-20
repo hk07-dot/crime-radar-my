@@ -2287,5 +2287,37 @@
   "lng": 101.5823,
   "label": "Majlis Bandaraya Subang Jaya, Petaling",
   "kind": "city"
- }
+ },
+ "area4:curi elektrik": null,
+ "area4:sandakan, curi elektrik": null,
+ "area4:sandakan": {
+  "lat": 5.8391,
+  "lng": 118.1159,
+  "label": "Sandakan, Sandakan District",
+  "kind": "city"
+ },
+ "area4:jalan kapar, klang": null,
+ "area4:jalan kapar": null,
+ "area4:alor gajah": {
+  "lat": 2.3835,
+  "lng": 102.2108,
+  "label": "Alor Gajah, Melaka",
+  "kind": "district"
+ },
+ "area4:kepong machete attack, suspect believed": null,
+ "area4:kepong machete attack": null,
+ "area4:permatang pauh, bukit mertajam": null,
+ "area4:permatang pauh": {
+  "lat": 5.4125,
+  "lng": 100.4125,
+  "label": "Permatang Pauh, Seberang Perai Tengah",
+  "kind": "town"
+ },
+ "area4:tuaran": {
+  "lat": 6.0659,
+  "lng": 116.3198,
+  "label": "Tuaran, Bahagian Pantai Barat",
+  "kind": "county"
+ },
+ "area4:jamie foxx's": null
 }
