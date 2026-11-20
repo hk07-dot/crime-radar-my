@@ -378,6 +378,11 @@
     "outlet": "Free Malaysia Today",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNam5oZXdZOGdwS1FYVlR2R1p2TGVTc3hDREYtcjJpOGlObWZhbkI1bnloMURPRlN6Z0JOLUtlRC1ZdGk2aG8zMFVfZkNoS0dPN1JnT3FrUGhrM1EzeGVhd0M0bmUyU0otNDFadVlVUngxQkp1aml3VmxIdlExVDByS3ZxQlR0dlZtLWJKeXZCdUVmdlg1RW9adzR1ODV5eHE3Tk5EdlJMa1I2UkR3VHJfc3lsN21pTTFoTmE3OEVSLWFEV1N3R0pTMlFpWQ?oc=5",
     "title": "Suspek ke-7 kes samun kedai emas di Genting Highlands ditahan"
+   },
+   {
+    "outlet": "Sinar Harian",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdW42c1ZSNjV0bkhEaXhzWmVZVHpuODdRQzl4UTg5WHlUMURzb3hoODMtV2xlVVhwdUhFcUZDbEJpN1o4QkRuQV9kRURhTkFMU0dRWFZJTGRxM2kzZDNWbF9LRUt2b2RGNjdFQUFJdTZzTnA3Ync0MXZoaUhxYXlqMzBJMHdiNUJac3ZWRnVaUXE5cUt3UHZ1TnpoWDdjMzNPSzcxOGM5dFFmVmRRNHlSOFNmSFVSWnBNMU9DMlctZTNQYk5ES1BRcWs4Y1pkSkkyc1BDREx0MNIBXEFVX3lxTFBUVGlFbXZZQkI5TEN1bjJ0ODlCMFN5YWdXMnlZUUQzOVJPUmYxejJZWVNvTS0xNXpuT1IxLS00VldXN1VrUXNGMF9ZY2lsb01RSmR4TTVBaERveGEz?oc=5",
+    "title": "Samun di Genting Highlands: Polis tahan tujuh individu, suspek utama masih dikesan"
    }
   ]
  },
@@ -616,7 +621,14 @@
   "area": "Lorong Air Putih, Taman Setar",
   "lat": 6.1114,
   "lng": 100.3587,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Malaysiakini",
+    "link": "https://www.malaysiakini.com/news/886352-pelajar-19-tahun-maut-dipercayai-dibunuh-teman-lelaki-di-rumah-sewa",
+    "title": "Pelajar 19 tahun maut dipercayai dibunuh teman lelaki di rumah sewa"
+   }
+  ]
  },
  {
   "type": "robbery",
@@ -681,11 +693,11 @@
   "source": "news",
   "verified": true,
   "publishedAt": "2026-10-05T07:00:00.000Z",
-  "place": "Batu Pahat",
+  "place": "Batu Pahat, Johor",
   "area": "Batu Pahat, Johor",
   "lat": 1.9333,
   "lng": 103,
-  "precision": "town",
+  "precision": "area",
   "alsoReported": [
    {
     "outlet": "Sinar Harian",
@@ -706,6 +718,11 @@
     "outlet": "Portal Berita RTM",
     "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/pelajar-dibunuh-keluarga-harap-pelaku-dijatuhkan-hukuman-setimpal/",
     "title": "Keluarga harap pelaku dijatuhkan hukuman setimpal"
+   },
+   {
+    "outlet": "Saluran 122",
+    "link": "https://www.tvsarawak.my/2026/10/04/kes-bunuh-pelajar-kpm-beri-kerjasama-penuh-kepada-polis/",
+    "title": "Kes bunuh pelajar: KPM beri kerjasama penuh kepada polis"
    }
   ]
  },
@@ -1582,6 +1599,11 @@
     "outlet": "The Sun Malaysia",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQamoxVDFBNF9RdURYMS1obHZ4dVNMTXlQSGsyVjNqYTliZlVZTkVSUURCcVdQX2xUdUVmMi1xYVNYT1ZfSDJFX2tPOVk4bTZrcFJfSDF0M2VoeWpGYzJBT2FvVmFwcEtPYUZETzlCQWkxNF8waVh3SkxYa3lOcGhnanJlbEI1VzFrbVptLW5JR3NlbmhySWI1Z29DTE8zZjRpelNLNA?oc=5",
     "title": "Man allegedly kidnapped, tortured and killed before body was buried in Semenyih"
+   },
+   {
+    "outlet": "Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/jenayah/2026/10/lelaki-diculik-dikurung-didera-dibunuh/",
+    "title": "Lelaki diculik, dikurung, didera, dibunuh"
    }
   ]
  },
@@ -4356,6 +4378,11 @@
     "outlet": "https://utusansarawak.com.my/",
     "link": "https://utusansarawak.com.my/lelaki-ditahan-disyaki-curi-diesel-lori-sawit-tukar-syabu-sebagai-bayaran/",
     "title": "Lelaki ditahan disyaki curi diesel lori sawit, tukar syabu sebagai bayaran"
+   },
+   {
+    "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
+    "link": "https://utusansarawak.com.my/lelaki-ditahan-disyaki-curi-diesel-lori-sawit-tukar-syabu-sebagai-bayaran/?utm_source=rss&utm_medium=rss&utm_campaign=lelaki-ditahan-disyaki-curi-diesel-lori-sawit-tukar-syabu-sebagai-bayaran",
+    "title": "Lelaki ditahan disyaki curi diesel lori sawit, tukar syabu sebagai bayaran"
    }
   ]
  },
@@ -5273,7 +5300,14 @@
   "area": "Kota Bharu, Kelantan",
   "lat": 6.1248,
   "lng": 102.2378,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/terkini/2026/11/terjebak-buat-aksi-wheelie-pelajar-tingkatan-dua-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=terjebak-buat-aksi-wheelie-pelajar-tingkatan-dua-ditahan",
+    "title": "Terjebak buat aksi ‘wheelie’ pelajar tingkatan dua ditahan"
+   }
+  ]
  },
  {
   "type": "drugs",
@@ -5357,6 +5391,76 @@
   "area": "Sri Aman, Bahagian Sri Aman",
   "lat": 1.2088,
   "lng": 111.408,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Suspek pecah ban Sungai Buloh diberkas",
+  "link": "https://www.kosmo.com.my/2026/11/20/suspek-pecah-ban-sungai-buloh-diberkas/?utm_source=rss&utm_medium=rss&utm_campaign=suspek-pecah-ban-sungai-buloh-diberkas",
+  "outlet": "Kosmo: Suapan Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T01:47:12.000Z",
+  "place": "Kuala Selangor",
+  "area": "Kuala Selangor, Selangor",
+  "lat": 3.3621,
+  "lng": 101.3456,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Karpet masjid dicurah air selut busuk, serpihan tulang: Pemandu direman empat hari",
+  "link": "https://www.sinarharian.com.my/article/800909/edisi/kelantan/karpet-masjid-dicurah-air-selut-busuk-serpihan-tulang-pemandu-direman-empat-hari",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-18T07:00:00.000Z",
+  "place": "Tumpat",
+  "area": "Tumpat, Kelantan",
+  "lat": 6.1764,
+  "lng": 102.1663,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Lelaki direman 4 hari, bantu siasatan kes simbah cecair busuk pada karpet ruang solat masjid",
+  "link": "https://www.mstar.com.my/lokal/semasa/2026/10/17/lelaki-direman-4-hari-bantu-siasatan-kes-simbah-cecair-busuk-pada-karpet-ruang-solat-masjid",
+  "outlet": "mStar",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-17T07:00:00.000Z",
+  "place": "Kota Bharu",
+  "area": "Kota Bharu, Kelantan",
+  "lat": 6.1248,
+  "lng": 102.2378,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Lelaki ekori remaja di Kampung Melayu Subang ditahan polis",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQXFSVjQ0R3U5SXFzSndJY21zVTFiVjg0NXlQQnhHX29URWRHQl9lQzB5Rkd1czdZaWhMWEQ2Z2JRblpOTzI0ckFCWXRBN1VmQzBuUjNyX0ZzbXNSWWo2ck1IekJ3MmJRTjQ3Sm1rUmRHZ3FWb2VtYWNTWVRYMF9SaUk0RG1ySTF6NWhmWTNOSVozUXE1V1JhZ3NyNHBEVlU?oc=5",
+  "outlet": "MalaysiaGazette",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-12T07:00:00.000Z",
+  "place": "Kampung Melayu Subang",
+  "area": "Kampung Melayu Subang, Seksyen U6",
+  "lat": 3.1544,
+  "lng": 101.5328,
+  "precision": "area"
+ },
+ {
+  "type": "vandalism",
+  "title": "Jemaah sebuah masjid di Kampung Berangan, Tumpat, dikejutkan dengan kejadian khianat apabila karpet ruang solat dicemari cecair berbau busuk yang bercampur serpihan tulang serta bulu. Kejadian yang berlaku di Masjid Al-Aziz Al-Hadi, Kota SPP Wari",
+  "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zdDV5eUJjM3lsOWwxVE9ZRzU0TU9vRGFDSWctVGc1WkprSzFOM2pFVXdIQzRxYm0tWHktZFlNS1NVZ3FsTkJQZGEwMVlPM09vQzFQeG93?oc=5",
+  "outlet": "Instagram",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-05T07:00:00.000Z",
+  "place": "Kampung Berangan, Tumpat",
+  "area": "Kampung Berangan, Kampung Kok Pasir",
+  "lat": 6.1684,
+  "lng": 102.1953,
   "precision": "area"
  }
 ]

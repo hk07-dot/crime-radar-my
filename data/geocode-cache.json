@@ -2238,5 +2238,21 @@
   "lng": 118.4298,
   "label": "Semporna, Bahagian Tawau",
   "kind": "county"
+ },
+ "area4:sungai buloh, kuala selangor": null,
+ "area4:kota spp warisan, tumpat": null,
+ "area4:semenyih, hulu langat, shah alam": null,
+ "area4:semenyih, hulu langat": {
+  "lat": 2.9474,
+  "lng": 101.846,
+  "label": "Semenyih, Majlis Perbandaran Kajang",
+  "kind": "town"
+ },
+ "area4:batu pahat, johor, kuala lumpur": null,
+ "area4:batu pahat, johor": {
+  "lat": 1.9333,
+  "lng": 103,
+  "label": "Batu Pahat, Johor",
+  "kind": "district"
  }
 }
