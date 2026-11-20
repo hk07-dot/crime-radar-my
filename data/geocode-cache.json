@@ -2319,5 +2319,30 @@
   "label": "Tuaran, Bahagian Pantai Barat",
   "kind": "county"
  },
- "area4:jamie foxx's": null
+ "area4:jamie foxx's": null,
+ "area4:subang": {
+  "lat": 3.1505,
+  "lng": 101.5312,
+  "label": "Subang, Shah Alam",
+  "kind": "suburb"
+ },
+ "area4:kampung orang asli bawong, sungai siput": null,
+ "area4:kampung orang asli bawong": {
+  "lat": 4.9967,
+  "lng": 101.1403,
+  "label": "Kampung Orang Asli Bawong, Kuala Kangsar",
+  "kind": "village"
+ },
+ "area4:dong nai": {
+  "lat": 6.3427,
+  "lng": 100.6869,
+  "label": "Padang Sanai, Padang Terap",
+  "kind": "village"
+ },
+ "area4:koramangala": null,
+ "area4:san jose": null,
+ "area4:costa rica": null,
+ "area4:santo domingo, san jose": null,
+ "area4:santo domingo": null,
+ "area4:kepulauan truong sa": null
 }

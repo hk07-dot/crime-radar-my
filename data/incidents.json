@@ -3716,6 +3716,11 @@
     "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
     "link": "https://utusansarawak.com.my/lelaki-ditahan-disyaki-samun-bersenjata-di-senadin/?utm_source=rss&utm_medium=rss&utm_campaign=lelaki-ditahan-disyaki-samun-bersenjata-di-senadin",
     "title": "Lelaki ditahan disyaki samun bersenjata di Senadin"
+   },
+   {
+    "outlet": "Utusan Borneo",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSThHMHJRUUZIY25HOG1LaUltRmRqeUdHX25rMTB6RWtFVEdBYkZBN0Z3NjZqa2M2T01Lc2xoTTU4OWdGMGI1QkR3WmF1N3BIMmY2VF82VWNsTkpYV0dVekdPVkZ1UzUyeG4ycjhuTGlwc2R0R1EyTEhoNTM5T3A4eTYxZi05Yk1Bd3lrMTRqRXdUa1E3VVIyQ3hveTdvUGIt?oc=5",
+    "title": "Pemuda disyaki samun berpisau wanita di Senadin diberkas"
    }
   ]
  },
@@ -4042,6 +4047,11 @@
   "lng": 101.6454,
   "precision": "town",
   "alsoReported": [
+   {
+    "outlet": "Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/20/video-tak-jadi-pecah-rumah-lepas-nampak-cctv/",
+    "title": "[VIDEO] Tak jadi pecah rumah lepas nampak CCTV"
+   },
    {
     "outlet": "Kosmo Online",
     "link": "https://www.kosmo.com.my/2026/11/20/video-tak-jadi-pecah-rumah-lepas-nampak-cctv/",
@@ -5539,7 +5549,14 @@
   "area": "Arau, Kangar",
   "lat": 6.4307,
   "lng": 100.2719,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Kosmo: Suapan Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/20/pemuda-diberkas-dalam-tren-tidak-sempat-jual-katrij-dadah/?utm_source=rss&utm_medium=rss&utm_campaign=pemuda-diberkas-dalam-tren-tidak-sempat-jual-katrij-dadah",
+    "title": "Pemuda diberkas dalam tren, tidak sempat jual katrij dadah"
+   }
+  ]
  },
  {
   "type": "drugs",
@@ -5719,6 +5736,48 @@
   "area": "Kampung Seberang Batu Hampar, Rembau",
   "lat": 2.5867,
   "lng": 102.0824,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Baggage without security stickers led to 96kg drug seizure at Subang air base",
+  "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/baggage-without-security-stickers-led-to-96kg-drug-seizure-at-subang-air-base",
+  "outlet": "Free Malaysia Today",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T06:32:00.000Z",
+  "place": "Subang",
+  "area": "Subang, Shah Alam",
+  "lat": 3.1505,
+  "lng": 101.5312,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Harimau serang anggota Perhilitan ditembak mati selepas serangan maut",
+  "link": "https://malaysiatribune.news/harimau-serang-anggota-perhilitan-ditembak-mati-selepas-serangan-maut/",
+  "outlet": "Malaysia Tribune",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T01:49:00.000Z",
+  "place": "Kampung Orang Asli Bawong",
+  "area": "Kampung Orang Asli Bawong, Kuala Kangsar",
+  "lat": 4.9967,
+  "lng": 101.1403,
+  "precision": "area"
+ },
+ {
+  "type": "shooting",
+  "title": "Pengarah syarikat perhutanan di Dong Nai ditembak di tempat kerjanya.",
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSTExSnJkSmVkaF9ia2ppeVNXNUd1NFF1d0pUUFkzbTZLUWR4aTBtVzZXcGxPZ2JpZThhVmtBSlE1NkhQdW1fUXREY0tEQ3V6Q2MzMmVpTUQ1RUNDSkpmWnRHSUtZNE53UjNfTXJxaFlHUE5FV0JuVXNVbDcyVWdpMnBoYVc2TDk1dkpUcWFLY0JiQQ?oc=5",
+  "outlet": "Vietnam.vn",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-17T08:00:00.000Z",
+  "place": "Dong Nai",
+  "area": "Padang Sanai, Padang Terap",
+  "lat": 6.3427,
+  "lng": 100.6869,
   "precision": "area"
  }
 ]
