@@ -224,7 +224,21 @@ li .m.src { color: var(--accent-700); }
 .up { color: var(--accent-700) !important; } .down { color: var(--muted); }
 .detail { border: 2px solid var(--rule); padding: 14px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
 .detail h3 { font: 800 22px/1.1 var(--sans); letter-spacing: -.02em; margin: 4px 0 0; overflow-wrap: anywhere; }
-.bars li { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 10px; row-gap: 4px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+.bars li { border-bottom: 1px solid var(--line); }
+.bars .row { width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 10px; row-gap: 4px; padding: 7px 0; text-align: left; }
+.bars button.row, .rank button { border: 0; background: transparent; color: inherit; font: inherit; cursor: pointer; }
+.bars button.row:hover { background: color-mix(in srgb, var(--fg) 5%, transparent); }
+.bars button.row[aria-expanded="true"] { background: var(--accent-100); box-shadow: inset 4px 0 0 var(--accent); padding-left: 8px; }
+.arr { display: inline-block; margin-left: 6px; color: var(--muted); font: 700 11px/1 var(--narrow); }
+.refs { padding: 4px 0 12px 18px; }
+.rank .refs { padding-left: 44px; }
+.refs ol { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--accent); }
+.refs li { padding: 7px 0 7px 12px; border-bottom: 1px dotted var(--line); }
+.refs li:last-child { border-bottom: 0; }
+.refs a { font: 700 13.5px/1.35 var(--sans); color: var(--fg); overflow-wrap: anywhere; }
+.refs a:hover { color: var(--accent-700); }
+.refs .m { margin-top: 3px; color: var(--muted); font: 600 10.5px/1.4 var(--narrow); letter-spacing: .06em; text-transform: uppercase; }
+.refs .note { margin: 6px 0 0 14px; }
 .bars { border-top: 2px solid var(--rule); }
 .bars .k { font: 700 13.5px/1.3 var(--sans); }
 .bars .k em { font-style: normal; color: var(--muted); font: 600 10px/1 var(--narrow); letter-spacing: .08em; margin-right: 6px; }
@@ -293,7 +307,6 @@ header { display: flex; gap: 12px; justify-content: space-between; align-items: 
     <p class="label" data-t="distance"></p>
     <div class="seg" role="radiogroup" data-t-aria="distance_aria">
       <label><input type="radio" name="km" value="2">2 km</label>
-      <label><input type="radio" name="km" value="3">3 km</label>
       <label><input type="radio" name="km" value="5">5 km</label>
       <label><input type="radio" name="km" value="10" checked>10 km</label>
     </div>
@@ -504,6 +517,8 @@ const STR = {
     news_near: r => `News and social reports near here · ${r}`,
     near_note: (km, a, b) => `Within ${km} km of the district police HQ (IPD), ${a} to ${b}. Places come from the article text, so they're approximate.`,
     no_news_here: 'No news or social reports near here in this period.',
+    n_reports_tog: n => `${n} news report${n === 1 ? '' : 's'}`, refs_more: n => `+${n} more in this period`,
+    refs_none: 'No news or social reports for this in the period.',
     show_map: 'Show this area on the map →', fig_fail: e => `Couldn't load the figures: ${e}.`,
     reload: 'The site was just updated. Reload the page (Ctrl+F5, or pull down on a phone) to get the new version.',
     states_l: (m, y) => `States · ${m} · ${y}`,
@@ -598,6 +613,8 @@ const STR = {
     news_near: r => `Laporan berita dan media sosial berhampiran · ${r}`,
     near_note: (km, a, b) => `Dalam lingkungan ${km} km dari IPD, ${a} hingga ${b}. Lokasi diambil daripada teks artikel, jadi ia hanya anggaran.`,
     no_news_here: 'Tiada laporan berita atau media sosial berhampiran dalam tempoh ini.',
+    n_reports_tog: n => `${n} laporan berita`, refs_more: n => `+${n} lagi dalam tempoh ini`,
+    refs_none: 'Tiada laporan berita atau media sosial bagi perkara ini dalam tempoh ini.',
     show_map: 'Tunjukkan kawasan ini pada peta →', fig_fail: e => `Tidak dapat memuatkan angka: ${e}.`,
     reload: 'Laman ini baru dikemas kini. Muat semula halaman (Ctrl+F5, atau tarik ke bawah pada telefon) untuk mendapatkan versi baharu.',
     states_l: (m, y) => `Negeri · ${m} · ${y}`,
@@ -685,11 +702,11 @@ function applyStatic() {
 }
 applyStatic();
 
-// Distance around the point: 2, 3, 5 or 10 km, remembered on this device. The dashboard keeps 10 km
+// Distance around the point: 2, 5 or 10 km, remembered on this device. The dashboard keeps 10 km
 // around each police district HQ, so its figures don't change with this.
 const RADIUS_KM = 10;
 let radiusKm = 10;
-try { const v = +localStorage.getItem('radiusKm'); if ([2, 3, 5, 10].includes(v)) radiusKm = v; } catch {}
+try { const v = +localStorage.getItem('radiusKm'); if ([2, 5, 10].includes(v)) radiusKm = v; } catch {}
 document.querySelector(`input[name="km"][value="${radiusKm}"]`).checked = true;
 const showTitle = () => { $('h1').textContent = t('h1', radiusKm); };
 const KL = [3.1478, 101.6953];
@@ -1123,7 +1140,7 @@ $('f-heat').addEventListener('change', render);
 
 // ---------- Dashboard ----------
 // Four sections: the top 10 police districts, states, the news and social reports, and DOSM's 2026 release.
-const dash = { all: null, year: null, sel: null, home: null, state: null, dosm: null, incidents: [], reportsFor: null, seq: 0 };
+const dash = { open: null, all: null, year: null, sel: null, home: null, state: null, dosm: null, incidents: [], reportsFor: null, seq: 0 };
 const dKey = d => `${d.state}|${d.district}`;
 const radio = n => document.querySelector(`input[name="${n}"]:checked`).value;
 const kmBetween = (a, b) => {
@@ -1139,9 +1156,23 @@ function change(now, before, prevYear) {
   if (p === 0) return `<span class="down">${esc(t('no_change'))}${yr}</span>`;
   return `<span class="${p > 0 ? 'up' : 'down'}">${p > 0 ? '▲' : '▼'} ${Math.abs(p)}%${yr}</span>`;
 }
-const barRows = (rows, max, cls = '') => `<ul class="bars ${cls}">${rows.map(([k, n, extra], i) => `<li>
-    <span class="k"><em>${i + 1}</em>${k}</span><span class="c">${num(n)}${extra ? `<small>${extra}</small>` : ''}</span>
-    <span class="bar"><i style="width:${(100 * n / Math.max(1, max)).toFixed(1)}%"></i></span></li>`).join('')}</ul>`;
+// A row with a refId opens its news reports underneath when clicked, and closes them on a second click.
+const barRows = (rows, max, cls = '') => `<ul class="bars ${cls}">${rows.map(([k, n, extra, ref, items], i) => {
+  const open = ref && dash.open === ref;
+  const inner = `<span class="k"><em>${i + 1}</em>${k}${ref ? `<span class="arr" aria-hidden="true">${open ? '▴' : '▾'}</span>` : ''}</span><span class="c">${num(n)}${extra ? `<small>${extra}</small>` : ''}</span>
+    <span class="bar"><i style="width:${(100 * n / Math.max(1, max)).toFixed(1)}%"></i></span>`;
+  return `<li>${ref ? `<button type="button" class="row" data-ref="${esc(ref)}" aria-expanded="${open}">${inner}</button>${open ? refsList(items) : ''}` : `<div class="row">${inner}</div>`}</li>`;
+}).join('')}</ul>`;
+// The news and social reports behind a row, newest first.
+function refsList(items) {
+  if (!items?.length) return `<div class="refs"><p class="note">${esc(t('refs_none'))}</p></div>`;
+  const shown = items.slice(0, 10);
+  return `<div class="refs"><ol>${shown.map(i => `<li>
+      <a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+      <div class="m">${esc(nice(i.type))} · ${esc(i.area || i.district)} · ${ago(i.publishedAt)} · ${esc(i.outlet)}${i.source === 'social' ? ` · ${esc(t('unverified'))}` : ''}</div></li>`).join('')}</ol>
+    ${items.length > shown.length ? `<p class="note">${esc(t('refs_more', items.length - shown.length))}</p>` : ''}</div>`;
+}
+const newsCount = items => `${esc(t('n_reports_tog', items.length))}`;
 const share = (n, total) => n / (total || 1) < .005 ? '<1%' : `${Math.round(100 * n / (total || 1))}%`;
 
 // The two buttons at the top of the panel work as a pair: the one in use is highlighted.
@@ -1226,11 +1257,14 @@ function renderAreas() {
   const max = Math.max(1, top[0]?.[m] || 0);
   const where = scope === 'state' ? sel.state : 'Malaysia';
   $('rank-l').textContent = t('top10_l', t('measures')[m], where, dash.year);
-  const row = (d, n) => `<li><button type="button" data-k="${esc(dKey(d))}" aria-pressed="${dKey(d) === dash.sel}">
+  const row = (d, n) => {
+    const ref = `a:${dKey(d)}`, open = dash.open === ref, items = nearReports(d);
+    return `<li><button type="button" data-k="${esc(dKey(d))}" data-ref="${esc(ref)}" aria-pressed="${dKey(d) === dash.sel}" aria-expanded="${open}">
       <span class="n">${n}</span>
-      <span class="nm">IPD ${esc(d.district)}<small>${esc(d.state)}${dKey(d) === dash.home ? ` · ${esc(t('your_area'))}` : ''}</small></span>
+      <span class="nm">IPD ${esc(d.district)}<small>${esc(d.state)}${dKey(d) === dash.home ? ` · ${esc(t('your_area'))}` : ''} · ${newsCount(items)} <span aria-hidden="true">${open ? '▴' : '▾'}</span></small></span>
       <span class="v">${num(d[m])}<small>${change(d[m], d.prev?.[m])}</small></span>
-      <span class="bar"><i style="width:${(100 * d[m] / max).toFixed(1)}%"></i></span></button></li>`;
+      <span class="bar"><i style="width:${(100 * d[m] / max).toFixed(1)}%"></i></span></button>${open ? refsList(items) : ''}</li>`;
+  };
   let html = top.map((d, i) => row(d, i + 1)).join('');
   // The selected area, if it isn't in the top 10, is shown below with its own rank.
   const at = sorted.findIndex(d => dKey(d) === dash.sel);
@@ -1243,11 +1277,13 @@ function typeBars(byType, total) {
   const types = Object.entries(byType).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]).slice(0, 10);
   return { types, html: types.length ? barRows(types.map(([k, n]) => [esc(nice(k)), n, share(n, total)]), types[0][1]) : `<p class="note">${esc(t('no_cases'))}</p>` };
 }
-function reportBars(items, emptyKey) {
-  const counts = {};
-  for (const i of items) counts[i.type] = (counts[i.type] || 0) + 1;
-  const rows = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 10);
-  return rows.length ? barRows(rows.map(([k, n]) => [esc(nice(k)), n]), rows[0][1], 'ink') : `<p class="note">${esc(t(emptyKey))}</p>`;
+const nearReports = d => dash.incidents.filter(i => kmBetween(d, i) <= RADIUS_KM);
+// News bars by crime type; refPrefix makes each type open its own reports.
+function reportBars(items, emptyKey, refPrefix) {
+  const by = new Map();
+  for (const i of items) { if (!by.has(i.type)) by.set(i.type, []); by.get(i.type).push(i); }
+  const rows = [...by.entries()].sort((a, b) => b[1].length - a[1].length).slice(0, 10);
+  return rows.length ? barRows(rows.map(([k, list]) => [esc(nice(k)), list.length, '', `${refPrefix}:${k}`, list]), rows[0][1].length, 'ink') : `<p class="note">${esc(t(emptyKey))}</p>`;
 }
 
 function renderAreaDetail(d) {
@@ -1256,7 +1292,7 @@ function renderAreaDetail(d) {
   const { types, html } = typeBars(d.byType, d.total);
   const stat = (n, label, before) => `<div class="stat"><b>${num(n)}</b><span>${esc(label)}</span><span>${change(n, before) || '&nbsp;'}</span></div>`;
   const { from, to } = deviceRange(rangeVal());
-  const near = dash.incidents.filter(i => kmBetween(d, i) <= RADIUS_KM);
+  const near = nearReports(d);
   $('detail').innerHTML = `
     <div>
       <p class="kicker">${esc(t(dKey(d) === dash.home ? 'your_area_k' : 'selected'))} · ${year}</p>
@@ -1271,7 +1307,7 @@ function renderAreaDetail(d) {
     </div>
     <div>
       <p class="label">${esc(t('news_near', rangeName()))}</p>
-      ${reportBars(near, 'no_news_here')}
+      ${reportBars(near, 'no_news_here', `at:${dKey(d)}`)}
       <p class="note" style="margin-top:8px">${esc(t('near_note', RADIUS_KM, fmtDay(from), fmtDay(to)))}</p>
     </div>
     <button class="primary" type="button" id="d-map">${esc(t('show_map'))}</button>`;
@@ -1299,11 +1335,14 @@ function renderStates() {
   const max = Math.max(1, sorted[0]?.[m] || 0);
   const homeState = dash.all.find(d => dKey(d) === dash.home)?.state;
   $('srank-l').textContent = t('states_l', t('measures')[m], dash.year);
-  $('srank').innerHTML = sorted.map((s, i) => `<li><button type="button" data-s="${esc(s.state)}" aria-pressed="${s.state === dash.state}">
+  $('srank').innerHTML = sorted.map((s, i) => {
+    const ref = `s:${s.state}`, open = dash.open === ref, items = dash.incidents.filter(x => x.state === s.state);
+    return `<li><button type="button" data-s="${esc(s.state)}" data-ref="${esc(ref)}" aria-pressed="${s.state === dash.state}" aria-expanded="${open}">
       <span class="n">${i + 1}</span>
-      <span class="nm">${esc(s.state)}<small>${esc(t('districts_n', s.districts))}${s.state === homeState ? ` · ${esc(t('your_area'))}` : ''}</small></span>
+      <span class="nm">${esc(s.state)}<small>${esc(t('districts_n', s.districts))}${s.state === homeState ? ` · ${esc(t('your_area'))}` : ''} · ${newsCount(items)} <span aria-hidden="true">${open ? '▴' : '▾'}</span></small></span>
       <span class="v">${num(s[m])}<small>${change(s[m], s.prev?.[m])}</small></span>
-      <span class="bar"><i style="width:${(100 * s[m] / max).toFixed(1)}%"></i></span></button></li>`).join('');
+      <span class="bar"><i style="width:${(100 * s[m] / max).toFixed(1)}%"></i></span></button>${open ? refsList(items) : ''}</li>`;
+  }).join('');
   renderStateDetail(states.find(s => s.state === dash.state), states);
 }
 function renderStateDetail(s, states) {
@@ -1332,7 +1371,7 @@ function renderStateDetail(s, states) {
     </div>` : ''}
     <div>
       <p class="label">${esc(t('state_news', rangeName()))}</p>
-      ${reportBars(reports, 'no_news_state')}
+      ${reportBars(reports, 'no_news_state', `st:${s.state}`)}
       <p class="note" style="margin-top:8px">${esc(t('state_news_note'))}</p>
     </div>
     <button class="primary" type="button" id="s-areas">${esc(t('see_areas', s.state))}</button>`;
@@ -1349,15 +1388,16 @@ function renderStateDetail(s, states) {
 function renderNews() {
   const items = dash.incidents;
   const { from, to } = deviceRange(rangeVal());
-  const count = (key, f = () => true) => {
+  // Top 10 by a field, each with the reports behind it.
+  const count = key => {
     const c = new Map();
-    for (const i of items) if (f(i)) c.set(i[key], (c.get(i[key]) || 0) + 1);
-    return [...c.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10);
+    for (const i of items) { if (!c.has(i[key])) c.set(i[key], []); c.get(i[key]).push(i); }
+    return [...c.entries()].sort((a, b) => b[1].length - a[1].length).slice(0, 10);
   };
   const nNews = items.filter(i => i.source === 'news').length;
   if (!items.length) { $('p-news').innerHTML = `<h3 style="font:800 22px/1.1 var(--sans);margin:0">${esc(t('news_h'))}</h3><p class="note">${esc(t('n_none'))}</p><p class="note">${esc(t('n_note', fmtDay(from), fmtDay(to)))}</p>`; return; }
   const types = count('type'), states = count('state');
-  const areas = count('dkey').map(([k, n]) => [esc(t('n_area_row', k.split('|')[1])) + `<small style="margin-left:6px;color:var(--muted);font:600 10px/1 var(--narrow);letter-spacing:.06em">${esc(k.split('|')[0])}</small>`, n]);
+  const areas = count('dkey').map(([k, list]) => [esc(t('n_area_row', k.split('|')[1])) + `<small style="margin-left:6px;color:var(--muted);font:600 10px/1 var(--narrow);letter-spacing:.06em">${esc(k.split('|')[0])}</small>`, list.length, '', `na:${k}`, list]);
   $('p-news').innerHTML = `
     <h3 style="font:800 22px/1.1 var(--sans);letter-spacing:-.02em;margin:0">${esc(t('news_h'))}</h3>
     <div class="stats">
@@ -1366,8 +1406,8 @@ function renderNews() {
       <div class="stat"><b>${num(items.length - nNews)}</b><span>${esc(t('n_social'))}</span></div>
     </div>
     <div class="cols">
-      <div><p class="label">${esc(t('n_types'))}</p>${barRows(types.map(([k, n]) => [esc(nice(k)), n, share(n, items.length)]), types[0][1])}</div>
-      <div><p class="label">${esc(t('n_states'))}</p>${barRows(states.map(([k, n]) => [esc(k), n, share(n, items.length)]), states[0][1], 'ink')}</div>
+      <div><p class="label">${esc(t('n_types'))}</p>${barRows(types.map(([k, list]) => [esc(nice(k)), list.length, share(list.length, items.length), `nt:${k}`, list]), types[0][1].length)}</div>
+      <div><p class="label">${esc(t('n_states'))}</p>${barRows(states.map(([k, list]) => [esc(k), list.length, share(list.length, items.length), `ns:${k}`, list]), states[0][1].length, 'ink')}</div>
       <div><p class="label">${esc(t('n_areas'))}</p>${barRows(areas, areas[0][1], 'ink')}</div>
       <div><p class="label">${esc(t('n_latest'))}</p><ul class="latest">${items.slice(0, 10).map(i => `<li>
           <a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>
@@ -1403,13 +1443,17 @@ function renderDosm() {
 // Clicking the dashboard button again closes it.
 $('dash-open').addEventListener('click', () => $('dash').hidden ? openDash() : closeDash());
 $('dash-close').addEventListener('click', () => closeDash());
-$('rank').addEventListener('click', e => {
-  const b = e.target.closest('button[data-k]');
-  if (b) { dash.sel = b.dataset.k; renderDash(); $('rank').querySelector(`button[data-k="${CSS.escape(dash.sel)}"]`)?.focus(); }
-});
-$('srank').addEventListener('click', e => {
-  const b = e.target.closest('button[data-s]');
-  if (b) { dash.state = b.dataset.s; renderDash(); $('srank').querySelector(`button[data-s="${CSS.escape(dash.state)}"]`)?.focus(); }
+// Clicking a ranking row opens its news reports; clicking it again closes them. Area and state rows
+// also select that area or state for the details beside the list.
+$('dash').addEventListener('click', e => {
+  const b = e.target.closest('button[data-ref]');
+  if (!b) return;
+  const ref = b.dataset.ref;
+  dash.open = dash.open === ref ? null : ref;
+  if (b.dataset.k) dash.sel = b.dataset.k;
+  if (b.dataset.s) dash.state = b.dataset.s;
+  renderDash();
+  $('dash').querySelector(`button[data-ref="${CSS.escape(ref)}"]`)?.focus();
 });
 document.querySelectorAll('input[name="d-scope"], input[name="d-measure"], input[name="d-tab"]').forEach(el => el.addEventListener('change', renderDash));
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('dash').hidden) closeDash(); });

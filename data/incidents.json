@@ -5922,5 +5922,19 @@
   "lat": 2.0139,
   "lng": 112.9357,
   "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "2 Chinese nationals hurt in armed clash over parking in Cheras",
+  "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/2-chinese-nationals-hurt-in-armed-clash-over-parking-in-cheras",
+  "outlet": "Free Malaysia Today",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T10:40:00.000Z",
+  "place": "Cheras",
+  "area": "Cheras, Kuala Lumpur",
+  "lat": 3.0992,
+  "lng": 101.7374,
+  "precision": "area"
  }
 ]
