@@ -2344,5 +2344,13 @@
  "area4:costa rica": null,
  "area4:santo domingo, san jose": null,
  "area4:santo domingo": null,
- "area4:kepulauan truong sa": null
+ "area4:kepulauan truong sa": null,
+ "area4:gua musang": {
+  "lat": 5.0198,
+  "lng": 102.0383,
+  "label": "ڬوا موسڠ / Gua Musang, Kelantan",
+  "kind": "district"
+ },
+ "area4:stesen penguatkuasa jabatan pengangkutan jalan, gua musang": null,
+ "area4:stesen penguatkuasa jabatan pengangkutan jalan": null
 }

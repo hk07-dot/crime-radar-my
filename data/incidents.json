@@ -5779,5 +5779,19 @@
   "lat": 6.3427,
   "lng": 100.6869,
   "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "27 PATI gagal menyusup ke Malaysia",
+  "link": "https://www.kosmo.com.my/2026/11/20/27-pati-gagal-menyusup-ke-malaysia/?utm_source=rss&utm_medium=rss&utm_campaign=27-pati-gagal-menyusup-ke-malaysia",
+  "outlet": "Kosmo: Suapan Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T03:59:52.000Z",
+  "place": "Gua Musang",
+  "area": "ڬوا موسڠ / Gua Musang, Kelantan",
+  "lat": 5.0198,
+  "lng": 102.0383,
+  "precision": "town"
  }
 ]

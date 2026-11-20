@@ -470,7 +470,10 @@ const STR = {
     town_note: 'The article only names the town, so this pin marks the town, not the scene.', also_by: 'Also reported by',
     lbl_social: 'Social', lbl_news: 'News', more: n => `+${n} more`,
     no_reports_area: 'No news or social reports in this area for the selected period.',
-    loc_unavail: 'Location unavailable. Showing Kuala Lumpur.', around_loc: a => `Around your location (±${a} m)`,
+    loc_unavail: 'Location unavailable. Showing Kuala Lumpur.', around_loc: a => `Around your location (±${a})`,
+    loc_improving: 'Improving accuracy…',
+    loc_rough: 'Your device only knows roughly where you are. Search your address or tap the map to set the exact spot.',
+    loc_denied: 'Location not shared. Showing Kuala Lumpur. Allow location for this site in your browser settings, or tap the map to move.',
     loc_not_shared: 'Location not shared. Showing Kuala Lumpur. Tap the map to move.', around_point: 'Around the point you picked',
     around: x => `Around ${x}`,
     // Dashboard
@@ -561,7 +564,10 @@ const STR = {
     town_note: 'Artikel hanya menyebut bandar, jadi pin ini menandakan bandar, bukan lokasi kejadian.', also_by: 'Turut dilaporkan oleh',
     lbl_social: 'Sosial', lbl_news: 'Berita', more: n => `+${n} lagi`,
     no_reports_area: 'Tiada laporan berita atau media sosial di kawasan ini bagi tempoh yang dipilih.',
-    loc_unavail: 'Lokasi tidak tersedia. Memaparkan Kuala Lumpur.', around_loc: a => `Sekitar lokasi anda (±${a} m)`,
+    loc_unavail: 'Lokasi tidak tersedia. Memaparkan Kuala Lumpur.', around_loc: a => `Sekitar lokasi anda (±${a})`,
+    loc_improving: 'Meningkatkan ketepatan…',
+    loc_rough: 'Peranti anda hanya mengetahui lokasi anggaran anda. Cari alamat anda atau ketik peta untuk menetapkan lokasi yang tepat.',
+    loc_denied: 'Lokasi tidak dikongsi. Memaparkan Kuala Lumpur. Benarkan lokasi untuk laman ini dalam tetapan pelayar anda, atau ketik peta untuk beralih.',
     loc_not_shared: 'Lokasi tidak dikongsi. Memaparkan Kuala Lumpur. Ketik peta untuk menukar lokasi.', around_point: 'Sekitar titik yang anda pilih',
     around: x => `Sekitar ${x}`,
     dash_title: 'Papan pemuka jenayah', close: 'Tutup ×', tabs_aria: 'Bahagian papan pemuka',
@@ -810,7 +816,7 @@ $('r-from-here').addEventListener('click', () => {
   navigator.geolocation.getCurrentPosition(
     p => { trip.from = { lat: p.coords.latitude, lng: p.coords.longitude, label: t('my_loc') }; $('r-from').value = t('my_loc'); },
     () => { $('r-from').value = ''; $('r-from').placeholder = t('loc_denied_ph'); },
-    { timeout: 10000, maximumAge: 300000 });
+    { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 });
 });
 
 const fmtKm = km => km < 1 ? `${Math.round(km * 1000)} m` : `${km.toLocaleString(locale(), { maximumFractionDigits: km < 10 ? 1 : 0 })} km`;
@@ -897,9 +903,12 @@ const showWhere = () => { $('where').textContent = whereText(); };
 showWhere();
 
 // label: a function, so the text can be redrawn when the language changes.
-function setPoint(lat, lng, label) {
+// fix: { acc } when the point comes from the device's location, which draws its accuracy circle.
+function setPoint(lat, lng, label, fix) {
+  if (!fix) stopWatch();
   here = { lat, lng };
-  ring?.remove(); me?.remove();
+  ring?.remove(); me?.remove(); accCircle?.remove(); accCircle = null;
+  if (fix) accCircle = L.circle([lat, lng], { radius: fix.acc, color: css('--ring'), weight: 1, opacity: .6, fillColor: css('--ring'), fillOpacity: .12, interactive: false }).addTo(map);
   ring = L.circle([lat, lng], { radius: RADIUS_KM * 1000, color: css('--ring'), weight: 1.5, dashArray: '4 4', fill: false, interactive: false }).addTo(map);
   me = L.marker([lat, lng], { interactive: false, icon: L.divIcon({ className: 'pin pin-me', html: '', iconSize: [12, 12], iconAnchor: [6, 6] }) }).addTo(map);
   map.fitBounds(ring.getBounds(), { padding: [20, 20] });
@@ -1040,13 +1049,43 @@ function focus(e) {
 $('list').addEventListener('click', focus);
 $('districts').addEventListener('click', focus);
 
+// Device location. Asks for the precise (GPS) fix and never reuses an old one. The first fix is often rough
+// (from Wi-Fi or cell towers), so it keeps listening for up to 20 seconds and moves to each better fix,
+// stopping early once it's within 30 m. The circle and the label show how accurate the fix is.
+let watchId = null, watchTimer = null, accCircle = null;
+function stopWatch() {
+  if (watchId !== null) navigator.geolocation.clearWatch(watchId);
+  clearTimeout(watchTimer); watchId = null;
+  if (/…$/.test($('where').textContent)) showWhere();
+}
+const fmtAcc = m => m < 1000 ? `${Math.round(m)} m` : `${(m / 1000).toLocaleString(locale(), { maximumFractionDigits: 1 })} km`;
 function locate() {
   if (!navigator.geolocation) return setPoint(...KL, () => t('loc_unavail'));
+  stopWatch();
   whereText = () => t('locating'); showWhere();
-  navigator.geolocation.getCurrentPosition(
-    p => { const acc = Math.round(p.coords.accuracy); setPoint(p.coords.latitude, p.coords.longitude, () => t('around_loc', acc)); },
-    () => setPoint(...KL, () => t('loc_not_shared')),
-    { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
+  let best = null;
+  const label = acc => () => `${t('around_loc', fmtAcc(acc))}${acc > 1000 ? ` ${t('loc_rough')}` : ''}${watchId !== null && acc > 30 ? ` ${t('loc_improving')}` : ''}`;
+  watchId = navigator.geolocation.watchPosition(p => {
+    const fix = { lat: p.coords.latitude, lng: p.coords.longitude, acc: p.coords.accuracy };
+    if (best && fix.acc >= best.acc * 0.8) return;            // only clearly better fixes
+    const moved = best ? kmBetween(best, fix) : Infinity;
+    best = fix;
+    if (fix.acc <= 30) { navigator.geolocation.clearWatch(watchId); clearTimeout(watchTimer); watchId = null; }
+    // Reload the area only when the point has really moved; otherwise just tighten the circle and label.
+    if (moved > 0.3) setPoint(fix.lat, fix.lng, label(fix.acc), fix);
+    else { here = { lat: fix.lat, lng: fix.lng }; me?.setLatLng([fix.lat, fix.lng]); ring?.setLatLng([fix.lat, fix.lng]); accCircle?.setLatLng([fix.lat, fix.lng]).setRadius(fix.acc); whereText = label(fix.acc); showWhere(); }
+  }, err => {
+    // Phones often report a brief "position unavailable" between GPS readings: keep listening unless
+    // location was refused. The 20-second timer ends the wait either way.
+    if (err.code !== 1) return;
+    stopWatch();
+    if (!best) setPoint(...KL, () => t('loc_denied'));
+  }, { enableHighAccuracy: true, maximumAge: 0 });
+  watchTimer = setTimeout(() => {
+    if (watchId === null) return;
+    navigator.geolocation.clearWatch(watchId); watchId = null;
+    best ? showWhere() : setPoint(...KL, () => t('loc_unavail'));
+  }, 20000);
 }
 // Use my location also closes the dashboard, so the map is in view.
 $('locate').addEventListener('click', () => { closeDash('locate'); locate(); });
