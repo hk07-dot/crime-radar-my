@@ -6258,6 +6258,13 @@
   "area": "Sibu, Bahagian Sibu",
   "lat": 2.2997,
   "lng": 111.871,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "New Sarawak Tribune: Sarawak Tribune Feed",
+    "link": "https://www.sarawaktribune.com/over-350-people-join-community-brisk-walk-at-taman-tasik-permai/",
+    "title": "Over 350 people join community brisk walk at Taman Tasik Permai"
+   }
+  ]
  }
 ]
