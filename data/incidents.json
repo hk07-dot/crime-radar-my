@@ -418,6 +418,11 @@
     "outlet": "Astro Awani",
     "link": "https://www.astroawani.com/video/terkini-suami-direman-selepas-isteri-ditikam-enam-kali",
     "title": "[TERKINI] Suami direman selepas isteri ditikam enam kali"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/10/07/kota-bharu-nurse-stabbed-six-times-at-home-husband-surrenders-to-police/238040",
+    "title": "Kota Bharu nurse stabbed six times at home, husband surrenders to police"
    }
   ]
  },
@@ -1566,7 +1571,14 @@
   "area": "Kampung Titingan, Tawau",
   "lat": 4.2425,
   "lng": 117.9043,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/10/1422820/suspek-samun-warga-asing-serang-polis-di-perkampungan-air-tembakan-amaran?source=widget",
+    "title": "Suspek samun warga asing serang polis di perkampungan air, tembakan amaran terpaksa dilepaskan"
+   }
+  ]
  },
  {
   "type": "shooting",
@@ -1580,7 +1592,14 @@
   "area": "Tawau, Bahagian Tawau",
   "lat": 4.2435,
   "lng": 117.8853,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Newswav",
+    "link": "https://newswav.com/article/polis-lepaskan-tembakan-amaran-bukan-berbalas-tembakan-A2610_lVsbDe",
+    "title": "Polis lepaskan tembakan amaran, bukan berbalas tembakan"
+   }
+  ]
  },
  {
   "type": "break_in",
@@ -6068,5 +6087,89 @@
   "lat": 3.1445,
   "lng": 101.6102,
   "precision": "area"
+ },
+ {
+  "type": "robbery",
+  "title": "Polis tumpas empat kumpulan terlibat samun, curi kabel ECRL, TM",
+  "link": "https://www.sinarharian.com.my/article/801109/berita/semasa/polis-tumpas-empat-kumpulan-terlibat-samun-curi-kabel-ecrl-tm",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-19T07:00:00.000Z",
+  "place": "Kuantan",
+  "area": "Kuantan, Pahang",
+  "lat": 3.7974,
+  "lng": 103.3219,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "Dua kanak-kanak Rohingya ditahan, ceroboh rumah, curi telefon bimbit",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/10/1422220/dua-kanak-kanak-rohingya-ditahan-ceroboh-rumah-curi-telefon-bimbit",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-12T07:00:00.000Z",
+  "place": "Taman Wilayah Selayang, Kuala Lumpur",
+  "area": "Taman Wilayah Selayang, Kepong",
+  "lat": 3.2376,
+  "lng": 101.6606,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Lelaki maut dipercayai cuba curi kabel TNB",
+  "link": "https://www.tvsarawak.my/2026/10/12/lelaki-maut-dipercayai-cuba-curi-kabel-tnb/",
+  "outlet": "Saluran 122",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-12T07:00:00.000Z",
+  "place": "Kota Tinggi",
+  "area": "Kota Tinggi, Johor",
+  "lat": 1.7337,
+  "lng": 103.9007,
+  "precision": "town"
+ },
+ {
+  "type": "murder",
+  "title": "Dua pelajar senior didakwa bunuh pelajar tingkatan dua di asrama",
+  "link": "https://www.astroawani.com/berita-malaysia/dua-pelajar-senior-didakwa-bunuh-pelajar-tingkatan-dua-di-asrama",
+  "outlet": "Astro Awani",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-08T07:00:00.000Z",
+  "place": "Kuala Pilah",
+  "area": "Kuala Pilah, Negeri Sembilan",
+  "lat": 2.7431,
+  "lng": 102.2155,
+  "precision": "town"
+ },
+ {
+  "type": "robbery",
+  "title": "[VIDEO] Terkejut polis patah balik, ingat rumah kena rompak",
+  "link": "https://www.kosmo.com.my/2026/09/23/video-terkejut-polis-patah-balik-ingat-rumah-kena-rompak/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-23T07:00:00.000Z",
+  "place": "Petaling Jaya",
+  "area": "Petaling Jaya, Petaling",
+  "lat": 3.0989,
+  "lng": 101.6454,
+  "precision": "town"
+ },
+ {
+  "type": "murder",
+  "title": "Bunuh rakan Rohingya lepas dapat arahan tuhan",
+  "link": "https://www.kosmo.com.my/2026/09/22/bunuh-rakan-rohingya-lepas-dapat-arahan-tuhan/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-22T07:00:00.000Z",
+  "place": "Kota Bharu",
+  "area": "Kota Bharu, Kelantan",
+  "lat": 6.1248,
+  "lng": 102.2378,
+  "precision": "town"
  }
 ]

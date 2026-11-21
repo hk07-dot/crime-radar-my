@@ -2464,5 +2464,17 @@
   "kind": "district"
  },
  "area4:bandar utama, yap shing, kuala lumpur": null,
- "area4:bandar utama, yap shing": null
+ "area4:bandar utama, yap shing": null,
+ "area4:sejingkat bridge": null,
+ "area4:monaco": null,
+ "area4:ramallah": null,
+ "area4:taman wilayah selayang, kuala lumpur": {
+  "lat": 3.2376,
+  "lng": 101.6606,
+  "label": "Taman Wilayah Selayang, Kepong",
+  "kind": "neighbourhood"
+ },
+ "area4:felda adela, kota tinggi": null,
+ "area4:threads norainimaan, petaling jaya": null,
+ "area4:threads norainimaan": null
 }
