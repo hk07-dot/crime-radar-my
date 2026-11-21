@@ -2509,5 +2509,20 @@
  "area4:la nga forestry company limited": null,
  "area4:taman tasik permai, sibu": null,
  "area4:taman tasik permai": null,
- "area4:august 2026": null
+ "area4:august 2026": null,
+ "area4:nilai, negeri sembilan, kota bharu": null,
+ "area4:padang, west sumatra": null,
+ "area4:padang": {
+  "lat": 4.7138,
+  "lng": 116.4598,
+  "label": "Padang, Nabawan",
+  "kind": "village"
+ },
+ "area4:sungai tiram, kota tinggi": null,
+ "area4:sungai tiram": {
+  "lat": 5.303,
+  "lng": 100.2726,
+  "label": "Sungai Tiram, Barat Daya",
+  "kind": "suburb"
+ }
 }
