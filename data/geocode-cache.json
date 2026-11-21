@@ -2481,5 +2481,20 @@
  "area4:jalan tun razak": null,
  "area4:jalan tun razak, petaling jaya": null,
  "area4:bogota": null,
- "area4:hang jebat": null
+ "area4:hang jebat": null,
+ "area4:demak laut": {
+  "lat": 1.5877,
+  "lng": 110.418,
+  "label": "Demak Laut, Kuching",
+  "kind": "town"
+ },
+ "area4:stesen transit aliran massa, kuala lumpur": null,
+ "area4:stesen transit aliran massa": null,
+ "area4:batu enam, gong badak, kuala nerus": null,
+ "area4:tampin": {
+  "lat": 2.5542,
+  "lng": 102.446,
+  "label": "Tampin, Negeri Sembilan",
+  "kind": "district"
+ }
 }

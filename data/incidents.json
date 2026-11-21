@@ -2598,7 +2598,14 @@
   "area": "Jalan Gambir, Sibu",
   "lat": 2.3166,
   "lng": 111.8433,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "One Tiger Arena",
+    "link": "https://onetiger.com/sembilan-ditahan-kes-remaja-maut-ditikam-di-sibu/",
+    "title": "Sembilan Ditahan Kes Remaja Maut Ditikam Di Sibu"
+   }
+  ]
  },
  {
   "type": "vehicle_theft",
@@ -4524,7 +4531,14 @@
   "area": "Kuala Lumpur, Malaysia",
   "lat": 3.1517,
   "lng": 101.6942,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian",
+    "link": "https://www.sinarharian.com.my/article/804682/berita/semasa/ulat-parkir-maluri-dicekup",
+    "title": "'Ulat parkir' Maluri dicekup"
+   }
+  ]
  },
  {
   "type": "murder",
@@ -4877,6 +4891,11 @@
     "outlet": "Utusan Malaysia",
     "link": "https://www.utusan.com.my/nasional/2026/11/samun-kedai-emas-rm300000-lesap/",
     "title": "Samun kedai emas, RM300,000 lesap"
+   },
+   {
+    "outlet": "Utusan Malaysia",
+    "link": "https://www.utusan.com.my/terkini/2026/11/polis-buru-mat-long-mat-amin-bantu-siasatan-kes-samun-kedai-emas/",
+    "title": "Polis buru Mat Long, Mat Amin bantu siasatan kes samun kedai emas"
    }
   ]
  },
@@ -6013,6 +6032,11 @@
     "outlet": "Harian Metro Mutakhir",
     "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439015/pengarah-ngo-direman-4-hari-bantu-siasatan-kes-seleweng-dana",
     "title": "Pengarah NGO direman 4 hari bantu siasatan kes seleweng dana"
+   },
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805557/berita/semasa/pengarah-ngo-direman-kes-pecah-amanah-rm85468",
+    "title": "Pengarah NGO direman kes pecah amanah RM85,468"
    }
   ]
  },
@@ -6183,5 +6207,33 @@
   "lat": 6.1248,
   "lng": 102.2378,
   "precision": "town"
+ },
+ {
+  "type": "vehicle_theft",
+  "title": "Foreigner held over stolen motorcycle in Tawau",
+  "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORzdybHpoY2pjUngyLWdFVFk3RU5nX2lSX3ZWeDNGdlhReVU3TlVqQkU4LW5wS2lsakdUdnJnT1hwazdpVjBlZThNZTE1QnpxWXVRSGpKQTJPcjMxQ1JQSmRvX0NXRmJERTVValhHTmxHT3lpb3p2NzdiNEhEczI2S19NRmpYTDg0b2YzbjJNWU1mY3E3WFN3WkZ5R3ZlM25WZWR3cm1SREJHaEpkR2F0T25ESlZUaFN4VEQzOC11Z0VDRThhTDFB?oc=5",
+  "outlet": "Daily Express Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-21T04:47:59.000Z",
+  "place": "Tawau",
+  "area": "Tawau, Bahagian Tawau",
+  "lat": 4.2435,
+  "lng": 117.8853,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "3 men arrested over shotgun death threats in Demak Laut, modesty offence in Sekama",
+  "link": "https://dayakdaily.com/3-men-arrested-over-shotgun-death-threats-in-demak-laut-modesty-offence-in-sekama/",
+  "outlet": "Dayak Daily",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-21T04:14:05.000Z",
+  "place": "Demak Laut",
+  "area": "Demak Laut, Kuching",
+  "lat": 1.5877,
+  "lng": 110.418,
+  "precision": "area"
  }
 ]
