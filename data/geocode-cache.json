@@ -2531,5 +2531,13 @@
   "lng": 101.0722,
   "label": "Sungai Siput, Kuala Kangsar",
   "kind": "town"
+ },
+ "area4:jalan persiaran, tambun": null,
+ "area4:jalan persiaran, ipoh": null,
+ "area4:jalan persiaran": {
+  "lat": 6.0041,
+  "lng": 100.4806,
+  "label": "Jalan Persiaran, Taman Aman",
+  "kind": "residential"
  }
 }
