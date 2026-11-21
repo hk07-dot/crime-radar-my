@@ -2401,5 +2401,68 @@
  "area4:stadium tuanku abdul rahman, paroi, seremban": null,
  "area4:stadium tuanku abdul rahman, paroi": null,
  "area4:stadium tuanku abdul rahman, seremban": null,
- "area4:stadium tuanku abdul rahman": null
+ "area4:stadium tuanku abdul rahman": null,
+ "area4:san bernardino": null,
+ "area4:oyo": null,
+ "area4:kunak, tawau": {
+  "lat": 4.6858,
+  "lng": 118.0171,
+  "label": "Kunak, Bahagian Tawau",
+  "kind": "county"
+ },
+ "area4:kunak": {
+  "lat": 4.6858,
+  "lng": 118.0171,
+  "label": "Kunak, Bahagian Tawau",
+  "kind": "county"
+ },
+ "area4:kangar": {
+  "lat": 6.4389,
+  "lng": 100.1945,
+  "label": "Kangar, Perlis",
+  "kind": "town"
+ },
+ "area4:klia2, kangar": null,
+ "area4:klia2": null,
+ "area4:taman ria, tawau": {
+  "lat": 4.2706,
+  "lng": 117.9559,
+  "label": "Taman Kinabutan Ria, Tawau",
+  "kind": "residential"
+ },
+ "area4:woodlands": {
+  "lat": 3.1539,
+  "lng": 101.6881,
+  "label": "Woodlands, Kuala Lumpur",
+  "kind": "residential"
+ },
+ "area4:sepang, putrajaya": null,
+ "area4:kampung orang asli bawong, sungai sipu": null,
+ "area4:subang, kuala lumpur": null,
+ "area4:yong peng, johor, kuala lumpur": null,
+ "area4:yong peng, johor": {
+  "lat": 2.0132,
+  "lng": 103.0571,
+  "label": "Yong Peng, Batu Pahat",
+  "kind": "town"
+ },
+ "area4:yong peng, kuala lumpur": null,
+ "area4:jalan sungai lalang, ampang jaya": null,
+ "area4:ampang jaya": {
+  "lat": 3.1276,
+  "lng": 101.7539,
+  "label": "Majlis Perbandaran Ampang Jaya, Hulu Langat",
+  "kind": "city"
+ },
+ "area4:jalan kuda emas, cheras": null,
+ "area4:kampung padang, tanjung sedili": null,
+ "area4:kampung padang": null,
+ "area4:kuala pilah, negeri sembilan": {
+  "lat": 2.7431,
+  "lng": 102.2155,
+  "label": "Kuala Pilah, Negeri Sembilan",
+  "kind": "district"
+ },
+ "area4:bandar utama, yap shing, kuala lumpur": null,
+ "area4:bandar utama, yap shing": null
 }

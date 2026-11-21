@@ -489,6 +489,11 @@
     "outlet": "Kosmo Online",
     "link": "https://www.kosmo.com.my/2026/10/06/video-10-minit-dua-lelaki-pecah-rumah/",
     "title": "[VIDEO] 10 minit dua lelaki pecah rumah"
+   },
+   {
+    "outlet": "Newswav",
+    "link": "https://newswav.com/article/lelaki-maut-terkena-renjatan-elektrik-ketika-curi-kabel-A2610_FqzBFc",
+    "title": "Lelaki maut terkena renjatan elektrik ketika curi kabel"
    }
   ]
  },
@@ -772,6 +777,11 @@
     "outlet": "Portal Berita RTM",
     "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/pdrm-tumpas-dua-sindiket-pemerasan-seksual-pecah-rumah/",
     "title": "PDRM tumpas dua sindiket pemerasan seksual, pecah rumah"
+   },
+   {
+    "outlet": "Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/10/04/orang-sibuk-f1-ltdl-dia-curi-kabel/",
+    "title": "Orang sibuk F1, LTdL dia curi kabel"
    }
   ]
  },
@@ -3067,7 +3077,14 @@
   "area": "Jalan Kuda Emas, Seri Kembangan",
   "lat": 3.0378,
   "lng": 101.719,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "https://utusanmelayuplus.com/",
+    "link": "https://utusanmelayuplus.com/jurujual-parah-ditetak-suspek-curi-bateri-kereta/",
+    "title": "Jurujual parah ditetak suspek curi bateri kereta"
+   }
+  ]
  },
  {
   "type": "police_case",
@@ -3087,6 +3104,11 @@
     "outlet": "Sinar Harian",
     "link": "https://www.sinarharian.com.my/article/798565/berita/semasa/pelajar-maut-di-asrama-suspek-pelajar-tingkatan-empat-disambung-reman",
     "title": "Pelajar maut di asrama: Suspek pelajar Tingkatan Empat disambung reman"
+   },
+   {
+    "outlet": "Astro Awani",
+    "link": "https://www.astroawani.com/video/awani-745-vpmyuwxeg/terkini-suspek-hukum-mangsa-dipercayai-hisap-vape",
+    "title": "[TERKINI] Suspek ‘hukum’ mangsa dipercayai hisap vape"
    }
   ]
  },
@@ -3583,101 +3605,6 @@
     "title": "Suspek curi dua rim kereta ditangkap"
    }
   ]
- },
- {
-  "type": "robbery",
-  "title": "Enam suspek samun Pavilion Embassy didakwa secara ‘in absentia’ selepas dipercayai lari ke luar negara",
-  "link": "https://www.buletintv3.my/jenayah/enam-suspek-samun-pavilion-embassy-didakwa-secara-in-absentia-selepas-dipercayai-lari-ke-luar-negara/",
-  "outlet": "Buletin TV3",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-19T07:00:00.000Z",
-  "place": "Pavilion Embassy, Kuala Lumpur",
-  "area": "Pavilion Embassy, Kampung Datuk Keramat",
-  "lat": 3.1614,
-  "lng": 101.7245,
-  "precision": "area",
-  "alsoReported": [
-   {
-    "outlet": "Utusan Malaysia",
-    "link": "https://www.utusan.com.my/nasional/2026/09/polis-mohon-notis-merah-buru-enam-warga-asing-kes-samun-rm2-91-juta/",
-    "title": "Polis mohon notis merah buru enam warga asing kes samun RM2.91 juta"
-   },
-   {
-    "outlet": "Malay Mail",
-    "link": "https://www.malaymail.com/news/malaysia/2026/09/19/police-seek-interpol-help-after-six-foreigners-charged-with-jalan-ampang-pavilion-embassy-robbery/235776",
-    "title": "Police seek Interpol help after six foreigners charged with Jalan Ampang Pavilion Embassy robbery"
-   },
-   {
-    "outlet": "MalaysiaGazette",
-    "link": "https://malaysiagazette.com/2026/09/19/6-suspek-samun-pavilion-embassy-didakwa-secara-in-absentia-polis-mohon-bantuan-interpol/",
-    "title": "6 suspek samun Pavilion Embassy didakwa secara `in absentia’, polis mohon bantuan Interpol"
-   },
-   {
-    "outlet": "Kosmo Online",
-    "link": "https://www.kosmo.com.my/2026/09/19/notis-merah-buru-6-warga-asing-terlibat-samun-berkumpulan/",
-    "title": "Notis Merah buru 6 warga asing terlibat samun berkumpulan"
-   }
-  ]
- },
- {
-  "type": "murder",
-  "title": "Remaja Rohingya ditemukan maut, dipercayai dibunuh di tapak pembinaan",
-  "link": "https://www.utusan.com.my/nasional/2026/09/remaja-rohingya-ditemukan-maut-dipercayai-dibunuh-di-tapak-pembinaan/",
-  "outlet": "Utusan Malaysia",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-19T07:00:00.000Z",
-  "place": "Kota Bharu",
-  "area": "Kota Bharu, Kelantan",
-  "lat": 6.1248,
-  "lng": 102.2378,
-  "precision": "town"
- },
- {
-  "type": "theft",
-  "title": "Wang tabung masjid dicuri, lelaki ditahan bantu siasatan",
-  "link": "https://sabahmedia.com/2026/09/19/wang-tabung-masjid-dicuri-lelaki-ditahan-bantu-siasatan/",
-  "outlet": "Sabah Media",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-19T07:00:00.000Z",
-  "place": "Tawau",
-  "area": "Tawau, Bahagian Tawau",
-  "lat": 4.2435,
-  "lng": 117.8853,
-  "precision": "area",
-  "alsoReported": [
-   {
-    "outlet": "MalaysiaGazette",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQURLVUFsci00a241cW5WMW9xVEtHc1FkUnNfTE1iZUw2dlR0Qk9OallyV2lkam1zVXNsTTdIbkVrS1BwUlRvUlVOWFBzVUFxQkJEdXRZbnk4TXZCbDdmanp6T3ZXSXAwRVE5ZndOdkh1QnBNYkU3VlJicGtLUmw5amd3a3FoSDlRM2t4cW1taFFpQVI2X3BOM1Nja1U?oc=5",
-    "title": "3 lelaki ditahan, peralatan pecah rumah dirampas di Tawau"
-   },
-   {
-    "outlet": "TV Sabah News",
-    "link": "https://tvsabahnews.com/suspek-wanita-ditahan-bersabit-kes-curi-wang/",
-    "title": "Suspek wanita ditahan bersabit kes curi wang"
-   },
-   {
-    "outlet": "Sabah Media",
-    "link": "https://sabahmedia.com/2026/09/16/disyaki-curi-wang-ahli-keluarga-wanita-ditahan-kurang-24-jam/",
-    "title": "Disyaki curi wang ahli keluarga, wanita ditahan kurang 24 jam"
-   }
-  ]
- },
- {
-  "type": "theft",
-  "title": "250 meter kabel KTMB dicuri, kos baik pulih cecah RM330,000",
-  "link": "https://www.kosmo.com.my/2026/09/19/250-meter-kabel-ktmb-dicuri-kos-baik-pulih-cecah-rm330000/",
-  "outlet": "Kosmo Online",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-19T07:00:00.000Z",
-  "place": "Petaling Jaya",
-  "area": "Petaling Jaya, Petaling",
-  "lat": 3.0989,
-  "lng": 101.6454,
-  "precision": "town"
  },
  {
   "type": "murder",
@@ -4206,6 +4133,11 @@
     "outlet": "The Star",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZnh1QzctTnhYckpEVjlMU1hUOHR3WHAzaC1KdTZRNWRCcXZDX3NNWFdWRXhUUDhKYXEzUTEtX3pacm16bWQ0bnZXRTEyQk5XcnpJZTB5ci0tY0FIWV9PQ05Fa19HeUYzUXpyb1JPLUI4WmI4QkRQdkZzSDJWdktUUExLMVl2WkM1LUdfLWNjMjRmcHJrMEpyMVE3eDVvYkxzV2RV?oc=5",
     "title": "Three charged over break-in at Kota Tinggi pawnshop"
+   },
+   {
+    "outlet": "Saluran 122",
+    "link": "https://www.tvsarawak.my/2026/11/18/pengurus-pajak-gadai-dua-pengawal-didakwa-subahat-pecah-masuk-ar-rahnu/",
+    "title": "Pengurus pajak gadai, dua pengawal didakwa subahat, pecah masuk Ar-Rahnu"
    }
   ]
  },
@@ -5788,6 +5720,11 @@
     "outlet": "Sinar Harian Semasa",
     "link": "https://www.sinarharian.com.my/article/805496/berita/semasa/pangkat-bukan-pelindung-tudm-tegas-isu-dadah---muhamad-norazlan",
     "title": "'Pangkat bukan pelindung, TUDM tegas isu dadah' - Muhamad Norazlan"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/20/routine-luggage-check-at-subang-air-base-finds-drugs-five-rmaf-officers-held/243984",
+    "title": "Routine luggage check at Subang air base finds drugs, five RMAF officers held"
    }
   ]
  },
@@ -6033,5 +5970,103 @@
   "lat": 3.0448,
   "lng": 101.4447,
   "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Perlis NGO director arrested at KLIA2 over alleged RM85,468 criminal breach of trust",
+  "link": "https://www.malaymail.com/news/malaysia/2026/11/20/perlis-ngo-director-arrested-at-klia2-over-alleged-rm85468-criminal-breach-of-trust/244099",
+  "outlet": "Malay Mail",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T08:53:00.000Z",
+  "place": "Kangar",
+  "area": "Kangar, Perlis",
+  "lat": 6.4389,
+  "lng": 100.1945,
+  "precision": "town"
+ },
+ {
+  "type": "murder",
+  "title": "Tawau house fire claims lives of two siblings aged 10 and 13",
+  "link": "https://www.malaymail.com/news/malaysia/2026/11/20/tawau-house-fire-claims-lives-of-two-siblings-aged-10-and-13/244060",
+  "outlet": "Malay Mail",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T05:38:00.000Z",
+  "place": "Taman Ria, Tawau",
+  "area": "Taman Kinabutan Ria, Tawau",
+  "lat": 4.2706,
+  "lng": 117.9559,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Border agency nabs civil servant at KLIA for allegedly bringing in woman without papers",
+  "link": "https://www.malaymail.com/news/malaysia/2026/11/20/border-agency-nabs-civil-servant-at-klia-for-allegedly-bringing-in-woman-without-papers/244025",
+  "outlet": "Malay Mail",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-20T03:16:00.000Z",
+  "place": "Sepang",
+  "area": "Sepang, Selangor",
+  "lat": 2.8009,
+  "lng": 101.7094,
+  "precision": "area"
+ },
+ {
+  "type": "kidnap",
+  "title": "Lelaki dipercayai mangsa culik ditemukan mati, mayat ditanam di rumah kongsi",
+  "link": "https://newswav.com/article/lelaki-dipercayai-mangsa-culik-ditemukan-mati-mayat-ditanam-di-rumah-kongsi-A2609_9EbASW",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-29T07:00:00.000Z",
+  "place": "Ampang Jaya",
+  "area": "Majlis Perbandaran Ampang Jaya, Hulu Langat",
+  "lat": 3.1276,
+  "lng": 101.7539,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Suri rumah maut: Suami masih direman, anak mangsa dihantar ke Hospital Bahagia",
+  "link": "https://www.sinarharian.com.my/article/798247/berita/semasa/suri-rumah-maut-suami-masih-direman-anak-mangsa-dihantar-ke-hospital-bahagia",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-28T07:00:00.000Z",
+  "place": "Kuala Kangsar",
+  "area": "Kuala Kangsar, Perak",
+  "lat": 4.7721,
+  "lng": 100.9409,
+  "precision": "town"
+ },
+ {
+  "type": "murder",
+  "title": "Pelajar meninggal dunia di asrama: Polis siasat kes bunuh, tahan remaja 16 tahun",
+  "link": "https://www.sinarharian.com.my/article/797930/berita/semasa/pelajar-meninggal-dunia-di-asrama-polis-siasat-kes-bunuh-tahan-remaja-16-tahun",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-26T07:00:00.000Z",
+  "place": "Seremban",
+  "area": "Seremban, Negeri Sembilan",
+  "lat": 2.7231,
+  "lng": 101.9401,
+  "precision": "town"
+ },
+ {
+  "type": "murder",
+  "title": "'Macam mana boleh bawa pisau dua minggu ke sekolah tanpa disedari?' - Ibu mangsa bunuh di sekolah bersuara selepas penghakiman Mahkamah Tinggi",
+  "link": "https://www.hmetro.com.my/utama/2026/09/1415280/macam-mana-boleh-bawa-pisau-dua-minggu-ke-sekolah-tanpa-disedari-ibu-mangsa",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-25T07:00:00.000Z",
+  "place": "Bandar Utama, Kuala Lumpur",
+  "area": "Bandar Utama, Petaling Jaya",
+  "lat": 3.1445,
+  "lng": 101.6102,
+  "precision": "area"
  }
 ]
