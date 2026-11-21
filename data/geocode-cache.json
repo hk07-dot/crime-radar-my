@@ -2524,5 +2524,12 @@
   "lng": 100.2726,
   "label": "Sungai Tiram, Barat Daya",
   "kind": "suburb"
+ },
+ "area4:sungai siput, perak, ipoh": null,
+ "area4:sungai siput, perak": {
+  "lat": 4.8197,
+  "lng": 101.0722,
+  "label": "Sungai Siput, Kuala Kangsar",
+  "kind": "town"
  }
 }
