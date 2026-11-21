@@ -5969,6 +5969,11 @@
     "outlet": "Berita Harian",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd3hhRlRPcTF3Qzl0VEtaRXNYOE1XRk5adlVuWmxZUkt0dzN5Y3pwZU56UGhSSkFyU2t1Q1Zyenp1NTJSTWV1dmJJcWNYQUdRVEI0R1ZzT3JGbzVFQ3ZQMmdhVktRS0tIZDNHNVppN2E1cEpFUllRcnk2N2xsSlFLNkRVWjFXeVQ2cUNKTHFGTmZpeUZ4ZGRYcnFFX2dZWFhfRkJSS1dwdnVZWnJEN0d3ckR1bWJPQy1odFp6aHp0Sjh4aFHSAcMBQVVfeXFMUHd4YUZUT3Exd0M5dFRLWkVzWDhNV0ZOWnZVblpsWVJLdHczeWN6cGVOelBoUkpBclNrdUNWcnp6dTUyUk1ldXZiSXFjWEFHUVRCNEdWc09yRm81RUN2UDJnYVZLUUtLSGQzRzVaaTdhNXBKRVJZUXJ5NjdsbEpRSzZEVVoxV3lUNnFDSkxxRk5maXlGeGRkWHJxRV9nWVhYX0ZCUktXcHZ1WVpyRDdHd3JEdW1iT0MtaHRaemh6dEo4eGhR?oc=5",
     "title": "Suspek kes bunuh di Sulaman Sentral ditahan di Jeti CIQ Tawau, video penahanan tular"
+   },
+   {
+    "outlet": "Newswav",
+    "link": "https://newswav.com/article/suspek-kes-bunuh-lelaki-cuba-lerai-pergaduhan-diberkas-selepas-enam-hari-be-A2611_b2rf7O",
+    "title": "Suspek kes bunuh lelaki cuba lerai pergaduhan diberkas selepas enam hari bersembunyi"
    }
   ]
  },
@@ -6235,5 +6240,19 @@
   "lat": 1.5877,
   "lng": 110.418,
   "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Lebih 100 mahasiswa baharu UTS sertai SKUAD Antidadah",
+  "link": "https://utusansarawak.com.my/lebih-100-mahasiswa-baharu-uts-sertai-skuad-antidadah/?utm_source=rss&utm_medium=rss&utm_campaign=lebih-100-mahasiswa-baharu-uts-sertai-skuad-antidadah",
+  "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-21T08:08:42.000Z",
+  "place": "Sibu",
+  "area": "Sibu, Bahagian Sibu",
+  "lat": 2.2997,
+  "lng": 111.871,
+  "precision": "town"
  }
 ]
