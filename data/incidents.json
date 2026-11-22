@@ -6420,7 +6420,14 @@
   "area": "Sungai Tiram, Barat Daya",
   "lat": 5.303,
   "lng": 100.2726,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/amp/mutakhir/2026/11/1439276/polis-tahan-tiga-lelaki-disyaki-curi-beg-tangan-di-medan-selera",
+    "title": "Polis tahan tiga lelaki disyaki curi beg tangan di medan selera"
+   }
+  ]
  },
  {
   "type": "drugs",
@@ -6820,5 +6827,19 @@
   "lat": 2.7231,
   "lng": 101.9401,
   "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "Geng Bertopeng Curi Kabel Di Kuala Lumpur",
+  "link": "https://newswav.com/article/geng-bertopeng-curi-kabel-di-kuala-lumpur-A2611_ArGwQH",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-22T11:31:06.000Z",
+  "place": "Kuala Lumpur",
+  "area": "Kuala Lumpur, Malaysia",
+  "lat": 3.1517,
+  "lng": 101.6942,
+  "precision": "area"
  }
 ]
