@@ -1257,7 +1257,14 @@
   "area": "ڤاسير ڤوتيه / Pasir Puteh, Kelantan",
   "lat": 5.8346,
   "lng": 102.383,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Portal Berita RTM",
+    "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/aniaya-kucing-secara-seksual-suspek-direman-miliki-tiga-rekod-jenayah/",
+    "title": "Aniaya kucing secara seksual: Suspek direman, miliki tiga rekod jenayah"
+   }
+  ]
  },
  {
   "type": "robbery",
@@ -6374,6 +6381,11 @@
     "outlet": "Sinar Harian Semasa",
     "link": "https://www.sinarharian.com.my/article/805651/berita/nasional/sindiket-dadah-eksploitasi-aset-tudm-kdn-teliti-kawalan-keselamatan-termasuk-pangkalan-tentera-polis",
     "title": "Sindiket dadah eksploitasi aset TUDM: KDN teliti kawalan keselamatan termasuk pangkalan tentera, polis"
+   },
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805653/berita/nasional/risikan-dadah-tudm-sejak-januari---saifuddin-nasution",
+    "title": "Risikan dadah TUDM sejak Januari - Saifuddin Nasution"
    }
   ]
  },
@@ -6487,6 +6499,118 @@
   "area": "Nexus Taman Pertama, Cheras",
   "lat": 3.1107,
   "lng": 101.7306,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Suspek curi di Jalan Mahkamah positif dadah, dua lagi lelaki turut ditahan",
+  "link": "https://utusansarawak.com.my/suspek-curi-di-jalan-mahkamah-positif-dadah-dua-lagi-lelaki-turut-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=suspek-curi-di-jalan-mahkamah-positif-dadah-dua-lagi-lelaki-turut-ditahan",
+  "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-22T01:06:29.000Z",
+  "place": "Jalan Mahkamah, Bintangor",
+  "area": "Jalan Mahkamah, Bintangor",
+  "lat": 2.1675,
+  "lng": 111.6331,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "End of the road: Sabah police nab Beverly Hills murder suspect wanted for over 17 years, Malaysia News",
+  "link": "https://www.asiaone.com/malaysia/end-road-sabah-police-nab-beverly-hills-murder-suspect-wanted-over-17-years",
+  "outlet": "AsiaOne.com",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-25T07:00:00.000Z",
+  "place": "Kolombong",
+  "area": "Kolombong, Kota Kinabalu",
+  "lat": 5.9833,
+  "lng": 116.1185,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Polis tahan dua wanita, rampas dadah RM347,520 di Kuching",
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQclVWbm9kVFB2NWEwUUYtYlhidy15SmhkYWVtT3lQaFpGbG5VVldEamlJN0stbk1HUG55M0pkdllhQXFRZEVvVWpDWE82Tk0tNjBiX2FxQjJDNVFBaXNKWEpQYlctaVdwd0RsUmpiX3N1X2ZQdDZqZVV3blhEQ3ZoX0RVVWQ2eDJ6Z0dPUHN6Wktodw?oc=5",
+  "outlet": "Astro Awani",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-24T07:00:00.000Z",
+  "place": "Kuching",
+  "area": "Kuching, Bahagian Kuching",
+  "lat": 1.5598,
+  "lng": 110.3454,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Kes bunuh pegawai AKPS: Suspek disambung reman 7 hari",
+  "link": "https://www.sinarharian.com.my/article/801521/berita/semasa/kes-bunuh-pegawai-akps-suspek-disambung-reman-7-hari",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-22T07:00:00.000Z",
+  "place": "Seremban",
+  "area": "Seremban, Negeri Sembilan",
+  "lat": 2.7231,
+  "lng": 101.9401,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Keluarga Norhazwani harap suspek terima hukuman setimpal",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/10/1426804/keluarga-norhazwani-harap-suspek-terima-hukuman-setimpal",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-22T07:00:00.000Z",
+  "place": "Nilai, Negeri Sembilan",
+  "area": "Nilai, Seremban",
+  "lat": 2.8021,
+  "lng": 101.7982,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "4 termasuk wanita ditahan curi kabel",
+  "link": "https://www.kosmo.com.my/2026/10/22/4-termasuk-wanita-ditahan-curi-kabel/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-22T07:00:00.000Z",
+  "place": "Lorong Paip, Muar",
+  "area": "Lorong Paip, Sekolah Menengah Kebangsaan Tun Dr. Ismail",
+  "lat": 2.0804,
+  "lng": 102.5792,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Bunuh pegawai AKPS: Polis mohon sambung reman suami mangsa",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/10/1425985/bunuh-pegawai-akps-polis-mohon-sambung-reman-suami-mangsa?source=widget",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-21T07:00:00.000Z",
+  "place": "Kuarters KLIA, Seremban",
+  "area": "Jalan Dewan Kuarters KLIA, Kompleks KLIA",
+  "lat": 2.7696,
+  "lng": 101.7636,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Lelaki tular lakukan perbuatan tidak senonoh terhadap kucing ada rekod dadah",
+  "link": "https://www.utusan.com.my/nasional/2026/10/lelaki-tular-lakukan-perbuatan-tidak-senonoh-terhadap-kucing-ada-rekod-dadah/",
+  "outlet": "Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-20T07:00:00.000Z",
+  "place": "Selising, Pasir Puteh",
+  "area": "Selising, ڤاسير ڤوتيه / Pasir Puteh",
+  "lat": 5.8949,
+  "lng": 102.3338,
   "precision": "area"
  }
 ]

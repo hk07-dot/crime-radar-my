@@ -2599,5 +2599,39 @@
   "label": "Kadok, Padang Chenok",
   "kind": "suburb"
  },
- "area4:larikan lori hijau": null
+ "area4:larikan lori hijau": null,
+ "area4:gereja": null,
+ "area4:kolombong, inanam, penampang": null,
+ "area4:kolombong, inanam": null,
+ "area4:kolombong, penampang": null,
+ "area4:kolombong": {
+  "lat": 5.9833,
+  "lng": 116.1185,
+  "label": "Kolombong, Kota Kinabalu",
+  "kind": "village"
+ },
+ "area4:kompleks perumahan, seremban": null,
+ "area4:kompleks perumahan": null,
+ "area4:lorong paip, parit beting, muar": null,
+ "area4:lorong paip, parit beting": null,
+ "area4:lorong paip, muar": {
+  "lat": 2.0804,
+  "lng": 102.5792,
+  "label": "Lorong Paip, Sekolah Menengah Kebangsaan Tun Dr. Ismail",
+  "kind": "residential"
+ },
+ "area4:kuarters klia, seremban": {
+  "lat": 2.7696,
+  "lng": 101.7636,
+  "label": "Jalan Dewan Kuarters KLIA, Kompleks KLIA",
+  "kind": "residential"
+ },
+ "area4:pasir puteh, kelantan, kota bharu": null,
+ "area4:selising, pasir puteh, kota bharu": null,
+ "area4:selising, pasir puteh": {
+  "lat": 5.8949,
+  "lng": 102.3338,
+  "label": "Selising, ڤاسير ڤوتيه / Pasir Puteh",
+  "kind": "village"
+ }
 }
