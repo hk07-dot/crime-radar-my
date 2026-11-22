@@ -2652,5 +2652,22 @@
   "kind": "residential"
  },
  "area4:kuala lumpur, bukit mertajam": null,
- "area4:batu enam tangkap": null
+ "area4:batu enam tangkap": null,
+ "area4:malim jaya": {
+  "lat": 2.2439,
+  "lng": 102.2329,
+  "label": "Malim Jaya, Majlis Perbandaran Hang Tuah Jaya",
+  "kind": "suburb"
+ },
+ "area4:pandamaran, klang, shah alam": null,
+ "area4:pandamaran, klang": {
+  "lat": 3.0092,
+  "lng": 101.4164,
+  "label": "Pandamaran, Pelabuhan Klang",
+  "kind": "suburb"
+ },
+ "area4:pangkalan udara tentera udara diraja malaysia, kota tinggi": null,
+ "area4:pangkalan udara tentera udara diraja malaysia": null,
+ "area4:jalan kau sing, tawau": null,
+ "area4:jalan kau sing": null
 }

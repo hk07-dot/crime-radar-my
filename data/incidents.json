@@ -6423,6 +6423,11 @@
     "outlet": "Harian Metro Mutakhir",
     "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439403/kdn-perketat-kawalan-di-pangkalan-pasukan-keselamatan",
     "title": "KDN perketat kawalan di pangkalan pasukan keselamatan"
+   },
+   {
+    "outlet": "Kosmo: Suapan Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/22/kdn-perketat-kawalan-di-pangkalan-pasukan-keselamatan/?utm_source=rss&utm_medium=rss&utm_campaign=kdn-perketat-kawalan-di-pangkalan-pasukan-keselamatan",
+    "title": "KDN perketat kawalan di pangkalan pasukan keselamatan"
    }
   ]
  },
@@ -6677,5 +6682,61 @@
   "lat": 1.7337,
   "lng": 103.9007,
   "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Polis kesan suspek cubaan curi kabel bawah tanah di Malim Jaya",
+  "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTjlrcTZ5MFVRZ0hJWEJUOFZjN1VFQ0ZReGpiTlJQTUViNTlwYldMVVlMVW9EbzU2QmVhbTBFVE5rYTRiLVZOdjJUSjBmTDdBYS01eWhCc2RfRlhsV1JOVUh0Um9qcUJBeHgwX0VKcVdXck1yUElkUHFOOGRFV3h6ZEhveXM5ZzA5cVFYaTZVWFRjbHd5RmI4MEhRZlJJdmdqYTdWS2hjUzQ?oc=5",
+  "outlet": "Astro Awani",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-22T04:26:46.000Z",
+  "place": "Malim Jaya",
+  "area": "Malim Jaya, Majlis Perbandaran Hang Tuah Jaya",
+  "lat": 2.2439,
+  "lng": 102.2329,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "'Budak bawah umur merempit masuk pukat JPJ'",
+  "link": "https://www.sinarharian.com.my/article/805675/berita/semasa/budak-bawah-umur-merempit-masuk-pukat-jpj",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-22T04:15:00.000Z",
+  "place": "Shah Alam",
+  "area": "Shah Alam, Petaling",
+  "lat": 3.0739,
+  "lng": 101.5185,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Padah tayang aksi wheelie, remaja 16 tahun putih mata motosikal kakak disita",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439452/padah-tayang-aksi-wheelie-remaja-16-tahun-putih-mata-motosikal-kakak-disita",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-22T04:02:41.000Z",
+  "place": "Pandamaran, Klang",
+  "area": "Pandamaran, Pelabuhan Klang",
+  "lat": 3.0092,
+  "lng": 101.4164,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Sindiket dadah eksploitasi TUDM: Jangan hukum ATM - Khaled Nordin",
+  "link": "https://www.sinarharian.com.my/article/805672/berita/semasa/sindiket-dadah-eksploitasi-tudm-jangan-hukum-atm---khaled-nordin",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-22T03:58:00.000Z",
+  "place": "Kota Tinggi",
+  "area": "Kota Tinggi, Johor",
+  "lat": 1.7337,
+  "lng": 103.9007,
+  "precision": "town"
  }
 ]
