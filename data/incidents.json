@@ -2628,6 +2628,11 @@
     "outlet": "One Tiger Arena",
     "link": "https://onetiger.com/sembilan-ditahan-kes-remaja-maut-ditikam-di-sibu/",
     "title": "Sembilan Ditahan Kes Remaja Maut Ditikam Di Sibu"
+   },
+   {
+    "outlet": "bernama",
+    "link": "https://www.bernama.com/bm/jenayah_mahkamah/news.php?id=2631506",
+    "title": "Sembilan Individu Ditahan Bantu Siasat Kes Pembunuhan Remaja Di Sibu"
    }
   ]
  },
@@ -4945,6 +4950,11 @@
     "outlet": "Utusan Malaysia",
     "link": "https://www.utusan.com.my/terkini/2026/11/polis-buru-mat-long-mat-amin-bantu-siasatan-kes-samun-kedai-emas/",
     "title": "Polis buru Mat Long, Mat Amin bantu siasatan kes samun kedai emas"
+   },
+   {
+    "outlet": "Newswav",
+    "link": "https://newswav.com/article/polis-buru-mat-long-mat-amin-bantu-siasatan-kes-samun-kedai-emas-A2611_jSFd0C",
+    "title": "Polis buru Mat Long, Mat Amin bantu siasatan kes samun kedai emas"
    }
   ]
  },
@@ -5410,6 +5420,16 @@
     "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
     "link": "https://www.utusan.com.my/nasional/2026/11/tudm-tidak-berkompromi-tujuh-anggota-dan-pegawai-sudah-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=tudm-tidak-berkompromi-tujuh-anggota-dan-pegawai-sudah-ditahan",
     "title": "TUDM tidak berkompromi, tujuh anggota dan pegawai sudah ditahan"
+   },
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/kabinet-bincang-isu-seludup-dadah-minggu-depan/?utm_source=rss&utm_medium=rss&utm_campaign=kabinet-bincang-isu-seludup-dadah-minggu-depan",
+    "title": "Kabinet bincang isu seludup dadah minggu depan"
+   },
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/11-bulan-intip-penyeludupan-dadah-libatkan-pegawai-tudm/?utm_source=rss&utm_medium=rss&utm_campaign=11-bulan-intip-penyeludupan-dadah-libatkan-pegawai-tudm",
+    "title": "11 bulan intip penyeludupan dadah libatkan pegawai TUDM"
    }
   ]
  },
@@ -5783,7 +5803,19 @@
   "area": "Permatang Pauh, Seberang Perai Tengah",
   "lat": 5.4125,
   "lng": 100.4125,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "The Star",
+    "link": "https://www.thestar.com.my/news/nation/2026/11/12/four-pakistanis-held-over-robbery-assault-of-policeman-in-penang",
+    "title": "Four Pakistanis held over robbery, assault of policeman in Penang"
+   },
+   {
+    "outlet": "The Star",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVGM0NG1Ha3NMNGZ4c04zVlVQMFl5MUlrMm1heDVvdDZSZElWMXUyNEUySVNzcC11TlU2amRFbDN6X29tY1kyOG5wYndhbWdCR0ZRQlNwNjI4eXVOdTBkNEt2XzQyb3c3LUdveUprYnNXbkFfS3BRVUx4Ti1ab0tYcWJ6RnhBREZFQ1dqMlBWdFAtU3J2V3FCanI2LU44RWVTTjdjOUZFR2ViLThYYXZidEtUdDhsZWhVSmRYZWxIaFZTOUNXVU1nUkg2dw?oc=5",
+    "title": "Man injured by four suspected foreigners at Permatang Pauh petrol station robbery"
+   }
+  ]
  },
  {
   "type": "police_case",
@@ -6386,6 +6418,11 @@
     "outlet": "Sinar Harian Semasa",
     "link": "https://www.sinarharian.com.my/article/805653/berita/nasional/risikan-dadah-tudm-sejak-januari---saifuddin-nasution",
     "title": "Risikan dadah TUDM sejak Januari - Saifuddin Nasution"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439403/kdn-perketat-kawalan-di-pangkalan-pasukan-keselamatan",
+    "title": "KDN perketat kawalan di pangkalan pasukan keselamatan"
    }
   ]
  },
@@ -6611,6 +6648,34 @@
   "area": "Selising, ڤاسير ڤوتيه / Pasir Puteh",
   "lat": 5.8949,
   "lng": 102.3338,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "17 inisiatif keselamatan diperluas ke pangkalan strategik - Saifuddin Nasution",
+  "link": "https://www.sinarharian.com.my/article/805669/berita/nasional/17-inisiatif-keselamatan-diperluas-ke-pangkalan-strategik---saifuddin-nasution",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-22T03:47:00.000Z",
+  "place": "Kuala Lumpur",
+  "area": "Kuala Lumpur, Malaysia",
+  "lat": 3.1517,
+  "lng": 101.6942,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "Tular Curi Beg Tangan Di Kedai Makan, Tiga Lelaki Dicekup #mgflash Tiga lelaki ditahan selepas disyaki terbabit dalam kes curi beg tangan di sebuah gerai makan di Medan Selera Sanggar Kota, di Kota Tinggi, Johor, Isnin lalu. #malaysiagazette #CuriBegT",
+  "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQamV6Q1plc0FXRzRHRFpMRDNIVlBndS1fZHprOEdNTzVEZG10anpPQjNYNnhIcm9HUXJMYU9MU3Q4bHdDamFLU0VyazNYckczQjh3cEFYWExQMmxucDRtM1BxQXBKOVUtcm9sWm45NEduQkxmX0xFbUVtTUhSNnR1LUxRdU9YUDdHZTV4bzhxM29pTXRPejVYQ0x3OWktQjhoMDN1S1BMcG9waFItWnFmcy1MUVFJOV84SzdaQ3dzRWVQVkZ3QjNINi15UTVkUTBsNTFMa0Nad1MxemE2anBHTA?oc=5",
+  "outlet": "Facebook",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-22T03:22:48.000Z",
+  "place": "Kota Tinggi, Johor",
+  "area": "Kota Tinggi, Johor",
+  "lat": 1.7337,
+  "lng": 103.9007,
   "precision": "area"
  }
 ]

@@ -2633,5 +2633,24 @@
   "lng": 102.3338,
   "label": "Selising, ڤاسير ڤوتيه / Pasir Puteh",
   "kind": "village"
- }
+ },
+ "area4:kota tinggi, johor": {
+  "lat": 1.7337,
+  "lng": 103.9007,
+  "label": "Kota Tinggi, Johor",
+  "kind": "town"
+ },
+ "area4:raozan, chattogram": null,
+ "area4:raozan": null,
+ "area4:wisma darul aman": null,
+ "area4:jatrabari": null,
+ "area4:batu enam, gong ba, kuala nerus": null,
+ "area4:batu enam, gong ba": {
+  "lat": 5.3477,
+  "lng": 103.1063,
+  "label": "Jalan Gong Kolam, Kg Gong Kijal",
+  "kind": "residential"
+ },
+ "area4:kuala lumpur, bukit mertajam": null,
+ "area4:batu enam tangkap": null
 }
