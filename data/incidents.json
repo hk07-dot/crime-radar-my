@@ -6861,6 +6861,13 @@
   "area": "George Town, Pulau Pinang",
   "lat": 5.4142,
   "lng": 100.3287,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805731/berita/semasa/polis-siasat-video-tular-dakwa-anggota-trafik-peras-ugut-terima-rasuah-ketika-sekatan",
+    "title": "Polis siasat video tular dakwa anggota trafik peras ugut, terima rasuah ketika sekatan"
+   }
+  ]
  }
 ]
