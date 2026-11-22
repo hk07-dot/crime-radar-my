@@ -6840,6 +6840,27 @@
   "area": "Kuala Lumpur, Malaysia",
   "lat": 3.1517,
   "lng": 101.6942,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Oh! Media",
+    "link": "https://ohmedia.my/trending/geng-bertopeng-curi-kabel-di-kuala-lumpur/",
+    "title": "Geng Bertopeng Curi Kabel Di Kuala Lumpur, Video Tular"
+   }
+  ]
+ },
+ {
+  "type": "extortion",
+  "title": "Polis siasat video tular anggota trafik peras ugut, terima rasuah ketika sekatan",
+  "link": "https://www.sinarharian.com.my/article/805731/berita/semasa/polis-siasat-video-tular-anggota-trafik-peras-ugut-terima-rasuah-ketika-sekatan",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-22T13:03:00.000Z",
+  "place": "George Town",
+  "area": "George Town, Pulau Pinang",
+  "lat": 5.4142,
+  "lng": 100.3287,
+  "precision": "town"
  }
 ]
