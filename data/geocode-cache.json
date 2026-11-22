@@ -2677,5 +2677,17 @@
   "lng": 102.2329,
   "label": "Malim Jaya, Majlis Perbandaran Hang Tuah Jaya",
   "kind": "suburb"
+ },
+ "area4:spaoh": {
+  "lat": 1.5306,
+  "lng": 111.522,
+  "label": "Spaoh, Betong",
+  "kind": "municipality"
+ },
+ "area4:bahagian betong, spaoh": {
+  "lat": 1.5306,
+  "lng": 111.522,
+  "label": "Spaoh, Betong",
+  "kind": "municipality"
  }
 }
