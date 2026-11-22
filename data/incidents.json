@@ -5796,6 +5796,11 @@
     "outlet": "Sinar Harian Semasa",
     "link": "https://www.sinarharian.com.my/article/805674/berita/semasa/lima-bulan-diburu-warga-asing-terlibat-rompakan-berkumpulan-guna-senjata-diberkas",
     "title": "Lima bulan diburu, warga asing terlibat rompakan berkumpulan guna senjata diberkas"
+   },
+   {
+    "outlet": "Sinar Harian",
+    "link": "https://www.sinarharian.com.my/article/805674/berita/semasa/lima-bulan-diburu-warga-asing-terlibat-rompakan-berkumpulan-guna-senjata-diberkas",
+    "title": "Lima bulan diburu, warga asing terlibat rompakan berkumpulan guna senjata diberkas"
    }
   ]
  },
@@ -6796,5 +6801,19 @@
     "title": "Mindef cadang tubuh jawatankuasa, perketat pemeriksaan"
    }
   ]
+ },
+ {
+  "type": "drugs",
+  "title": "Sindiket guna web tertutup, media sosial bekal vape campur ‘piu-piu’",
+  "link": "https://utusansarawak.com.my/sindiket-guna-web-tertutup-media-sosial-bekal-vape-campur-piu-piu/?utm_source=rss&utm_medium=rss&utm_campaign=sindiket-guna-web-tertutup-media-sosial-bekal-vape-campur-piu-piu",
+  "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-22T08:17:35.000Z",
+  "place": "Seremban",
+  "area": "Seremban, Negeri Sembilan",
+  "lat": 2.7231,
+  "lng": 101.9401,
+  "precision": "town"
  }
 ]
