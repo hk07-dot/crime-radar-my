@@ -5775,7 +5775,19 @@
   "area": "Sandakan, Sandakan District",
   "lat": 5.8391,
   "lng": 118.1159,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "THE MALAYSIA PRESS",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ2RPc0c5Vk1VU2ZjQkJ2Vks3LVBuSU5LSFgyOU5TN1lscmlBZVRoQ1Uxd0lwVVZ1eUxpSUJzVDl1UWlGMnFabzFwbi0zOVJfcGxWZE1rYTFCUjlvNGFoNFNpR1ZRcHV3ak8yU1ktc01sVkQxOUhuNkhJTllSM09BNWtVQlk4d2pldXdITHlHdnd4SEhHSm5DZURrVmhKazNuNURHM3VVcVZwZw?oc=5",
+    "title": "Lelaki disyaki terbabit kes samun berkumpulan ditahan di Sandakan"
+   },
+   {
+    "outlet": "Sayang Sabah",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUENfOGo1d05OcDFFWlFwRlBycTBEMllPSDhYdHBLQ21fbWhvSC1PZmdWTk54YjI2TTdQUWxBREV4ZEJYTG1GUV9nSk9lakVsVmdVS2dwSHJxUVRkRmJ3eEpDTG1RU19XZFY3Q0ZXWTYtOHVya1JOeWdFN0JqRkxxYW03aV9yMWtzM1pXa2EtbnJzTEV4WmtpM01JR0EyN2x1WTBvMGY3V3E?oc=5",
+    "title": "Lelaki Filipina disyaki samun berkumpulan dicekup di Sandakan"
+   }
+  ]
  },
  {
   "type": "robbery",
@@ -5854,6 +5866,11 @@
     "outlet": "Malay Mail",
     "link": "https://www.malaymail.com/news/malaysia/2026/11/20/routine-luggage-check-at-subang-air-base-finds-drugs-five-rmaf-officers-held/243984",
     "title": "Routine luggage check at Subang air base finds drugs, five RMAF officers held"
+   },
+   {
+    "outlet": "Free Malaysia Today",
+    "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/22/ministry-to-probe-if-drug-discovery-at-subang-air-base-reflects-wider-culture",
+    "title": "Ministry to probe if drug discovery at Subang air base reflects wider culture"
    }
   ]
  },
@@ -6667,7 +6684,14 @@
   "area": "Kuala Lumpur, Malaysia",
   "lat": 3.1517,
   "lng": 101.6942,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/17-inisiatif-keselamatan-akan-diperluas-ke-pangkalan-tentera/?utm_source=rss&utm_medium=rss&utm_campaign=17-inisiatif-keselamatan-akan-diperluas-ke-pangkalan-tentera",
+    "title": "17 inisiatif keselamatan akan diperluas ke pangkalan tentera"
+   }
+  ]
  },
  {
   "type": "theft",
@@ -6695,7 +6719,14 @@
   "area": "Malim Jaya, Majlis Perbandaran Hang Tuah Jaya",
   "lat": 2.2439,
   "lng": 102.2329,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Malaysia Tribune",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vNE9DNFdSUm5IdWh4MVAwUEh0bW0xRGJZbVgwUXdWZl9PdWFXTy11WVlWQTc1RHY3Z2JzQ1NESlZUVlFWYkp4VW9QXzFxRWxGMXFweklNOUx5Z0FzVzVVRnB5ZmtaX0JhNTFNem9lQ3MtbnNKdVZMRVRoSmI?oc=5",
+    "title": "Polis buru kumpulan cuba curi kabel bawah tanah di Malim Jaya"
+   }
+  ]
  },
  {
   "type": "police_case",
@@ -6737,6 +6768,23 @@
   "area": "Kota Tinggi, Johor",
   "lat": 1.7337,
   "lng": 103.9007,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/jawatankuasa-semak-prosedur-pangkalan-udara-akan-ditubuh/?utm_source=rss&utm_medium=rss&utm_campaign=jawatankuasa-semak-prosedur-pangkalan-udara-akan-ditubuh",
+    "title": "Jawatankuasa semak prosedur pangkalan udara akan ditubuh"
+   },
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805687/berita/semasa/sindiket-dadah-tudm-mindef-tubuh-jawatankuasa-khas",
+    "title": "Sindiket dadah TUDM: MINDEF tubuh jawatankuasa khas"
+   },
+   {
+    "outlet": "Kosmo: Suapan Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/22/mindef-cadang-tubuh-jawatankuasa-perketat-pemeriksaan/?utm_source=rss&utm_medium=rss&utm_campaign=mindef-cadang-tubuh-jawatankuasa-perketat-pemeriksaan",
+    "title": "Mindef cadang tubuh jawatankuasa, perketat pemeriksaan"
+   }
+  ]
  }
 ]
