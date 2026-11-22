@@ -2540,5 +2540,47 @@
   "label": "Jalan Persiaran, Taman Aman",
   "kind": "residential"
  },
- "area4:kochi": null
+ "area4:kochi": null,
+ "area4:daerah rangae": null,
+ "area4:kilometre 286, ipoh": null,
+ "area4:kilometre 286": null,
+ "area4:kampung teloi tua, sik, kuala lumpur": null,
+ "area4:kampung teloi tua, sik": {
+  "lat": 5.7769,
+  "lng": 100.6999,
+  "label": "Kampung Teloi Tua, Sik",
+  "kind": "village"
+ },
+ "area4:kampung teloi tua, kuala lumpur": null,
+ "area4:kampung teloi tua": {
+  "lat": 5.7769,
+  "lng": 100.6999,
+  "label": "Kampung Teloi Tua, Sik",
+  "kind": "village"
+ },
+ "area4:kuala manggatal, kota ki, tawau": null,
+ "area4:kuala manggatal, kota ki": null,
+ "area4:kuala manggatal, tawau": null,
+ "area4:kuala manggatal": {
+  "lat": 6.0539,
+  "lng": 116.1494,
+  "label": "Taman Kuala Menggatal Phase 2, Kampung Bendolan",
+  "kind": "neighbourhood"
+ },
+ "area4:yong": null,
+ "area4:lahad datu, tawau": {
+  "lat": 5.1155,
+  "lng": 118.4306,
+  "label": "Lahad Datu, Bahagian Tawau",
+  "kind": "county"
+ },
+ "area4:lapangan terba, balik pulau": null,
+ "area4:lapangan terba": null,
+ "area4:hulu langat, petaling jaya": null,
+ "area4:hulu langat": {
+  "lat": 3.0833,
+  "lng": 101.8333,
+  "label": "Hulu Langat, Selangor",
+  "kind": "district"
+ }
 }

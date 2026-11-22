@@ -525,6 +525,11 @@
     "outlet": "Yahoo",
     "link": "https://malaysia.news.yahoo.com/kota-bharu-nurse-stabbed-six-034526428.html",
     "title": "Kota Bharu nurse stabbed six times at home, husband surrenders to police"
+   },
+   {
+    "outlet": "Berita Harian",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYzZDR3QtMHlHdTFoaTJwR1lkWWxZRWJodWk3cGhzV1hkNHZrUm8wbWk0U2lTYzNfUV9ZcWNPVTkybXBKRUE3VlVZNEhEX2U1QnJEZ19CV0tCT1ZNcW4yLXBwNWxBZjhPSlZ5Sm9jaE9TaTVtZ05VcVpsckthVkdnaGNkRnhMSjBJQV9kMHVUU1dDVVdtWEJUWWZ0bXFyUjZwVmZfS2lhWktsYVZ0X0M5ekJPck1LaHViY2FjdEV2U3DSAcYBQVVfeXFMTXZod3JOOU4tcVhLRGpPS1JkcmRDVTBmUTFXN3RGVkstYzdwTjhlU2FUX3g1N1JEUEFHVFd2Ni14WlAybTVraUFPQXNnUUk5bzFTQjNVQUY1RWFFRU56elAxZlQ0N1FfTVBrYTBWNDRTeXdqLXVqYnRaeWhVQmh0VHFqajd2bmstc2tJM1A1WVRVZnhkQVFsTk9HOVdOajdJUnFRNFhzQklqcVh1YTRWSWU3LVdrQUhwdkVwbGhWRXdVbWhDdXJR?oc=5",
+    "title": "Jururawat parah ditikam suami di Kota Bharu, suspek direman tujuh hari"
    }
   ]
  },
@@ -3306,6 +3311,16 @@
     "outlet": "Saluran 122",
     "link": "https://www.tvsarawak.my/2026/09/25/kes-curi-cip-rm2-juta-dua-pekerja-barangan-lusuh-direman-seminggu/",
     "title": "Kes curi cip RM2 juta, dua pekerja barangan lusuh direman seminggu"
+   },
+   {
+    "outlet": "Facebook",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOT09jZlVNdmJhbEVMQjNHM0tQUndVbEZrMWZhUDRXa0RHVDdyYWp2a1lSUTlVUloyQTFWWTM4aTE2bUVnU21WZnJRMWFnWE9GRnBpLVpqaHhuQ0RXaTNZaFM1RVJvU1FWMFpTUFFxQzVmYV8zVk00cmFmMG91M3AwUElhdFo2ZFdZdTMwQTdMeGtpWXRhUzNkRU1CNms2aUlKNjFyaFNEOVV6M0pqcTNHMnVnaWZ6X0VmX0ZDSTd1bVVNUzdJLUhwVm1BRElNT3FsUnBOOTU0ZjhZb0hnMm5R?oc=5",
+    "title": "Kes Curi Cip RM2 Juta, 2 Lelaki Direman #MGFlash Dua pekerja barangan lusuh direman tujuh hari bagi membantu siasatan kes kecurian kira-kira 30,000 unit cip bernilai RM2 juta dari sebuah kilang di Bayan Lepas, Balik Pulau. Perintah reman terhadap ma"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/09/1415046/2-lelaki-direman-7-hari-bantu-siasatan-kes-curi-cip-rm2-juta",
+    "title": "2 lelaki direman 7 hari bantu siasatan kes curi cip RM2 juta"
    }
   ]
  },
@@ -6322,6 +6337,125 @@
   "area": "Sungai Tiram, Barat Daya",
   "lat": 5.303,
   "lng": 100.2726,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Mesyuarat Kabinet bincang isu seludup dadah babitkan TUDM minggu hadapan",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439371/mesyuarat-kabinet-bincang-isu-seludup-dadah-babitkan-tudm-minggu-hadapan",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-21T23:57:54.000Z",
+  "place": "Kulim",
+  "area": "Kulim, Kedah",
+  "lat": 5.3707,
+  "lng": 100.6172,
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439360/polis-intip-pegawai-tudm-seludup-dadah-sejak-januari",
+    "title": "Polis intip pegawai TUDM seludup dadah sejak Januari"
+   }
+  ]
+ },
+ {
+  "type": "police_case",
+  "title": "Four teenagers under 15 arrested after ramming police car during chase on North-South Expressway",
+  "link": "https://www.malaymail.com/news/malaysia/2026/11/21/four-teenagers-under-15-arrested-after-ramming-police-car-during-chase-on-north-south-expressway/244239",
+  "outlet": "Malay Mail",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-21T10:33:00.000Z",
+  "place": "Ipoh",
+  "area": "Majlis Bandaraya Ipoh, Kinta",
+  "lat": 4.5987,
+  "lng": 101.09,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Kota Kinabalu stabbing: Sabah police nab suspected killer at Tawau jetty after six-day manhunt",
+  "link": "https://www.malaymail.com/news/malaysia/2026/11/21/kota-kinabalu-stabbing-sabah-police-nab-suspected-killer-at-tawau-jetty-after-six-day-manhunt/244157",
+  "outlet": "Malay Mail",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-21T02:14:00.000Z",
+  "place": "Kuala Manggatal",
+  "area": "Taman Kuala Menggatal Phase 2, Kampung Bendolan",
+  "lat": 6.0539,
+  "lng": 116.1494,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Lelaki bunuh penebar roti canai dihukum penjara 35 tahun, 12 sebatan",
+  "link": "https://sayangsabah.com.my/home/2026/10/01/lelaki-bunuh-penebar-roti-canai-dihukum-penjara-35-tahun-12-sebatan/",
+  "outlet": "Sayang Sabah",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-01T07:00:00.000Z",
+  "place": "Lahad Datu",
+  "area": "Lahad Datu, Bahagian Tawau",
+  "lat": 5.1155,
+  "lng": 118.4306,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Man nabbed over stabbing of 2 siblings in Kepong",
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb01iMnlZcWhERjV6dC1lT0ZJMTlzdGRjTk0zbzFtLWlNMXJxcVlfZ1U0aFluTnRTck91VEpDTGROUTAwby1TN252dlIyM1haU0hxTU40N0F4aDlvZE9nLTJXZ0tpTDVRNVk1dTRIS0lYaFRQN2o0TXljUi11cjR2Mzg0dm5NTVlUTmo5d05VSWNpZy10UmJNRFJWLUNQWkJmekNCdkJuc1J5SU5vS3c?oc=5",
+  "outlet": "Free Malaysia Today",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-29T07:00:00.000Z",
+  "place": "Kepong",
+  "area": "Kepong, Kuala Lumpur",
+  "lat": 3.214,
+  "lng": 101.6348,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "RM60,000 lesap dalam pesawat, polis buru suspek warga asing",
+  "link": "https://www.sinarharian.com.my/article/797781/berita/semasa/rm60000-lesap-dalam-pesawat-polis-buru-suspek-warga-asing",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-25T07:00:00.000Z",
+  "place": "Balik Pulau",
+  "area": "Balik Pulau, Pondok Upih",
+  "lat": 5.3511,
+  "lng": 100.2353,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "[VIDEO] ‘Kepada pencuri air, hidup kau tak akan aman’",
+  "link": "https://www.kosmo.com.my/2026/09/22/video-kepada-pencuri-air-hidup-kau-tak-akan-aman/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-22T07:00:00.000Z",
+  "place": "Hulu Langat",
+  "area": "Hulu Langat, Selangor",
+  "lat": 3.0833,
+  "lng": 101.8333,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Suspek serangan bahan letupan di dua kedai serbaneka diburu",
+  "link": "https://www.astroawani.com/video/suspek-serangan-bahan-letupan-di-dua-kedai-serbaneka-diburu",
+  "outlet": "Astro Awani",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-22T07:00:00.000Z",
+  "place": "Kuching",
+  "area": "Kuching, Bahagian Kuching",
+  "lat": 1.5598,
+  "lng": 110.3454,
   "precision": "area"
  }
 ]
