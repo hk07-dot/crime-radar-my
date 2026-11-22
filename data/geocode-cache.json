@@ -2582,5 +2582,22 @@
   "lng": 101.8333,
   "label": "Hulu Langat, Selangor",
   "kind": "district"
- }
+ },
+ "area4:jalan mahkamah": null,
+ "area4:jalan sepanggar": null,
+ "area4:kota baru": {
+  "lat": 6.1248,
+  "lng": 102.2378,
+  "label": "Kota Bharu, Kelantan",
+  "kind": "city"
+ },
+ "area4:kampung padang lepai, kota baru": null,
+ "area4:kadok, kota baru": null,
+ "area4:kadok": {
+  "lat": 5.9949,
+  "lng": 102.2455,
+  "label": "Kadok, Padang Chenok",
+  "kind": "suburb"
+ },
+ "area4:larikan lori hijau": null
 }

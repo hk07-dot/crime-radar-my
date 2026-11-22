@@ -348,7 +348,14 @@
   "area": "Kuarters Hutan Renj Sungai Petani/Gurun, Pekan Baru",
   "lat": 5.6395,
   "lng": 100.4858,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "https://utusanmelayuplus.com/",
+    "link": "https://utusanmelayuplus.com/mayat-remaja-ditemukan-dalam-semak-polis-siasat-kes-bunuh/",
+    "title": "Mayat remaja ditemukan dalam semak, polis siasat kes bunuh"
+   }
+  ]
  },
  {
   "type": "robbery",
@@ -423,6 +430,11 @@
     "outlet": "Malay Mail",
     "link": "https://www.malaymail.com/news/malaysia/2026/10/07/kota-bharu-nurse-stabbed-six-times-at-home-husband-surrenders-to-police/238040",
     "title": "Kota Bharu nurse stabbed six times at home, husband surrenders to police"
+   },
+   {
+    "outlet": "NST Online",
+    "link": "https://www.nst.com.my/news/regional/2026/10/1550673/nurse-stabbed-6-times-husband-previously-reported-death-threats",
+    "title": "Nurse stabbed 6 times by husband previously reported death threats to police"
    }
   ]
  },
@@ -6357,6 +6369,11 @@
     "outlet": "Harian Metro Mutakhir",
     "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439360/polis-intip-pegawai-tudm-seludup-dadah-sejak-januari",
     "title": "Polis intip pegawai TUDM seludup dadah sejak Januari"
+   },
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805651/berita/nasional/sindiket-dadah-eksploitasi-aset-tudm-kdn-teliti-kawalan-keselamatan-termasuk-pangkalan-tentera-polis",
+    "title": "Sindiket dadah eksploitasi aset TUDM: KDN teliti kawalan keselamatan termasuk pangkalan tentera, polis"
    }
   ]
  },
@@ -6456,6 +6473,20 @@
   "area": "Kuching, Bahagian Kuching",
   "lat": 1.5598,
   "lng": 110.3454,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Jalan Bukit Bintang motorcycle theft probe leads to arrest of three, solving four cases",
+  "link": "https://www.thestar.com.my/news/nation/2026/10/19/jalan-bukit-bintang-motorcycle-theft-probe-leads-to-arrest-of-three-solving-four-cases",
+  "outlet": "The Star",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-19T07:00:00.000Z",
+  "place": "Nexus, Kuala Lumpur",
+  "area": "Nexus Taman Pertama, Cheras",
+  "lat": 3.1107,
+  "lng": 101.7306,
   "precision": "area"
  }
 ]
