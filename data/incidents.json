@@ -7282,5 +7282,33 @@
   "lat": 5.0743,
   "lng": 103.0172,
   "precision": "town"
+ },
+ {
+  "type": "break_in",
+  "title": "Laluan ke tempat sampah haram dihalang punca ban dipecah",
+  "link": "https://www.kosmo.com.my/2026/11/23/laluan-ke-tempat-sampah-haram-dihalang-punca-ban-dipecah/?utm_source=rss&utm_medium=rss&utm_campaign=laluan-ke-tempat-sampah-haram-dihalang-punca-ban-dipecah",
+  "outlet": "Kosmo: Suapan Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T11:25:52.000Z",
+  "place": "Kuala Selangor",
+  "area": "Kuala Selangor, Selangor",
+  "lat": 3.3621,
+  "lng": 101.3456,
+  "precision": "town"
+ },
+ {
+  "type": "break_in",
+  "title": "Kes pecah rumah di Sepang, mangsa alami kerugian RM3,000",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdUxUdHdkY3lCUWsyX3kxMGpHYjlrckxXaG9CSEpnd0RWWVBIV1NRX1ZaQmNaYk0ySmRfVkxBaGFIcTQzRXNnVGwxbjItWjFTMHVtY29hX194ejJRX3g0U0lZblc1ajZaeXlGTWRkUlBSYkhKVTFlX1M1cFJIM0FRT3Z3cHR3b3RVNzlSQg?oc=5",
+  "outlet": "Malaysia Tribune",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T11:17:38.000Z",
+  "place": "Sepang",
+  "area": "Sepang, Selangor",
+  "lat": 2.8009,
+  "lng": 101.7094,
+  "precision": "area"
  }
 ]
