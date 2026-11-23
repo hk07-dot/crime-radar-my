@@ -2786,5 +2786,11 @@
  "area4:kuala telemong, hulu terengganu, kuala berang": null,
  "area4:kuala telemong, hulu terengganu": null,
  "area4:kuala telemong, kuala berang": null,
- "area4:kuala telemon": null
+ "area4:kuala telemon": null,
+ "area4:taman kemajuan, kangar": {
+  "lat": 6.4234,
+  "lng": 100.1991,
+  "label": "Taman Kemajuan, Seriab",
+  "kind": "residential"
+ }
 }

@@ -7147,11 +7147,11 @@
   "source": "news",
   "verified": true,
   "publishedAt": "2026-11-23T08:21:07.000Z",
-  "place": "Kangar",
-  "area": "Kangar, Perlis",
-  "lat": 6.4389,
-  "lng": 100.1945,
-  "precision": "town",
+  "place": "Taman Kemajuan, Kangar",
+  "area": "Taman Kemajuan, Seriab",
+  "lat": 6.4234,
+  "lng": 100.1991,
+  "precision": "area",
   "alsoReported": [
    {
     "outlet": "Sinar Harian Semasa",
