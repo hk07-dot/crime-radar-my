@@ -7167,6 +7167,16 @@
     "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
     "link": "https://www.utusan.com.my/nasional/2026/11/curi-kabel-dua-anggota-geng-mat-lan-keladi-diberkas-lima-lagi-diburu/?utm_source=rss&utm_medium=rss&utm_campaign=curi-kabel-dua-anggota-geng-mat-lan-keladi-diberkas-lima-lagi-diburu",
     "title": "Curi kabel: Dua anggota Geng Mat Lan Keladi diberkas, lima lagi diburu"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439888/dua-jaga-air-geng-mat-lan-keladi-dicekup-curi-kabel?source=widget",
+    "title": "Dua 'jaga air' Geng Mat Lan Keladi dicekup curi kabel"
+   },
+   {
+    "outlet": "Newswav",
+    "link": "https://newswav.com/article/curi-kabel-dua-anggota-geng-mat-lan-keladi-diberkas-lima-lagi-diburu-A2611_32ME17",
+    "title": "Curi kabel: Dua anggota Geng Mat Lan Keladi diberkas, lima lagi diburu"
    }
   ]
  },
@@ -7218,5 +7228,59 @@
   "lat": 2.9135,
   "lng": 101.6935,
   "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Guru ditahan disyaki lakukan amang seksual fizikal terhadap pelajar",
+  "link": "https://www.utusan.com.my/nasional/2026/11/guru-ditahan-disyaki-lakukan-amang-seksual-fizikal-terhadap-pelajar/?utm_source=rss&utm_medium=rss&utm_campaign=guru-ditahan-disyaki-lakukan-amang-seksual-fizikal-terhadap-pelajar",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T09:28:19.000Z",
+  "place": "Hulu Terengganu",
+  "area": "Hulu Terengganu, Terengganu",
+  "lat": 4.9107,
+  "lng": 102.7651,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Sindiket makanan sejuk beku haram tumpas, rampasan RM32.5 juta",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439945/sindiket-makanan-sejuk-beku-haram-tumpas-rampasan-rm325-juta",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T09:17:03.000Z",
+  "place": "Kuala Lumpur",
+  "area": "Kuala Lumpur, Malaysia",
+  "lat": 3.1517,
+  "lng": 101.6942,
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805828/berita/jenayah/sindiket-sembelihan-haram-tumpas-rampasan-rm2-44-juta",
+    "title": "Sindiket sembelihan haram tumpas, rampasan RM2.44 juta"
+   },
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/sindiket-seludup-makanan-sejuk-beku-haram-tumpas-produk-bernilai-rm-32-5-juta-dirampas/?utm_source=rss&utm_medium=rss&utm_campaign=sindiket-seludup-makanan-sejuk-beku-haram-tumpas-produk-bernilai-rm-32-5-juta-dirampas",
+    "title": "Sindiket seludup makanan sejuk beku haram tumpas, produk bernilai RM 32.5 juta dirampas"
+   }
+  ]
+ },
+ {
+  "type": "police_case",
+  "title": "Guru direman tujuh hari, amang seksual pelajar lelaki",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439933/guru-direman-tujuh-hari-amang-seksual-pelajar-lelaki",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T09:05:59.000Z",
+  "place": "Kuala Berang",
+  "area": "Kuala Berang, Terengganu",
+  "lat": 5.0743,
+  "lng": 103.0172,
+  "precision": "town"
  }
 ]

@@ -2776,5 +2776,15 @@
   "lng": 101.6935,
   "label": "Jalan P18 K1/2, Presint 18",
   "kind": "residential"
- }
+ },
+ "area4:kuala berang": {
+  "lat": 5.0743,
+  "lng": 103.0172,
+  "label": "Kuala Berang, Terengganu",
+  "kind": "town"
+ },
+ "area4:kuala telemong, hulu terengganu, kuala berang": null,
+ "area4:kuala telemong, hulu terengganu": null,
+ "area4:kuala telemong, kuala berang": null,
+ "area4:kuala telemon": null
 }
