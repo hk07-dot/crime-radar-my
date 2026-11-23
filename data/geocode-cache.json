@@ -2750,5 +2750,31 @@
   "lng": 100.7455,
   "label": "Zon Warisan Taiping, Taiping",
   "kind": "protected_area"
+ },
+ "area4:bandar baru salak tinggi, bangsar": null,
+ "area4:bangsar": {
+  "lat": 3.1308,
+  "lng": 101.6694,
+  "label": "Bangsar, Kuala Lumpur",
+  "kind": "suburb"
+ },
+ "area4:jalan persekutuan ft29, kuala lumpur": {
+  "lat": 3.1385,
+  "lng": 101.6825,
+  "label": "Jalan Persekutuan, Bukit Persekutuan",
+  "kind": "residential"
+ },
+ "area4:kuala telemong": null,
+ "area4:kuala baram, miri": {
+  "lat": 4.5751,
+  "lng": 113.9881,
+  "label": "Kuala Baram, Miri",
+  "kind": "suburb"
+ },
+ "area4:jalan persekutuan ft29, putarajaya": {
+  "lat": 2.9135,
+  "lng": 101.6935,
+  "label": "Jalan P18 K1/2, Presint 18",
+  "kind": "residential"
  }
 }

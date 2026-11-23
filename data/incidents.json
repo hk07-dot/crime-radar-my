@@ -7124,5 +7124,99 @@
   "lat": 4.8544,
   "lng": 100.7455,
   "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Rusuhan bersenjata di Bangsar, polis cekup dua, buru saki-baki suspek",
+  "link": "https://www.malaysiakini.com/news/889667-rusuhan-bersenjata-di-bangsar-polis-cekup-dua-buru-saki-baki-suspek",
+  "outlet": "Malaysiakini BM",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T08:31:38.000Z",
+  "place": "Bangsar",
+  "area": "Bangsar, Kuala Lumpur",
+  "lat": 3.1308,
+  "lng": 101.6694,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Dua Ahli Geng Mat Lan Keladi Ditahan, Sembilan Kes Curi Kabel Di Kangar Berjaya Diselesaikan",
+  "link": "https://newswav.com/article/dua-ahli-geng-mat-lan-keladi-ditahan-sembilan-kes-curi-kabel-di-kangar-berj-A2611_aU14D8",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T08:21:07.000Z",
+  "place": "Kangar",
+  "area": "Kangar, Perlis",
+  "lat": 6.4389,
+  "lng": 100.1945,
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805820/berita/semasa/polis-pintas-bmw-dua-ahli-geng-mat-lan-keladi-dicekup-curi-kabel",
+    "title": "Polis pintas BMW, dua ahli Geng Mat Lan Keladi dicekup curi kabel"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439888/dua-jaga-air-geng-mat-lan-keladi-dicekup-curi-kabel",
+    "title": "Dua 'jaga air' Geng Mat Lan Keladi dicekup curi kabel"
+   },
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/curi-kabel-dua-anggota-geng-mat-lan-keladi-diberkas-lima-lagi-diburu/?utm_source=rss&utm_medium=rss&utm_campaign=curi-kabel-dua-anggota-geng-mat-lan-keladi-diberkas-lima-lagi-diburu",
+    "title": "Curi kabel: Dua anggota Geng Mat Lan Keladi diberkas, lima lagi diburu"
+   }
+  ]
+ },
+ {
+  "type": "assault",
+  "title": "Lelaki parah diserang buaya ketika leka main telefon",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439890/lelaki-parah-diserang-buaya-ketika-leka-main-telefon",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T07:46:13.000Z",
+  "place": "Kuala Baram, Miri",
+  "area": "Kuala Baram, Miri",
+  "lat": 4.5751,
+  "lng": 113.9881,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Sindiket seludup dadah melalui KLIA bernilai RM2.87 juta tumpas",
+  "link": "https://www.utusan.com.my/nasional/2026/11/sindiket-seludup-dadah-melalui-klia-bernilai-rm2-87-juta-tumpas/?utm_source=rss&utm_medium=rss&utm_campaign=sindiket-seludup-dadah-melalui-klia-bernilai-rm2-87-juta-tumpas",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T07:29:54.000Z",
+  "place": "Sepang",
+  "area": "Sepang, Selangor",
+  "lat": 2.8009,
+  "lng": 101.7094,
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Kosmo: Suapan Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/23/jkdm-klia-gagalkan-cubaan-seludup-dadah-rm2-87-juta/?utm_source=rss&utm_medium=rss&utm_campaign=jkdm-klia-gagalkan-cubaan-seludup-dadah-rm2-87-juta",
+    "title": "JKDM KLIA gagalkan cubaan seludup dadah RM2.87 juta"
+   }
+  ]
+ },
+ {
+  "type": "theft",
+  "title": "450 lampu jalan sekitar Putarajaya tidak berfungsi akibat curi kabel",
+  "link": "https://www.kosmo.com.my/2026/11/23/450-lampu-jalan-sekitar-putarajaya-tidak-berfungsi-akibat-curi-kabel/?utm_source=rss&utm_medium=rss&utm_campaign=450-lampu-jalan-sekitar-putarajaya-tidak-berfungsi-akibat-curi-kabel",
+  "outlet": "Kosmo: Suapan Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T06:37:21.000Z",
+  "place": "Jalan Persekutuan FT29, Putarajaya",
+  "area": "Jalan P18 K1/2, Presint 18",
+  "lat": 2.9135,
+  "lng": 101.6935,
+  "precision": "area"
  }
 ]
