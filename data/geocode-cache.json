@@ -2794,5 +2794,22 @@
   "kind": "residential"
  },
  "area4:ulu krian, saratok": null,
- "area4:ulu krian": null
+ "area4:ulu krian": null,
+ "area4:kampung raja hitam, manjung": {
+  "lat": 4.3375,
+  "lng": 100.7507,
+  "label": "Kampung Raja Hitam, Manjung",
+  "kind": "village"
+ },
+ "area4:kampung raja hitam, ayer tawar, ipoh": null,
+ "area4:kampung raja hitam, ayer tawar": null,
+ "area4:kampung raja hitam, ipoh": null,
+ "area4:kampung raja hitam": {
+  "lat": 4.3375,
+  "lng": 100.7507,
+  "label": "Kampung Raja Hitam, Manjung",
+  "kind": "village"
+ },
+ "area4:kampung raja hitam, ayer tawar, lumut": null,
+ "area4:kampung raja hitam, lumut": null
 }

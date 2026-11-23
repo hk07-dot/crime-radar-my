@@ -7331,5 +7331,19 @@
   "lat": 1.7636,
   "lng": 111.4441,
   "precision": "town"
+ },
+ {
+  "type": "murder",
+  "title": "Lelaki mati dibunuh dalam rumah kebun",
+  "link": "https://www.kosmo.com.my/2026/11/23/lelaki-mati-dibunuh-dalam-rumah-kebun/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T15:18:00.000Z",
+  "place": "Kampung Raja Hitam",
+  "area": "Kampung Raja Hitam, Manjung",
+  "lat": 4.3375,
+  "lng": 100.7507,
+  "precision": "area"
  }
 ]
