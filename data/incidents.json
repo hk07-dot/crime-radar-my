@@ -7192,7 +7192,14 @@
   "area": "Kuala Baram, Miri",
   "lat": 4.5751,
   "lng": 113.9881,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Kosmo: Suapan Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/23/disambar-buaya-ketika-leka-bermain-telefon/?utm_source=rss&utm_medium=rss&utm_campaign=disambar-buaya-ketika-leka-bermain-telefon",
+    "title": "Disambar buaya ketika leka bermain telefon"
+   }
+  ]
  },
  {
   "type": "drugs",
@@ -7310,5 +7317,19 @@
   "lat": 2.8009,
   "lng": 101.7094,
   "precision": "area"
+ },
+ {
+  "type": "assault",
+  "title": "Lelaki ditangkap selepas serang pekerja kedai dua kali guna pisau lipat dan parang",
+  "link": "https://utusansarawak.com.my/lelaki-ditangkap-selepas-serang-pekerja-kedai-dua-kali-guna-pisau-lipat-dan-parang/?utm_source=rss&utm_medium=rss&utm_campaign=lelaki-ditangkap-selepas-serang-pekerja-kedai-dua-kali-guna-pisau-lipat-dan-parang",
+  "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T14:12:54.000Z",
+  "place": "Saratok",
+  "area": "Saratok, Bahagian Betong",
+  "lat": 1.7636,
+  "lng": 111.4441,
+  "precision": "town"
  }
 ]
