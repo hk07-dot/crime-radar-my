@@ -2811,5 +2811,14 @@
   "kind": "village"
  },
  "area4:kampung raja hitam, ayer tawar, lumut": null,
- "area4:kampung raja hitam, lumut": null
+ "area4:kampung raja hitam, lumut": null,
+ "area4:pasir panjang, terengganu, petaling jaya": null,
+ "area4:pasir panjang, terengganu": null,
+ "area4:pasir panjang, petaling jaya": null,
+ "area4:pasir panjang": {
+  "lat": 2.4274,
+  "lng": 101.931,
+  "label": "Pasir Panjang, Port Dickson",
+  "kind": "village"
+ }
 }
