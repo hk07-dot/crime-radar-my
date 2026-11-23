@@ -4232,6 +4232,11 @@
     "outlet": "Saluran 122",
     "link": "https://www.tvsarawak.my/2026/11/18/pengurus-pajak-gadai-dua-pengawal-didakwa-subahat-pecah-masuk-ar-rahnu/",
     "title": "Pengurus pajak gadai, dua pengawal didakwa subahat, pecah masuk Ar-Rahnu"
+   },
+   {
+    "outlet": "Bernama",
+    "link": "https://www.bernama.com/bm/jenayah_mahkamah/news.php?id=2636040",
+    "title": "Pengurus Pajak Gadai, Dua Pengawal Didakwa Subahat, Pecah Masuk Ar-Rahnu"
    }
   ]
  },
@@ -4933,6 +4938,11 @@
     "outlet": "Harian Metro",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNlhaQ01GZjdVbzk3NmRScFptanVXZUU1X0N2SzN0S0RrMVNFV3dEeGtuY3hEWGFmY1gtWlZEUVlJc0hOOGtnNkRwYWxpckxuSTZHbmtRN2lpQkE3UHJBWUZNaHFqT1BVYUVPZmNyeGg5RTRqUXg2d0JjM1BKb2RLamFnOVprVDQ?oc=5",
     "title": "2 lelaki samun kedai emas di Batu 6 diburu polis"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSjloTzhfR19pTG9Fd3RiUDlQdXVZOGxaMl9wOTUybzhyZVJFZXNXaDJ2cHZqSDhsaHpWeHBnd2RDanF4VU11LVUtWmNGdGs1UUZ5aXFVUFpCZHJ2M1R3M2ZzNFN5bElFdGVUQ2hUaFQ0QXZ0MHl2eWFLOVJPRnpkUmhBUjdnOWdFX0hPSXZ6Um5mYzdVekx0aDRIMjZjLVJ3UEJRazEySHBudlVLU0JWTUYzc9IBpgFBVV95cUxQbld1Yy1Ob2RzdndjcGhwWENORVEwakJWRE84elI0MUZacWFaMWlRUVAtbV9QQlNVeXJyMm9KYm92bW9pVzRIWTFCdHJBVk9vTl9NVXNMYmNjWXFZNzZCRURQSnVxcGw0V3MtZVg0WXRaeUdRQkpLUnU4VHA4NlhRLURUUTZhQ0pPMG91RUx3VG5KUDJMaHhtTGdPdWZFcEhJYk8yRnVB?oc=5",
+    "title": "2 lelaki samun kedai emas di Batu 6 diburu polis"
    }
   ]
  },
@@ -5032,6 +5042,11 @@
     "outlet": "Free Malaysia Today",
     "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/10/7-ditahan-kes-ar-rahnu-rugi-rm28-4-juta-akibat-pecah-masuk",
     "title": "7 ditahan kes Ar-Rahnu rugi RM28.4 juta akibat pecah masuk"
+   },
+   {
+    "outlet": "The Sun Malaysia",
+    "link": "https://thesun.my/berita/polis-tahan-tujuh-individu-disyaki-pecah-masuk-ar-rahnu-libat-kerugian-rm28-4-juta/",
+    "title": "Polis tahan tujuh individu disyaki pecah masuk Ar-Rahnu libat kerugian RM28.4 juta"
    }
   ]
  },
@@ -5738,7 +5753,14 @@
   "area": "Sepang, Selangor",
   "lat": 2.8009,
   "lng": 101.7094,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439799/sindiket-seludup-dadah-bernilai-rm287-juta-tumpas-di-klia",
+    "title": "Sindiket seludup dadah bernilai RM2.87 juta tumpas di KLIA"
+   }
+  ]
  },
  {
   "type": "theft",
