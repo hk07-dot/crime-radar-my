@@ -2689,5 +2689,26 @@
   "lng": 111.522,
   "label": "Spaoh, Betong",
   "kind": "municipality"
- }
+ },
+ "area4:km34, petaling jaya": {
+  "lat": 3.0989,
+  "lng": 101.6454,
+  "label": "Petaling Jaya, Petaling",
+  "kind": "city"
+ },
+ "area4:sulaman sentral tumpas, ditahan polis": null,
+ "area4:sulaman sentral tumpas": null,
+ "area4:nexus, putrajaya": null,
+ "area4:skyavenue, genting highlands, bentong": null,
+ "area4:skyavenue, genting highlands": null,
+ "area4:skyavenue, bentong": null,
+ "area4:skyavenue": null,
+ "area4:kuala lumpur international airport, bentong": null,
+ "area4:taman wang, menglembu, ipoh": {
+  "lat": 4.5731,
+  "lng": 101.0487,
+  "label": "Bandar Baru Menglembu, Menglembu",
+  "kind": "neighbourhood"
+ },
+ "area4:astro awani": null
 }

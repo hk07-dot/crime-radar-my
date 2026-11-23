@@ -936,7 +936,14 @@
   "area": "Menglembu, Majlis Bandaraya Ipoh",
   "lat": 4.5704,
   "lng": 101.0413,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/10/1417999/suri-rumah-didakwa-bunuh-ibu",
+    "title": "Suri rumah didakwa bunuh ibu"
+   }
+  ]
  },
  {
   "type": "theft",
@@ -3539,6 +3546,11 @@
     "outlet": "Facebook",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZHhTd3VTNXJlNE1MTFBEbUdib1daNFFCUk9mNDNsVFdyXzRTeHBSM2t2OXBYS3JRZmgtckdsdF95SmRCM1k1eHVFa05MN0Jjd0FtaTdaZGlZOTE2TUEtOTY3Sk5SazdYUnlIVnZtaWp5SWZ1VXRSbXp0M0lsLWFFdTN3OGJZV19jLXRBdmZyQVduQ19fVlZoVE1DdnFrc0NXdWlSRlNBUVpjMUE1aDdmV2Ftd2RGb2NCRkIzSmFsZ3VwdG9JSVhGam10b1ROMnR6ZXgweHBIbjhPTnl0Y0E?oc=5",
     "title": "Lelaki Dicekup Ketika Sedang Curi Kabel Di Ampang #MGFlash Polis menahan seorang lelaki ketika cuba menarik keluar kabel dari sebuah lurang menggunakan kenderaan pacuan empat roda di Kampung Tasik Tambahan, Ampang, kelmarin. #malaysiaga"
+   },
+   {
+    "outlet": "Lobak Merah",
+    "link": "https://lobakmerah.com/sudut-pandang-cctv-jadi-punca-isu-mpv-escort-pencuri-kabel-polis-dedah-kronologi-insiden/",
+    "title": "\"Sudut pandang CCTV jadi punca\" - Isu MPV 'Escort' Pencuri Kabel, Polis Dedah Kronologi Insiden"
    }
   ]
  },
@@ -3628,48 +3640,6 @@
   "lat": 5.4142,
   "lng": 100.3287,
   "precision": "town"
- },
- {
-  "type": "theft",
-  "title": "Cubaan curi transformer SEB di Bau, kerugian RM30,000",
-  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORWhuU0Y1WW5RQ1lIZHlHVE9HVUNqanFtMm1uQmVuYTdST0VVRC1XdFhzd0JrZ3RsT0YxYV9IZ3F5VnAyWU9sUXEwWTZrRnI3WndKanR1RnBCVVVOOXVxOW9RX0ttTXlJZlRMSVNwM3lrNWNINWxIU2t0a2hMOE1tSGdCVkpwcVNhXzRYelNMS1ptUQ?oc=5",
-  "outlet": "Saluran 122",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-21T07:00:00.000Z",
-  "place": "Bau",
-  "area": "Bau, Bahagian Kuching",
-  "lat": 1.4179,
-  "lng": 110.1553,
-  "precision": "area",
-  "alsoReported": [
-   {
-    "outlet": "https://utusansarawak.com.my/",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWWdDMDlNcEdmWFYxUzhmbHRUekJvczRtMXl1ZDJIZ3h4QXVwNmJTV3dMLVBZM3NBb3F1bmg5NjU3Umo3ajdoUF9BYWJNaE5uTHdfZ2ZxUjlYMDNnb0hkblVmN0c4Q2JhWWh5NkE5N3NfR20yY3pFR0dzVWhYd0xkN3dJOTRxQVk?oc=5",
-    "title": "Polis buru suspek cuba curi transformer SEB di Bau"
-   }
-  ]
- },
- {
-  "type": "theft",
-  "title": "Lelaki diberkas dipercayai curi dua rim kereta",
-  "link": "https://www.tvsarawak.my/2026/09/21/lelaki-diberkas-dipercayai-curi-dua-rim-kereta/",
-  "outlet": "Saluran 122",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-21T07:00:00.000Z",
-  "place": "Kampung Sungai Baong, Krokop",
-  "area": "Jalan Krokop 10, Piasau Jaya",
-  "lat": 4.4251,
-  "lng": 114.0031,
-  "precision": "area",
-  "alsoReported": [
-   {
-    "outlet": "https://utusansarawak.com.my/",
-    "link": "https://utusansarawak.com.my/suspek-curi-dua-rim-kereta-ditangkap/",
-    "title": "Suspek curi dua rim kereta ditangkap"
-   }
-  ]
  },
  {
   "type": "murder",
@@ -5320,20 +5290,6 @@
   "precision": "area"
  },
  {
-  "type": "theft",
-  "title": "Polis nafi dakwaan tular MPV 'escort' kenderaan curi kabel",
-  "link": "https://www.sinarharian.com.my/article/797332/berita/semasa/polis-nafi-dakwaan-tular-mpv-escort-kenderaan-curi-kabel",
-  "outlet": "Sinar Harian",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-21T07:00:00.000Z",
-  "place": "Kuala Lumpur",
-  "area": "Kuala Lumpur, Malaysia",
-  "lat": 3.1517,
-  "lng": 101.6942,
-  "precision": "town"
- },
- {
   "type": "drugs",
   "title": "Upah RM600 angkut dadah, lelaki ditahan dengan ganja bernilai RM29,000",
   "link": "https://www.sinarharian.com.my/article/805353/berita/semasa/upah-rm600-angkut-dadah-lelaki-ditahan-dengan-ganja-bernilai-rm29000",
@@ -5667,6 +5623,11 @@
     "outlet": "Malaysiakini",
     "link": "https://www.malaysiakini.com/news/889537-two-more-air-force-personnel-held-in-drug-trafficking-probe-total-seven",
     "title": "Two more Air Force personnel held in drug trafficking probe, total seven"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/22/two-more-tawau-rmaf-personnel-remanded-as-military-drug-smuggling-probe-widens/244262",
+    "title": "Two more Tawau RMAF personnel remanded as military drug-smuggling probe widens"
    }
   ]
  },
@@ -5965,11 +5926,18 @@
   "source": "news",
   "verified": true,
   "publishedAt": "2026-11-20T08:54:54.000Z",
-  "place": "Petaling Jaya",
+  "place": "KM34, Petaling Jaya",
   "area": "Petaling Jaya, Petaling",
   "lat": 3.0989,
   "lng": 101.6454,
-  "precision": "town"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/22/two-women-killed-after-being-thrown-from-mercedes-on-federal-highway-police-hunt-driver-who-fled/244255",
+    "title": "Two women killed after being thrown from Mercedes on Federal Highway, police hunt driver who fled"
+   }
+  ]
  },
  {
   "type": "drugs",
@@ -6757,6 +6725,11 @@
     "outlet": "Facebook",
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRVJ6ZFZBMU9tRjhuX3pQN1ZKTy1ybWdMbmxLVkRpcXI0aUtfYkJYNmRfbXFIdnZXeVZQd2xHU0tyVkRmY0VfcGVJYmZqRWVPTUVhQlIxV0U0Y0ZfQjIxcGFOYUJUZ2kyNGVFd2hSSWpCYVctNjlxbERfbUNfZ3BjWnJjcjdYQUVCNmZyQnZnSy1ENGxhSGhaY3BqVmNrdmoweGlnZGd3NmRlX3hfS2R2RlMtdHVzOHdJaURCVmM0dFVTUThQMWZNREVsVUMzYmRXUjQ0WTZDbHlZSEZFZWRr?oc=5",
     "title": "Malaysia Gazette. . Polis Buru Kumpulan Curi Kabel di Taman Malim Jaya #mgflash Polis sedang giat mengesan sekumpulan individu yang disyaki cuba mencuri kabel bawah tanah di Taman Malim Jaya, Melaka, awal pagi semalam. #malaysiagazette #Curi"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/22/police-foil-underground-cable-theft-but-suspects-flee-after-chase-from-malim-jaya-to-alor-gajah/244313",
+    "title": "Police foil underground cable theft but suspects flee after chase from Malim Jaya to Alor Gajah"
    }
   ]
  },
@@ -6887,6 +6860,76 @@
   "area": "Spaoh, Betong",
   "lat": 1.5306,
   "lng": 111.522,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Trophies, hampers and 12 arrests: Sabah Islamic religious enforcers nab 12 over ‘Ratu Pondan’ contest on Pulau Bum-Bum",
+  "link": "https://www.malaymail.com/news/malaysia/2026/11/22/trophies-hampers-and-12-arrests-sabah-islamic-religious-enforcers-nab-12-over-ratu-pondan-contest-on-pulau-bum-bum/244265",
+  "outlet": "Malay Mail",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-22T01:53:00.000Z",
+  "place": "Semporna",
+  "area": "Semporna, Bahagian Tawau",
+  "lat": 4.4791,
+  "lng": 118.4298,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Johor woman loses RM250,000 to boyfriend in bogus investment, suspect held",
+  "link": "https://www.malaymail.com/news/malaysia/2026/11/22/johor-woman-loses-rm250000-to-boyfriend-in-bogus-investment-suspect-held/244258",
+  "outlet": "Malay Mail",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-22T01:27:00.000Z",
+  "place": "Kulai",
+  "area": "Kulai, Johor",
+  "lat": 1.6667,
+  "lng": 103.6,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Seorang pelajar lelaki direman enam hari",
+  "link": "https://www.astroawani.com/video/seorang-pelajar-lelaki-direman-enam-hari",
+  "outlet": "Astro Awani",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-04T07:00:00.000Z",
+  "place": "Yong Peng, Johor",
+  "area": "Yong Peng, Batu Pahat",
+  "lat": 2.0132,
+  "lng": 103.0571,
+  "precision": "area"
+ },
+ {
+  "type": "scam",
+  "title": "Pesara rugi RM237,000 diperdaya scam menyamar pihak",
+  "link": "https://www.astroawani.com/video/pesara-rugi-rm237000-diperdaya-scam-menyamar-pihak",
+  "outlet": "Astro Awani",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-02T07:00:00.000Z",
+  "place": "Perak Tengah",
+  "area": "Perak Tengah, Perak",
+  "lat": 4.25,
+  "lng": 100.9167,
+  "precision": "area"
+ },
+ {
+  "type": "assault",
+  "title": "Polis tahan seorang lagi pelajar, sahkan mangsa dipukul guna paip getah",
+  "link": "https://www.astroawani.com/video/polis-tahan-seorang-lagi-pelajar-sahkan-mangsa-dipukul-guna-paip-getah",
+  "outlet": "Astro Awani",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-29T07:00:00.000Z",
+  "place": "Kuala Pilah",
+  "area": "Kuala Pilah, Negeri Sembilan",
+  "lat": 2.7431,
+  "lng": 102.2155,
   "precision": "area"
  }
 ]
