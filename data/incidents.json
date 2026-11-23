@@ -205,6 +205,16 @@
     "outlet": "Kosmo Online",
     "link": "https://www.kosmo.com.my/2026/10/09/lelaki-16-rekod-jenayah-ditembak-di-kepala/",
     "title": "Lelaki 16 rekod jenayah ditembak di kepala"
+   },
+   {
+    "outlet": "Astro Awani",
+    "link": "https://www.astroawani.com/video/polis-sahkan-insiden-tembakan-di-johor",
+    "title": "Polis sahkan insiden tembakan di Johor"
+   },
+   {
+    "outlet": "Sinar Harian",
+    "link": "https://www.sinarharian.com.my/article/799661/berita/semasa/kejadian-tembakan-berhampiran-zoo-johor-suspek-ada-16-rekod-jenayah",
+    "title": "Kejadian tembakan berhampiran Zoo Johor: Suspek ada 16 rekod jenayah"
    }
   ]
  },
@@ -542,6 +552,11 @@
     "outlet": "Berita Harian",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYzZDR3QtMHlHdTFoaTJwR1lkWWxZRWJodWk3cGhzV1hkNHZrUm8wbWk0U2lTYzNfUV9ZcWNPVTkybXBKRUE3VlVZNEhEX2U1QnJEZ19CV0tCT1ZNcW4yLXBwNWxBZjhPSlZ5Sm9jaE9TaTVtZ05VcVpsckthVkdnaGNkRnhMSjBJQV9kMHVUU1dDVVdtWEJUWWZ0bXFyUjZwVmZfS2lhWktsYVZ0X0M5ekJPck1LaHViY2FjdEV2U3DSAcYBQVVfeXFMTXZod3JOOU4tcVhLRGpPS1JkcmRDVTBmUTFXN3RGVkstYzdwTjhlU2FUX3g1N1JEUEFHVFd2Ni14WlAybTVraUFPQXNnUUk5bzFTQjNVQUY1RWFFRU56elAxZlQ0N1FfTVBrYTBWNDRTeXdqLXVqYnRaeWhVQmh0VHFqajd2bmstc2tJM1A1WVRVZnhkQVFsTk9HOVdOajdJUnFRNFhzQklqcVh1YTRWSWU3LVdrQUhwdkVwbGhWRXdVbWhDdXJR?oc=5",
     "title": "Jururawat parah ditikam suami di Kota Bharu, suspek direman tujuh hari"
+   },
+   {
+    "outlet": "Astro Awani",
+    "link": "https://www.astroawani.com/berita-malaysia/jururawat-cedera-parah-ditikam-enam-kali-suami-direman-tujuh-hari",
+    "title": "Jururawat cedera parah ditikam enam kali, suami direman tujuh hari"
    }
   ]
  },
@@ -1083,7 +1098,14 @@
   "area": "Mentakab, Temerloh",
   "lat": 3.4865,
   "lng": 102.3515,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Free Malaysia Today",
+    "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/19/4-geng-samun-curi-kabel-ecrl-tm-tumpas-babit-kerugian-rm75-000",
+    "title": "4 geng samun, curi kabel ECRL, TM tumpas babit kerugian RM75,000"
+   }
+  ]
  },
  {
   "type": "theft",
@@ -1468,6 +1490,11 @@
     "outlet": "NST Online",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbGdFS3Blc21aaWZLdXFROU54aVpfZ0dTRkFmQUZURWs3S0FvRkxxSHAwUFUtQW0xUlljTGNuQjR6WG9MTTdUM2ZIM2JQd1J4NGk5c0NtTnpVTXhfaU9BaUdpbS1nVU5HaUJlVGlRMTM1NFhDSEFQa2JocG42ODdTTndpQUJZOHhOSWhJLVF5VkxzQ2R4NjdFclItLXNqTGprRVB1VWljTC1aa1RScWw3WFJXT3lhZkFR0gG-AUFVX3lxTE5kV1lTZ3pNZWFHRzhTUjhiYnpyWDhVSkJHcWlvVF9iVkVGRTVKc1hzX2dhajhkeWpWU0Nrd1ZaSFF6MHpjS3hnVW9qeFFwcXFOX2NwWEk3clI2RW9DSXdoUklya1R5cWhCYXJtOGxfZ2l0NHdBNWdOTnFoUVNTNkIzVW9BUmtSU1Z2XzZiOEpia3lrZmxXYndTUUViY3RRYlFvTjB2U2ZKNlpQbGI1TUVKV2JYZUdBLVhSMUxKckE?oc=5",
     "title": "[UPDATED] Husband surrenders after wife found murdered at KLIA quarters"
+   },
+   {
+    "outlet": "Malaysia Tribune",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcFdQd3pEUTVLdGpoSXcxUl9FVjdJUHFZbnhNSV9JN1NYR3kyOFNUbWNQSGVZSzJyY3UyU1g0MzR4RUhBLTBIZjhTQ3BoeGRVUlpWUlZIeGRHNFhZNkVCeDR4ODlCVUlXVTh3N3NNcDFGT1Z1cFlWUHFOR1Y4NUdwaHNxNUdfX3ZETWd0OGhKaTJmSkVwNTljTlNyRUlIdw?oc=5",
+    "title": "Penjawat awam wanita maut dipercayai dibunuh suami di kuarters KLIA"
    }
   ]
  },
@@ -1679,6 +1706,11 @@
     "outlet": "Free Malaysia Today",
     "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/14/polis-buru-5-lagi-lelaki-berkait-kes-culik-bunuh-penjual-durian",
     "title": "Polis buru 5 lagi lelaki berkait kes culik, bunuh penjual durian"
+   },
+   {
+    "outlet": "MalaysiaGazette",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOTAyVUtMZnJVWkpUWm84S0tOaVRkOGRfSV9DMzBzWWdyVm1BXzgxR0N0Qm9PMEkxQVJrYlRpaTlUUndRRnA2aF93UmZmNkpvMVVFMmc3ck1TbGFzRncxSUhteUhsc3kwY2s5UXJfZUVxMzZSR05ZMnBuV0RxYS15R202cXhyY0lmTUJBYVlVZUhSZ3FhMUFRZW9LSDZrTks2a0RZQ3lpZkZGYmtmSVo3Sg?oc=5",
+    "title": "Kes bunuh lelaki di Semenyih: 5 suspek diburu, punca akibat selisih faham"
    }
   ]
  },
@@ -6931,5 +6963,47 @@
   "lat": 2.7431,
   "lng": 102.2155,
   "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Ketamin catat jumlah tangkapan tertinggi AADK Kedah",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439752/ketamin-catat-jumlah-tangkapan-tertinggi-aadk-kedah",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T00:42:16.000Z",
+  "place": "Alor Setar",
+  "area": "Alor Setar, Kota Setar",
+  "lat": 6.1232,
+  "lng": 100.3684,
+  "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "'Saya dah nasihat jangan terjebak dadah, boleh musnah keluarga...' - Abang ipar kesal tragedi ragut nyawa Norhazwani",
+  "link": "https://www.hmetro.com.my/utama/2026/10/1424047/saya-dah-nasihat-jangan-terjebak-dadah-boleh-musnah-keluarga-abang-ipar-kesal",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-16T07:00:00.000Z",
+  "place": "Tumpat",
+  "area": "Tumpat, Kelantan",
+  "lat": 6.1764,
+  "lng": 102.1663,
+  "precision": "town"
+ },
+ {
+  "type": "murder",
+  "title": "Tiada bukti Zara Qairina ditolak atau dibunuh - Pegawai penyiasat",
+  "link": "https://www.sinarharian.com.my/article/800468/berita/semasa/tiada-bukti-zara-qairina-ditolak-atau-dibunuh---pegawai-penyiasat",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-14T07:00:00.000Z",
+  "place": "Kota Kinabalu",
+  "area": "Kota Kinabalu, Bahagian Pantai Barat",
+  "lat": 5.978,
+  "lng": 116.0729,
+  "precision": "town"
  }
 ]
