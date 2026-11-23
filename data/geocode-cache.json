@@ -2711,5 +2711,27 @@
   "kind": "neighbourhood"
  },
  "area4:astro awani": null,
- "area4:lebuhraya baru lembah klang": null
+ "area4:lebuhraya baru lembah klang": null,
+ "area4:pengerang": {
+  "lat": 1.3944,
+  "lng": 104.2155,
+  "label": "Pengerang, Kota Tinggi",
+  "kind": "town"
+ },
+ "area4:antd.vn": null,
+ "area4:wilayah hyogo, antd.vn": null,
+ "area4:wilayah hyogo": null,
+ "area4:butterworth": {
+  "lat": 5.4082,
+  "lng": 100.3697,
+  "label": "Bandar Butterworth, Seberang Perai Utara",
+  "kind": "city"
+ },
+ "area4:sekolah antarabangsa tunku putra-help": null,
+ "area4:kuching, sarawak": {
+  "lat": 1.5598,
+  "lng": 110.3454,
+  "label": "Kuching, Bahagian Kuching",
+  "kind": "city"
+ }
 }

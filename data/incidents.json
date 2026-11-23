@@ -1021,7 +1021,14 @@
   "area": "Kampung Baru Buntong, Buntong",
   "lat": 4.5982,
   "lng": 101.0633,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian",
+    "link": "https://www.sinarharian.com.my/article/801506/berita/semasa/bersenjatakan-pemutar-skru-ikat-nenek-saudara-rompak-subang-emas",
+    "title": "Bersenjatakan pemutar skru, ikat nenek saudara rompak subang emas"
+   }
+  ]
  },
  {
   "type": "vandalism",
@@ -7005,5 +7012,33 @@
   "lat": 5.978,
   "lng": 116.0729,
   "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Konon teman remaja demam, janda muda dicekup khalwat",
+  "link": "https://www.sinarharian.com.my/article/805772/berita/semasa/konon-teman-remaja-demam-janda-muda-dicekup-khalwat",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T02:51:00.000Z",
+  "place": "Pengerang",
+  "area": "Pengerang, Kota Tinggi",
+  "lat": 1.3944,
+  "lng": 104.2155,
+  "precision": "area"
+ },
+ {
+  "type": "assault",
+  "title": "Remaja Serang Guru Bukan Lagi Pelajar Aktif Sekolah #MGFlash Remaja yang didakwa mencederakan seorang guru di Sekolah Antarabangsa Tunku Putra-HELP (TPH) di Kuching, Sarawak, bukan lagi berstatus pelajar aktif di institusi berkenaan. #malaysi",
+  "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPckVFRlBpYU9UX2RKWXY4QkU1Y0E4b3RTekc5STNsMjJBcVI3Y1lhOE05UWowdUtFZk5JYTQxdG9IRk1vZVdxSkllaXd3Yk52YVRucjZrTU9KeXBmQnlJdFNIeHJJTUE0YmhaYlozMlY0Wm1DZjRFUmI5dW9lcXVuZEZhcDlVMmNqekp4a0V2RlRGNmRQdWVaYW1iZnozMlVRNFh5c2lyY0xNZ3h4bjk4T2U2V3RxOEdzNlRTM3FRMVQxLV9oZXdjQ3drTDByLWhocHVfVF92NkVCNTE5UlE?oc=5",
+  "outlet": "Facebook",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-21T07:00:00.000Z",
+  "place": "Kuching, Sarawak",
+  "area": "Kuching, Bahagian Kuching",
+  "lat": 1.5598,
+  "lng": 110.3454,
+  "precision": "area"
  }
 ]
