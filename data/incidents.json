@@ -6900,6 +6900,11 @@
     "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
     "link": "https://www.utusan.com.my/nasional/2026/11/lampu-jalan-tidak-berfungsi-di-putrajaya-akibat-kabel-dicuri/?utm_source=rss&utm_medium=rss&utm_campaign=lampu-jalan-tidak-berfungsi-di-putrajaya-akibat-kabel-dicuri",
     "title": "Lampu jalan tidak berfungsi di Putrajaya akibat kabel dicuri"
+   },
+   {
+    "outlet": "Sinar Harian",
+    "link": "https://www.sinarharian.com.my/article/805790/berita/nasional/kecurian-kabel-masalah-besar-450-lampu-jalan-di-laluan-putrajaya-rosak---ahmad-maslan",
+    "title": "Kecurian kabel masalah besar, 450 lampu jalan di laluan Putrajaya rosak - Ahmad Maslan"
    }
   ]
  },
@@ -7076,6 +7081,48 @@
   "area": "Kuching, Bahagian Kuching",
   "lat": 1.5598,
   "lng": 110.3454,
+  "precision": "area"
+ },
+ {
+  "type": "robbery",
+  "title": "Armed gang robbery suspect nabbed in Sandakan",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVk9YR1ZTekYyR2JSb1BNVmUxa3BDYnpRTENxTU1fbVRvVDJfZVVxZm91XzRUb1VMc0Y2d3V0VDRwQjRkcEwtakQwekVScE12bEhSaUY2c0tzS0FrS3ZLNExEU1VFbHZGbGstNUZ6MUxCVzVvTE5KQnlDejBYZWstX2lwZGIxeWg2Rkpsa0ZFZDdZbEZi?oc=5",
+  "outlet": "Daily Express Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T06:13:54.000Z",
+  "place": "Sandakan",
+  "area": "Sandakan, Sandakan District",
+  "lat": 5.8391,
+  "lng": 118.1159,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Remaja 14 tahun direman kes kehilangan wang nenek RM14,500",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1439869/remaja-14-tahun-direman-kes-kehilangan-wang-nenek-rm14500",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T06:02:07.000Z",
+  "place": "Lam Lee, Batu Pahat",
+  "area": "Lam Lee, Batu Pahat",
+  "lat": 2.0941,
+  "lng": 103.046,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Kastam gagalkan cubaan seludup 15,456 katrij vape disyaki mengandungi dadah",
+  "link": "https://www.sinarharian.com.my/article/805795/berita/jenayah/kastam-gagalkan-cubaan-seludup-15456-katrij-vape-disyaki-mengandungi-dadah",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T03:52:00.000Z",
+  "place": "Zon Per",
+  "area": "Zon Warisan Taiping, Taiping",
+  "lat": 4.8544,
+  "lng": 100.7455,
   "precision": "area"
  }
 ]

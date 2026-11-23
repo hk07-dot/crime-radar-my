@@ -2736,5 +2736,19 @@
  },
  "area4:zon perdagangan bebas, sepang": null,
  "area4:zon perdagangan bebas": null,
- "area4:putrajaya, kuala lumpur": null
+ "area4:putrajaya, kuala lumpur": null,
+ "area4:lam lee, yong peng, batu pahat": null,
+ "area4:lam lee, yong peng": null,
+ "area4:lam lee, batu pahat": {
+  "lat": 2.0941,
+  "lng": 103.046,
+  "label": "Lam Lee, Batu Pahat",
+  "kind": "village"
+ },
+ "area4:zon per": {
+  "lat": 4.8544,
+  "lng": 100.7455,
+  "label": "Zon Warisan Taiping, Taiping",
+  "kind": "protected_area"
+ }
 }
