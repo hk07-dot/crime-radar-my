@@ -2898,5 +2898,30 @@
   "label": "Jalan Cermai, Taman Samagagah",
   "kind": "residential"
  },
- "area4:ogun": null
+ "area4:ogun": null,
+ "area4:johor bahr": null,
+ "area4:paya jaras, sungai buloh, petaling jaya": null,
+ "area4:paya jaras, sungai buloh": {
+  "lat": 3.1997,
+  "lng": 101.5462,
+  "label": "Paya Jaras, Sungai Buloh",
+  "kind": "suburb"
+ },
+ "area4:felda adela, sungai rengit": null,
+ "area4:sungai rengit, kota tinggi": {
+  "lat": 1.3503,
+  "lng": 104.2221,
+  "label": "Sungai Rengit, Kota Tinggi",
+  "kind": "town"
+ },
+ "area4:sungai rengit": {
+  "lat": 1.3503,
+  "lng": 104.2221,
+  "label": "Sungai Rengit, Kota Tinggi",
+  "kind": "town"
+ },
+ "area4:lebuh raya damansara-puchong, petaling jaya": null,
+ "area4:johor zoo": null,
+ "area4:hutan simpan kekal, bera": null,
+ "area4:hutan simpan kekal": null
 }

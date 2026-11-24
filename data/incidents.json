@@ -287,6 +287,16 @@
     "outlet": "Facebook",
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcU0xcEpEVmtPNzY2VlBXT1k4eld5Ul8ySU54M3dCMTRvWGRaVkdpMUNqOE1NSXYxWlVJeVFpQncydEMwTUxRa2NobW8tOVViSWJremdDeXFsVGJ0aW9hNHdUVlNtTHhNVXZnNVZlNkJDMFFielREb1EwVjR5UHppZGExZ29JcG1hTHdMcjNMZjl5a0VpS2F5RkZqSUpWUXFTdWV1d0RiTGVFcFdic01FalpPOEZKZk5zYnNMcms3cE05VDdtSzYwLVctTG1GaVY2YXVyN2l3ZFBsQXk3?oc=5",
     "title": "Kes bunuh pelajar di Yong Peng: Remaja lelaki 16 tahun disambung reman enam hari bermula esok"
+   },
+   {
+    "outlet": "Malaysiakini",
+    "link": "https://www.malaysiakini.com/news/886648-polis-siasat-dendam-cinta-ditolak-motif-irene-dibunuh",
+    "title": "Polis siasat dendam cinta ditolak motif Irene dibunuh"
+   },
+   {
+    "outlet": "https://utusanmelayuplus.com/",
+    "link": "https://utusanmelayuplus.com/dendam-cinta-ditolak-motif-irene-sofiya-dibunuh-polis/",
+    "title": "Dendam cinta ditolak motif Irene Sofiya dibunuh – Polis"
    }
   ]
  },
@@ -348,6 +358,11 @@
     "outlet": "Utusan Malaysia",
     "link": "https://www.utusan.com.my/berita/2026/10/penjenayah-tular-damansara-damai-cedera-ditembak-polis-ada-10-rekod-jenayah/",
     "title": "Penjenayah tular Damansara Damai cedera ditembak polis, ada 10 rekod jenayah"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/10/1421268/suspek-cedera-ditembak-ada-10-rekod-jenayah?source=widget",
+    "title": "Suspek cedera ditembak ada 10 rekod jenayah"
    }
   ]
  },
@@ -1793,6 +1808,11 @@
     "outlet": "Harian Metro",
     "link": "https://www.hmetro.com.my/mutakhir/2026/10/1422439/geng-curi-kabel-berhampiran-sekolah-tumpas-14-individu-ditahan",
     "title": "Geng curi kabel berhampiran sekolah tumpas, 14 individu ditahan"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/10/1422439/geng-curi-kabel-berhampiran-sekolah-tumpas-14-individu-ditahan?source=widget",
+    "title": "Geng curi kabel berhampiran sekolah tumpas, 14 individu ditahan"
    }
   ]
  },
@@ -1906,7 +1926,14 @@
   "area": "Kota Bharu, Kelantan",
   "lat": 6.1248,
   "lng": 102.2378,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "NST Online",
+    "link": "https://www.nst.com.my/news/regional/2026/10/1553221/i-just-want-justice-my-mother-daughter-stabbed-nurse",
+    "title": "'I just want justice for my mother': Daughter of stabbed nurse"
+   }
+  ]
  },
  {
   "type": "theft",
@@ -1981,7 +2008,14 @@
   "area": "Petaling Jaya, Petaling",
   "lat": 3.0989,
   "lng": 101.6454,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/10/10/penjenayah-tular-damansara-damai-tumpas-selepas-cedera-ditembak-polis/",
+    "title": "Penjenayah tular Damansara Damai ‘tumpas’ selepas cedera ditembak polis"
+   }
+  ]
  },
  {
   "type": "assault",
@@ -6378,7 +6412,14 @@
   "area": "Kuala Pilah, Negeri Sembilan",
   "lat": 2.7431,
   "lng": 102.2155,
-  "precision": "town"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Astro Awani",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPM2Z1NkYxaVVKZ040QmFxaFE0eFYtSGxwUG1HUmxKdElRQlVlQWZESmxEanl0NUFEQzJXb3N1RlFyNnhTRnlHaTRUY1hNVm85RFZlOHo2ZUV4SEd4dDdINDF6dFdSOWkxNUlZb25FeHVVcVJRZTFKYUtkMk9paHFGeUk2d0Q1clFvSDNLLVJEQWVsUQ?oc=5",
+    "title": "Pelajar cedera dipukul di asrama sekolah di Kuala Pilah"
+   }
+  ]
  },
  {
   "type": "robbery",
@@ -7647,6 +7688,118 @@
   "area": "Bukit Mertajam, Seberang Perai Tengah",
   "lat": 5.3643,
   "lng": 100.461,
+  "precision": "town"
+ },
+ {
+  "type": "assault",
+  "title": "‘Ayyash diserang monyet dalam buaian’",
+  "link": "https://www.kosmo.com.my/2026/11/24/ayyash-diserang-monyet-dalam-buaian/?utm_source=rss&utm_medium=rss&utm_campaign=ayyash-diserang-monyet-dalam-buaian",
+  "outlet": "Kosmo: Suapan Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T01:15:33.000Z",
+  "place": "Paya Jaras, Sungai Buloh",
+  "area": "Paya Jaras, Sungai Buloh",
+  "lat": 3.1997,
+  "lng": 101.5462,
+  "precision": "area"
+ },
+ {
+  "type": "assault",
+  "title": "Jabatan Veterinar siasat kejadian anjing serang kucing",
+  "link": "https://newswav.com/article/jabatan-veterinar-siasat-kejadian-anjing-serang-kucing-A2611_gOkwGf",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-19T09:13:00.000Z",
+  "place": "Butterworth",
+  "area": "Bandar Butterworth, Seberang Perai Utara",
+  "lat": 5.4082,
+  "lng": 100.3697,
+  "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "2 remaja ditahan bekal vape campuran dadah kepada pelajar di Negeri Sembilan",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1433059/2-remaja-ditahan-bekal-vape-campuran-dadah-kepada-pelajar-di-negeri?source=widget",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-06T11:02:36.000Z",
+  "place": "Kuala Lumpur",
+  "area": "Kuala Lumpur, Malaysia",
+  "lat": 3.1517,
+  "lng": 101.6942,
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Astro Awani",
+    "link": "https://www.astroawani.com/berita-malaysia/polis-tahan-dua-remaja-disyaki-bekal-vape-mengandungi-dadah-kepada-pelajar-di-negeri-sembilan",
+    "title": "Polis tahan dua remaja disyaki bekal vape mengandungi dadah kepada pelajar di Negeri Sembilan"
+   }
+  ]
+ },
+ {
+  "type": "murder",
+  "title": "19-year-old charged with murder of polytechnic student in Kuantan",
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYkFzVEtKVzFXQ1JobXF2ZmMzQ2ZkeUtwWTFDMC1pUWNFZHVxLUhTWk9SZVpwbXV6UU51cENNS2tzMmVvdmtwOHMxY1NOcVFwRGpFemFsU1lvajlGLTN6WTlJYW92TUpuc0ZSNFFGWWx6azVIeUFpRGpvRzJVQkRlajJpY1h4c0JKMy1lOU50MnV0VzB1eDNkUjREcENQX0tCZ3ZPbGE1dFoweE91dnhmSi1vU1RIdw?oc=5",
+  "outlet": "The Star",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-12T07:00:00.000Z",
+  "place": "Kuantan",
+  "area": "Kuantan, Pahang",
+  "lat": 3.7974,
+  "lng": 103.3219,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Must Share News",
+    "link": "https://mustsharenews.com/female-student-murdered/",
+    "title": "Female student in M’sia murdered in her apartment, boyfriend turns himself in"
+   }
+  ]
+ },
+ {
+  "type": "theft",
+  "title": "Man found dead beside Johor substation, electrocution from cable theft suspected, Malaysia News",
+  "link": "https://www.asiaone.com/malaysia/johor-tnb-substation-cable-theft-man-dead",
+  "outlet": "AsiaOne.com",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-12T07:00:00.000Z",
+  "place": "Sungai Rengit",
+  "area": "Sungai Rengit, Kota Tinggi",
+  "lat": 1.3503,
+  "lng": 104.2221,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Malaysian police shoot and arrest man after chase in Petaling Jaya, drugs allegedly found on suspect",
+  "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQUIxR04wQlQwNXVKNzJhM2YzS08wRnowZmpic2w3YU9PYlM1VnUyMEFKWUZHOXlRQ0Z1ZTJTbVBsdjV4Nm9vakhpb25TTzhuazFLUEFEdFl6bzVGWmYtT0luajZkT0RyS1RXT3A5elNXNEs4ZXdUVENYUFF6TF9MQzU1dnpMRE9LQVBWZDlrRmhtczBZNEFXM2dHVVE5SWViOGM4bUlRWmZjdVpyS1pJTldsdWQ5MkU4dlE?oc=5",
+  "outlet": "AsiaOne.com",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-11T07:00:00.000Z",
+  "place": "Petaling Jaya",
+  "area": "Petaling Jaya, Petaling",
+  "lat": 3.0989,
+  "lng": 101.6454,
+  "precision": "area"
+ },
+ {
+  "type": "assault",
+  "title": "Polis nafi dakwaan anggota ditikam Orang Asli ketika jalankan rondaan",
+  "link": "https://www.sinarharian.com.my/article/799472/berita/semasa/polis-nafi-dakwaan-anggota-ditikam-orang-asli-ketika-jalankan-rondaan",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-08T07:00:00.000Z",
+  "place": "Bera",
+  "area": "Bera, Pahang",
+  "lat": 3.2367,
+  "lng": 102.5418,
   "precision": "town"
  }
 ]
