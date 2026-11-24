@@ -2874,5 +2874,29 @@
  "area4:kampung mampulut, keningau": null,
  "area4:kampung mampulut": null,
  "area4:grocery outlet": null,
- "area4:sungai dua toll plaza": null
+ "area4:sungai dua toll plaza": null,
+ "area4:jalan pasar, triang": null,
+ "area4:jalan pasar": {
+  "lat": 3.1484,
+  "lng": 101.7617,
+  "label": "Jalan Pasar, Pekan Ampang",
+  "kind": "residential"
+ },
+ "area4:pulau sebatik": null,
+ "area4:sulaman sentral, manggatal, kota kinabalu": {
+  "lat": 6.0573,
+  "lng": 116.1504,
+  "label": "Lorong Sulaman Sentral, Taman Kuala Menggatal Phase 1",
+  "kind": "residential"
+ },
+ "area4:goshen, kota marudu": null,
+ "area4:goshen": null,
+ "area4:jalan samagagah, permatang pauh, bukit mertajam": null,
+ "area4:jalan samagagah, permatang pauh": {
+  "lat": 5.4123,
+  "lng": 100.4115,
+  "label": "Jalan Cermai, Taman Samagagah",
+  "kind": "residential"
+ },
+ "area4:ogun": null
 }
