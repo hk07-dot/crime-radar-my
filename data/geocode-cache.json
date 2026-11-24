@@ -2957,5 +2957,12 @@
   "lng": 101.6817,
   "label": "Taman Rainbow, Batu",
   "kind": "neighbourhood"
+ },
+ "area4:labuan, petaling jaya": null,
+ "area4:taman city, kuala lumpur": {
+  "lat": 3.1973,
+  "lng": 101.6678,
+  "label": "Taman City, Segambut",
+  "kind": "neighbourhood"
  }
 }

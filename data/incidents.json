@@ -7945,7 +7945,14 @@
   "area": "Kuantan, Pahang",
   "lat": 3.7974,
   "lng": 103.3219,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Portal Berita RTM",
+    "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/felda-pahang-rugi-lebih-rm2-29-juta-akibat-1733-kes-curi-sawit/",
+    "title": "FELDA Pahang rugi lebih RM2.29 juta akibat 1,733 kes curi sawit"
+   }
+  ]
  },
  {
   "type": "police_case",
@@ -7988,5 +7995,33 @@
   "lat": 4.5987,
   "lng": 101.09,
   "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "Reman lima pegawai TUDM disambung, siasatan masih berjalan",
+  "link": "https://www.utusan.com.my/nasional/2026/11/reman-lima-pegawai-tudm-disambung-siasatan-masih-berjalan/?utm_source=rss&utm_medium=rss&utm_campaign=reman-lima-pegawai-tudm-disambung-siasatan-masih-berjalan",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T10:46:59.000Z",
+  "place": "Petaling Jaya",
+  "area": "Petaling Jaya, Petaling",
+  "lat": 3.0989,
+  "lng": 101.6454,
+  "precision": "town"
+ },
+ {
+  "type": "break_in",
+  "title": "Polis tumpaskan kumpulan jenayah pecah rumah rentas negeri",
+  "link": "https://www.astroawani.com/berita-malaysia/polis-tumpaskan-kumpulan-jenayah-pecah-rumah-rentas-negeri",
+  "outlet": "Astro Awani",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T10:00:00.000Z",
+  "place": "Taman City, Kuala Lumpur",
+  "area": "Taman City, Segambut",
+  "lat": 3.1973,
+  "lng": 101.6678,
+  "precision": "area"
  }
 ]
