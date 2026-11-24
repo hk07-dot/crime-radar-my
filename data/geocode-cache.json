@@ -2949,5 +2949,13 @@
   "lng": 110.3123,
   "label": "Jalan Pasir Panjang, Petra Jaya",
   "kind": "residential"
+ },
+ "area4:taman rainbow, jalan ipoh, kuala lumpur": null,
+ "area4:taman rainbow, jalan ipoh": null,
+ "area4:taman rainbow, kuala lumpur": {
+  "lat": 3.1949,
+  "lng": 101.6817,
+  "label": "Taman Rainbow, Batu",
+  "kind": "neighbourhood"
  }
 }

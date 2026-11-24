@@ -6830,6 +6830,11 @@
     "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
     "link": "https://www.utusan.com.my/nasional/2026/11/siasatan-kes-seludup-dadah-babit-pegawai-tudm-masih-berjalan/?utm_source=rss&utm_medium=rss&utm_campaign=siasatan-kes-seludup-dadah-babit-pegawai-tudm-masih-berjalan",
     "title": "Siasatan kes seludup dadah babit pegawai TUDM masih berjalan"
+   },
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805985/berita/semasa/kes-dadah-guna-aset-tudm-polis-dijangka-buat-beberapa-lagi-tangkapan",
+    "title": "Kes dadah guna aset TUDM: Polis dijangka buat beberapa lagi tangkapan"
    }
   ]
  },
@@ -7591,6 +7596,11 @@
     "outlet": "Kosmo: Suapan Kosmo Online",
     "link": "https://www.kosmo.com.my/2026/11/24/jumpa-mayat-separuh-terbenam-dalam-lumpur/?utm_source=rss&utm_medium=rss&utm_campaign=jumpa-mayat-separuh-terbenam-dalam-lumpur",
     "title": "Jumpa mayat separuh terbenam dalam lumpur"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440313/kesan-darah-cebisan-daging-bawa-kepada-penemuan-mayat-dalam-lumpur",
+    "title": "Kesan darah, cebisan daging bawa kepada penemuan mayat dalam lumpur"
    }
   ]
  },
@@ -7914,6 +7924,69 @@
   "area": "Kuala Terengganu, Terengganu",
   "lat": 5.3296,
   "lng": 103.1383,
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440327/lelaki-patah-hidung-rahang-retak-dipukul-tiga-lelaki-selepas-kemalangan",
+    "title": "Lelaki patah hidung, rahang retak dipukul tiga lelaki selepas kemalangan"
+   }
+  ]
+ },
+ {
+  "type": "theft",
+  "title": "Peneroka, Felda rugi RM2.29 juta akibat kecurian sawit",
+  "link": "https://www.utusan.com.my/nasional/2026/11/peneroka-felda-rugi-rm2-29-juta-akibat-kecurian-sawit/?utm_source=rss&utm_medium=rss&utm_campaign=peneroka-felda-rugi-rm2-29-juta-akibat-kecurian-sawit",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T09:45:04.000Z",
+  "place": "Kuantan",
+  "area": "Kuantan, Pahang",
+  "lat": 3.7974,
+  "lng": 103.3219,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Bukit Aman dismantles interstate housebreaking gang, two arrested",
+  "link": "https://newswav.com/article/bukit-aman-dismantles-interstate-housebreaking-gang-two-arrested-A2611_VieN8b",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T09:23:24.000Z",
+  "place": "Taman Rainbow, Kuala Lumpur",
+  "area": "Taman Rainbow, Batu",
+  "lat": 3.1949,
+  "lng": 101.6817,
+  "precision": "area"
+ },
+ {
+  "type": "assault",
+  "title": "8 jam bertungkus-lumus demi Lans Koperal Thierry",
+  "link": "https://www.hmetro.com.my/utama/2026/11/1440322/8-jam-bertungkus-lumus-demi-lans-koperal-thierry",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T09:09:49.000Z",
+  "place": "Kepong, Kuala Lumpur",
+  "area": "Kepong, Kuala Lumpur",
+  "lat": 3.214,
+  "lng": 101.6348,
+  "precision": "area"
+ },
+ {
+  "type": "vandalism",
+  "title": "Vandalism At Gua Tempurung Spurs Conservation Effort Using White Clay",
+  "link": "https://www.bernama.com/en/news.php/?id=2638810",
+  "outlet": "Bernama",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T10:09:18.641Z",
+  "place": "Ipoh",
+  "area": "Majlis Bandaraya Ipoh, Kinta",
+  "lat": 4.5987,
+  "lng": 101.09,
   "precision": "town"
  }
 ]
