@@ -8028,5 +8028,19 @@
   "lat": 3.1973,
   "lng": 101.6678,
   "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Tenaga pengajar direman disyaki amang seksual pelajar madrasah",
+  "link": "https://www.sinarharian.com.my/article/806016/berita/semasa/tenaga-pengajar-direman-disyaki-amang-seksual-pelajar-madrasah",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T12:39:00.000Z",
+  "place": "Tawau",
+  "area": "Tawau, Bahagian Tawau",
+  "lat": 4.2435,
+  "lng": 117.8853,
+  "precision": "town"
  }
 ]
