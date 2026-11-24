@@ -465,6 +465,11 @@
     "outlet": "NST Online",
     "link": "https://www.nst.com.my/news/regional/2026/10/1550673/nurse-stabbed-6-times-husband-previously-reported-death-threats",
     "title": "Nurse stabbed 6 times by husband previously reported death threats to police"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/10/1420556/jururawat-parah-ditikam-diugut-bunuh-berulang-kali-tidak-lagi-tinggal",
+    "title": "Jururawat parah ditikam diugut bunuh berulang kali, tidak lagi tinggal bersama suami"
    }
   ]
  },
@@ -516,6 +521,11 @@
    {
     "outlet": "Kosmo Online",
     "link": "https://www.kosmo.com.my/2026/10/08/mayat-tepi-jalan-polis-percaya-mangsa-dibunuh-di-lokasi-lain/",
+    "title": "Mayat tepi jalan: Polis percaya mangsa dibunuh di lokasi lain"
+   },
+   {
+    "outlet": "Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/10/mayat-tepi-jalan-polis-percaya-mangsa-dibunuh-di-lokasi-lain/",
     "title": "Mayat tepi jalan: Polis percaya mangsa dibunuh di lokasi lain"
    }
   ]
@@ -3392,6 +3402,11 @@
     "outlet": "Buletin TV3",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjRxQVlURXhKOUNlRFc5ZlUzbjNKNllBb3hoQzREOGRWN0M0VWEyZDRWU09USlYwX0VIc0hqTll3T1ZGWU90LVo0MmtmOGpzeFQ0SHoyaWRyNXpkOVpHeVpNa2g2alNMempBMHNvRFE4YU5sV1RDdUNGZGJWcTBPT05rRVFVQWZQZ3NkLS1IT1ZnRXo3QlctcjZLMGFCZw?oc=5",
     "title": "Polis buru suspek disyaki ragut beg tangan wanita di Semenyih"
+   },
+   {
+    "outlet": "MalaysiaGazette",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSGVHbVRpY1ctRzc5a21rQVhVY1ZjYTh1NjRhNFZYdldYZlBsWUZkb2dEb2g3QUNOeXlNZVNRRkh2b0dYUjdnSUR3dml0ai05RmxsSHJlY3ByV0RndG5nQzQtcFNEWmJxb0dUaV9xV0h1RUNGVHhJRGJDMm5zZW1pX2cwWlBwRUV6TEp2OFlBbzVreHVuaC13?oc=5",
+    "title": "Wanita 54 tahun diragut ketika beli buah di Semenyih"
    }
   ]
  },
@@ -3574,7 +3589,19 @@
   "area": "Kampung Cheh, Taiping",
   "lat": 4.755,
   "lng": 100.7667,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Gempak",
+    "link": "https://gempak.com/berita/wanita-oku-maut-ditikam-dari-celahan-papan-rumah-mangsa-sempat-minta-tolong-suami",
+    "title": "Wanita OKU Maut Ditikam Dari Celahan Papan Rumah - “Mangsa Sempat Minta Tolong Suami”"
+   },
+   {
+    "outlet": "Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/09/24/tusukan-tajam-di-pembuluh-darah-kaki-punca-kematian-wanita-oku-di-kuala-kangsar/",
+    "title": "Wanita OKU dibunuh: Tusukan tajam pada pembuluh darah kaki punca kematian"
+   }
+  ]
  },
  {
   "type": "murder",
@@ -7801,5 +7828,33 @@
   "lat": 3.2367,
   "lng": 102.5418,
   "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Wanita maut dirempuh Tesla: Jurutera direman tiga hari",
+  "link": "https://www.sinarharian.com.my/article/805924/berita/semasa/wanita-maut-dirempuh-tesla-jurutera-direman-tiga-hari",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T04:46:00.000Z",
+  "place": "Kulim",
+  "area": "Kulim, Kedah",
+  "lat": 5.3707,
+  "lng": 100.6172,
+  "precision": "town"
+ },
+ {
+  "type": "assault",
+  "title": "Perselisihan faham punca wanita dipukul dalam tren LRT",
+  "link": "https://www.sinarharian.com.my/article/798179/berita/semasa/perselisihan-faham-punca-wanita-dipukul-dalam-tren-lrt",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-09-28T07:00:00.000Z",
+  "place": "Wangsa Maju, Kuala Lumpur",
+  "area": "Wangsa Maju, Kuala Lumpur",
+  "lat": 3.2024,
+  "lng": 101.7395,
+  "precision": "area"
  }
 ]

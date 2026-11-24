@@ -2923,5 +2923,17 @@
  "area4:lebuh raya damansara-puchong, petaling jaya": null,
  "area4:johor zoo": null,
  "area4:hutan simpan kekal, bera": null,
- "area4:hutan simpan kekal": null
+ "area4:hutan simpan kekal": null,
+ "area4:jalan kulim hi-tech park": null,
+ "area4:kampung padang lepai, nexus": null,
+ "area4:kampung padang lepai, kadok, kota baru": null,
+ "area4:wangsa maju, kuala lumpur": {
+  "lat": 3.2024,
+  "lng": 101.7395,
+  "label": "Wangsa Maju, Kuala Lumpur",
+  "kind": "suburb"
+ },
+ "area4:chandigarh": null,
+ "area4:sektor 22, chandigarh": null,
+ "area4:sektor 22": null
 }
