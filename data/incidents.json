@@ -1201,7 +1201,14 @@
   "area": "Matang, Larut",
   "lat": 4.8201,
   "lng": 100.6719,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "https://utusansarawak.com.my/",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX3ZTSVJrUGg5R3UzaXJHaWs3QkV0eFhzbU0tcDd3b2tRZV9McWg1My1OejA5Z092REdBYnFoeHlJSjE4NVNGVlc2QlRqTk5laTQ3ZE10VDJ5Q0Y4LW1hUlBHbVZpd0V2ZElTVnhGa09SM0NvWW9LcUh2Tk9rdnVydTNFMXhHX0dyTlNFRTVZU01JclBmUFhKYTdnUGdSNFo4Q3c?oc=5",
+    "title": "Dua lelaki ditahan disyaki terlibat dalam kes curi rim, kabel di Matang"
+   }
+  ]
  },
  {
   "type": "murder",
@@ -1529,7 +1536,14 @@
   "area": "Seremban, Negeri Sembilan",
   "lat": 2.7231,
   "lng": 101.9401,
-  "precision": "town"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "https://utusanmelayuplus.com/",
+    "link": "https://utusanmelayuplus.com/perselisihan-rumah-tangga-dipercayai-punca-pegawai-kastam-maut-ditikam-suami/",
+    "title": "Perselisihan rumah tangga dipercayai punca pegawai kastam maut ditikam suami"
+   }
+  ]
  },
  {
   "type": "theft",
@@ -7261,7 +7275,14 @@
   "area": "Saratok, Bahagian Betong",
   "lat": 1.7636,
   "lng": 111.4441,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "New Sarawak Tribune: Sarawak Tribune Feed",
+    "link": "https://www.sarawaktribune.com/shop-assistant-attacked-twice-in-two-days-machete-wielding-suspect-detained/",
+    "title": "Shop assistant attacked twice in two days, machete-wielding suspect detained"
+   }
+  ]
  },
  {
   "type": "murder",
@@ -7366,6 +7387,104 @@
   "area": "Kuala Lumpur, Malaysia",
   "lat": 3.1517,
   "lng": 101.6942,
+  "precision": "town"
+ },
+ {
+  "type": "extortion",
+  "title": "Polis tahan 8 lelaki disyaki ugut pengusaha restoran",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440137/polis-tahan-8-lelaki-disyaki-ugut-pengusaha-restoran",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T02:04:29.000Z",
+  "place": "Alor Gajah",
+  "area": "Alor Gajah, Melaka",
+  "lat": 2.3835,
+  "lng": 102.2108,
+  "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "Cuba seludup syabu ke Kelantan, polis Thailand rampas syabu RM2.5 juta di Sungai Golok",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440125/cuba-seludup-syabu-ke-kelantan-polis-thailand-rampas-syabu-rm25-juta-di",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T01:24:36.000Z",
+  "place": "Kota Bharu",
+  "area": "Kota Bharu, Kelantan",
+  "lat": 6.1248,
+  "lng": 102.2378,
+  "precision": "town"
+ },
+ {
+  "type": "murder",
+  "title": "Mayat lelaki disyaki mangsa bunuh ditemukan separuh terbenam dalam lumpur",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440123/mayat-lelaki-disyaki-mangsa-bunuh-ditemukan-separuh-terbenam-dalam-lumpur",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T01:23:13.000Z",
+  "place": "Nibong Tebal",
+  "area": "Nibong Tebal, Seberang Perai Selatan",
+  "lat": 5.1701,
+  "lng": 100.4785,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Kematian dalam tahanan: Polis tegaskan tangkapan ikut SOP, suspek ada 60 rekod lampau",
+  "link": "https://www.sinarharian.com.my/article/800572/berita/semasa/kematian-dalam-tahanan-polis-tegaskan-tangkapan-ikut-sop-suspek-ada-60-rekod-lampau",
+  "outlet": "Sinar Harian",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-15T07:00:00.000Z",
+  "place": "Kuala Lumpur",
+  "area": "Kuala Lumpur, Malaysia",
+  "lat": 3.1517,
+  "lng": 101.6942,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "MRT laluan Kajang alami kelewatan akibat cubaan curi kabel di landasan",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/10/1423704/mrt-laluan-kajang-alami-kelewatan-akibat-cubaan-curi-kabel-di-landasan?source=widget",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-15T07:00:00.000Z",
+  "place": "Kuala Lumpur",
+  "area": "Kuala Lumpur, Malaysia",
+  "lat": 3.1517,
+  "lng": 101.6942,
+  "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "Eksklusif: Jenayah indeks Meradong turun 50 peratus, polis perhebat usaha banteras dadah",
+  "link": "https://utusansarawak.com.my/jenayah-indeks-meradong-turun-50-peratus-polis-perhebat-usaha-banteras-dadah/",
+  "outlet": "https://utusansarawak.com.my/",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-13T07:00:00.000Z",
+  "place": "Bintangor",
+  "area": "Bintangor, Meradong",
+  "lat": 2.1684,
+  "lng": 111.636,
+  "precision": "town"
+ },
+ {
+  "type": "shooting",
+  "title": "Kanak-kanak 11 tahun maut dipercayai ditembak rakan di kepala",
+  "link": "https://www.tvsarawak.my/2026/10/12/kanak-kanak-11-tahun-maut-dipercayai-ditembak-rakan-di-kepala/",
+  "outlet": "Saluran 122",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-12T07:00:00.000Z",
+  "place": "Keningau",
+  "area": "Keningau, Bahagian Pedalaman",
+  "lat": 5.2179,
+  "lng": 116.2463,
   "precision": "town"
  }
 ]

@@ -2847,5 +2847,30 @@
   "label": "Taman Keramat, Kota Kinabalu",
   "kind": "neighbourhood"
  },
- "area4:jalan masjid negeri": null
+ "area4:jalan masjid negeri": null,
+ "area4:kampung baru, ladang byram": null,
+ "area4:kampung baru": null,
+ "area4:nanga ensawa, saratok": null,
+ "area4:nanga ensawa": null,
+ "area4:sungai golok, kota bharu": null,
+ "area4:sungai golok": null,
+ "area4:tak bai, kota bharu": null,
+ "area4:tak bai": null,
+ "area4:nibong tebal": {
+  "lat": 5.1701,
+  "lng": 100.4785,
+  "label": "Nibong Tebal, Seberang Perai Selatan",
+  "kind": "town"
+ },
+ "area4:kampung baru, ladang byram, nibong tebal": null,
+ "area4:kampung baru, nibong tebal": null,
+ "area4:aljunied mrt": null,
+ "area4:pattandur agrahara": null,
+ "area4:netrakona": null,
+ "area4:daerah meradong, bintangor": null,
+ "area4:daerah meradong": null,
+ "area4:kampung mampulut, sook, keningau": null,
+ "area4:kampung mampulut, sook": null,
+ "area4:kampung mampulut, keningau": null,
+ "area4:kampung mampulut": null
 }
