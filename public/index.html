@@ -75,6 +75,13 @@ button.primary:hover { background: var(--accent-600); } button.primary:active { 
 .seg label:not(:has(input:checked)):hover { background: color-mix(in srgb, var(--fg) 7%, transparent); }
 .seg label:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: -4px; }
 .seg.grow { flex: 1; }
+/* Four options don't fit one row on a phone: show them as a 2 x 2 grid. */
+@media (max-width: 720px) {
+  .seg.four { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .seg.four label + label { border-left: 0; }
+  .seg.four label:nth-child(even) { border-left: 2px solid var(--rule); }
+  .seg.four label:nth-child(n+3) { border-top: 2px solid var(--rule); }
+}
 
 /* Layer toggles */
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -409,7 +416,7 @@ header { display: flex; gap: 12px; justify-content: space-between; align-items: 
         <label><input type="radio" name="d-scope" value="my" checked>Malaysia</label>
         <label><input type="radio" name="d-scope" value="state"><span id="d-state"></span></label>
       </div>
-      <div class="seg" role="radiogroup" data-t-aria="measure_aria">
+      <div class="seg four" role="radiogroup" data-t-aria="measure_aria">
         <label><input type="radio" name="d-measure" value="news" checked><span data-t="m_news"></span></label>
         <label><input type="radio" name="d-measure" value="total"><span data-t="m_total"></span></label>
         <label><input type="radio" name="d-measure" value="assault"><span data-t="m_assault"></span></label>
