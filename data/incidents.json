@@ -2366,7 +2366,7 @@
   "area": "Kota Kinabalu, Bahagian Pantai Barat",
   "lat": 5.978,
   "lng": 116.0729,
-  "precision": "town",
+  "precision": "area",
   "alsoReported": [
    {
     "outlet": "TV Sabah News",
@@ -2387,6 +2387,11 @@
     "outlet": "Saluran 122",
     "link": "https://www.tvsarawak.my/2026/10/29/polis-tumpaskan-geng-pecah-rumah-dan-rompakan-bersenjata/",
     "title": "Polis tumpaskan geng pecah rumah dan rompakan bersenjata"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/10/30/sabah-police-cripple-armed-gang-behind-17-luxury-house-break-ins-involving-rm304500-in-losses/241208",
+    "title": "Sabah police cripple armed gang behind 17 luxury house break-ins involving RM304,500 in losses"
    }
   ]
  },
@@ -2790,7 +2795,14 @@
   "area": "Kuching, Bahagian Kuching",
   "lat": 1.5598,
   "lng": 110.3454,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Utusan Borneo",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ21HMnBMeGUybUtycFJ0d2FHaDN5UUFGTDBfTVhSN3JUcW5mQW9Oa25wZUFEUndHUzZFRFBfaGJCOWFlSlE4VjhLTGF4dk95cEJaQWZsRUVuNHJhYWtSUXdQZ0Mtc0YtV1JBTHR3ZjB5c2pabGU5TUpJSk1nUDR6dDJfaHJIWjFjYWNrYWRtZjd1SXh4cjlBeW54QW1uaERFSTdCREZCV3hEZEVPR1V2RmN3?oc=5",
+    "title": "Lelaki disyaki terbabit beberapa kes ragut di sekitar Kuching ditahan"
+   }
+  ]
  },
  {
   "type": "police_case",
@@ -6686,6 +6698,11 @@
     "outlet": "Harian Metro Mutakhir",
     "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440102/aadk-rekod-30927-tangkapan-penagih-dadah-sehingga-oktober",
     "title": "AADK rekod 30,927 tangkapan penagih dadah sehingga Oktober"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440153/pengesanan-vape-campur-dadah-sintetik-cabaran-besar-kastam-mof",
+    "title": "Pengesanan vape campur dadah sintetik cabaran besar Kastam - MOF"
    }
   ]
  },
@@ -7486,5 +7503,47 @@
   "lat": 5.2179,
   "lng": 116.2463,
   "precision": "town"
+ },
+ {
+  "type": "assault",
+  "title": "Two cops sue Shuhaily over assault incident at KLIA",
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWXRJMy1tS2s0bnNwVmxyWk1LWkJNTlZXXzBmQXVZNXpGbmdLT1pEaWZUa2FVT2ZrMTAyVklIV3RORmx1V3RLVEljN1prUGNGYzVXZjZwdGQydkU5dEFHYkpZMk1tRklZY2JaY081VGtHVEFPVkVLaS14MTZuU3U4bHMwNDJTTXhiWTJTZ3R1N181aUxfckhQMmxIR1JjU2ZGUzFF?oc=5",
+  "outlet": "The Star",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-05T08:00:00.000Z",
+  "place": "Sepang",
+  "area": "Sepang, Selangor",
+  "lat": 2.8009,
+  "lng": 101.7094,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Police nab 7 foreigners, seize RM1.08m drugs in Bukit Tengah",
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNlF1aUlvazZmUFNESWxUWXZvc3hDQ0VucHo3cElBbV9IYUp5QjB1Zkw5bVg5bTRYeHI0cFdXTUxRRHNXdmR6NHFPd2REREFmTmcxZjB3Z1JudHpONF9DcTNFejNCTWdMNzZtb3NOa3ZDT2JtanBOUkZTdEVuakllaDZxbjVZQ1RIcjYzTmtjeWwtNE9PWkFUY3RUTEpKZw?oc=5",
+  "outlet": "The Sun Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-05T00:08:18.000Z",
+  "place": "Bukit Tengah",
+  "area": "Bukit Tengah, Permatang Pauh",
+  "lat": 5.3685,
+  "lng": 100.4197,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Man charged with murder of 68-year-old Felda settler in Kota Tinggi",
+  "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9zeWFnWTdUOG9uMXB1RkhqMlU3bGdJQVlfQmlITHdBWW9iRjZtMll4VFpIZm5GY1cweVI0aWtwUFdCSDdtLWdHQ2RBczVzMmNwZEtxN1l3bXZ4R1NjaWxNMjdaQUs1RmJUWGZpTm5IcWdKSkZHdGdxNHA1SGo?oc=5",
+  "outlet": "Yahoo",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-02T08:00:00.000Z",
+  "place": "Kota Tinggi",
+  "area": "Kota Tinggi, Johor",
+  "lat": 1.7337,
+  "lng": 103.9007,
+  "precision": "area"
  }
 ]
