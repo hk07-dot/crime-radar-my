@@ -282,6 +282,11 @@
     "outlet": "Facebook",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOWURVbTBjXzlrRjZyQ1o2d2JmTTdMY0I2QXJVdzV4U3pDQUtKWjd3N0xlRXJIYmsxenlsalFPeXNycDJhMmYxNnI1V29SS3JhT1RVZ3BkZlJoNjJJcHlSZ0FlVGFDTEhlZDZvZDQ5cUZGVWpsX2VEdjZ5cUtVMENGc2NhbmxPSmRXdW85dVhHQUphTlc1VWM0eUdpa1RxeVVxdlcwRXRVRUcxYkNRSHJUMVdPQVFaaTdLbEtBcDNOOXU3dWZQNmdzdVFnd0pyc2c2bm1HeG9EcUpxaTRTOGc?oc=5",
     "title": "Kes bunuh pelajar di Yong Peng: Remaja lelaki 16 tahun disambung reman enam hari bermula esok"
+   },
+   {
+    "outlet": "Facebook",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcU0xcEpEVmtPNzY2VlBXT1k4eld5Ul8ySU54M3dCMTRvWGRaVkdpMUNqOE1NSXYxWlVJeVFpQncydEMwTUxRa2NobW8tOVViSWJremdDeXFsVGJ0aW9hNHdUVlNtTHhNVXZnNVZlNkJDMFFielREb1EwVjR5UHppZGExZ29JcG1hTHdMcjNMZjl5a0VpS2F5RkZqSUpWUXFTdWV1d0RiTGVFcFdic01FalpPOEZKZk5zYnNMcms3cE05VDdtSzYwLVctTG1GaVY2YXVyN2l3ZFBsQXk3?oc=5",
+    "title": "Kes bunuh pelajar di Yong Peng: Remaja lelaki 16 tahun disambung reman enam hari bermula esok"
    }
   ]
  },
@@ -491,7 +496,14 @@
   "area": "Sungai Siput, Kuala Kangsar",
   "lat": 4.8197,
   "lng": 101.0722,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/10/08/mayat-tepi-jalan-polis-percaya-mangsa-dibunuh-di-lokasi-lain/",
+    "title": "Mayat tepi jalan: Polis percaya mangsa dibunuh di lokasi lain"
+   }
+  ]
  },
  {
   "type": "break_in",
@@ -2827,7 +2839,14 @@
   "area": "Kampung Kedai Menanti, ڤاسير ڤوتيه / Pasir Puteh",
   "lat": 5.9347,
   "lng": 102.3433,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/10/01/buruh-mengaku-rompak-gelang-emas-nenek-rm15000/",
+    "title": "Buruh mengaku rompak gelang emas nenek RM15,000"
+   }
+  ]
  },
  {
   "type": "murder",
@@ -2919,7 +2938,14 @@
   "area": "Majlis Bandaraya Ipoh, Kinta",
   "lat": 4.5987,
   "lng": 101.09,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/10/01/tembak-di-stesen-minyak-polis-rakam-10-keterangan/",
+    "title": "Tembak di stesen minyak: Mangsa diekori, ditembak dari dua arah"
+   }
+  ]
  },
  {
   "type": "assault",
@@ -3003,6 +3029,11 @@
     "outlet": "Astro Awani",
     "link": "https://www.astroawani.com/berita-malaysia/khianat-kedai-serbaneka-polis-sarawak-dapatkan-bantuan-interpol-kesan-suspek",
     "title": "Khianat kedai serbaneka: Polis Sarawak dapatkan bantuan Interpol kesan suspek"
+   },
+   {
+    "outlet": "THE MALAYSIA PRESS",
+    "link": "https://themalaysiapress.com/2026/09/30/perebutan-perniagaan-topup-judi-dalam-talian-punca-kedai-serbaneka-dibakar/",
+    "title": "Perebutan perniagaan ‘topup’ judi dalam talian punca kedai serbaneka dibakar"
    }
   ]
  },
@@ -3634,51 +3665,6 @@
     "title": "Suspek curi buah sawit positif methamphetamine"
    }
   ]
- },
- {
-  "type": "vandalism",
-  "title": "Lelaki ditahan disyaki terbabit kes khianat api di Sri Aman",
-  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaXU5YkdNMFROYUVnUWNsY29ZRVJkS1ZHTm1kU3Y0WHdBNG4zTEJES1FxcnNHRFhGZERpUkJwSGtvcmZCNEowcVlwNUQ2VTBQU3FYbzE1S2txcC1PSWxvNml5Z04zR2w5UG13dkljcGVUaVl0WktZcVZRSjUtX0Zyd2YtRmdMWmpsVDNfeUtMX1FablRkblczVzU2MVU?oc=5",
-  "outlet": "Saluran 122",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-22T07:00:00.000Z",
-  "place": "Sri Aman",
-  "area": "Sri Aman, Bahagian Sri Aman",
-  "lat": 1.2088,
-  "lng": 111.408,
-  "precision": "area",
-  "alsoReported": [
-   {
-    "outlet": "Utusan Borneo",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRHZ5SE5sVUhiM08tUFJ4VlVJM3ZIcDNKU3o0RWFvdDhSWDFyZ3djajI3bEJYYzZUNkZGZGVYTzQtMzl0b2xrcnlIbXU1LVp4TlNHRjBlcHpzV2lmZVB6MXZLUWQySmlvWFBPWmFQd2F5bWt0a0xmcExvVkR3cUJsTDcwMVROdGJOQ0JFOHEtWkJVT3ZuR0swMmhXT0Z3T0xwLVdUdzl1UWhiY2UzQTNnZUgzZFJZTkE?oc=5",
-    "title": "Lelaki 36 tahun ditahan bantu siasatan kes khianat dengan api di Sri Aman"
-   },
-   {
-    "outlet": "Utusan Borneo",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMWhBMFVtb3RBdHRTVWVXbTNRY3hTS1pkLUItTlhKT1RYRzdXSVRScDFGdGhqV3ZLWkFNUWd4WU1QMjIwWEozREpmdjdUdGdfR3BVREtTZTl5NzROS2lvdkl1d2pLTEtLTjNLTnRlX3NlbzRiV0x5YzhOeWdYa19pYXZpczVKWjZmN0xwMExvRURoekhaRnZ6R3drMFFWV2VrQnF3TnJNbGQxeU5pUmxoWnNSbDVCbkp4?oc=5",
-    "title": "Lelaki direman tiga hari bantu siasatan kes khianat dengan api di Sri Aman"
-   },
-   {
-    "outlet": "THE MALAYSIA PRESS",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbTVfT2dJeXFXbGxmc1hZSTNHN2xfSW5vTEw4bDFFNHB0anpiVVppblZzUDVTbXJRUE80WW9XZnhRM2J0R1Z5RGFadVMyd1NLamtaVTBfcE9tRWRxbWlqUWpNYVV2OXNlRmlLRnlIWHZ1TTZBV2hQRjU1R1R3akwwa0R0d0Rtbmt5akV1aTNJRUVSZw?oc=5",
-    "title": "Kes khianat di Sri Aman, lelaki 36 tahun ditahan"
-   }
-  ]
- },
- {
-  "type": "robbery",
-  "title": "Samun kedai jam guna kapak, dua rakan direman tujuh hari",
-  "link": "https://malaysiagazette.com/2026/09/22/samun-kedai-jam-guna-kapak-dua-rakan-direman-tujuh-hari/",
-  "outlet": "MalaysiaGazette",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-22T07:00:00.000Z",
-  "place": "George Town",
-  "area": "George Town, Pulau Pinang",
-  "lat": 5.4142,
-  "lng": 100.3287,
-  "precision": "town"
  },
  {
   "type": "murder",
@@ -5330,20 +5316,6 @@
   "precision": "town"
  },
  {
-  "type": "rape_sexual",
-  "title": "Suspek cabul kanak-kanak 13 tahun direman 7 hari",
-  "link": "https://sayangsabah.com.my/home/2026/09/22/suspek-cabul-kanak-kanak-13-tahun-direman-7-hari/",
-  "outlet": "Sayang Sabah",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-22T07:00:00.000Z",
-  "place": "Kalabakan, Tawau",
-  "area": "Tawau Hills Park, Tawau",
-  "lat": 4.4496,
-  "lng": 117.9481,
-  "precision": "area"
- },
- {
   "type": "drugs",
   "title": "Upah RM600 angkut dadah, lelaki ditahan dengan ganja bernilai RM29,000",
   "link": "https://www.sinarharian.com.my/article/805353/berita/semasa/upah-rm600-angkut-dadah-lelaki-ditahan-dengan-ganja-bernilai-rm29000",
@@ -5538,20 +5510,6 @@
   "lat": 3.1517,
   "lng": 101.6942,
   "precision": "town"
- },
- {
-  "type": "assault",
-  "title": "Polis Saratok cekup suspek serang kedai serbaneka dengan api, bahan letupan",
-  "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/polis-saratok-cekup-suspek-serang-kedai-serbaneka-dengan-api-bahan-letupan/",
-  "outlet": "Portal Berita RTM",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-22T07:00:00.000Z",
-  "place": "Sri Aman",
-  "area": "Sri Aman, Bahagian Sri Aman",
-  "lat": 1.2088,
-  "lng": 111.408,
-  "precision": "area"
  },
  {
   "type": "police_case",
@@ -5997,6 +5955,11 @@
     "outlet": "Malay Mail",
     "link": "https://www.malaymail.com/news/malaysia/2026/11/22/two-women-killed-after-being-thrown-from-mercedes-on-federal-highway-police-hunt-driver-who-fled/244255",
     "title": "Two women killed after being thrown from Mercedes on Federal Highway, police hunt driver who fled"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/23/why-did-he-run-away-father-of-woman-killed-in-federal-highway-crash-demands-answers/244415",
+    "title": "‘Why did he run away?’ Father of woman killed in Federal Highway crash demands answers"
    }
   ]
  },
@@ -6352,20 +6315,6 @@
   "precision": "town"
  },
  {
-  "type": "murder",
-  "title": "Bunuh rakan Rohingya lepas dapat arahan tuhan",
-  "link": "https://www.kosmo.com.my/2026/09/22/bunuh-rakan-rohingya-lepas-dapat-arahan-tuhan/",
-  "outlet": "Kosmo Online",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-22T07:00:00.000Z",
-  "place": "Kota Bharu",
-  "area": "Kota Bharu, Kelantan",
-  "lat": 6.1248,
-  "lng": 102.2378,
-  "precision": "town"
- },
- {
   "type": "vehicle_theft",
   "title": "Foreigner held over stolen motorcycle in Tawau",
   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORzdybHpoY2pjUngyLWdFVFk3RU5nX2lSX3ZWeDNGdlhReVU3TlVqQkU4LW5wS2lsakdUdnJnT1hwazdpVjBlZThNZTE1QnpxWXVRSGpKQTJPcjMxQ1JQSmRvX0NXRmJERTVValhHTmxHT3lpb3p2NzdiNEhEczI2S19NRmpYTDg0b2YzbjJNWU1mY3E3WFN3WkZ5R3ZlM25WZWR3cm1SREJHaEpkR2F0T25ESlZUaFN4VEQzOC11Z0VDRThhTDFB?oc=5",
@@ -6576,34 +6525,6 @@
  },
  {
   "type": "theft",
-  "title": "[VIDEO] ‘Kepada pencuri air, hidup kau tak akan aman’",
-  "link": "https://www.kosmo.com.my/2026/09/22/video-kepada-pencuri-air-hidup-kau-tak-akan-aman/",
-  "outlet": "Kosmo Online",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-22T07:00:00.000Z",
-  "place": "Hulu Langat",
-  "area": "Hulu Langat, Selangor",
-  "lat": 3.0833,
-  "lng": 101.8333,
-  "precision": "area"
- },
- {
-  "type": "police_case",
-  "title": "Suspek serangan bahan letupan di dua kedai serbaneka diburu",
-  "link": "https://www.astroawani.com/video/suspek-serangan-bahan-letupan-di-dua-kedai-serbaneka-diburu",
-  "outlet": "Astro Awani",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-22T07:00:00.000Z",
-  "place": "Kuching",
-  "area": "Kuching, Bahagian Kuching",
-  "lat": 1.5598,
-  "lng": 110.3454,
-  "precision": "area"
- },
- {
-  "type": "theft",
   "title": "Jalan Bukit Bintang motorcycle theft probe leads to arrest of three, solving four cases",
   "link": "https://www.thestar.com.my/news/nation/2026/10/19/jalan-bukit-bintang-motorcycle-theft-probe-leads-to-arrest-of-three-solving-four-cases",
   "outlet": "The Star",
@@ -6746,6 +6667,11 @@
     "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
     "link": "https://www.utusan.com.my/nasional/2026/11/17-inisiatif-keselamatan-akan-diperluas-ke-pangkalan-tentera/?utm_source=rss&utm_medium=rss&utm_campaign=17-inisiatif-keselamatan-akan-diperluas-ke-pangkalan-tentera",
     "title": "17 inisiatif keselamatan akan diperluas ke pangkalan tentera"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440102/aadk-rekod-30927-tangkapan-penagih-dadah-sehingga-oktober",
+    "title": "AADK rekod 30,927 tangkapan penagih dadah sehingga Oktober"
    }
   ]
  },
@@ -6926,6 +6852,11 @@
     "outlet": "Sinar Harian Semasa",
     "link": "https://www.sinarharian.com.my/article/805731/berita/semasa/polis-siasat-video-tular-dakwa-anggota-trafik-peras-ugut-terima-rasuah-ketika-sekatan",
     "title": "Polis siasat video tular dakwa anggota trafik peras ugut, terima rasuah ketika sekatan"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/23/penang-police-launch-probe-after-viral-post-accuses-traffic-officers-of-extortion/244367",
+    "title": "Penang police launch probe after viral post accuses traffic officers of extortion"
    }
   ]
  },
@@ -7372,7 +7303,14 @@
   "area": "Pasir Panjang, Port Dickson",
   "lat": 2.4274,
   "lng": 101.931,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440094/penumpang-alza-dicari-didakwa-pukul-warga-emas",
+    "title": "Penumpang Alza dicari didakwa pukul warga emas"
+   }
+  ]
  },
  {
   "type": "murder",
@@ -7386,6 +7324,48 @@
   "area": "Majlis Bandaraya Ipoh, Kinta",
   "lat": 4.5987,
   "lng": 101.09,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "Dua individu 'kantoi' curi tiga tangga aluminium",
+  "link": "https://www.sinarharian.com.my/article/805882/berita/semasa/dua-individu-kantoi-curi-tiga-tangga-aluminium",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T01:00:00.000Z",
+  "place": "Klang",
+  "area": "Bandaraya Klang, Klang",
+  "lat": 3.0448,
+  "lng": 101.4447,
+  "precision": "town"
+ },
+ {
+  "type": "murder",
+  "title": "Court of Appeal replaces 30-year jail term with death sentence in baby murder case",
+  "link": "https://thesun.my/news/court-of-appeal-replaces-30-year-jail-term-with-death-sentence-in-baby-murder-case/",
+  "outlet": "The Sun Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-23T13:39:49.000Z",
+  "place": "Ara Damansara",
+  "area": "Ara Damansara, Petaling Jaya",
+  "lat": 3.114,
+  "lng": 101.5803,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Lapan anggota polis diberkas, terbabit aktiviti air ketum",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/10/1417774/lapan-anggota-polis-diberkas-terbabit-aktiviti-air-ketum",
+  "outlet": "Harian Metro",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-10-01T07:00:00.000Z",
+  "place": "Kuala Lumpur",
+  "area": "Kuala Lumpur, Malaysia",
+  "lat": 3.1517,
+  "lng": 101.6942,
   "precision": "town"
  }
 ]

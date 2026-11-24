@@ -2822,5 +2822,30 @@
   "kind": "village"
  },
  "area4:tent while camping": null,
- "area4:larkana": null
+ "area4:larkana": null,
+ "area4:kampung paya jaras tengah, sungai buloh": null,
+ "area4:kampung paya jaras tengah": null,
+ "area4:pasir panjang, terengganu, kuala lumpur": null,
+ "area4:pasir panjang, kuala lumpur": null,
+ "area4:ara damansara": {
+  "lat": 3.114,
+  "lng": 101.5803,
+  "label": "Ara Damansara, Petaling Jaya",
+  "kind": "suburb"
+ },
+ "area4:federal highway, petaling jaya": null,
+ "area4:federal highway": null,
+ "area4:kampung air hitam, sungai sejuk, sungai siput": null,
+ "area4:kampung air hitam, sungai sejuk": null,
+ "area4:kampung air hitam, sungai siput": null,
+ "area4:kampung air hitam": null,
+ "area4:bidor sentral, bidor, ipoh": null,
+ "area4:taman keramat, kuala lumpur": null,
+ "area4:taman keramat": {
+  "lat": 5.9728,
+  "lng": 116.0879,
+  "label": "Taman Keramat, Kota Kinabalu",
+  "kind": "neighbourhood"
+ },
+ "area4:jalan masjid negeri": null
 }
