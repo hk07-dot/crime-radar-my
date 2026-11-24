@@ -2935,5 +2935,12 @@
  },
  "area4:chandigarh": null,
  "area4:sektor 22, chandigarh": null,
- "area4:sektor 22": null
+ "area4:sektor 22": null,
+ "area4:taman city, petaling jaya": {
+  "lat": 3.0784,
+  "lng": 101.6083,
+  "label": "Taman Sri Subang, PJS 10",
+  "kind": "neighbourhood"
+ },
+ "area4:front": null
 }
