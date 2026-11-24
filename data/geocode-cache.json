@@ -2967,5 +2967,22 @@
  },
  "area4:kepala batas": null,
  "area4:felda pahang": null,
- "area4:seberang jaya hospital": null
+ "area4:seberang jaya hospital": null,
+ "area4:kampung paya, kepala batas": {
+  "lat": 5.5031,
+  "lng": 100.4326,
+  "label": "Kampung Paya, Kepala Batas",
+  "kind": "hamlet"
+ },
+ "area4:prince": null,
+ "area4:lorong ikhwan, jalan pasir, kuala terengganu": null,
+ "area4:lorong ikhwan, jalan pasir": null,
+ "area4:lorong ikhwan, kuala terengganu": {
+  "lat": 5.3014,
+  "lng": 103.1388,
+  "label": "Lorong Ikhwan 2, Kampung Tok Ku Kir",
+  "kind": "residential"
+ },
+ "area4:kampung paya jaras tengah, sungai buloh, shah alam": null,
+ "area4:kampung paya jaras tengah, shah alam": null
 }
