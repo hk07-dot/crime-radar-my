@@ -87,9 +87,6 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -127,7 +124,27 @@ jobs:
         with:
           path: docs
 
+  # Publishing runs as its own job, after the upload above has finished. Run as the next step in the
+  # same job, GitHub sometimes can't find the upload yet ("No artifacts named github-pages were found",
+  # actions/deploy-pages issue #451). If the first try still fails, it waits and tries once more.
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.retry.outputs.page_url || steps.deploy.outputs.page_url }}
+    steps:
       - id: deploy
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Wait before trying again
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 45
+
+      - id: retry
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v4
 '@
 New-Item -ItemType Directory -Force -Path '.github\workflows' | Out-Null
