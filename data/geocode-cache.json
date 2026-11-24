@@ -2986,5 +2986,12 @@
  "area4:kampung paya jaras tengah, sungai buloh, shah alam": null,
  "area4:kampung paya jaras tengah, shah alam": null,
  "area4:asia": null,
- "area4:uruapan": null
+ "area4:uruapan": null,
+ "area4:colombia": null,
+ "area4:kajang, serdang": {
+  "lat": 3.0118,
+  "lng": 101.7268,
+  "label": "Taman Desa Serdang, Majlis Perbandaran Kajang",
+  "kind": "neighbourhood"
+ }
 }

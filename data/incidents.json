@@ -8098,5 +8098,19 @@
   "lat": 5.3014,
   "lng": 103.1388,
   "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Polis tahan tiga individu disyaki curi kenderaan, rampas enam kenderaan",
+  "link": "https://newswav.com/article/polis-tahan-tiga-individu-disyaki-curi-kenderaan-rampas-enam-kenderaan-A2611_TPqIGe",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T15:50:02.000Z",
+  "place": "Kajang, Serdang",
+  "area": "Taman Desa Serdang, Majlis Perbandaran Kajang",
+  "lat": 3.0118,
+  "lng": 101.7268,
+  "precision": "area"
  }
 ]
