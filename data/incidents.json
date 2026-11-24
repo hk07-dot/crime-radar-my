@@ -7362,6 +7362,11 @@
     "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
     "link": "https://www.utusan.com.my/nasional/2026/11/sindiket-seludup-makanan-sejuk-beku-haram-tumpas-produk-bernilai-rm-32-5-juta-dirampas/?utm_source=rss&utm_medium=rss&utm_campaign=sindiket-seludup-makanan-sejuk-beku-haram-tumpas-produk-bernilai-rm-32-5-juta-dirampas",
     "title": "Sindiket seludup makanan sejuk beku haram tumpas, produk bernilai RM 32.5 juta dirampas"
+   },
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/805974/berita/semasa/pelakon-wanita-dakwa-jadi-mangsa-gangguan-seksual-polis-rakam-keterangan-enam-individu",
+    "title": "Pelakon wanita dakwa jadi mangsa gangguan seksual: Polis rakam keterangan enam individu"
    }
   ]
  },
@@ -7882,5 +7887,33 @@
   "lat": 3.0784,
   "lng": 101.6083,
   "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Polis sudah rakam keterangan dua pelakon, pengarah dan kru produksi drama",
+  "link": "https://www.utusan.com.my/nasional/2026/11/gangguan-seksual-polis-sudah-rakam-keterangan-dua-pelakon-pengarah-dan-kru-produksi-drama/?utm_source=rss&utm_medium=rss&utm_campaign=gangguan-seksual-polis-sudah-rakam-keterangan-dua-pelakon-pengarah-dan-kru-produksi-drama",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T08:29:19.000Z",
+  "place": "Petaling Jaya",
+  "area": "Petaling Jaya, Petaling",
+  "lat": 3.0989,
+  "lng": 101.6454,
+  "precision": "town"
+ },
+ {
+  "type": "assault",
+  "title": "Keluarga lelaki cedera hidung, mulut dipukul penumpang Alza buat laporan polis",
+  "link": "https://www.kosmo.com.my/2026/11/24/keluarga-lelaki-cedera-hidung-mulut-dipukul-penumpang-alza-buat-laporan-polis/?utm_source=rss&utm_medium=rss&utm_campaign=keluarga-lelaki-cedera-hidung-mulut-dipukul-penumpang-alza-buat-laporan-polis",
+  "outlet": "Kosmo: Suapan Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T04:17:14.000Z",
+  "place": "Kuala Terengganu",
+  "area": "Kuala Terengganu, Terengganu",
+  "lat": 5.3296,
+  "lng": 103.1383,
+  "precision": "town"
  }
 ]

@@ -2942,5 +2942,12 @@
   "label": "Taman Sri Subang, PJS 10",
   "kind": "neighbourhood"
  },
- "area4:front": null
+ "area4:front": null,
+ "area4:jalan pasir panjang, kuala terengganu": null,
+ "area4:jalan pasir panjang": {
+  "lat": 1.6934,
+  "lng": 110.3123,
+  "label": "Jalan Pasir Panjang, Petra Jaya",
+  "kind": "residential"
+ }
 }
