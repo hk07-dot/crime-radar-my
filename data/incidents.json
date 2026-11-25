@@ -7422,7 +7422,14 @@
   "area": "Kota Bharu, Kelantan",
   "lat": 6.1248,
   "lng": 102.2378,
-  "precision": "town"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/25/bukit-aman-warns-drug-syndicates-may-target-other-airports-amid-tighter-klia-security/244727",
+    "title": "Bukit Aman warns drug syndicates may target other airports amid tighter KLIA security"
+   }
+  ]
  },
  {
   "type": "murder",
@@ -8125,6 +8132,11 @@
     "outlet": "Malay Mail",
     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQTWhnclhXZ2tBUi1VbFpmR2ZWRTdrWk9WaklqRFBSY2I2UkJSWTA4TGE5NUNjNlFSZjJwZ0JVVW9Jd1dGT2J4cXFKMS1UV2hRV3FBRDJtSVhuVlV4R0tkWjZpTTd1TjdHaTBKWmdRM0FzVGpaMEpLZ3JnYVozR3RqWDE4QkdkRTJYQmk3dFhRZHJ3SGtsUzRlS05qdl9pV25pZnpRSDd4WjQxa2N5N29wR1A0d0k0Nnp2UDZqXzI2T2F4dVdoaXUwTWlJdXJSblp4OHpkOWRwcjhsYUROWnBKWEVxZ1FmckN2enhfUU55NjZWN3UzcGhWNNIB_gFBVV95cUxQdUx2azBYTkFXQW1wUzZfZ3YzVkc4eGNjcHdNVEx0MDRiSVdfR1BiaDEyZndhNXJ1VGRzemwwTFRIa092aWFHOC1qWG56Z2ZKek9aUklqWlZWWlI3NkhOX3RBZlNZVXBLMFc2ektpckp2V0VuOFpSa1JhUHRyS1pOWEF3NmhycGtLTVlzMXZsdlBQYnJRZnRmd09lWWhlN1FJTmIzWFN6UXozVmZDRXhUbVJzTEhTemJTNkNScS10RHpEN3hhcU1mb3AtNWV3a1Y0cXNQcklTVUx3dWlmeXdoQVlPSTRBTUxXeDlGVE0yLU04NE11dldRYkJFU292UQ?oc=5",
     "title": "A year on, families of three men shot dead in Durian Tunggal say no to inquest, demand charges against police"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/25/a-year-on-families-of-three-men-shot-dead-in-durian-tunggal-say-no-to-inquest-demand-charges-against-police/244692",
+    "title": "A year on, families of three men shot dead in Durian Tunggal say no to inquest, demand charges against police"
    }
   ]
  },
@@ -8185,6 +8197,20 @@
   "area": "Jalan Jelatek, Ampang Hilir",
   "lat": 3.1656,
   "lng": 101.7347,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "RMAF pilot in Subang meth haul played double role for drug ring, says Bukit Aman",
+  "link": "https://www.malaymail.com/news/malaysia/2026/11/25/rmaf-pilot-in-subang-meth-haul-played-double-role-for-drug-ring-says-bukit-aman/244712",
+  "outlet": "Malay Mail",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-25T06:27:00.000Z",
+  "place": "Subang",
+  "area": "Subang, Shah Alam",
+  "lat": 3.1505,
+  "lng": 101.5312,
   "precision": "area"
  }
 ]
