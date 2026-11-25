@@ -7213,6 +7213,11 @@
     "outlet": "Kosmo: Suapan Kosmo Online",
     "link": "https://www.kosmo.com.my/2026/11/24/isu-gesel-puteri-balqis-25-saksi-lagi-akan-dipanggil/?utm_source=rss&utm_medium=rss&utm_campaign=isu-gesel-puteri-balqis-25-saksi-lagi-akan-dipanggil",
     "title": "Isu ‘gesel’ Puteri Balqis: 25 saksi lagi akan dipanggil"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/24/underage-motorists-arrested-in-kl-surge-to-114-in-first-10-months/244613",
+    "title": "Underage motorists arrested in KL surge to 114 in first 10 months"
    }
   ]
  },
@@ -8017,6 +8022,34 @@
   "area": "Teluk Intan, Hilir Perak",
   "lat": 4.0232,
   "lng": 101.0262,
+  "precision": "area"
+ },
+ {
+  "type": "robbery",
+  "title": "Bukan cuba samun, bapa salah masuk kereta- Anak",
+  "link": "https://www.kosmo.com.my/2026/11/25/bukan-cuba-samun-bapa-salah-masuk-kereta-anak/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-25T01:38:00.000Z",
+  "place": "Petaling Jaya",
+  "area": "Petaling Jaya, Petaling",
+  "lat": 3.0989,
+  "lng": 101.6454,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "Rempuh orang awam lepas gagal curi kabel",
+  "link": "https://www.kosmo.com.my/2026/11/25/rempuh-orang-awam-lepas-gagal-curi-kabel/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-25T01:04:00.000Z",
+  "place": "Skudai, Johor",
+  "area": "Skudai, Iskandar Puteri",
+  "lat": 1.537,
+  "lng": 103.6621,
   "precision": "area"
  }
 ]

@@ -3006,5 +3006,22 @@
   "lng": 116.1504,
   "label": "Lorong Sulaman Sentral, Taman Kuala Menggatal Phase 1",
   "kind": "residential"
- }
+ },
+ "area4:jalan ahmad badawi, kepala batas, petaling jaya": null,
+ "area4:jalan ahmad badawi, kepala batas": null,
+ "area4:jalan ahmad badawi, petaling jaya": null,
+ "area4:jalan ahmad badawi": {
+  "lat": 5.5032,
+  "lng": 100.4245,
+  "label": "Jalan Jasa, Taman Haji Ahmad Badawi",
+  "kind": "residential"
+ },
+ "area4:skudai, johor, petaling jaya": null,
+ "area4:skudai, johor": {
+  "lat": 1.537,
+  "lng": 103.6621,
+  "label": "Skudai, Iskandar Puteri",
+  "kind": "town"
+ },
+ "area4:colombian": null
 }
