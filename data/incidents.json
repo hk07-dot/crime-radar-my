@@ -8337,5 +8337,19 @@
   "lat": 5.8626,
   "lng": 116.1138,
   "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "Enam lelaki warga tempatan ditahan positif dadah di Mukah",
+  "link": "https://utusansarawak.com.my/enam-lelaki-warga-tempatan-ditahan-positif-dadah-di-mukah/?utm_source=rss&utm_medium=rss&utm_campaign=enam-lelaki-warga-tempatan-ditahan-positif-dadah-di-mukah",
+  "outlet": "Utusan Sarawak: UTUSAN SARAWAK Feed",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-25T14:33:18.000Z",
+  "place": "Mukah",
+  "area": "Mukah, Bahagian Mukah",
+  "lat": 2.8119,
+  "lng": 112.2912,
+  "precision": "town"
  }
 ]
