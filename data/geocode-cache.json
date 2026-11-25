@@ -3023,5 +3023,15 @@
   "label": "Skudai, Iskandar Puteri",
   "kind": "town"
  },
- "area4:colombian": null
+ "area4:colombian": null,
+ "area4:colombia, bogota": null,
+ "area4:cartagena, colombia, bogota": null,
+ "area4:cartagena, colombia": null,
+ "area4:cartagena, bogota": null,
+ "area4:william": {
+  "lat": 5.3808,
+  "lng": 100.3124,
+  "label": "William Road, Bukit Tunku Kudin",
+  "kind": "residential"
+ }
 }
