@@ -8339,7 +8339,14 @@
   "area": "Kuala Lumpur, Malaysia",
   "lat": 3.1517,
   "lng": 101.6942,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/rosak-imej-atm-jika-dadah-dibiar-terus-berleluasa/?utm_source=rss&utm_medium=rss&utm_campaign=rosak-imej-atm-jika-dadah-dibiar-terus-berleluasa",
+    "title": "Rosak imej ATM jika dadah dibiar terus berleluasa"
+   }
+  ]
  },
  {
   "type": "police_case",
