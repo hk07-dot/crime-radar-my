@@ -3060,5 +3060,23 @@
   "lng": 101.6438,
   "label": "Pusat Demonstrasi & Pameran, Cyber 1",
   "kind": "square"
+ },
+ "area4:durian tunggal, melaka": {
+  "lat": 2.3118,
+  "lng": 102.2821,
+  "label": "Durian Tunggal, Alor Gajah",
+  "kind": "suburb"
+ },
+ "area4:jalan jelatek": {
+  "lat": 3.1656,
+  "lng": 101.7347,
+  "label": "Jalan Jelatek, Ampang Hilir",
+  "kind": "residential"
+ },
+ "area4:durian tunggal, malacca": {
+  "lat": 2.3118,
+  "lng": 102.2821,
+  "label": "Durian Tunggal, Alor Gajah",
+  "kind": "suburb"
  }
 }
