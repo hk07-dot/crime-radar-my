@@ -8323,5 +8323,19 @@
   "lat": 3.1517,
   "lng": 101.6942,
   "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Two men arrested over fatal Putatan fight",
+  "link": "https://newswav.com/article/two-men-arrested-over-fatal-putatan-fight-A2611_aPbRjP",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-25T12:59:36.000Z",
+  "place": "Penampang",
+  "area": "Penampang, Bahagian Pantai Barat",
+  "lat": 5.8626,
+  "lng": 116.1138,
+  "precision": "town"
  }
 ]
