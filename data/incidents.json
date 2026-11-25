@@ -7924,7 +7924,14 @@
   "area": "Lorong Ikhwan 2, Kampung Tok Ku Kir",
   "lat": 5.3014,
   "lng": 103.1388,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/utama/2026/11/1440568/3-lelaki-direman-4-hari-kes-tumbuk-siku-warga-emas",
+    "title": "3 lelaki direman 4 hari kes tumbuk, siku warga emas"
+   }
+  ]
  },
  {
   "type": "assault",
@@ -8050,6 +8057,34 @@
   "area": "Skudai, Iskandar Puteri",
   "lat": 1.537,
   "lng": 103.6621,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Empat lelaki ditahan, syabu RM5.189 juta dirampas",
+  "link": "https://www.sinarharian.com.my/article/806056/berita/semasa/empat-lelaki-ditahan-syabu-rm5-189-juta-dirampas",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-25T03:25:00.000Z",
+  "place": "George Town",
+  "area": "George Town, Pulau Pinang",
+  "lat": 5.4142,
+  "lng": 100.3287,
+  "precision": "town"
+ },
+ {
+  "type": "shooting",
+  "title": "Families of trio in Durian Tunggal shooting to sue govt, police",
+  "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/families-of-trio-in-durian-tunggal-shooting-to-sue-govt-police",
+  "outlet": "Free Malaysia Today",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-25T03:05:00.000Z",
+  "place": "Durian Tunggal",
+  "area": "Durian Tunggal, Alor Gajah",
+  "lat": 2.3118,
+  "lng": 102.2821,
   "precision": "area"
  }
 ]

@@ -3033,5 +3033,17 @@
   "lng": 100.3124,
   "label": "William Road, Bukit Tunku Kudin",
   "kind": "residential"
+ },
+ "area4:sipitang": {
+  "lat": 4.6345,
+  "lng": 115.6861,
+  "label": "Sipitang, Bahagian Pedalaman",
+  "kind": "county"
+ },
+ "area4:durian tunggal": {
+  "lat": 2.3118,
+  "lng": 102.2821,
+  "label": "Durian Tunggal, Alor Gajah",
+  "kind": "suburb"
  }
 }
