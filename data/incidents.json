@@ -8007,11 +8007,18 @@
   "source": "news",
   "verified": true,
   "publishedAt": "2026-11-24T06:59:00.000Z",
-  "place": "Kuala Lumpur",
-  "area": "Kuala Lumpur, Malaysia",
-  "lat": 3.1517,
-  "lng": 101.6942,
-  "precision": "town"
+  "place": "Chow Kit",
+  "area": "Chow Kit, Kampung Bharu",
+  "lat": 3.1652,
+  "lng": 101.6988,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Berita Harian",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWFcweDl6X2dYcHI3a19qZUNlRjA2UTVabFBuVzd5c3pHR1VyMW1ySWwzSTNLXzh6bGdueVZsRFl2RjFnZTdueVRkS3ZMV2VYTnJzS0tFSHQzRXotWTBBWl8zSXNwRkVLb0EtNFc2czVPdy1kYjUzakY5M1lzUGpMSnBseDkzb0JuQkVERUc4OU1SZHRoaEV6YzJIVjhZVnRKRUMyN1oyOC15dm4xSnlscGEwVXjSAacBQVVfeXFMTzBIaUZKc3VVNlFKeHp4cE5EUWZDT0RjNWtrQnJkQW5UVEZVQ2J0dFdvSTg5VHZyaGlfSGRKU0FvSDRHRDluX05ISlFndUJJYzRpOXhOR2VTMnJFRFgzbnRDOFVWb3ljdk9pUzdtUEpmWTRaZUVrY1BlczdyOUxrdFNQWWJFUjBsOVJFdWlIWE9SWVlXcDU2anI0SkRGdGZKYXlEOUw1ZXc?oc=5",
+    "title": "Polis tembak mati suspek kes samun di Chow Kit"
+   }
+  ]
  },
  {
   "type": "murder",
