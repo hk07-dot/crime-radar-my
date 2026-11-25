@@ -2993,5 +2993,18 @@
   "lng": 101.7268,
   "label": "Taman Desa Serdang, Majlis Perbandaran Kajang",
   "kind": "neighbourhood"
+ },
+ "area4:sungai buloh, kuala lumpur": null,
+ "area4:tebing barat": {
+  "lat": 5.7501,
+  "lng": 115.9078,
+  "label": "Kuala Tebing, Papar",
+  "kind": "residential"
+ },
+ "area4:sulaman, kota kinabalu": {
+  "lat": 6.0573,
+  "lng": 116.1504,
+  "label": "Lorong Sulaman Sentral, Taman Kuala Menggatal Phase 1",
+  "kind": "residential"
  }
 }
