@@ -3045,5 +3045,20 @@
   "lng": 102.2821,
   "label": "Durian Tunggal, Alor Gajah",
   "kind": "suburb"
+ },
+ "area4:mukah": {
+  "lat": 2.8119,
+  "lng": 112.2912,
+  "label": "Mukah, Bahagian Mukah",
+  "kind": "county"
+ },
+ "area4:taman sri kesang, tangkak": null,
+ "area4:taman sri kesang": null,
+ "area4:pangkalan udara subang, tumpat": null,
+ "area4:pusat pameran": {
+  "lat": 2.9366,
+  "lng": 101.6438,
+  "label": "Pusat Demonstrasi & Pameran, Cyber 1",
+  "kind": "square"
  }
 }

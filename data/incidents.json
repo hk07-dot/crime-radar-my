@@ -7959,7 +7959,14 @@
   "area": "Lorong Ikhwan 2, Kampung Tok Ku Kir",
   "lat": 5.3014,
   "lng": 103.1388,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/806063/berita/semasa/tiga-lelaki-direman-empat-hari-kes-tumbuk-siku-warga-emas",
+    "title": "Tiga lelaki direman empat hari kes tumbuk, siku warga emas"
+   }
+  ]
  },
  {
   "type": "theft",
@@ -8071,7 +8078,14 @@
   "area": "George Town, Pulau Pinang",
   "lat": 5.4142,
   "lng": 100.3287,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/terkini/2026/11/pemilik-kedai-runcit-jadi-dalang-sindiket-dadah-rentas-sempadan-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=pemilik-kedai-runcit-jadi-dalang-sindiket-dadah-rentas-sempadan-ditahan",
+    "title": "Pemilik kedai runcit jadi dalang sindiket dadah rentas sempadan ditahan"
+   }
+  ]
  },
  {
   "type": "shooting",
@@ -8085,6 +8099,41 @@
   "area": "Durian Tunggal, Alor Gajah",
   "lat": 2.3118,
   "lng": 102.2821,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Free Malaysia Today",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNkkwUHNsQjN4dUV3WjRvR1RiaW85VWllTTRUWE5CZE9FSl9tLWh6UDl1dmJlVlcwcWVQZmkwWkRRdDFLeDVkZEo2aDE2VFZNVXZiamxfUTg3QTJ3VUl6M0FnZFlVOW5OR0hrbDNxSlVtMDV4TVJuMmpBQnpjTXhLX2hfYTFlYk1YaC1kbjhKUDNsMmVJMVZHWGJ6eFhVZkVMVERzc25GdU5BT2Y5WTk1d1NsMzFzRVVOZ0ZZczdoRFoxRkVYdG5VdnJna0Q0MURVNmFaWjQxdXpRT0RjcUE?oc=5",
+    "title": "Keluarga 3 lelaki maut tembakan di Durian Tunggal akan saman kerajaan, polis"
+   }
+  ]
+ },
+ {
+  "type": "drugs",
+  "title": "Kes dadah guna aset TUDM: Juruterbang jadi koordinator, 'transporter'",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440608/kes-dadah-guna-aset-tudm-juruterbang-jadi-koordinator-transporter",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-25T04:47:33.000Z",
+  "place": "Tumpat",
+  "area": "Tumpat, Kelantan",
+  "lat": 6.1764,
+  "lng": 102.1663,
+  "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "Kes dadah TUDM: Polis jangka lebih ramai suspek akan ditahan",
+  "link": "https://newswav.com/article/kes-dadah-tudm-polis-jangka-lebih-ramai-suspek-akan-ditahan-A2611_luFACp",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-24T09:36:12.000Z",
+  "place": "Pusat Pameran",
+  "area": "Pusat Demonstrasi & Pameran, Cyber 1",
+  "lat": 2.9366,
+  "lng": 101.6438,
   "precision": "area"
  }
 ]
