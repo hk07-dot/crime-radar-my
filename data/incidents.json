@@ -8178,6 +8178,11 @@
     "outlet": "Harian Metro Mutakhir",
     "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440693/sindiket-dadah-alih-laluan-ke-lapangan-terbang-lain-selepas-kawalan-klia",
     "title": "'Sindiket dadah alih laluan ke lapangan terbang lain selepas kawalan KLIA diperketat'"
+   },
+   {
+    "outlet": "Portal Berita RTM",
+    "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/juruterbang-tudm-transporter-seludup-syabu-dari-subang-ke-sabah/",
+    "title": "Juruterbang TUDM ‘transporter’ seludup syabu dari Subang ke Sabah"
    }
   ]
  },
@@ -8235,6 +8240,55 @@
   "area": "Majlis Bandaraya Ipoh, Kinta",
   "lat": 4.5987,
   "lng": 101.09,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Kes bunuh di premis perniagaan, dua lelaki ditahan kurang enam jam selepas kejadian",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440747/kes-bunuh-di-premis-perniagaan-dua-lelaki-ditahan-kurang-enam-jam-selepas",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-25T10:09:05.000Z",
+  "place": "Penampang",
+  "area": "Penampang, Bahagian Pantai Barat",
+  "lat": 5.8626,
+  "lng": 116.1138,
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/806126/berita/jenayah/kes-bunuh-selesai-kurang-enam-jam-polis-tahan-dua-lelaki",
+    "title": "Kes bunuh selesai kurang enam jam, polis tahan dua lelaki"
+   }
+  ]
+ },
+ {
+  "type": "assault",
+  "title": "Bawa parang kejar orang awam, empat cedera diserang lelaki mengamuk",
+  "link": "https://www.sinarharian.com.my/article/806123/berita/semasa/bawa-parang-kejar-orang-awam-empat-cedera-diserang-lelaki-mengamuk",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-25T09:22:00.000Z",
+  "place": "Kuala Lipis",
+  "area": "Kuala Lipis, Lipis",
+  "lat": 4.187,
+  "lng": 102.0544,
+  "precision": "town"
+ },
+ {
+  "type": "vehicle_theft",
+  "title": "Kes curi kereta di Pantai Dalam, suspek ada 39 rekod jenayah",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMjFZbGNDcGY0TmQ2R0IxbUZZT0U2QVJFMTJhbDE1TWpqbmNjUV85emR6dmNwLURsbTlYWFdZNWd2TEFic3VUcmU0S1JDdHEzLXlMOVk4ZnVZWWdPNmVpTzBiWUhYT1pGajgyU2JBZU9ycmpDblJXeGZ2UWN2aHZMSlV1ak95ck4tSDh2Nml4ekpxenJXYThYanRIbnV1QjNaN0ppQmZfcUtLa0hDOEFaUjhsd1JRRHhqRlduazlsMy0yTlU?oc=5",
+  "outlet": "Portal Berita RTM",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-25T09:09:34.000Z",
+  "place": "Pantai Dalam",
+  "area": "Pantai Dalam, Kuala Lumpur",
+  "lat": 3.1016,
+  "lng": 101.6689,
   "precision": "area"
  }
 ]

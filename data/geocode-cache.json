@@ -3090,5 +3090,42 @@
   "label": "Majlis Bandaraya Ipoh, Kinta",
   "kind": "city"
  },
- "area4:shuhaily": null
+ "area4:shuhaily": null,
+ "area4:putatan, penampang": null,
+ "area4:putatan": {
+  "lat": 5.8814,
+  "lng": 116.0656,
+  "label": "Putatan, Bahagian Pantai Barat",
+  "kind": "county"
+ },
+ "area4:kampung dumpil, penampang": null,
+ "area4:kampung dumpil": null,
+ "area4:kuala lipis": {
+  "lat": 4.187,
+  "lng": 102.0544,
+  "label": "Kuala Lipis, Lipis",
+  "kind": "town"
+ },
+ "area4:kampung berchang, kuala lipis": null,
+ "area4:kampung berchang": null,
+ "area4:kuala langat": {
+  "lat": 2.8366,
+  "lng": 101.4962,
+  "label": "Kuala Langat, Selangor",
+  "kind": "district"
+ },
+ "area4:taman banting bar, kuala langat": null,
+ "area4:taman banting bar": null,
+ "area4:pantai dalam": {
+  "lat": 3.1016,
+  "lng": 101.6689,
+  "label": "Pantai Dalam, Kuala Lumpur",
+  "kind": "suburb"
+ },
+ "area4:pontian": {
+  "lat": 1.5,
+  "lng": 103.5,
+  "label": "Pontian, Johor",
+  "kind": "district"
+ }
 }
