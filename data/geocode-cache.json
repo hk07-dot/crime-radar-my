@@ -3198,5 +3198,11 @@
  },
  "area4:shah alam, kuala lumpur": null,
  "area4:garden city, flintshire": null,
- "area4:garden city": null
+ "area4:garden city": null,
+ "area4:simanggang": {
+  "lat": 1.2376,
+  "lng": 111.4621,
+  "label": "Simanggang, Sri Aman",
+  "kind": "city"
+ }
 }

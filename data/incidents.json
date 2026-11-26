@@ -8528,7 +8528,14 @@
   "area": "Hutan Melintang, Bagan Datuk",
   "lat": 3.8823,
   "lng": 100.9323,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "The Sun Malaysia",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN2FQVUkxNmFoVnFyRXlPbDBqd0lCZHF1OWpJVmdsSG45MUkwUXhJaHEycl8tMDB3VjJkZ0RWWnZLSzhpRTVON0hIVTRBcGoxNjNuSWw1c19ab3dHMDM1Uy1rYjdySmExVl9vbjYwQzB2YllBOUQ0Q3dJTUo0Z2JDRGlyTQ?oc=5",
+    "title": "Polis tahan tiga suspek samun kedai runcit di Hutan Melintang"
+   }
+  ]
  },
  {
   "type": "robbery",
