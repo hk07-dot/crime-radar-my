@@ -7075,12 +7075,17 @@
   "area": "Sepang, Selangor",
   "lat": 2.8009,
   "lng": 101.7094,
-  "precision": "town",
+  "precision": "area",
   "alsoReported": [
    {
     "outlet": "Kosmo: Suapan Kosmo Online",
     "link": "https://www.kosmo.com.my/2026/11/23/jkdm-klia-gagalkan-cubaan-seludup-dadah-rm2-87-juta/?utm_source=rss&utm_medium=rss&utm_campaign=jkdm-klia-gagalkan-cubaan-seludup-dadah-rm2-87-juta",
     "title": "JKDM KLIA gagalkan cubaan seludup dadah RM2.87 juta"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1440955/kerajaan-laksana-pelan-tindakan-berfasa-perkukuh-kawalan-keselamatan-di",
+    "title": "Kerajaan laksana pelan tindakan berfasa perkukuh kawalan keselamatan di KLIA dan pintu masuk negara"
    }
   ]
  },
@@ -7723,7 +7728,7 @@
   "area": "Kuala Terengganu, Terengganu",
   "lat": 5.3296,
   "lng": 103.1383,
-  "precision": "town",
+  "precision": "area",
   "alsoReported": [
    {
     "outlet": "Harian Metro Mutakhir",
@@ -7734,6 +7739,11 @@
     "outlet": "Newswav",
     "link": "https://newswav.com/article/serang-pelajar-17-tahun-secara-seksual-guru-direman-7-hari-A2611_sN46dp",
     "title": "Serang Pelajar 17 Tahun Secara Seksual, Guru Direman 7 Hari"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/26/smiles-and-a-clenched-fist-trios-court-arrival-over-alleged-attack-on-62-year-old-in-kuala-terengganu-sparks-anger/244796",
+    "title": "Smiles and a clenched fist: Trio’s court arrival over alleged attack on 62-year-old in Kuala Terengganu sparks anger"
    }
   ]
  },
@@ -7784,7 +7794,14 @@
   "area": "Kepong, Kuala Lumpur",
   "lat": 3.214,
   "lng": 101.6348,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/806183/berita/semasa/anggota-mpv-pertaruh-keselamatan-diri-demi-orang-ramai---noor-hisam",
+    "title": "Anggota MPV pertaruh keselamatan diri demi orang ramai - Noor Hisam"
+   }
+  ]
  },
  {
   "type": "vandalism",
@@ -8011,7 +8028,14 @@
   "area": "Petaling Jaya, Petaling",
   "lat": 3.0989,
   "lng": 101.6454,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Kosmo: Suapan Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/26/selagi-ada-pembeli-selagi-itu-ada-pencuri-kabel/?utm_source=rss&utm_medium=rss&utm_campaign=selagi-ada-pembeli-selagi-itu-ada-pencuri-kabel",
+    "title": "Selagi ada pembeli, selagi itu ada pencuri kabel"
+   }
+  ]
  },
  {
   "type": "theft",
@@ -8277,6 +8301,16 @@
     "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
     "link": "https://www.utusan.com.my/nasional/2026/11/rosak-imej-atm-jika-dadah-dibiar-terus-berleluasa/?utm_source=rss&utm_medium=rss&utm_campaign=rosak-imej-atm-jika-dadah-dibiar-terus-berleluasa",
     "title": "Rosak imej ATM jika dadah dibiar terus berleluasa"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/26/over-436kg-of-drugs-worth-rm3489m-seized-in-three-month-klia-security-sweep-home-minister-says/244808",
+    "title": "Over 436kg of drugs worth RM34.89m seized in three-month KLIA security sweep, home minister says"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/26/saifuddin-nasution-pilots-flight-crew-to-face-random-drug-tests-under-klia-security-overhaul/244805",
+    "title": "Saifuddin Nasution: Pilots, flight crew to face random drug tests under KLIA security overhaul"
    }
   ]
  },
