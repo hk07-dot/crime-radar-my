@@ -8503,5 +8503,19 @@
   "lat": 1.4938,
   "lng": 103.6533,
   "precision": "area"
+ },
+ {
+  "type": "snatch_theft",
+  "title": "Police arrest three men over sundry shop snatch theft in Hutan Melintang",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS0V4dklMQmY1V3p6U3BrTWJYaFAtc0lUUVd0NmpSdVA2VEY5ZEE5Y3M1T1BPZnVoZGVHMTV4S2VCNWtVeWhtaXNZNlRPcU04bHRNVjdBcEs2eEs5UzRnc3E2QnU1OVRJSFpMWm9jSDNOUENSZHRyREhtNkQweW16dTNGc3o2UENZUHlNQ19aWFh3Vkl4M1ZhR0t6TlRVTEZxV3VaV3daZ3d4aUxKbVZnSGVQRHpKSkxYbC11ZHVjWQ?oc=5",
+  "outlet": "The Star",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T08:16:00.000Z",
+  "place": "Hutan Melintang",
+  "area": "Hutan Melintang, Bagan Datuk",
+  "lat": 3.8823,
+  "lng": 100.9323,
+  "precision": "area"
  }
 ]

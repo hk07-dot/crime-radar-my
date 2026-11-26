@@ -3171,5 +3171,11 @@
   "kind": "residential"
  },
  "area4:vila desa, polis tahan": null,
- "area4:vila desa": null
+ "area4:vila desa": null,
+ "area4:hutan melintang": {
+  "lat": 3.8823,
+  "lng": 100.9323,
+  "label": "Hutan Melintang, Bagan Datuk",
+  "kind": "town"
+ }
 }
