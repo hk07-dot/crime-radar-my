@@ -8517,5 +8517,33 @@
   "lat": 3.8823,
   "lng": 100.9323,
   "precision": "area"
+ },
+ {
+  "type": "robbery",
+  "title": "Polis tumpaskan kes samun di Perak",
+  "link": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/polis-tumpaskan-kes-samun-di-perak/",
+  "outlet": "Portal Berita RTM",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T10:04:11.000Z",
+  "place": "Bagan Datuk",
+  "area": "Bagan Datuk, Perak",
+  "lat": 3.9167,
+  "lng": 100.9167,
+  "precision": "town"
+ },
+ {
+  "type": "scam",
+  "title": "Polis tahan 11 'anggota NYPD' dalang sindiket penipuan antarabangsa",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441181/polis-tahan-11-anggota-nypd-dalang-sindiket-penipuan-antarabangsa",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T09:37:50.000Z",
+  "place": "Bukit Ceylon, Kuala Lumpur",
+  "area": "Pavilion Ceylon Hill, Bukit Bintang",
+  "lat": 3.1491,
+  "lng": 101.7055,
+  "precision": "area"
  }
 ]

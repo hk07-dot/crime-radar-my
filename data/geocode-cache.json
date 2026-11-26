@@ -3177,5 +3177,23 @@
   "lng": 100.9323,
   "label": "Hutan Melintang, Bagan Datuk",
   "kind": "town"
+ },
+ "area4:bagan datuk": {
+  "lat": 3.9167,
+  "lng": 100.9167,
+  "label": "Bagan Datuk, Perak",
+  "kind": "district"
+ },
+ "area4:bukit ceylon, kuala lumpur": {
+  "lat": 3.1491,
+  "lng": 101.7055,
+  "label": "Pavilion Ceylon Hill, Bukit Bintang",
+  "kind": "residential"
+ },
+ "area4:british": {
+  "lat": 3.1531,
+  "lng": 101.7288,
+  "label": "Kediaman Rasmi Pesuruhjaya Tinggi British, Kampung Pandan",
+  "kind": "residential"
  }
 }
