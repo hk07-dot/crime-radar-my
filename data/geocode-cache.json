@@ -3148,5 +3148,19 @@
  "area4:kuala lumpur international airport": null,
  "area4:sepang, kuala lumpur": null,
  "area4:kepong, shah alam": null,
- "area4:kuala terengganu, kuala lumpur": null
+ "area4:kuala terengganu, kuala lumpur": null,
+ "area4:taman nusa bestari, iskandar puteri, kuala lumpur": null,
+ "area4:taman nusa bestari, iskandar puteri": {
+  "lat": 1.4938,
+  "lng": 103.6533,
+  "label": "Taman Nusa Bestari 2, Bukit Indah",
+  "kind": "neighbourhood"
+ },
+ "area4:taman nusa bestari, kuala lumpur": null,
+ "area4:taman nusa bestari": {
+  "lat": 1.4938,
+  "lng": 103.6533,
+  "label": "Taman Nusa Bestari 2, Bukit Indah",
+  "kind": "neighbourhood"
+ }
 }

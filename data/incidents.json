@@ -7971,6 +7971,11 @@
     "outlet": "Berita Harian",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdG1sZ1p0Qm4yUjY0b1pUdE9EME1EZFVHSmNPNVJkY2YwWXhyLWdjOEpxcTVpVW51RF93TzB1SjJTRVZ4SnNGVW1hSVVqY29FMVpFNkhtcWxmckQ2SFRpS2xYb1ZoUlFwdDRtZXg2aHozZ3Z2Slk1Vlp2QkZadmpIZjdjMWNyT19a?oc=5",
     "title": "Penjenayah ditembak mati di Chow Kit terbabit 9 kes samun, aktif sejak Mei lalu"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/26/fatal-johor-crash-now-a-murder-probe-after-police-uncover-suspected-cable-theft-link/244817",
+    "title": "Fatal Johor crash now a murder probe after police uncover suspected cable theft link"
    }
   ]
  },
@@ -8311,6 +8316,16 @@
     "outlet": "Malay Mail",
     "link": "https://www.malaymail.com/news/malaysia/2026/11/26/saifuddin-nasution-pilots-flight-crew-to-face-random-drug-tests-under-klia-security-overhaul/244805",
     "title": "Saifuddin Nasution: Pilots, flight crew to face random drug tests under KLIA security overhaul"
+   },
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/sosma-digunakan-siasat-sindiket-dadah-eksploitasi-fasiliti-penerbangan-tudm/?utm_source=rss&utm_medium=rss&utm_campaign=sosma-digunakan-siasat-sindiket-dadah-eksploitasi-fasiliti-penerbangan-tudm",
+    "title": "SOSMA digunakan siasat sindiket dadah eksploitasi fasiliti penerbangan TUDM"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/26/sabah-drug-ring-suspected-of-exploiting-military-facilities-linked-to-rm156m-in-transactions-parliament-told/244823",
+    "title": "Sabah drug ring suspected of exploiting military facilities linked to RM156m in transactions, Parliament told"
    }
   ]
  },
@@ -8368,6 +8383,20 @@
   "area": "Kota Bharu, Kelantan",
   "lat": 6.1248,
   "lng": 102.2378,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Drug smuggling syndicate used military aircraft to transport meth 21 times",
+  "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/26/drug-smuggling-syndicate-used-military-aircraft-to-transport-meth-21-times",
+  "outlet": "Free Malaysia Today",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T03:44:00.000Z",
+  "place": "Tawau",
+  "area": "Tawau, Bahagian Tawau",
+  "lat": 4.2435,
+  "lng": 117.8853,
   "precision": "area"
  }
 ]
