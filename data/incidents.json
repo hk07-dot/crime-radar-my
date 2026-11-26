@@ -3537,74 +3537,6 @@
  },
  {
   "type": "murder",
-  "title": "Wanita maut dipercayai dibunuh, dua ahli keluarga ditahan bantu siasatan",
-  "link": "https://www.astroawani.com/berita-malaysia/wanita-maut-dipercayai-dibunuh-dua-ahli-keluarga-ditahan-bantu-siasatan",
-  "outlet": "Astro Awani",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-24T07:00:00.000Z",
-  "place": "Ipoh",
-  "area": "Majlis Bandaraya Ipoh, Kinta",
-  "lat": 4.5987,
-  "lng": 101.09,
-  "precision": "town",
-  "alsoReported": [
-   {
-    "outlet": "Sinar Harian",
-    "link": "https://www.sinarharian.com.my/article/797594/berita/semasa/lelaki-tempatan-dibunuh-tiga-pelajar-ipt-warga-asing-ditahan",
-    "title": "Lelaki tempatan dibunuh, tiga pelajar IPT warga asing ditahan"
-   }
-  ]
- },
- {
-  "type": "murder",
-  "title": "Gelandangan ditemukan mati dibunuh di taman rekreasi",
-  "link": "https://www.utusan.com.my/nasional/2026/09/gelandangan-ditemukan-mati-dibunuh-di-taman-rekreasi/",
-  "outlet": "Utusan Malaysia",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-24T07:00:00.000Z",
-  "place": "Alor Setar",
-  "area": "Alor Setar, Kota Setar",
-  "lat": 6.1232,
-  "lng": 100.3684,
-  "precision": "town",
-  "alsoReported": [
-   {
-    "outlet": "Sinar Harian",
-    "link": "https://www.sinarharian.com.my/article/797683/berita/semasa/lelaki-ditemukan-maut-dengan-kesan-kecederaan-dipercayai-dibunuh",
-    "title": "Lelaki ditemukan maut dengan kesan kecederaan, dipercayai dibunuh"
-   }
-  ]
- },
- {
-  "type": "murder",
-  "title": "Suri rumah maut dibunuh: Suami, anak direman bantu siasatan",
-  "link": "https://www.sinarharian.com.my/article/797641/berita/semasa/suri-rumah-maut-dibunuh-suami-anak-direman-bantu-siasatan",
-  "outlet": "Sinar Harian",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-24T07:00:00.000Z",
-  "place": "Kampung Cheh",
-  "area": "Kampung Cheh, Taiping",
-  "lat": 4.755,
-  "lng": 100.7667,
-  "precision": "area",
-  "alsoReported": [
-   {
-    "outlet": "Gempak",
-    "link": "https://gempak.com/berita/wanita-oku-maut-ditikam-dari-celahan-papan-rumah-mangsa-sempat-minta-tolong-suami",
-    "title": "Wanita OKU Maut Ditikam Dari Celahan Papan Rumah - “Mangsa Sempat Minta Tolong Suami”"
-   },
-   {
-    "outlet": "Kosmo Online",
-    "link": "https://www.kosmo.com.my/2026/09/24/tusukan-tajam-di-pembuluh-darah-kaki-punca-kematian-wanita-oku-di-kuala-kangsar/",
-    "title": "Wanita OKU dibunuh: Tusukan tajam pada pembuluh darah kaki punca kematian"
-   }
-  ]
- },
- {
-  "type": "murder",
   "title": "Nine-year-old boy killed in suspected crocodile attack in Kudat",
   "link": "https://www.malaymail.com/news/malaysia/2026/11/11/nine-year-old-boy-killed-in-suspected-crocodile-attack-in-kudat/242892",
   "outlet": "Malay Mail",
@@ -8389,5 +8321,19 @@
   "lat": 1.1009,
   "lng": 110.7104,
   "precision": "town"
+ },
+ {
+  "type": "robbery",
+  "title": "‘Selangor deserves better’ katanya, netizen sindir taman permainan di negeri Pas dipenuhi semak samun siap muncul ular tedung",
+  "link": "https://harapandaily.com/2026/11/26/selangor-deserves-better-katanya-netizen-sindir-taman-permainan-di-negeri-pas-dipenuhi-semak-samun-siap-muncul-ular-tedung/",
+  "outlet": "Harapan Daily",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T00:40:10.000Z",
+  "place": "Kota Bharu, Kelantan",
+  "area": "Kota Bharu, Kelantan",
+  "lat": 6.1248,
+  "lng": 102.2378,
+  "precision": "area"
  }
 ]

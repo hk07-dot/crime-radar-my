@@ -3138,5 +3138,11 @@
  "area4:pangkalan udara subang, selangor, tumpat": null,
  "area4:pangkalan udara subang, selangor": null,
  "area4:jalan utara, tawau": null,
- "area4:jalan utara": null
+ "area4:jalan utara": null,
+ "area4:kota bharu, kelantan": {
+  "lat": 6.1248,
+  "lng": 102.2378,
+  "label": "Kota Bharu, Kelantan",
+  "kind": "city"
+ }
 }
