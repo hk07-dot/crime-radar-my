@@ -8039,6 +8039,11 @@
     "outlet": "Kosmo: Suapan Kosmo Online",
     "link": "https://www.kosmo.com.my/2026/11/26/selagi-ada-pembeli-selagi-itu-ada-pencuri-kabel/?utm_source=rss&utm_medium=rss&utm_campaign=selagi-ada-pembeli-selagi-itu-ada-pencuri-kabel",
     "title": "Selagi ada pembeli, selagi itu ada pencuri kabel"
+   },
+   {
+    "outlet": "Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/26/balik-kerja-rumah-dirompak-monyet/",
+    "title": "Balik kerja rumah ‘dirompak’ monyet"
    }
   ]
  },
@@ -8474,7 +8479,14 @@
   "area": "Shah Alam, Petaling",
   "lat": 3.0739,
   "lng": 101.5185,
-  "precision": "town"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/26/three-rmaf-officers-among-six-to-be-charged-in-shah-alam-tomorrow-over-drug-smuggling-using-military-assets/244918",
+    "title": "Three RMAF officers among six to be charged in Shah Alam tomorrow over drug smuggling using military assets"
+   }
+  ]
  },
  {
   "type": "theft",
