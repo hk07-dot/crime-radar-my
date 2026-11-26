@@ -8398,5 +8398,54 @@
   "lat": 4.2435,
   "lng": 117.8853,
   "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Polis buru suspek curi kabel, terlibat kes langgar mati",
+  "link": "https://www.kosmo.com.my/2026/11/26/polis-buru-suspek-curi-kabel-terlibat-kes-langgar-mati/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T06:09:00.000Z",
+  "place": "Nusa Bestari",
+  "area": "Jalan Bestari 13/3, Taman Nusa Bestari 1",
+  "lat": 1.4854,
+  "lng": 103.6742,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Kes dadah babit aset tentera: Polis tidak tolak kemungkinan ada tangkapan baharu",
+  "link": "https://www.sinarharian.com.my/article/806226/berita/semasa/kes-dadah-babit-aset-tentera-polis-tidak-tolak-kemungkinan-ada-tangkapan-baharu",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T06:06:00.000Z",
+  "place": "Kuantan",
+  "area": "Kuantan, Pahang",
+  "lat": 3.7974,
+  "lng": 103.3219,
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441057/polis-tudm-bekerjasama-kesan-lebih-ramai-suspek-sindiket-dadah",
+    "title": "Polis, TUDM bekerjasama kesan lebih ramai suspek sindiket dadah"
+   }
+  ]
+ },
+ {
+  "type": "theft",
+  "title": "Seorang maut, polis buru pencuri kabel",
+  "link": "https://www.kosmo.com.my/2026/11/26/seorang-maut-polis-buru-pencuri-kabel/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T05:41:00.000Z",
+  "place": "Taman Nusa Bestari, Iskandar Puteri",
+  "area": "Taman Nusa Bestari 2, Bukit Indah",
+  "lat": 1.4938,
+  "lng": 103.6533,
+  "precision": "area"
  }
 ]

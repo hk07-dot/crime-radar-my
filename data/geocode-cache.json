@@ -3162,5 +3162,14 @@
   "lng": 103.6533,
   "label": "Taman Nusa Bestari 2, Bukit Indah",
   "kind": "neighbourhood"
- }
+ },
+ "area4:nusa bestari, iskandar puteri": null,
+ "area4:nusa bestari": {
+  "lat": 1.4854,
+  "lng": 103.6742,
+  "label": "Jalan Bestari 13/3, Taman Nusa Bestari 1",
+  "kind": "residential"
+ },
+ "area4:vila desa, polis tahan": null,
+ "area4:vila desa": null
 }
