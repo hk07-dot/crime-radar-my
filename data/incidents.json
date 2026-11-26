@@ -8534,6 +8534,11 @@
     "outlet": "The Sun Malaysia",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN2FQVUkxNmFoVnFyRXlPbDBqd0lCZHF1OWpJVmdsSG45MUkwUXhJaHEycl8tMDB3VjJkZ0RWWnZLSzhpRTVON0hIVTRBcGoxNjNuSWw1c19ab3dHMDM1Uy1rYjdySmExVl9vbjYwQzB2YllBOUQ0Q3dJTUo0Z2JDRGlyTQ?oc=5",
     "title": "Polis tahan tiga suspek samun kedai runcit di Hutan Melintang"
+   },
+   {
+    "outlet": "Newswav",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOXdhZVhsUTF0MjB5UmU4Ul9GQUJkV05EZjB5aWxHeHRzY1lHeWFOQWRNdmFHSVAtWG8zX3I1cFJBQjk2eHM3dzRHZWdBdlhjWkloTzhxU1ZDZkNTOE0teXF4ODdKcE5HNFYzV003LTFvYVhNbV9ORy15VzVyUW5aWXM4WlRtMEVnSmRZSUZuRXE2aE56YWdnNy1XMUNxbWtLdTMwYQ?oc=5",
+    "title": "Polis tahan tiga suspek samun kedai runcit di Hutan Melintang"
    }
   ]
  },
@@ -8564,5 +8569,19 @@
   "lat": 3.1491,
   "lng": 101.7055,
   "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "KTMB Cable Theft On Bukit Mertajam-Simpang Ampat Route Disrupts Northern Train Services",
+  "link": "http://www.bernama.com/en/news.php?id=2640086",
+  "outlet": "Bernama",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T15:00:24.301Z",
+  "place": "George Town",
+  "area": "George Town, Pulau Pinang",
+  "lat": 5.4142,
+  "lng": 100.3287,
+  "precision": "town"
  }
 ]
