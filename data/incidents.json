@@ -8447,5 +8447,61 @@
   "lat": 1.4938,
   "lng": 103.6533,
   "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Kes dadah libatkan TUDM: KDN bentang laporan kepada Kabinet esok",
+  "link": "https://www.sinarharian.com.my/article/806243/berita/semasa/kes-dadah-libatkan-tudm-kdn-bentang-laporan-kepada-kabinet-esok",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T07:31:00.000Z",
+  "place": "Putrajaya",
+  "area": "Putrajaya, Malaysia",
+  "lat": 2.9384,
+  "lng": 101.6922,
+  "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "'Pecahkan tembok kartel bukan mudah' - Armizan puji KDN, PDRM",
+  "link": "https://www.sinarharian.com.my/article/806244/berita/nasional/pecahkan-tembok-kartel-bukan-mudah---armizan-puji-kdn-pdrm",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T07:25:00.000Z",
+  "place": "Shah Alam",
+  "area": "Shah Alam, Petaling",
+  "lat": 3.0739,
+  "lng": 101.5185,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "Kemalangan maut di Iskandar Puteri: Polis buru individu disyaki curi kabel",
+  "link": "https://www.sinarharian.com.my/article/806238/berita/semasa/kemalangan-maut-di-iskandar-puteri-polis-buru-individu-disyaki-curi-kabel",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T07:05:00.000Z",
+  "place": "Iskandar Puteri",
+  "area": "Iskandar Puteri, Johor Bahru",
+  "lat": 1.4523,
+  "lng": 103.6145,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Lelaki maut dalam kejadian curi kabel, polis siasat sebagai kes bunuh",
+  "link": "https://malaysiatribune.news/lelaki-maut-dalam-kejadian-curi-kabel-polis-siasat-sebagai-kes-bunuh/",
+  "outlet": "Malaysia Tribune",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T06:29:31.000Z",
+  "place": "Taman Nusa Bestari, Iskandar Puteri",
+  "area": "Taman Nusa Bestari 2, Bukit Indah",
+  "lat": 1.4938,
+  "lng": 103.6533,
+  "precision": "area"
  }
 ]
