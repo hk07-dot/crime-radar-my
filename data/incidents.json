@@ -8492,5 +8492,33 @@
   "lat": 6.4466,
   "lng": 116.8283,
   "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Miri man in 50s nabbed as Marine Police seize RM4.339 mln in untaxed cigarettes",
+  "link": "https://dayakdaily.com/miri-man-in-50s-nabbed-as-marine-police-seize-rm4-339-mln-in-untaxed-cigarettes/",
+  "outlet": "Dayak Daily",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T04:56:17.000Z",
+  "place": "Miri",
+  "area": "Miri, Bahagian Miri",
+  "lat": 4.394,
+  "lng": 113.988,
+  "precision": "area"
+ },
+ {
+  "type": "assault",
+  "title": "Diserang Dengan Parang, Lelaki Maut Ditetak 4 Individu",
+  "link": "https://newswav.com/article/diserang-dengan-parang-lelaki-maut-ditetak-4-individu-A2611_kBQVwd",
+  "outlet": "Newswav",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-26T07:25:00.000Z",
+  "place": "Baling",
+  "area": "Baling, Kedah",
+  "lat": 5.5507,
+  "lng": 100.7976,
+  "precision": "town"
  }
 ]

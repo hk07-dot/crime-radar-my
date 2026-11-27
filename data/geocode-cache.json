@@ -3220,5 +3220,13 @@
   "label": "Subang, Shah Alam",
   "kind": "suburb"
  },
- "area4:bandar guatemala": null
+ "area4:bandar guatemala": null,
+ "area4:baling": {
+  "lat": 5.5507,
+  "lng": 100.7976,
+  "label": "Baling, Kedah",
+  "kind": "district"
+ },
+ "area4:pekan lama kuala, baling": null,
+ "area4:pekan lama kuala": null
 }
