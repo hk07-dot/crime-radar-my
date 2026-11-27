@@ -3287,5 +3287,11 @@
   "label": "Jalan Sitiawan, Taman Eden",
   "kind": "residential"
  },
- "area4:bandar teknologi kajang, kuala lumpur": null
+ "area4:bandar teknologi kajang, kuala lumpur": null,
+ "area4:bandar teknologi, kajang": {
+  "lat": 2.9783,
+  "lng": 101.8157,
+  "label": "Jalan Kajang Prima 2/9, Taman Kajang Prima",
+  "kind": "residential"
+ }
 }

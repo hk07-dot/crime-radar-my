@@ -8726,6 +8726,16 @@
     "outlet": "Harian Metro Mutakhir",
     "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441652/polis-buru-tiga-suspek-rompak-kedai-emas",
     "title": "Polis buru tiga suspek rompak kedai emas"
+   },
+   {
+    "outlet": "Sinar Harian",
+    "link": "https://www.sinarharian.com.my/ampArticle/806428",
+    "title": "Tiga lelaki bersenjata parang, tukul besi samun kedai emas"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441652/polis-buru-tiga-suspek-rompak-kedai-emas",
+    "title": "Polis buru tiga suspek rompak kedai emas"
    }
   ]
  },
@@ -8755,6 +8765,20 @@
   "area": "Jalan Sitiawan, Taman Eden",
   "lat": 4.6099,
   "lng": 101.0691,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Polis bantuan KTMB tahan suspek curi kabel di Bukit Mertajam",
+  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeFNfcnhRZXJfME1OZjdFc2tvS2ZBbGRTdVNIQ1dzcHM1Mm1RR0kxLV9iOEtHYlNveUpyNXRuSEVGS0RqWWx2a0gtT0VFbGcwaWVsYjJWd2lmTEZ6ZkU3a29jMU5HRV9BaXAyTkxnRGVYRGZQaTdwTGZrQjF0SDNaYg?oc=5",
+  "outlet": "The Sun Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T13:56:57.000Z",
+  "place": "Bukit Mertajam",
+  "area": "Bukit Mertajam, Seberang Perai Tengah",
+  "lat": 5.3643,
+  "lng": 100.461,
   "precision": "area"
  }
 ]
