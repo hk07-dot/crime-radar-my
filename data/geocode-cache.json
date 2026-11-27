@@ -3259,5 +3259,20 @@
   "lng": 100.4756,
   "label": "Kubang Ulu, Penanti",
   "kind": "hamlet"
+ },
+ "area4:jalan kuching-serian, mile 16": null,
+ "area4:jalan kuching-serian": null,
+ "area4:mile 16, jalan kuching": null,
+ "area4:mile 16": {
+  "lat": 4.9555,
+  "lng": 115.9182,
+  "label": "Mile 14, Tenom",
+  "kind": "village"
+ },
+ "area4:tanjung lumpur, kuantan": {
+  "lat": 3.7982,
+  "lng": 103.3376,
+  "label": "Tanjung Lumpur, Kuantan",
+  "kind": "suburb"
  }
 }

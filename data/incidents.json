@@ -8328,16 +8328,21 @@
   "source": "news",
   "verified": true,
   "publishedAt": "2026-11-26T06:06:00.000Z",
-  "place": "Kuantan",
-  "area": "Kuantan, Pahang",
-  "lat": 3.7974,
-  "lng": 103.3219,
-  "precision": "town",
+  "place": "Tanjung Lumpur, Kuantan",
+  "area": "Tanjung Lumpur, Kuantan",
+  "lat": 3.7982,
+  "lng": 103.3376,
+  "precision": "area",
   "alsoReported": [
    {
     "outlet": "Harian Metro Mutakhir",
     "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441057/polis-tudm-bekerjasama-kesan-lebih-ramai-suspek-sindiket-dadah",
     "title": "Polis, TUDM bekerjasama kesan lebih ramai suspek sindiket dadah"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441629/lelaki-disyaki-runner-dadah-ditahan-rampasan-lebih-rm187000",
+    "title": "Lelaki disyaki 'runner' dadah ditahan, rampasan lebih RM187,000"
    }
   ]
  },
@@ -8368,6 +8373,11 @@
    {
     "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
     "link": "https://www.utusan.com.my/nasional/jenayah/2026/11/polis-tahan-lima-termasuk-remaja-17-tahun-berhubung-kes-curi-kabel-ragut-nyawa/?utm_source=rss&utm_medium=rss&utm_campaign=polis-tahan-lima-termasuk-remaja-17-tahun-berhubung-kes-curi-kabel-ragut-nyawa",
+    "title": "Polis tahan lima termasuk remaja 17 tahun berhubung kes curi kabel ragut nyawa"
+   },
+   {
+    "outlet": "Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/jenayah/2026/11/polis-tahan-lima-termasuk-remaja-17-tahun-berhubung-kes-curi-kabel-ragut-nyawa/",
     "title": "Polis tahan lima termasuk remaja 17 tahun berhubung kes curi kabel ragut nyawa"
    }
   ]
@@ -8672,6 +8682,20 @@
   "area": "Kubang Ulu, Penanti",
   "lat": 5.4075,
   "lng": 100.4756,
+  "precision": "area"
+ },
+ {
+  "type": "murder",
+  "title": "Man killed after pickup truck plunges into roadside ditch at Jalan Kuching-Serian",
+  "link": "https://dayakdaily.com/man-killed-after-pickup-truck-plunges-into-roadside-ditch-at-jalan-kuching-serian/",
+  "outlet": "Dayak Daily",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T12:23:21.000Z",
+  "place": "Mile 16",
+  "area": "Mile 14, Tenom",
+  "lat": 4.9555,
+  "lng": 115.9182,
   "precision": "area"
  }
 ]
