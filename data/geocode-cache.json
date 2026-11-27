@@ -3252,5 +3252,12 @@
   "label": "Jalan Tanjung Lumpur, Kuantan",
   "kind": "residential"
  },
- "area4:mydin bandar teknologi kajang": null
+ "area4:mydin bandar teknologi kajang": null,
+ "area4:kubang ulu, bukit mertajam": null,
+ "area4:kubang ulu": {
+  "lat": 5.4075,
+  "lng": 100.4756,
+  "label": "Kubang Ulu, Penanti",
+  "kind": "hamlet"
+ }
 }

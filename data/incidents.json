@@ -8364,6 +8364,11 @@
     "outlet": "Harian Metro",
     "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441564/remaja-17-tahun-antara-5-ditahan-kes-curi-kabel-ragut-nyawa",
     "title": "Remaja 17 tahun antara 5 ditahan kes curi kabel ragut nyawa"
+   },
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/jenayah/2026/11/polis-tahan-lima-termasuk-remaja-17-tahun-berhubung-kes-curi-kabel-ragut-nyawa/?utm_source=rss&utm_medium=rss&utm_campaign=polis-tahan-lima-termasuk-remaja-17-tahun-berhubung-kes-curi-kabel-ragut-nyawa",
+    "title": "Polis tahan lima termasuk remaja 17 tahun berhubung kes curi kabel ragut nyawa"
    }
   ]
  },
@@ -8639,6 +8644,34 @@
   "area": "Jalan Tanjung Lumpur, Kuantan",
   "lat": 3.7401,
   "lng": 103.3099,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Wanita dibebas, penahanan berkaitan kes dadah tidak sah",
+  "link": "https://www.sinarharian.com.my/article/806414/berita/semasa/wanita-dibebas-penahanan-berkaitan-kes-dadah-tidak-sah",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T10:56:00.000Z",
+  "place": "Sandakan",
+  "area": "Sandakan, Sandakan District",
+  "lat": 5.8391,
+  "lng": 118.1159,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "Malaysia Gazette. . Mekanik Bawah POCA Dipenjara, Curi RXZ #mgflash Seorang mekanik dijatuhi hukuman penjara dua tahun dan dua sebatan selepas mengaku bersalah mencuri motosikal Honda RXZ di Kubang Ulu, Bukit Mertajam, pada 15 November l",
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPODZoZWI5MVhkZ2RxUG0wQU85UE9KLWdxYnVTOFpLbGh0M3Z1UUFaUlAyOTUwWE8zOUZxcGpiRk5Jd2QtNzZ4bEVoYks2cURsNmRWMnJEQUp0Y0NkaXZNbW0zeGQyOUxaSDY1SWU0dGFUaFFrX3M5WE14Vmg2N2dvY01iMkt0eFhMc3RlUGFGYmt2a05uZTZ1U2VKZ3Nta0ViUkR5aUUzZURsUE5KaF81R2lHQ2VJT0VtNDAxYjNJamZ1dVBydU9rU0FOOUNjT2d0MEF3VnpwdkhTamZwSTdF?oc=5",
+  "outlet": "Facebook",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T10:42:15.000Z",
+  "place": "Kubang Ulu",
+  "area": "Kubang Ulu, Penanti",
+  "lat": 5.4075,
+  "lng": 100.4756,
   "precision": "area"
  }
 ]
