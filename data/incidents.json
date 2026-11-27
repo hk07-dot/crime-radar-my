@@ -8697,5 +8697,64 @@
   "lat": 4.9555,
   "lng": 115.9182,
   "precision": "area"
+ },
+ {
+  "type": "robbery",
+  "title": "[VIDEO] Tiga lelaki samun kedai emas diburu",
+  "link": "https://www.kosmo.com.my/2026/11/27/video-tiga-lelaki-samun-kedai-emas-diburu/",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T13:48:00.000Z",
+  "place": "Bandar Teknologi Kajang",
+  "area": "Bandar Teknologi Kajang, Semenyih",
+  "lat": 2.9692,
+  "lng": 101.8234,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/806428/berita/semasa/tiga-lelaki-bersenjata-parang-tukul-besi-samun-kedai-emas",
+    "title": "Tiga lelaki bersenjata parang, tukul besi samun kedai emas"
+   },
+   {
+    "outlet": "bernama",
+    "link": "https://www.bernama.com/bm/jenayah_mahkamah/news.php?id=2640529",
+    "title": "Tiga Lelaki Bersenjatakan Parang, Tukul Besi Samun Kedai Emas"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441652/polis-buru-tiga-suspek-rompak-kedai-emas",
+    "title": "Polis buru tiga suspek rompak kedai emas"
+   }
+  ]
+ },
+ {
+  "type": "robbery",
+  "title": "Cops hunt three men over armed robbery at Kajang gold shop",
+  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcEdrQUNsZm1nM3BvYjBuUHVTdk5sUnRIaUROZ2cwNTFYTzE2Wmx0cHZhMEdtQ2w5ZDlVQzVGUU9TbGxjQURibXpfRU9sR3NoY3hCRDdiTHludUtUejliVnhLTFMzOHc2Y0JuaUtMd2twZXJDeWJWcjE4VTctdW16UjBTNjVYTENQNmgteG5nTlNSa0Z0ZTVUc0RCVGp6alF0aDA3eERIM2tUai02?oc=5",
+  "outlet": "The Star",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T13:44:00.000Z",
+  "place": "Kajang",
+  "area": "Majlis Perbandaran Kajang, Hulu Langat",
+  "lat": 2.9948,
+  "lng": 101.7897,
+  "precision": "area"
+ },
+ {
+  "type": "robbery",
+  "title": "4 lelaki diburu, disyaki terbabit samun bersenjata, pecah masuk rumah",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441659/4-lelaki-diburu-disyaki-terbabit-samun-bersenjata-pecah-masuk-rumah",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T13:36:27.000Z",
+  "place": "Sitiawan, Ipoh",
+  "area": "Jalan Sitiawan, Taman Eden",
+  "lat": 4.6099,
+  "lng": 101.0691,
+  "precision": "area"
  }
 ]

@@ -3274,5 +3274,18 @@
   "lng": 103.3376,
   "label": "Tanjung Lumpur, Kuantan",
   "kind": "suburb"
- }
+ },
+ "area4:bandar teknologi kajang": {
+  "lat": 2.9692,
+  "lng": 101.8234,
+  "label": "Bandar Teknologi Kajang, Semenyih",
+  "kind": "quarter"
+ },
+ "area4:sitiawan, ipoh": {
+  "lat": 4.6099,
+  "lng": 101.0691,
+  "label": "Jalan Sitiawan, Taman Eden",
+  "kind": "residential"
+ },
+ "area4:bandar teknologi kajang, kuala lumpur": null
 }
