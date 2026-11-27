@@ -3293,5 +3293,12 @@
   "lng": 101.8157,
   "label": "Jalan Kajang Prima 2/9, Taman Kajang Prima",
   "kind": "residential"
- }
+ },
+ "area4:padungan": {
+  "lat": 1.5547,
+  "lng": 110.359,
+  "label": "Jalan Sungai Padungan, Kuching",
+  "kind": "residential"
+ },
+ "area4:poundland": null
 }
