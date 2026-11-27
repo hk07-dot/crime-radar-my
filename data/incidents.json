@@ -8534,5 +8534,31 @@
   "lat": 2.8009,
   "lng": 101.7094,
   "precision": "area"
+ },
+ {
+  "type": "break_in",
+  "title": "Lelaki miliki 53 rekod lampau ditahan kes pecah rumah",
+  "link": "https://www.utusan.com.my/nasional/2026/11/lelaki-miliki-53-rekod-lampau-ditahan-kes-pecah-rumah/?utm_source=rss&utm_medium=rss&utm_campaign=lelaki-miliki-53-rekod-lampau-ditahan-kes-pecah-rumah",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T07:22:29.000Z",
+  "place": "Ipoh",
+  "area": "Majlis Bandaraya Ipoh, Kinta",
+  "lat": 4.5987,
+  "lng": 101.09,
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "The Star",
+    "link": "https://www.thestar.com.my/news/nation/2026/11/27/cops-nab-burglary-suspect-with-lengthy-record-four-others-for-dealing-in-stolen-goods",
+    "title": "Cops nab burglary suspect with lengthy record, four others for dealing in stolen goods"
+   },
+   {
+    "outlet": "Astro Awani",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUHRMWTRRMDB6ODNGbWpsNE5TeEh2UnF0TjVCZGJZVlBlemkxVkhpX0c1VWhJaW03ZTA3UWJFUkQyOGd5c0N2dHZvWlV4a25zcGhQVXI0RHlIWEg0U2pIM0M4LWUyYkRCNllMOGEzdXhsQ29fVGU3VmFRbkZkQ003cU9weEFyVDBmVmJIXzZMRnNjdS1kTFJjQW1JNDluQWk0dlp2d1Jnb3ZpOVBKakhNQ1lJOGpyZ0NT?oc=5",
+    "title": "Lima individu termasuk dua wanita diberkas susulan kes pecah rumah di Ipoh"
+   }
+  ]
  }
 ]
