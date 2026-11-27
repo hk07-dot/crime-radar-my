@@ -8073,7 +8073,14 @@
   "area": "Subang, Shah Alam",
   "lat": 3.1505,
   "lng": 101.5312,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Free Malaysia Today",
+    "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/3-military-officers-3-civilians-charged-with-trafficking-96kg-of-meth",
+    "title": "3 military officers, 3 civilians charged with trafficking 96kg of meth"
+   }
+  ]
  },
  {
   "type": "drugs",
@@ -8093,6 +8100,11 @@
     "outlet": "Sinar Harian Semasa",
     "link": "https://www.sinarharian.com.my/article/806325/berita/semasa/remaja-perempuan-14-tahun-antara-372-individu-ditahan-operasi-dadah",
     "title": "Remaja perempuan 14 tahun antara 372 individu ditahan operasi dadah"
+   },
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/polis-perak-gempur-sarang-dadah-372-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=polis-perak-gempur-sarang-dadah-372-ditahan",
+    "title": "Polis Perak gempur sarang dadah, 372 ditahan"
    }
   ]
  },
