@@ -8520,5 +8520,19 @@
   "lat": 5.5507,
   "lng": 100.7976,
   "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "Over 1.8 Tonnes Of Suspected Drugs Intercepted At Three Malaysian Airports -- MAHB",
+  "link": "https://www.bernama.com/en/news.php?id=2640260",
+  "outlet": "Bernama",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T06:31:40.269Z",
+  "place": "Sepang",
+  "area": "Sepang, Selangor",
+  "lat": 2.8009,
+  "lng": 101.7094,
+  "precision": "area"
  }
 ]
