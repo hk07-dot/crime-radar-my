@@ -3231,5 +3231,11 @@
  "area4:pekan lama kuala": null,
  "area4:sepang, penang international, putrajaya": null,
  "area4:sepang, penang international": null,
- "area4:asia, kuala lumpur": null
+ "area4:asia, kuala lumpur": null,
+ "area4:semenyih, kajang": {
+  "lat": 2.9474,
+  "lng": 101.846,
+  "label": "Semenyih, Majlis Perbandaran Kajang",
+  "kind": "town"
+ }
 }
