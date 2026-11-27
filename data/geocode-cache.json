@@ -3209,5 +3209,16 @@
  "area4:kilometre 16": null,
  "area4:tawau, kuala lumpur": null,
  "area4:zurich": null,
- "area4:ppr sri cempaka": null
+ "area4:ppr sri cempaka": null,
+ "area4:pengkalan udara, shah alam": null,
+ "area4:pengkalan udara": null,
+ "area4:taman perumahan, kota marudu": null,
+ "area4:taman perumahan": null,
+ "area4:subang, shah alam": {
+  "lat": 3.1505,
+  "lng": 101.5312,
+  "label": "Subang, Shah Alam",
+  "kind": "suburb"
+ },
+ "area4:bandar guatemala": null
 }

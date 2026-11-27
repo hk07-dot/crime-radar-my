@@ -8079,6 +8079,11 @@
     "outlet": "Free Malaysia Today",
     "link": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/3-military-officers-3-civilians-charged-with-trafficking-96kg-of-meth",
     "title": "3 military officers, 3 civilians charged with trafficking 96kg of meth"
+   },
+   {
+    "outlet": "Malay Mail",
+    "link": "https://www.malaymail.com/news/malaysia/2026/11/27/tears-in-court-as-six-including-three-rmaf-officers-face-death-penalty-over-96kg-meth-trafficking-at-subang-air-base/244959",
+    "title": "Tears in court as six, including three RMAF officers, face death penalty over 96kg meth trafficking at Subang air base"
    }
   ]
  },
@@ -8472,6 +8477,20 @@
   "area": "George Town, Pulau Pinang",
   "lat": 5.4142,
   "lng": 100.3287,
+  "precision": "town"
+ },
+ {
+  "type": "theft",
+  "title": "Curi bungkusan kiriman, lelaki ditahan kurang sembilan jam selepas laporan polis",
+  "link": "https://sayangsabah.com.my/home/2026/11/27/curi-bungkusan-kiriman-lelaki-ditahan-kurang-sembilan-jam-selepas-laporan-polis/",
+  "outlet": "Sayang Sabah",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T03:34:50.000Z",
+  "place": "Kota Marudu",
+  "area": "Kota Marudu, Bahagian Kudat",
+  "lat": 6.4466,
+  "lng": 116.8283,
   "precision": "town"
  }
 ]
