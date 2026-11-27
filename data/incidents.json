@@ -8756,7 +8756,14 @@
   "area": "Majlis Perbandaran Kajang, Hulu Langat",
   "lat": 2.9948,
   "lng": 101.7897,
-  "precision": "area"
+  "precision": "area",
+  "alsoReported": [
+   {
+    "outlet": "Free Malaysia Today",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUDYwcEtWazFPdEwzbURkSHprQ1Jjb1RyRTZ3OUtCMmQxNTVIVUF0UE5wM19EaEVWb1hUQlo1a1VNNXNEeUI4SzZuQzJaeTF1cDBLYVJXdDBQY1ZNQTRyMzAzRFZqQS1VSFJpZGxyNnV5RnRwNnZleXhDOUFiSGRKamp2NWlMV3VPSHA5ODVFdE1rb3J0NG0yekJzdFdNQURDMVIwSHFHLXhFanFURU14ZkhldkVZYVk?oc=5",
+    "title": "Polis buru 3 lelaki samun kedai emas di Kajang"
+   }
+  ]
  },
  {
   "type": "robbery",
