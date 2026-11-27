@@ -3237,5 +3237,20 @@
   "lng": 101.846,
   "label": "Semenyih, Majlis Perbandaran Kajang",
   "kind": "town"
- }
+ },
+ "area4:jalan scientex jaya, taman scientex, kulai": null,
+ "area4:jalan scientex jaya, taman scientex": null,
+ "area4:jalan scientex jaya, kulai": {
+  "lat": 1.6336,
+  "lng": 103.6903,
+  "label": "Jalan Scientex Jaya 22, Scientex Senai",
+  "kind": "residential"
+ },
+ "area4:jalan tanjung lumpur, kuantan": {
+  "lat": 3.7401,
+  "lng": 103.3099,
+  "label": "Jalan Tanjung Lumpur, Kuantan",
+  "kind": "residential"
+ },
+ "area4:mydin bandar teknologi kajang": null
 }

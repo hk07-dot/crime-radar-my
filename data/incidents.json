@@ -7693,7 +7693,14 @@
   "area": "Petaling Jaya, Petaling",
   "lat": 3.0989,
   "lng": 101.6454,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/nasional/2026/11/lima-termasuk-seorang-lagi-pegawai-tudm-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=lima-termasuk-seorang-lagi-pegawai-tudm-ditahan",
+    "title": "Lima termasuk seorang lagi pegawai TUDM ditahan"
+   }
+  ]
  },
  {
   "type": "break_in",
@@ -8352,6 +8359,11 @@
     "outlet": "Harian Metro Mutakhir",
     "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441564/remaja-17-tahun-antara-5-ditahan-kes-curi-kabel-ragut-nyawa",
     "title": "Remaja 17 tahun antara 5 ditahan kes curi kabel ragut nyawa"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441564/remaja-17-tahun-antara-5-ditahan-kes-curi-kabel-ragut-nyawa",
+    "title": "Remaja 17 tahun antara 5 ditahan kes curi kabel ragut nyawa"
    }
   ]
  },
@@ -8599,6 +8611,34 @@
   "area": "Semenyih, Majlis Perbandaran Kajang",
   "lat": 2.9474,
   "lng": 101.846,
+  "precision": "area"
+ },
+ {
+  "type": "assault",
+  "title": "Remaja perempuan berusia 14 tahun cedera diserang anjing liar",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441606/remaja-perempuan-berusia-14-tahun-cedera-diserang-anjing-liar",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T09:56:15.000Z",
+  "place": "Jalan Scientex Jaya, Kulai",
+  "area": "Jalan Scientex Jaya 22, Scientex Senai",
+  "lat": 1.6336,
+  "lng": 103.6903,
+  "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "'Runner' dicekup bersama dadah lebih RM187,000",
+  "link": "https://www.sinarharian.com.my/article/806407/berita/semasa/runner-dicekup-bersama-dadah-lebih-rm187000",
+  "outlet": "Sinar Harian Semasa",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T09:52:00.000Z",
+  "place": "Jalan Tanjung Lumpur, Kuantan",
+  "area": "Jalan Tanjung Lumpur, Kuantan",
+  "lat": 3.7401,
+  "lng": 103.3099,
   "precision": "area"
  }
 ]
