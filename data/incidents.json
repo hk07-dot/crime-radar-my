@@ -8835,5 +8835,36 @@
   "lat": 2.7231,
   "lng": 101.9401,
   "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "Polis kenalpasti dalang sindiket edar dadah guna aset TUDM",
+  "link": "https://www.utusan.com.my/nasional/jenayah/2026/11/polis-kenalpasti-dalang-sindiket-edar-dadah-guna-aset-tudm/?utm_source=rss&utm_medium=rss&utm_campaign=polis-kenalpasti-dalang-sindiket-edar-dadah-guna-aset-tudm",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-28T08:04:01.000Z",
+  "place": "Baling",
+  "area": "Baling, Kedah",
+  "lat": 5.5507,
+  "lng": 100.7976,
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441936/kes-seludup-dadah-guna-aset-tudm-suspek-utama-dikenal-pasti-lolos-ketika",
+    "title": "Kes seludup dadah guna aset TUDM: Suspek utama dikenal pasti, lolos ketika operasi tangkapan"
+   },
+   {
+    "outlet": "Sinar Harian Semasa",
+    "link": "https://www.sinarharian.com.my/article/806487/berita/nasional/seludup-dadah-guna-aset-tudm-saifuddin-tepis-dakwaan-malaysia-menuju-seperti-colombia",
+    "title": "Seludup dadah guna aset TUDM: Saifuddin tepis dakwaan Malaysia menuju seperti Colombia"
+   },
+   {
+    "outlet": "Harian Metro Mutakhir",
+    "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441932/kdn-mindef-selaras-kawalan-pangkalan-udara-tudm-elak-jadi-transit-dadah",
+    "title": "KDN, Mindef selaras kawalan pangkalan udara TUDM, elak jadi 'transit' dadah"
+   }
+  ]
  }
 ]
