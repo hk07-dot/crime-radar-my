@@ -8807,5 +8807,33 @@
   "lat": 3.175,
   "lng": 101.5652,
   "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "Heret anggota terlibat penyeludupan dadah, walau berdepan hukuman mati",
+  "link": "https://www.utusan.com.my/terkini/2026/11/heret-anggota-terlibat-penyeludupan-dadah-walau-berdepan-hukuman-mati/?utm_source=rss&utm_medium=rss&utm_campaign=heret-anggota-terlibat-penyeludupan-dadah-walau-berdepan-hukuman-mati",
+  "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-28T05:50:51.000Z",
+  "place": "Pasir Gudang",
+  "area": "Pasir Gudang, Johor Bahru",
+  "lat": 1.4953,
+  "lng": 103.9207,
+  "precision": "town"
+ },
+ {
+  "type": "drugs",
+  "title": "Anwar Wants Thorough Probe Into Smuggling Of Drugs Using RMAF Assets",
+  "link": "https://www.bernama.com/en/news.php?id=2640722",
+  "outlet": "Bernama",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-28T05:58:13.145Z",
+  "place": "Seremban",
+  "area": "Seremban, Negeri Sembilan",
+  "lat": 2.7231,
+  "lng": 101.9401,
+  "precision": "town"
  }
 ]
