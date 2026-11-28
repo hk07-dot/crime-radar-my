@@ -8820,7 +8820,14 @@
   "area": "Pasir Gudang, Johor Bahru",
   "lat": 1.4953,
   "lng": 103.9207,
-  "precision": "town"
+  "precision": "town",
+  "alsoReported": [
+   {
+    "outlet": "Kosmo: Suapan Kosmo Online",
+    "link": "https://www.kosmo.com.my/2026/11/28/mindef-mahu-dalang-sebenar-sindiket-dadah-diberkas/?utm_source=rss&utm_medium=rss&utm_campaign=mindef-mahu-dalang-sebenar-sindiket-dadah-diberkas",
+    "title": "Mindef mahu dalang sebenar sindiket dadah diberkas"
+   }
+  ]
  },
  {
   "type": "drugs",
@@ -8864,6 +8871,16 @@
     "outlet": "Harian Metro Mutakhir",
     "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441932/kdn-mindef-selaras-kawalan-pangkalan-udara-tudm-elak-jadi-transit-dadah",
     "title": "KDN, Mindef selaras kawalan pangkalan udara TUDM, elak jadi 'transit' dadah"
+   },
+   {
+    "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
+    "link": "https://www.utusan.com.my/terkini/2026/11/kabinet-setuju-perluas-kawalan-keselamatan-ke-pangkalan-udara-tudm-saifuddin-nasution/?utm_source=rss&utm_medium=rss&utm_campaign=kabinet-setuju-perluas-kawalan-keselamatan-ke-pangkalan-udara-tudm-saifuddin-nasution",
+    "title": "Kabinet setuju perluas kawalan keselamatan ke pangkalan udara TUDM – Saifuddin Nasution"
+   },
+   {
+    "outlet": "Harian Metro",
+    "link": "https://www.hmetro.com.my/utama/2026/11/1441936/kes-seludup-dadah-guna-aset-tudm-suspek-utama-dikenal-pasti-lolos-ketika",
+    "title": "Kes seludup dadah guna aset TUDM: Suspek utama dikenal pasti, lolos ketika operasi tangkapan"
    }
   ]
  }
