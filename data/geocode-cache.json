@@ -3319,5 +3319,11 @@
   "kind": "quarter"
  },
  "area4:teluk oman": null,
- "area4:kathmandu": null
+ "area4:kathmandu": null,
+ "area4:tanjung malim": {
+  "lat": 3.69,
+  "lng": 101.5235,
+  "label": "Tanjong Malim, Kampung Lambak",
+  "kind": "town"
+ }
 }
