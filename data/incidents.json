@@ -8851,11 +8851,11 @@
   "source": "news",
   "verified": true,
   "publishedAt": "2026-11-28T08:04:01.000Z",
-  "place": "Baling",
+  "place": "Baling, Kedah",
   "area": "Baling, Kedah",
   "lat": 5.5507,
   "lng": 100.7976,
-  "precision": "town",
+  "precision": "area",
   "alsoReported": [
    {
     "outlet": "Harian Metro Mutakhir",
@@ -8883,5 +8883,33 @@
     "title": "Kes seludup dadah guna aset TUDM: Suspek utama dikenal pasti, lolos ketika operasi tangkapan"
    }
   ]
+ },
+ {
+  "type": "murder",
+  "title": "Perselisihan faham punca lelaki dibunuh di Kuala Kangsar",
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYVBMR1JOSy1QYWh1bkgzRmY5aVp1QzQwZmhIWUxQM29FY0VTTlJJeWRlWFJQTkgzN1cyUE5JaWhZaWtybWtKaUZLUmV1WnEtUVB4S0RTUW03Yk5EN2x6cFFMSFNDS0xRMk1nTkkzcGtVcU1BbEV1Vi1iZkNxVjgycVhDNW4zaFYxS1pFeHNIUjJXMVY2cTZRNQ?oc=5",
+  "outlet": "Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-28T10:18:00.000Z",
+  "place": "Kuala Kangsar",
+  "area": "Kuala Kangsar, Perak",
+  "lat": 4.7721,
+  "lng": 100.9409,
+  "precision": "area"
+ },
+ {
+  "type": "police_case",
+  "title": "Padah buat aksi ‘wheelie’, dua remaja 16 tahun dicekup",
+  "link": "https://www.kosmo.com.my/2026/11/28/padah-buat-aksi-wheelie-dua-remaja-16-tahun-dicekup/?utm_source=rss&utm_medium=rss&utm_campaign=padah-buat-aksi-wheelie-dua-remaja-16-tahun-dicekup",
+  "outlet": "Kosmo: Suapan Kosmo Online",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-28T08:57:22.000Z",
+  "place": "Taman Panchor Jaya, Paroi, Seremban",
+  "area": "Taman Panchor Jaya, Paroi",
+  "lat": 2.7339,
+  "lng": 101.9968,
+  "precision": "area"
  }
 ]

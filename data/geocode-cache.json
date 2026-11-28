@@ -3326,5 +3326,17 @@
   "label": "Tanjong Malim, Kampung Lambak",
   "kind": "town"
  },
- "area4:taman nusa bestari, kota tinggi": null
+ "area4:taman nusa bestari, kota tinggi": null,
+ "area4:taman panchor jaya, paroi, seremban": {
+  "lat": 2.7339,
+  "lng": 101.9968,
+  "label": "Taman Panchor Jaya, Paroi",
+  "kind": "neighbourhood"
+ },
+ "area4:baling, kedah": {
+  "lat": 5.5507,
+  "lng": 100.7976,
+  "label": "Baling, Kedah",
+  "kind": "district"
+ }
 }
