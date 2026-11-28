@@ -3311,5 +3311,12 @@
   "lng": 114.0029,
   "label": "Jalan Kampung Lereng Bukit, Krokop",
   "kind": "residential"
- }
+ },
+ "area4:seksyen u4, shah alam": {
+  "lat": 3.175,
+  "lng": 101.5652,
+  "label": "Seksyen U4, Sungai Buloh",
+  "kind": "quarter"
+ },
+ "area4:teluk oman": null
 }

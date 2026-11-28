@@ -8779,5 +8779,33 @@
   "lat": 4.4041,
   "lng": 114.0029,
   "precision": "area"
+ },
+ {
+  "type": "drugs",
+  "title": "MINDEF sedia serah anggota tentera seludup dadah biarpun berdepan hukuman mati",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441846/mindef-sedia-serah-anggota-tentera-seludup-dadah-biarpun-berdepan-hukuman",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-28T04:43:48.000Z",
+  "place": "Johor Bahru",
+  "area": "Johor Bahru, Johor",
+  "lat": 1.4582,
+  "lng": 103.7649,
+  "precision": "town"
+ },
+ {
+  "type": "police_case",
+  "title": "Premis haram warga asing digempur, 11 PATI dicekup",
+  "link": "https://www.hmetro.com.my/mutakhir/2026/11/1441823/premis-haram-warga-asing-digempur-11-pati-dicekup",
+  "outlet": "Harian Metro Mutakhir",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-28T04:12:53.000Z",
+  "place": "Seksyen U4, Shah Alam",
+  "area": "Seksyen U4, Sungai Buloh",
+  "lat": 3.175,
+  "lng": 101.5652,
+  "precision": "area"
  }
 ]
