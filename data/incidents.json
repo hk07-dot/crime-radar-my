@@ -3442,20 +3442,6 @@
   ]
  },
  {
-  "type": "break_in",
-  "title": "Penjawat awam ditahan kes pecah rumah, larikan emas lebih RM100,000",
-  "link": "https://www.kosmo.com.my/2026/09/26/penjawat-awam-ditahan-disyaki-terbabit-kes-pecah-rumah/",
-  "outlet": "Kosmo Online",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-26T07:00:00.000Z",
-  "place": "Kerian, Bagan Serai",
-  "area": "Mukim Bagan Serai, Kerian",
-  "lat": 5.0122,
-  "lng": 100.5336,
-  "precision": "area"
- },
- {
   "type": "murder",
   "title": "Nine-year-old boy killed in suspected crocodile attack in Kudat",
   "link": "https://www.malaymail.com/news/malaysia/2026/11/11/nine-year-old-boy-killed-in-suspected-crocodile-attack-in-kudat/242892",
@@ -5126,20 +5112,6 @@
   "precision": "area"
  },
  {
-  "type": "theft",
-  "title": "2 Pencuri Duit Tabung Surau Diburu #MGFlash Polis sedang memburu dua lelaki yang dipercayai mengumpil dua buah tabung sumbangan sebelum mencuri wang berkenaan di sebuah surau di Seksyen 16, Shah Alam. Kejadian kira-kira jam 2.30 pagi Jum",
-  "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNmxSSUpNNzFQdTZrUnN0TndMbWVIRTVtN094ak1tLUtkd01Ud2tMX21iMUVtSW1fUGs0UldhZEl3N0JwcnRNZVZXb1ZNZFlXT3NJUGFVMHpITWFfaWpwMG5tamZVLXV6d2xaWVN2VG9nOGE5WEk2ckNkU2s4VmtFMzlDOGpyVzNmMU1zejlwZ3ZpVG0wczRvQ3RJUWd1ZW9XSWE5Qmc1eUxfLVZYX0ZyS2hzbHpnRjc3b0NTdXJ1a2NmNVVGNVBueDA0b3lUcDBTRmROQkpMbDAwTHBfaWc?oc=5",
-  "outlet": "Facebook",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-26T07:00:00.000Z",
-  "place": "Seksyen 16, Shah Alam",
-  "area": "Seksyen 16, Shah Alam",
-  "lat": 3.0587,
-  "lng": 101.4954,
-  "precision": "area"
- },
- {
   "type": "drugs",
   "title": "Upah RM600 angkut dadah, lelaki ditahan dengan ganja bernilai RM29,000",
   "link": "https://www.sinarharian.com.my/article/805353/berita/semasa/upah-rm600-angkut-dadah-lelaki-ditahan-dengan-ganja-bernilai-rm29000",
@@ -6029,20 +6001,6 @@
   "area": "Kuala Kangsar, Perak",
   "lat": 4.7721,
   "lng": 100.9409,
-  "precision": "town"
- },
- {
-  "type": "murder",
-  "title": "Pelajar meninggal dunia di asrama: Polis siasat kes bunuh, tahan remaja 16 tahun",
-  "link": "https://www.sinarharian.com.my/article/797930/berita/semasa/pelajar-meninggal-dunia-di-asrama-polis-siasat-kes-bunuh-tahan-remaja-16-tahun",
-  "outlet": "Sinar Harian",
-  "source": "news",
-  "verified": true,
-  "publishedAt": "2026-09-26T07:00:00.000Z",
-  "place": "Seremban",
-  "area": "Seremban, Negeri Sembilan",
-  "lat": 2.7231,
-  "lng": 101.9401,
   "precision": "town"
  },
  {
@@ -8117,6 +8075,11 @@
     "outlet": "Utusan Malaysia: Suapan Utusan Malaysia",
     "link": "https://www.utusan.com.my/nasional/2026/11/polis-perak-gempur-sarang-dadah-372-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=polis-perak-gempur-sarang-dadah-372-ditahan",
     "title": "Polis Perak gempur sarang dadah, 372 ditahan"
+   },
+   {
+    "outlet": "Newswav",
+    "link": "https://newswav.com/article/polis-perak-gempur-sarang-dadah-372-ditahan-A2611_vnN84T",
+    "title": "Polis Perak gempur sarang dadah, 372 ditahan"
    }
   ]
  },
@@ -8791,6 +8754,20 @@
   "area": "Bukit Mertajam, Seberang Perai Tengah",
   "lat": 5.3643,
   "lng": 100.461,
+  "precision": "area"
+ },
+ {
+  "type": "theft",
+  "title": "Lelaki ditahan cuba curi kabel telekomunikasi",
+  "link": "https://utusansarawak.com.my/lelaki-ditahan-cuba-curi-kabel-telekomunikasi/",
+  "outlet": "https://utusansarawak.com.my/",
+  "source": "news",
+  "verified": true,
+  "publishedAt": "2026-11-27T23:48:20.000Z",
+  "place": "Jalan Kampung Lereng Bukit, Miri",
+  "area": "Jalan Kampung Lereng Bukit, Krokop",
+  "lat": 4.4041,
+  "lng": 114.0029,
   "precision": "area"
  }
 ]

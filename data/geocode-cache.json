@@ -3301,5 +3301,15 @@
   "kind": "residential"
  },
  "area4:poundland": null,
- "area4:pathankot": null
+ "area4:pathankot": null,
+ "area4:jalan cosmos, pelita commercial, miri": null,
+ "area4:jalan cosmos, pelita commercial": null,
+ "area4:jalan cosmos, miri": null,
+ "area4:jalan cosmos": null,
+ "area4:jalan kampung lereng bukit, miri": {
+  "lat": 4.4041,
+  "lng": 114.0029,
+  "label": "Jalan Kampung Lereng Bukit, Krokop",
+  "kind": "residential"
+ }
 }
